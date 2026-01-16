@@ -1,0 +1,2647 @@
+{
+  "generated_at": "2026-01-10T22:13:16",
+  "root": "C:\\g7core\\g7_v1",
+  "tasks": {
+    "box01_half1_seq009": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq009.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq009",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq009.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq009.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq074": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq074.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq074",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq074.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq074.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq083": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq083.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq083",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq083.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq083.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq053": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq053.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq053",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq053.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq053.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq048": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq048.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq048",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq048.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq048.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq027": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq027.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq027",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq027.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq027.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half2_seq062": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq062.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq062",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq062.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq062.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half1_seq105": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq105.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq105",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq105.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq105.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq093": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq093.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq093",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq093.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq093.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq050": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq050.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq050",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq050.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq050.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq065": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq065.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq065",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq065.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq065.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq070": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq070.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq070",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq070.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq070.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half1_seq004": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq004.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq004",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq004.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq004.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq017": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq017.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq017",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq017.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq017.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq109": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq109.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq109",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq109.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq109.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq105": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq105.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq105",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq105.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq105.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq036": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq036.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq036",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq036.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq036.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq046": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq046.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq046",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq046.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq046.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half1_seq055": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq055.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq055",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq055.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq055.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq099": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq099.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq099",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq099.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq099.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq102": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq102.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq102",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq102.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq102.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq023": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq023.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq023",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq023.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq023.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq066": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq066.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq066",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq066.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq066.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq014": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq014.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq014",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq014.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq014.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half1_seq106": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq106.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq106",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq106.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq106.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq035": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq035.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq035",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq035.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq035.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq042": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq042.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq042",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq042.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq042.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq104": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq104.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq104",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq104.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq104.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half1_seq119": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq119.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq119",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq119.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq119.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq030": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq030.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq030",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq030.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq030.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq032": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq032.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq032",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq032.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq032.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq082": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq082.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq082",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq082.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq082.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq067": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq067.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq067",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq067.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq067.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half2_seq091": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq091.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq091",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq091.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq091.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq006": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq006.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq006",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq006.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq006.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq051": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq051.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq051",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq051.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq051.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half2_seq035": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq035.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq035",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq035.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq035.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq096": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq096.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq096",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq096.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq096.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq120": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq120.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq120",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq120.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq120.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half1_seq043": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq043.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq043",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq043.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq043.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half2_seq116": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq116.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq116",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq116.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq116.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq056": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq056.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq056",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq056.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq056.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq014": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq014.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq014",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq014.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq014.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq110": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq110.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq110",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq110.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq110.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq103": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq103.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq103",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq103.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq103.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq010": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq010.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq010",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq010.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq010.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq011": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq011.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq011",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq011.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq011.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq024": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq024.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq024",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq024.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq024.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half1_seq112": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq112.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq112",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq112.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq112.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq030": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq030.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq030",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq030.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq030.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq037": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq037.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq037",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq037.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq037.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq036": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq036.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq036",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq036.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq036.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq019": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq019.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq019",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq019.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq019.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq070": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq070.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq070",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq070.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq070.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq022": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq022.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq022",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq022.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq022.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half1_seq103": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq103.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq103",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq103.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq103.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq040": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq040.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq040",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq040.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq040.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq117": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq117.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq117",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq117.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq117.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq040": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq040.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq040",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq040.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq040.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half1_seq082": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq082.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq082",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq082.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq082.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq061": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq061.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq061",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq061.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq061.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq025": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq025.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq025",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq025.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq025.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq044": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq044.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq044",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq044.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq044.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq002": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq002.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq002",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq002.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq002.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq118": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq118.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq118",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq118.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq118.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq052": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq052.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq052",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq052.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq052.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq096": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq096.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq096",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq096.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq096.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq020": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq020.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq020",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq020.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq020.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq072": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq072.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq072",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq072.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq072.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq050": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq050.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq050",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq050.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq050.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq095": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq095.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq095",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq095.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq095.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq016": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq016.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq016",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq016.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq016.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half1_seq091": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq091.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq091",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq091.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq091.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq107": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq107.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq107",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq107.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq107.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half2_seq058": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq058.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq058",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq058.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq058.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq078": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq078.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq078",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq078.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq078.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq084": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq084.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq084",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq084.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq084.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq077": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq077.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq077",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq077.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq077.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq090": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq090.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq090",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq090.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq090.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq016": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq016.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq016",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq016.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq016.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq063": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq063.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq063",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq063.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq063.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq062": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq062.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq062",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq062.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq062.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq041": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq041.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq041",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq041.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq041.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq087": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq087.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq087",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq087.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq087.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq015": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq015.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq015",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq015.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq015.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq059": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq059.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq059",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq059.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq059.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq118": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq118.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq118",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq118.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq118.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half1_seq034": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq034.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq034",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq034.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq034.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq018": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq018.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq018",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq018.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq018.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq089": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq089.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq089",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq089.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq089.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq044": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq044.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq044",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq044.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq044.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq064": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq064.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq064",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq064.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq064.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq081": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq081.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq081",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq081.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq081.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq013": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq013.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq013",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq013.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq013.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq020": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq020.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq020",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq020.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq020.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq003": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq003.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq003",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq003.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq003.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half2_seq045": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq045.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq045",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq045.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq045.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq081": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq081.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq081",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq081.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq081.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq113": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq113.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq113",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq113.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq113.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq114": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq114.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq114",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq114.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq114.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq073": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq073.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq073",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq073.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq073.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq075": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq075.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq075",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq075.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq075.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq033": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq033.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq033",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq033.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq033.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq115": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq115.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq115",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq115.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq115.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq023": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq023.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq023",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq023.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq023.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq077": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq077.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq077",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq077.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq077.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq101": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq101.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq101",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq101.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq101.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq064": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq064.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq064",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq064.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq064.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half1_seq110": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq110.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq110",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq110.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq110.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half1_seq108": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq108.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq108",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq108.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq108.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq058": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq058.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq058",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq058.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq058.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq086": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq086.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq086",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq086.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq086.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq075": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq075.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq075",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq075.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq075.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half2_seq067": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq067.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq067",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq067.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq067.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq012": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq012.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq012",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq012.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq012.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq005": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq005.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq005",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq005.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq005.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq114": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq114.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq114",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq114.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq114.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq041": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq041.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq041",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq041.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq041.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq065": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq065.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq065",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq065.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq065.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq031": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq031.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq031",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq031.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq031.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq087": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq087.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq087",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq087.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq087.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq115": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq115.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq115",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq115.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq115.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq001": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq001.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq001",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq001.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq001.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq076": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq076.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq076",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq076.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq076.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq021": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq021.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq021",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq021.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq021.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq106": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq106.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq106",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq106.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq106.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq060": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq060.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq060",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq060.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq060.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq068": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq068.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq068",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq068.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq068.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq120": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq120.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq120",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq120.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq120.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half1_seq046": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq046.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq046",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq046.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq046.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq080": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq080.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq080",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq080.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq080.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half1_seq057": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq057.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq057",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq057.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq057.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq113": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq113.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq113",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq113.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq113.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq074": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq074.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq074",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq074.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq074.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq043": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq043.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq043",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq043.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq043.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq025": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq025.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq025",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq025.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq025.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq083": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq083.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq083",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq083.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq083.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq104": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq104.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq104",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq104.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq104.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq033": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq033.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq033",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq033.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq033.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq051": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq051.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq051",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq051.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq051.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half2_seq099": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq099.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq099",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq099.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq099.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq085": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq085.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq085",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq085.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq085.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq117": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq117.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq117",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq117.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq117.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq037": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq037.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq037",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq037.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq037.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq054": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq054.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq054",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq054.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq054.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq042": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq042.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq042",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq042.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq042.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq056": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq056.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq056",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq056.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq056.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half1_seq078": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq078.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq078",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq078.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq078.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half1_seq028": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq028.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq028",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq028.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq028.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq097": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq097.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq097",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq097.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq097.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq098": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq098.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq098",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq098.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq098.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq061": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq061.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq061",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq061.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq061.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq032": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq032.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq032",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq032.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq032.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq108": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq108.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq108",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq108.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq108.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq085": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq085.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq085",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq085.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq085.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq049": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq049.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq049",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq049.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq049.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq060": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq060.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq060",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq060.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq060.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq002": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq002.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq002",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq002.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq002.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq003": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq003.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq003",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq003.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq003.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq063": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq063.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq063",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq063.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq063.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq018": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq018.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq018",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq018.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq018.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq053": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq053.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq053",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq053.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq053.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq116": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq116.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq116",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq116.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq116.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq017": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq017.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq017",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq017.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq017.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq029": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq029.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq029",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq029.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq029.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq052": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq052.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq052",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq052.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq052.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq066": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq066.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq066",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq066.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq066.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq028": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq028.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq028",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq028.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq028.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq059": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq059.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq059",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq059.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq059.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half2_seq034": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq034.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq034",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq034.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq034.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half1_seq088": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq088.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq088",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq088.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq088.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half1_seq005": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq005.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq005",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq005.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq005.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq102": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq102.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq102",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq102.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq102.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half1_seq054": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq054.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq054",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq054.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq054.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq079": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq079.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq079",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq079.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq079.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq039": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq039.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq039",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq039.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq039.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq004": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq004.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq004",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq004.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq004.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq092": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq092.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq092",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq092.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq092.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq112": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq112.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq112",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq112.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq112.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half1_seq045": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq045.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq045",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq045.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq045.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq013": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq013.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq013",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq013.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq013.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq088": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq088.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq088",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq088.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq088.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq094": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq094.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq094",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq094.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq094.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half1_seq048": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq048.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq048",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq048.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq048.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq039": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq039.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq039",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq039.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq039.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq098": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq098.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq098",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq098.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq098.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq047": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq047.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq047",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq047.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq047.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq086": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq086.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq086",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq086.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq086.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq069": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq069.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq069",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq069.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq069.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq069": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq069.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq069",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq069.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq069.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq026": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq026.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq026",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq026.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq026.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq008": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq008.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq008",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq008.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq008.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq009": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq009.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq009",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq009.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq009.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq038": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq038.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq038",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq038.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq038.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq071": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq071.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq071",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq071.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq071.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq080": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq080.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq080",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq080.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq080.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half1_seq008": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq008.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq008",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq008.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq008.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq029": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq029.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq029",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq029.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq029.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq119": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq119.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq119",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq119.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq119.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq049": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq049.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq049",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq049.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq049.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq111": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq111.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq111",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq111.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq111.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq031": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq031.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq031",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq031.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq031.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq022": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq022.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq022",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq022.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq022.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq007": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq007.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq007",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq007.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq007.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq072": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq072.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq072",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq072.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq072.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq097": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq097.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq097",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq097.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq097.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq084": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq084.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq084",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq084.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq084.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq015": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq015.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq015",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq015.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq015.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq093": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq093.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq093",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq093.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq093.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq021": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq021.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq021",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq021.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq021.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half1_seq071": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq071.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq071",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq071.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq071.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq047": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq047.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq047",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq047.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq047.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq012": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq012.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq012",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq012.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq012.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq092": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq092.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq092",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq092.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq092.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq027": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq027.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq027",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq027.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq027.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq090": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq090.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq090",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq090.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq090.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq001": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq001.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq001",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq001.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq001.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq079": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq079.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq079",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq079.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq079.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq073": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq073.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq073",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq073.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq073.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half1_seq094": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq094.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq094",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq094.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq094.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half1_seq095": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq095.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq095",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq095.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq095.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq100": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq100.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq100",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq100.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq100.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq107": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq107.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq107",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq107.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq107.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half1_seq109": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq109.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq109",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq109.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq109.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    },
+    "box01_half2_seq055": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq055.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq055",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq055.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq055.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half1_seq007": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq007.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq007",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq007.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq007.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq068": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq068.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq068",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq068.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq068.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half2_seq100": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq100.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq100",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq100.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq100.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq026": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq026.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq026",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq026.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq026.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq024": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq024.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq024",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq024.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq024.md"
+      ],
+      "lane": 8,
+      "priority": "P1"
+    },
+    "box01_half2_seq076": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq076.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq076",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq076.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq076.md"
+      ],
+      "lane": 4,
+      "priority": "P1"
+    },
+    "box01_half1_seq019": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq019.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq019",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq019.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq019.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half2_seq111": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq111.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq111",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq111.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq111.md"
+      ],
+      "lane": 7,
+      "priority": "P1"
+    },
+    "box01_half2_seq057": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq057.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq057",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq057.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq057.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq011": {
+      "bucket": "INTEGRATION_WELD",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq011.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq011",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq011.md\nWrite a concrete, useful content (min 20 lines) related to bucket: INTEGRATION_WELD.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq011.md"
+      ],
+      "lane": 3,
+      "priority": "P1"
+    },
+    "box01_half2_seq038": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq038.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq038",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq038.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq038.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half2_seq089": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq089.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq089",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq089.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq089.md"
+      ],
+      "lane": 1,
+      "priority": "P1"
+    },
+    "box01_half2_seq006": {
+      "bucket": "DEVLOG_AUTORUN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq006.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq006",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq006.md\nWrite a concrete, useful content (min 20 lines) related to bucket: DEVLOG_AUTORUN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq006.md"
+      ],
+      "lane": 6,
+      "priority": "P1"
+    },
+    "box01_half1_seq010": {
+      "bucket": "EVIDENCE_PACK_HARDEN",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half1_seq010.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half1_seq010",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half1_seq010.md\nWrite a concrete, useful content (min 20 lines) related to bucket: EVIDENCE_PACK_HARDEN.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half1_seq010.md"
+      ],
+      "lane": 2,
+      "priority": "P1"
+    },
+    "box01_half2_seq101": {
+      "bucket": "FAILBOX_REQUEUE",
+      "acceptance": "output_file_exists: outputs\\phase3\\box01_half2_seq101.md\nmin_lines: 20\nmust_include: acceptance check list\nmust_not_be_only_placeholder: true",
+      "id": "box01_half2_seq101",
+      "objective": "PHASE3 REAL WORK. This is not a placeholder.\nCreate or update output file at: outputs\\phase3\\box01_half2_seq101.md\nWrite a concrete, useful content (min 20 lines) related to bucket: FAILBOX_REQUEUE.\nInclude 1) what changed 2) why 3) acceptance check list.\nIf writer_mode=REAL, generate the content using LLM. If STUB, mark clearly [STUB_GEN].",
+      "outputs": [
+        "outputs\\phase3\\box01_half2_seq101.md"
+      ],
+      "lane": 5,
+      "priority": "P1"
+    }
+  },
+  "schema_version": 2
+}

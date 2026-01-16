@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0005",
+  "timestamp": "2026-01-14T00:09:45.615024",
+  "status": "SUCCESS",
+  "content_hash": "ce84e2c56c8c65fd735ed74539ae50a8fd1472a6",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "FILL_basic_4",
+    "content": "Please provide me with more context! I need to know what you want me to fill in. \"FILL_basic_4\" is not enough information.  Tell me:\n\n*   **What is the context?** (e.g., a sentence, a paragraph, a code snippet, a table, a form)\n*   **What is the missing information?** (What should I be filling in?)\n*   **What are the constraints or requirements?** (e.g., the data type, the length, the format)\n\nFor example, you might say:\n\n\"Fill in the blank in this sentence: 'The dog is ______.' The word should be an adjective.\"\n\nOnce you give me more information, I can help you fill in the blank.\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Please provide me with more context! I need to know what you want me to fill in. \"FILL_basic_4\" is not enough information.  Tell me:\n\n*   **What is the context?** (e.g., a sentence, a paragraph, a code snippet, a table, a form)\n*   **What is the missing information?** (What should I be filling in?)\n*   **What are the constraints or requirements?** (e.g., the data type, the length, the format)\n\nFor example, you might say:\n\n\"Fill in the blank in this sentence: 'The dog is ______.' The word should be an adjective.\"\n\nOnce you give me more information, I can help you fill in the blank.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.3321921070169958
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 5,
+        "candidatesTokenCount": 161,
+        "totalTokenCount": 166,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 161
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "OGBmacDrGMqfvr0Py-XtgQs"
+    },
+    "mission_id": "mission_0005",
+    "timestamp": "2026-01-14T00:09:45.615024"
+  }
+}

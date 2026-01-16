@@ -1,0 +1,147 @@
+{
+  "date": "2026-01-16",
+  "timestamp": "2026-01-16T01:14:14.097255",
+  "count": 28,
+  "items": [
+    {
+      "path": "GPTORDER/REAL_WORK_12_001.txt",
+      "change_type": "MODIFIED",
+      "size": 865
+    },
+    {
+      "path": "GPTORDER/TEST_DEVLOG_5.txt",
+      "change_type": "MODIFIED",
+      "size": 151
+    },
+    {
+      "path": "GPTORDER/TEST_DEVLOG_FAIL.txt",
+      "change_type": "MODIFIED",
+      "size": 123
+    },
+    {
+      "path": "GPTORDER/mission_catalog_REAL12_001.jsonl",
+      "change_type": "MODIFIED",
+      "size": 4514
+    },
+    {
+      "path": "ORDER/inbox/REAL_WORK_12_001.txt",
+      "change_type": "MODIFIED",
+      "size": 865
+    },
+    {
+      "path": "ORDER/inbox/TEST_DEVLOG_5.txt",
+      "change_type": "MODIFIED",
+      "size": 151
+    },
+    {
+      "path": "ORDER/inbox/TEST_DEVLOG_FAIL.txt",
+      "change_type": "MODIFIED",
+      "size": 123
+    },
+    {
+      "path": "ORDER/inbox/mission_catalog_REAL12_001.jsonl",
+      "change_type": "MODIFIED",
+      "size": 4514
+    },
+    {
+      "path": "apply_downloaded_patch.ps1",
+      "change_type": "MODIFIED",
+      "size": 433
+    },
+    {
+      "path": "deploy_and_test.ps1",
+      "change_type": "MODIFIED",
+      "size": 4104
+    },
+    {
+      "path": "devlog_writer.py",
+      "change_type": "MODIFIED",
+      "size": 9304
+    },
+    {
+      "path": "docs/A1_evidence_pass_summary_NOTE.txt",
+      "change_type": "MODIFIED",
+      "size": 789
+    },
+    {
+      "path": "docs/A2_devlog_evidence_readme.txt",
+      "change_type": "MODIFIED",
+      "size": 896
+    },
+    {
+      "path": "docs/B1_devlog_5files_design_v1.txt",
+      "change_type": "MODIFIED",
+      "size": 1981
+    },
+    {
+      "path": "docs/devlog_5files_spec_v1.md",
+      "change_type": "MODIFIED",
+      "size": 5563
+    },
+    {
+      "path": "docs/docs_devlog_5files_spec_v1.md",
+      "change_type": "MODIFIED",
+      "size": 5563
+    },
+    {
+      "path": "docs/docs_evidence_pass_fail_rules_v1.md",
+      "change_type": "MODIFIED",
+      "size": 3087
+    },
+    {
+      "path": "docs/evidence_pass_fail_rules_v1.md",
+      "change_type": "MODIFIED",
+      "size": 3087
+    },
+    {
+      "path": "docs/samples/sample_verify_report_FAIL.json",
+      "change_type": "MODIFIED",
+      "size": 547
+    },
+    {
+      "path": "docs/samples/sample_verify_report_PASS.json",
+      "change_type": "MODIFIED",
+      "size": 550
+    },
+    {
+      "path": "docs/samples/verify_report_FAIL.json",
+      "change_type": "MODIFIED",
+      "size": 547
+    },
+    {
+      "path": "docs/samples/verify_report_PASS.json",
+      "change_type": "MODIFIED",
+      "size": 550
+    },
+    {
+      "path": "engine/evidence_writer.py",
+      "change_type": "MODIFIED",
+      "size": 10489
+    },
+    {
+      "path": "main/manager.py",
+      "change_type": "MODIFIED",
+      "size": 16374
+    },
+    {
+      "path": "main/pipeline/manager.py",
+      "change_type": "MODIFIED",
+      "size": 7330
+    },
+    {
+      "path": "patch_manager_devlog.py",
+      "change_type": "MODIFIED",
+      "size": 2522
+    },
+    {
+      "path": "tools/devlog_writer.py",
+      "change_type": "MODIFIED",
+      "size": 15699
+    },
+    {
+      "path": "tools/patch_manager_devlog.py",
+      "change_type": "MODIFIED",
+      "size": 2522
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Implement order_loader with strict line count validation for GPTORDER files
+Create mission_parser that extracts intent and validates output paths
+Build safe_write function with atomic file operations and backup mechanism
+Develop run_folder_namer using timestamp and random suffix format
+Implement stdout and stderr capture to dedicated log files per mission
+Create exitcode strict finalize with zero-tolerance pass conditions
+Build vmcl.json loader with schema validation and numeric metrics extraction
+Implement receipt.jsonl validator checking mission_id and status consistency
+Create priority_recall function returning top N missions by score
+Build EVIDENCE_LATEST.json generator syncing with verify_report pass field
+Implement DELTA_TODAY.json scanner for files modified in last 24 hours
+Create INTEGRATION_MAP.json updater maintaining cumulative node progress

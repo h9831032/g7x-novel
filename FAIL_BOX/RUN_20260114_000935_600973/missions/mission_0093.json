@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "FILL_basic_92",
+  "content": "Please provide me with more context! \"FILL_basic_92\" is not enough information for me to understand what you want me to do.  I need to know what kind of fill you are looking for. For example:\n\n* **Are you looking for code?** If so, what language? What is the purpose of the code?\n* **Are you looking for text?** If so, what topic should the text be about? What is the desired length and tone?\n* **Are you looking for data?** If so, what kind of data and in what format?\n* **Is \"FILL_basic_92\" a specific term or identifier related to a particular project or system?** If so, please provide details.\n\nThe more information you give me, the better I can assist you.\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Please provide me with more context! \"FILL_basic_92\" is not enough information for me to understand what you want me to do.  I need to know what kind of fill you are looking for. For example:\n\n* **Are you looking for code?** If so, what language? What is the purpose of the code?\n* **Are you looking for text?** If so, what topic should the text be about? What is the desired length and tone?\n* **Are you looking for data?** If so, what kind of data and in what format?\n* **Is \"FILL_basic_92\" a specific term or identifier related to a particular project or system?** If so, please provide details.\n\nThe more information you give me, the better I can assist you.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.2924747132418448
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 6,
+      "candidatesTokenCount": 171,
+      "totalTokenCount": 177,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 6
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 171
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "S2Bmad6vB7-h1e8Pm52i0AE"
+  },
+  "mission_id": "mission_0093",
+  "timestamp": "2026-01-14T00:10:04.648868"
+}

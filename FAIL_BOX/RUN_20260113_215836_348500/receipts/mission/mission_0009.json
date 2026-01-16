@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0009",
+  "timestamp": "2026-01-13T21:58:59.115110",
+  "status": "SUCCESS",
+  "content_hash": "25e99f17a007a96facf4f2404127f6e811588102",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M009",
+    "content": "Okay, I'm ready to process mission M009. Please provide me with more information about the mission.  I need details like:\n\n*   **What is the objective of M009?** What needs to be accomplished?\n*   **What are the resources available for M009?** (e.g., personnel, equipment, budget)\n*   **What is the context of M009?** What situation is it responding to?\n*   **What are the key constraints or limitations for M009?** (e.g., time, location, regulations)\n*   **What are the expected outcomes or deliverables of M009?**\n*   **Are there any specific instructions or protocols for M009?**\n*   **Are there any existing documents or files related to M009?**\n\nThe more information you give me, the better I can assist you with this mission.  I can help with:\n\n*   Brainstorming ideas\n*   Generating plans\n*   Identifying potential risks\n*   Tracking progress\n*   Writing reports\n\nJust tell me what you need!\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Okay, I'm ready to process mission M009. Please provide me with more information about the mission.  I need details like:\n\n*   **What is the objective of M009?** What needs to be accomplished?\n*   **What are the resources available for M009?** (e.g., personnel, equipment, budget)\n*   **What is the context of M009?** What situation is it responding to?\n*   **What are the key constraints or limitations for M009?** (e.g., time, location, regulations)\n*   **What are the expected outcomes or deliverables of M009?**\n*   **Are there any specific instructions or protocols for M009?**\n*   **Are there any existing documents or files related to M009?**\n\nThe more information you give me, the better I can assist you with this mission.  I can help with:\n\n*   Brainstorming ideas\n*   Generating plans\n*   Identifying potential risks\n*   Tracking progress\n*   Writing reports\n\nJust tell me what you need!\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.29672976124043365
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 11,
+        "candidatesTokenCount": 245,
+        "totalTokenCount": 256,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 11
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 245
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "kUFmabGHBr620-kPxsPhqQQ"
+    },
+    "mission_id": "mission_0009",
+    "timestamp": "2026-01-13T21:58:59.114108"
+  }
+}

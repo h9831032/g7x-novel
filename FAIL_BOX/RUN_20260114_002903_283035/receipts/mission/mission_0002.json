@@ -1,0 +1,15 @@
+{
+  "mission_id": "mission_0002",
+  "timestamp": "2026-01-14T00:29:04.858739",
+  "status": "API_ERROR",
+  "content_hash": "d5a1af9d18d136b68cebca787b9514ef6f379d52",
+  "metadata": {
+    "status": "API_ERROR",
+    "order": "Explain quantum computing in 3 sentences",
+    "error": "HTTP 400",
+    "error_body": "{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
+    "attempt": 1,
+    "mission_id": "mission_0002",
+    "timestamp": "2026-01-14T00:29:04.857737"
+  }
+}

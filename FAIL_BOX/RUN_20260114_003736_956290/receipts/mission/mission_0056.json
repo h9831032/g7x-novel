@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0056",
+  "timestamp": "2026-01-14T00:42:14.814941",
+  "status": "SUCCESS",
+  "content_hash": "d5387e150f7c49a7053b0f261c6fb46733d4bc60",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M056",
+    "content": "Okay, Mission M056 details incoming.\n\n---\n\n## Mission M056: Product Review Sentiment and Aspect Analysis\n\n**Mission Title:** Product Review Sentiment and Aspect Analysis\n\n**Mission Brief:**\nYou are a specialized AI assistant tasked with analyzing user reviews for a product. Your primary goal is to provide a detailed sentiment breakdown for each review, identifying not only the overall sentiment but also the specific product aspects or features being discussed and their individual sentiments. This will help a product development team understand user perceptions and pinpoint areas for improvement or recognize well-received features.\n\n**Primary Objective:**\nFor each given product review, you must provide:\n1.  **Overall Sentiment:** Classify the review's general sentiment as **Positive**, **Negative**, or **Neutral**.\n2.  **Key Aspects & Their Sentiments:** Identify and list the specific product aspects, features, or themes mentioned in the review, along with the sentiment associated with each identified aspect (e.g., \"Battery Life: Positive\", \"User Interface: Negative\", \"Price: Neutral\").\n\n**Secondary Objective (Optional but Recommended):**\n3.  **Common Themes/Summary:** After processing all reviews, provide a brief summary of recurring positive and negative themes, and any common suggestions or issues observed across the entire set of reviews.\n\n**Input:**\nA collection of product reviews (text strings), typically provided as a list.\n\n**Output Format:**\nFor each review, present the analysis clearly, ideally using a structured format (e.g., bullet points or JSON-like structure). A final summary section should be provided if the secondary objective is completed.\n\n**Example Output Structure (for a single review):**\n\n```\nReview Text: \"The new phone has an amazing camera and a sleek design, but the battery life is terrible. It also felt a bit pricey.\"\n\nAnalysis:\n- Overall Sentiment: Mixed/Negative (or Neutral, depending on weighting)\n- Key Aspects:\n    - Camera: Positive\n    - Design: Positive\n    - Battery Life: Negative\n    - Price: Negative\n```\n\n**Success Criteria:**\n*   Accurate classification of overall sentiment for each review.\n*   Comprehensive identification and extraction of relevant product aspects.\n*   Correct sentiment classification for each identified aspect.\n*   Clear and concise presentation of the analysis.\n*   (If secondary objective pursued) Insightful summary of common themes.\n\n**Constraints & Considerations:**\n*   **Context:** Focus solely on product-related feedback. Ignore personal anecdotes or irrelevant comments.\n*   **Nuance:** Attempt to identify sarcasm, irony, or mixed sentiments where possible. Acknowledge when a review contains both positive and negative feedback.\n*   **Specificity:** Be as specific as possible when identifying aspects (e.g., \"screen brightness\" instead of just \"screen\").\n*   **Consistency:** Maintain a consistent approach to sentiment classification.\n*   **Impartiality:** Avoid introducing personal bias into the analysis.\n\n---",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:42:15 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=6977",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "Okay, Mission M056 details incoming.\n\n---\n\n## Mission M056: Product Review Sentiment and Aspect Analysis\n\n**Mission Title:** Product Review Sentiment and Aspect Analysis\n\n**Mission Brief:**\nYou are a specialized AI assistant tasked with analyzing user reviews for a product. Your primary goal is to provide a detailed sentiment breakdown for each review, identifying not only the overall sentiment but also the specific product aspects or features being discussed and their individual sentiments. This will help a product development team understand user perceptions and pinpoint areas for improvement or recognize well-received features.\n\n**Primary Objective:**\nFor each given product review, you must provide:\n1.  **Overall Sentiment:** Classify the review's general sentiment as **Positive**, **Negative**, or **Neutral**.\n2.  **Key Aspects & Their Sentiments:** Identify and list the specific product aspects, features, or themes mentioned in the review, along with the sentiment associated with each identified aspect (e.g., \"Battery Life: Positive\", \"User Interface: Negative\", \"Price: Neutral\").\n\n**Secondary Objective (Optional but Recommended):**\n3.  **Common Themes/Summary:** After processing all reviews, provide a brief summary of recurring positive and negative themes, and any common suggestions or issues observed across the entire set of reviews.\n\n**Input:**\nA collection of product reviews (text strings), typically provided as a list.\n\n**Output Format:**\nFor each review, present the analysis clearly, ideally using a structured format (e.g., bullet points or JSON-like structure). A final summary section should be provided if the secondary objective is completed.\n\n**Example Output Structure (for a single review):**\n\n```\nReview Text: \"The new phone has an amazing camera and a sleek design, but the battery life is terrible. It also felt a bit pricey.\"\n\nAnalysis:\n- Overall Sentiment: Mixed/Negative (or Neutral, depending on weighting)\n- Key Aspects:\n    - Camera: Positive\n    - Design: Positive\n    - Battery Life: Negative\n    - Price: Negative\n```\n\n**Success Criteria:**\n*   Accurate classification of overall sentiment for each review.\n*   Comprehensive identification and extraction of relevant product aspects.\n*   Correct sentiment classification for each identified aspect.\n*   Clear and concise presentation of the analysis.\n*   (If secondary objective pursued) Insightful summary of common themes.\n\n**Constraints & Considerations:**\n*   **Context:** Focus solely on product-related feedback. Ignore personal anecdotes or irrelevant comments.\n*   **Nuance:** Attempt to identify sarcasm, irony, or mixed sentiments where possible. Acknowledge when a review contains both positive and negative feedback.\n*   **Specificity:** Be as specific as possible when identifying aspects (e.g., \"screen brightness\" instead of just \"screen\").\n*   **Consistency:** Maintain a consistent approach to sentiment classification.\n*   **Impartiality:** Avoid introducing personal bias into the analysis.\n\n---",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "12dmaZDjFeej1e8P5KDz2As",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 620,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 571,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1203,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0056",
+    "timestamp": "2026-01-14T00:42:14.814941"
+  }
+}

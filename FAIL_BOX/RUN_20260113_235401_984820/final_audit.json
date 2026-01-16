@@ -1,0 +1,27 @@
+{
+  "run_id": "RUN_20260113_235401_984820",
+  "timestamp": "2026-01-13T23:54:02.002788",
+  "pass": false,
+  "exitcode": 1,
+  "expected_missions": 3,
+  "done_missions": 0,
+  "receipts_count": 0,
+  "receipts_nonempty_count": 0,
+  "api_receipt_lines": 0,
+  "api_raw_count": 0,
+  "api_error_count": 0,
+  "reason_code": "FAIL_FAST",
+  "pass_conditions": {
+    "exitcode_is_0": false,
+    "expected_gt_0": true,
+    "done_eq_expected": false,
+    "receipts_eq_expected": false,
+    "receipts_nonempty_eq_expected": false,
+    "api_lines_eq_expected": false,
+    "api_error_is_0": true
+  },
+  "missing_required_files": [
+    "final_audit.json",
+    "api_receipt.jsonl"
+  ]
+}

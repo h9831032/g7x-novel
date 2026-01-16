@@ -1,0 +1,108 @@
+======================================================================
+RUN: RUN_20260116_000433_607229
+======================================================================
+Timestamp: 2026-01-16T00:08:35.199959
+Start: 2026-01-16T00:04:33.622389
+End: 2026-01-16T00:08:35.198958
+Duration: 241 sec
+
+Order Path: UNKNOWN
+Expected Missions: 12
+Done Missions: 12
+API Error Count: 0
+
+Exitcode: 0
+PASS: True
+Reason: ORDER_EOF
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260116_003223_934626
+======================================================================
+Timestamp: 2026-01-16T00:33:19.896718
+Start: 2026-01-16T00:32:23.945637
+End: 2026-01-16T00:33:19.895718
+Duration: 55 sec
+
+Order Path: UNKNOWN
+Expected Missions: 5
+Done Missions: 5
+API Error Count: 0
+
+Exitcode: 0
+PASS: True
+Reason: ORDER_EOF
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260116_005637_445532
+======================================================================
+Timestamp: 2026-01-16T00:57:42.631724
+Start: 2026-01-16T00:56:37.448535
+End: 2026-01-16T00:57:42.630723
+Duration: 65 sec
+
+Order Path: UNKNOWN
+Expected Missions: 5
+Done Missions: 5
+API Error Count: 0
+
+Exitcode: 0
+PASS: True
+Reason: ORDER_EOF
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260116_011322_809578
+======================================================================
+Timestamp: 2026-01-16T01:14:08.719358
+Start: 2026-01-16T01:13:22.812534
+End: 2026-01-16T01:14:08.717356
+Duration: 45 sec
+
+Order Path: UNKNOWN
+Expected Missions: 5
+Done Missions: 5
+API Error Count: 0
+
+Exitcode: 0
+PASS: True
+Reason: ORDER_EOF
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================

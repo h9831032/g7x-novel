@@ -1,0 +1,82 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M069",
+  "content": "Okay, you've selected **Mission M069: Realign Satellite Antennae**.\n\n**Mission Briefing:**\n\nYour objective is to realign the primary communication antennae on a critical geostationary satellite. Recent minor orbital perturbations have caused a slight drift, resulting in degraded signal quality and intermittent data loss with ground stations.\n\n**Task:** Use the satellite's attitude control system to precisely adjust the orientation of the antennae until optimal signal strength and data throughput are restored.\n\n**Key Steps:**\n\n1.  Access the satellite's telemetry data to determine the current antenna pointing angles.\n2.  Calculate the necessary adjustments based on expected nominal values and real-time signal feedback.\n3.  Execute small, controlled maneuvers using the satellite's thrusters or reaction wheels to correct the alignment.\n4.  Continuously monitor signal strength, bit error rate, and data throughput until optimal performance is achieved.\n5.  Lock the new antenna orientation.\n\nThis mission requires precision and careful monitoring to avoid overcorrection. Good luck!",
+  "raw_response": {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 13 Jan 2026 15:43:56 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=5360",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Okay, you've selected **Mission M069: Realign Satellite Antennae**.\n\n**Mission Briefing:**\n\nYour objective is to realign the primary communication antennae on a critical geostationary satellite. Recent minor orbital perturbations have caused a slight drift, resulting in degraded signal quality and intermittent data loss with ground stations.\n\n**Task:** Use the satellite's attitude control system to precisely adjust the orientation of the antennae until optimal signal strength and data throughput are restored.\n\n**Key Steps:**\n\n1.  Access the satellite's telemetry data to determine the current antenna pointing angles.\n2.  Calculate the necessary adjustments based on expected nominal values and real-time signal feedback.\n3.  Execute small, controlled maneuvers using the satellite's thrusters or reaction wheels to correct the alignment.\n4.  Continuously monitor signal strength, bit error rate, and data throughput until optimal performance is achieved.\n5.  Lock the new antenna orientation.\n\nThis mission requires precision and careful monitoring to avoid overcorrection. Good luck!",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-2.5-flash",
+    "prompt_feedback": null,
+    "response_id": "PGhmadOCMpeo2roPnbC8wQQ",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 215,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 12,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 12
+        }
+      ],
+      "thoughts_token_count": 497,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 724,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": null
+  },
+  "attempt": 1,
+  "mission_id": "mission_0069",
+  "timestamp": "2026-01-14T00:43:56.292632"
+}

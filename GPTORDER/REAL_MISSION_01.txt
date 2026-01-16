@@ -1,0 +1,24 @@
+# === SSOT REALCLOCK 하청지시서 ===
+COUNT: 120
+INTERVAL: 10m
+MODE: REALCLOCK
+TASK: DEVLOG_4H_AND_DAILY_REPORT
+START_TIME: AUTO
+TARGET_PATH: C:\g7core\g7_v1\runs\REAL
+LOG: C:\g7core\g7_v1\runs\REAL_LOG.txt
+---
+OBJECTIVE:
+1. 매 4시간마다 devlog_4h_YYYYMMDD_HHMM.json 생성
+2. 23:00 정각에는 daily_YYYYMMDD.md 생성
+3. 생성 여부 및 경로는 verify_report.json에 기록
+4. 생성 실패 시 exitcode=1 기록 후 재시도
+---
+EVIDENCE:
+- verify_report.json
+- hash_manifest.json
+- exitcode.txt
+---
+FAIL_FAST:
+- 파일명 중복 생성 시 즉시 FAIL
+- hash_manifest 누락 시 FAIL
+- exitcode 미생성 시 FAIL

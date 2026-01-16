@@ -1,0 +1,1466 @@
+{
+  "run_id": "RUN_20260114_003736_956290",
+  "timestamp": "2026-01-14T00:49:05.614903",
+  "files": {
+    "api_receipt.jsonl": {
+      "size": 17760,
+      "sha1": "bfeb007cb075b60ef3e12b0355e2844cd6178c92"
+    },
+    "blackbox_log.jsonl": {
+      "size": 15353,
+      "sha1": "e5e59af4328e068c9afd840a3bdfa6b586008c07"
+    },
+    "exitcode.txt": {
+      "size": 1,
+      "sha1": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c"
+    },
+    "stderr_manager.txt": {
+      "size": 0,
+      "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    "stdout_manager.txt": {
+      "size": 14819,
+      "sha1": "7ad329e014a13ed0951989e5f171ab32efc21fb0"
+    },
+    "api_raw\\mission_0001.json": {
+      "size": 5220,
+      "sha1": "6b6711749186d8b3c540663046d372ba8baf1375"
+    },
+    "api_raw\\mission_0002.json": {
+      "size": 2555,
+      "sha1": "106ddd280ab582b7060aa4ac06c04ecae21978a8"
+    },
+    "api_raw\\mission_0003.json": {
+      "size": 2953,
+      "sha1": "6aac562dbcb430f4043abc3ac53e3cd90d255a84"
+    },
+    "api_raw\\mission_0004.json": {
+      "size": 6189,
+      "sha1": "c0847409a652f4e27a68a251c61b6ecd7fde302e"
+    },
+    "api_raw\\mission_0005.json": {
+      "size": 8643,
+      "sha1": "754c7cd65531fcd1f4fb3e309dff8ffd92d5225e"
+    },
+    "api_raw\\mission_0006.json": {
+      "size": 2731,
+      "sha1": "4180bc769e5691d55e284215ff155519379aa510"
+    },
+    "api_raw\\mission_0007.json": {
+      "size": 2773,
+      "sha1": "6a27e082c932d60f42f63b154f271e894a461155"
+    },
+    "api_raw\\mission_0008.json": {
+      "size": 2707,
+      "sha1": "5b66241f50db8c2e1bbd616351cd4192aa9cdac4"
+    },
+    "api_raw\\mission_0009.json": {
+      "size": 2875,
+      "sha1": "923aca3cb559c8653a1bae2ff9f82842e279e404"
+    },
+    "api_raw\\mission_0010.json": {
+      "size": 6282,
+      "sha1": "430504761de9b4d4cdf70da6e1648a56c14c893f"
+    },
+    "api_raw\\mission_0011.json": {
+      "size": 2767,
+      "sha1": "a552579ce001f32f4974a7cd404975e890da6ec1"
+    },
+    "api_raw\\mission_0012.json": {
+      "size": 3110,
+      "sha1": "034eecb2fe4fb7046ee4d01b045e73904ba77403"
+    },
+    "api_raw\\mission_0013.json": {
+      "size": 3222,
+      "sha1": "9442a12a5ad4ce2e64c276cab84ea631ec96849c"
+    },
+    "api_raw\\mission_0014.json": {
+      "size": 2943,
+      "sha1": "d5a46aa017c64e38e25f65799fb16823b6b6ab1f"
+    },
+    "api_raw\\mission_0015.json": {
+      "size": 2703,
+      "sha1": "1d86eff6a50a317a2ec8919cad92e34a8395756d"
+    },
+    "api_raw\\mission_0016.json": {
+      "size": 3169,
+      "sha1": "5a0c6b803f4c5e64e7398e319c6591e57fe85857"
+    },
+    "api_raw\\mission_0017.json": {
+      "size": 9364,
+      "sha1": "3f05c47b69d0dae4875ca4196f9eb23b2d4a091b"
+    },
+    "api_raw\\mission_0018.json": {
+      "size": 4154,
+      "sha1": "5fa8e0d78114687047f750438dd89524657ac43f"
+    },
+    "api_raw\\mission_0019.json": {
+      "size": 3627,
+      "sha1": "289d3c3260565e0f709a30f9b795196b90ef428d"
+    },
+    "api_raw\\mission_0020.json": {
+      "size": 2751,
+      "sha1": "5ecb9899b808337aa866c71f86edd85dec5fa70e"
+    },
+    "api_raw\\mission_0021.json": {
+      "size": 5748,
+      "sha1": "5beb3e080883d5b4f531294fcb032d4904241b0b"
+    },
+    "api_raw\\mission_0022.json": {
+      "size": 3745,
+      "sha1": "61521543265b3b8aa4b99b0cfc7e32bbd3c6bf23"
+    },
+    "api_raw\\mission_0023.json": {
+      "size": 3139,
+      "sha1": "48f3ad89f9b1fe34ec781f36d4632f8c79f3d52a"
+    },
+    "api_raw\\mission_0024.json": {
+      "size": 4708,
+      "sha1": "7fbbf4d998ac3fed47fa65108ee0c44b7f2435fd"
+    },
+    "api_raw\\mission_0025.json": {
+      "size": 5332,
+      "sha1": "52929cb3bc5b70a009bd2dc8e1319333221f3e30"
+    },
+    "api_raw\\mission_0026.json": {
+      "size": 2999,
+      "sha1": "26ff9978fc918908e52f835be31e324a384ad080"
+    },
+    "api_raw\\mission_0027.json": {
+      "size": 5540,
+      "sha1": "c8098f05fb68552f6fb5e47ce2c6329db7aecd93"
+    },
+    "api_raw\\mission_0028.json": {
+      "size": 10880,
+      "sha1": "8a4f09e5d43e91010b4ca1d5e76e8ef4ad0bce12"
+    },
+    "api_raw\\mission_0029.json": {
+      "size": 6091,
+      "sha1": "bbf5d8f80c2e6b5aa96cff9b475a26de8ffd23ab"
+    },
+    "api_raw\\mission_0030.json": {
+      "size": 2630,
+      "sha1": "a0acdffddfa1a5536b948711cdcf35de9bd80184"
+    },
+    "api_raw\\mission_0031.json": {
+      "size": 2753,
+      "sha1": "273f6183a8efc61dbb3196b42122d340122c2d0c"
+    },
+    "api_raw\\mission_0032.json": {
+      "size": 5017,
+      "sha1": "8443efc2dc704816895d3717851bb1c36f4641b2"
+    },
+    "api_raw\\mission_0033.json": {
+      "size": 3257,
+      "sha1": "1fcbccfc49313d656a52e92c9b6d92f0843e596f"
+    },
+    "api_raw\\mission_0034.json": {
+      "size": 5703,
+      "sha1": "d10d63fd0c9129e34ff186502a7b1a49c0fb4e15"
+    },
+    "api_raw\\mission_0035.json": {
+      "size": 6341,
+      "sha1": "03dd8a7df35a1bdf35312b4f3cd8f68738c45277"
+    },
+    "api_raw\\mission_0036.json": {
+      "size": 3336,
+      "sha1": "a58c6a737f1b13cbe63bd44e4cb487121f203294"
+    },
+    "api_raw\\mission_0037.json": {
+      "size": 3187,
+      "sha1": "9e3af6854310f77f39fddedaa8266a61c59e5a11"
+    },
+    "api_raw\\mission_0038.json": {
+      "size": 3568,
+      "sha1": "11a40e23a72f51d5473a7467b666b6bc97e726a4"
+    },
+    "api_raw\\mission_0039.json": {
+      "size": 2741,
+      "sha1": "b22738cca0b07015fa2c0d18419be53b0c957f64"
+    },
+    "api_raw\\mission_0040.json": {
+      "size": 3920,
+      "sha1": "dc48024f2176a125c844a458f32aabadc4b985ae"
+    },
+    "api_raw\\mission_0041.json": {
+      "size": 2697,
+      "sha1": "0f7e4ad10128e4f424b745aa89197112109c4562"
+    },
+    "api_raw\\mission_0042.json": {
+      "size": 2935,
+      "sha1": "966240ad12cc684eb8ea56ae07f874a3909fad68"
+    },
+    "api_raw\\mission_0043.json": {
+      "size": 3292,
+      "sha1": "58fdbed36ee46af6ba36c2110eecbdcaeb68167b"
+    },
+    "api_raw\\mission_0044.json": {
+      "size": 3472,
+      "sha1": "b7198611070bddc9dbdc23e9932be44f326c69c7"
+    },
+    "api_raw\\mission_0045.json": {
+      "size": 4096,
+      "sha1": "72cecb058043254e315bc1d15d840c0343fe8b79"
+    },
+    "api_raw\\mission_0046.json": {
+      "size": 2530,
+      "sha1": "48e90634977ee79dd83f18b72f2192e1c6d42a32"
+    },
+    "api_raw\\mission_0047.json": {
+      "size": 3053,
+      "sha1": "2f96579e2363e5bf5da81e82c160cc84a33852dc"
+    },
+    "api_raw\\mission_0048.json": {
+      "size": 4676,
+      "sha1": "96af6922e513e8dedd0c20723b5dc8d8911d7682"
+    },
+    "api_raw\\mission_0049.json": {
+      "size": 2743,
+      "sha1": "4d096924c22d0b9468628c0d1e1b540bc1d2b420"
+    },
+    "api_raw\\mission_0050.json": {
+      "size": 2818,
+      "sha1": "ee85010c7033b2227be6a000adbfcf3a2a462a1e"
+    },
+    "api_raw\\mission_0051.json": {
+      "size": 3646,
+      "sha1": "be23335b07283b6d1b3b6c84136d7e3571721895"
+    },
+    "api_raw\\mission_0052.json": {
+      "size": 10209,
+      "sha1": "1852a1b36021740f9cc68a58b39ebec471f495d7"
+    },
+    "api_raw\\mission_0053.json": {
+      "size": 2651,
+      "sha1": "5cfbd1da01379f97a78e77ac31e92bb79af42f49"
+    },
+    "api_raw\\mission_0054.json": {
+      "size": 5990,
+      "sha1": "73d185efbb965f98faf94d3a9cc7e8fbba6d5f8b"
+    },
+    "api_raw\\mission_0055.json": {
+      "size": 3382,
+      "sha1": "032933304a0fc9192e7c9902ee36887d2a6986f7"
+    },
+    "api_raw\\mission_0056.json": {
+      "size": 8657,
+      "sha1": "589cbbcaa5e67d45c3778c9264deab12fa42d7f0"
+    },
+    "api_raw\\mission_0057.json": {
+      "size": 7220,
+      "sha1": "0ab0a44cb156138f9365929a17b88fa6cfd31d43"
+    },
+    "api_raw\\mission_0058.json": {
+      "size": 9857,
+      "sha1": "2e7d8ee796978eacca020b777c34029b667e7914"
+    },
+    "api_raw\\mission_0059.json": {
+      "size": 10708,
+      "sha1": "8d322b8333804a4c68f7aca47c2aba4a0c207be9"
+    },
+    "api_raw\\mission_0060.json": {
+      "size": 12634,
+      "sha1": "8318f84c7eef6de7047d4089ea4e866f63afebb1"
+    },
+    "api_raw\\mission_0061.json": {
+      "size": 6002,
+      "sha1": "0f8868fbf5b7e2d377628f3f3ddba1584800aef4"
+    },
+    "api_raw\\mission_0062.json": {
+      "size": 9475,
+      "sha1": "4a1d5921793cd98b70180666690e7035036f4806"
+    },
+    "api_raw\\mission_0063.json": {
+      "size": 5494,
+      "sha1": "6ef6072168aac4ee8147fbbd6b5e57f2731789fa"
+    },
+    "api_raw\\mission_0064.json": {
+      "size": 2615,
+      "sha1": "56b91bff07adc265e0284f176cc28a4f99e6bf38"
+    },
+    "api_raw\\mission_0065.json": {
+      "size": 2699,
+      "sha1": "960e1902dba6626f0567f1e2ffea6a87577bb034"
+    },
+    "api_raw\\mission_0066.json": {
+      "size": 4171,
+      "sha1": "7495dd6fc5c91f298590e5e85bd4a2180b19529d"
+    },
+    "api_raw\\mission_0067.json": {
+      "size": 16784,
+      "sha1": "719e48ecce5073ca7db705d03bd17c3e4304430e"
+    },
+    "api_raw\\mission_0068.json": {
+      "size": 3368,
+      "sha1": "c63f05c9ae4c26499ea07a6ae50eb747413418a1"
+    },
+    "api_raw\\mission_0069.json": {
+      "size": 4698,
+      "sha1": "b2872270e4189b805e82df959a55384a7a50ff93"
+    },
+    "api_raw\\mission_0070.json": {
+      "size": 8538,
+      "sha1": "d19f64b5d7467992496ae13f8490935106ab1fa5"
+    },
+    "api_raw\\mission_0071.json": {
+      "size": 7797,
+      "sha1": "f0c9e4f83f9f327bfb043c42485974bfb09a9d26"
+    },
+    "api_raw\\mission_0072.json": {
+      "size": 2768,
+      "sha1": "d8fa784bea8a7bc8dc73cad43a9d80f37d202c1a"
+    },
+    "api_raw\\mission_0073.json": {
+      "size": 3471,
+      "sha1": "ef85665f542d4681acf37a3183a0a907ce442530"
+    },
+    "api_raw\\mission_0074.json": {
+      "size": 2621,
+      "sha1": "e3b1382285e4687588856000e937350b018ceb40"
+    },
+    "api_raw\\mission_0075.json": {
+      "size": 2745,
+      "sha1": "891fc8463efaf3fb4f9acbe9d03b84b31f5a954e"
+    },
+    "api_raw\\mission_0076.json": {
+      "size": 3400,
+      "sha1": "da4a251e7c8297d1e815fe84c23dc4abb64c50f5"
+    },
+    "api_raw\\mission_0077.json": {
+      "size": 3666,
+      "sha1": "921394ec9310e5a671f6b7f0e3534b13cbbece74"
+    },
+    "api_raw\\mission_0078.json": {
+      "size": 17162,
+      "sha1": "6d295ab71ae4b4a9d90e2b290658685fc5146234"
+    },
+    "api_raw\\mission_0079.json": {
+      "size": 4644,
+      "sha1": "c192c8eaa1a1d5f767f6df523a6098837be29da0"
+    },
+    "api_raw\\mission_0080.json": {
+      "size": 2601,
+      "sha1": "10ac24f3e0a58fc4ec7f232db7aacf1788e1d640"
+    },
+    "api_raw\\mission_0081.json": {
+      "size": 11515,
+      "sha1": "881ef30f7344c35864def1eb3954e0b62cb31e6b"
+    },
+    "api_raw\\mission_0082.json": {
+      "size": 14428,
+      "sha1": "c3ae9ea16d17f2b74a485cf3d6e1ec9b72b50f0a"
+    },
+    "api_raw\\mission_0083.json": {
+      "size": 2781,
+      "sha1": "b317b0f95bb8b3284cc2da6f37169ea9fcd5634c"
+    },
+    "api_raw\\mission_0084.json": {
+      "size": 2532,
+      "sha1": "669062a1bfed6cdfcf1e11282db8b46812ca352a"
+    },
+    "api_raw\\mission_0085.json": {
+      "size": 10261,
+      "sha1": "01e7631f098801c6118e492d55548f333e9bffe0"
+    },
+    "api_raw\\mission_0086.json": {
+      "size": 2691,
+      "sha1": "f74e061830b95fc09e5875fe5b378f699acc9da4"
+    },
+    "api_raw\\mission_0087.json": {
+      "size": 5975,
+      "sha1": "f99f6e54071947cad067f4a2357e516f3379524e"
+    },
+    "api_raw\\mission_0088.json": {
+      "size": 3875,
+      "sha1": "72f68c10b24feb8018435d43f4a86a3a6e580e34"
+    },
+    "api_raw\\mission_0089.json": {
+      "size": 2935,
+      "sha1": "fb29a1f92d1b82cc4f39b4b6256619c5e6e2beec"
+    },
+    "api_raw\\mission_0090.json": {
+      "size": 8753,
+      "sha1": "3e7b6cfb419bf130e6adc05651d88e8eb7561502"
+    },
+    "api_raw\\mission_0091.json": {
+      "size": 6524,
+      "sha1": "938255cd7f5056377569f8e9f758d6d5ca6dd345"
+    },
+    "api_raw\\mission_0092.json": {
+      "size": 2858,
+      "sha1": "d4363e5c8546ddf90b923faa7d72a7a3616095b8"
+    },
+    "api_raw\\mission_0093.json": {
+      "size": 5461,
+      "sha1": "0845883e6ea2df8490e150111a2089289875961f"
+    },
+    "api_raw\\mission_0094.json": {
+      "size": 2560,
+      "sha1": "33a0bf4629f95e8bb14fd53743d7b780a5d0b3cd"
+    },
+    "api_raw\\mission_0095.json": {
+      "size": 2737,
+      "sha1": "4cd6b4dc9efe3057b0728a61eda0ec6d8708a731"
+    },
+    "api_raw\\mission_0096.json": {
+      "size": 2543,
+      "sha1": "dcb104ca34dc3533f3485bf88c24461e221d8b52"
+    },
+    "api_raw\\mission_0097.json": {
+      "size": 7893,
+      "sha1": "b67febc8828dcf32b3b8d52ecf96ac918df6a1cf"
+    },
+    "api_raw\\mission_0098.json": {
+      "size": 3746,
+      "sha1": "9bdf906a2804fd9bc816d90854aa570e10afedc5"
+    },
+    "api_raw\\mission_0099.json": {
+      "size": 2903,
+      "sha1": "eb478436647be83cf70b4ad61150766df8f4f88c"
+    },
+    "api_raw\\mission_0100.json": {
+      "size": 2680,
+      "sha1": "b057caeef6565e68413d06f32b14c968d9acd474"
+    },
+    "api_raw\\mission_0101.json": {
+      "size": 2615,
+      "sha1": "ecdefe656d81b1e40aebf10665591b5556fb34c3"
+    },
+    "api_raw\\mission_0102.json": {
+      "size": 6949,
+      "sha1": "7a2fc8324f137eafb1e982fd33bf7ae0a35904b2"
+    },
+    "api_raw\\mission_0103.json": {
+      "size": 2486,
+      "sha1": "c55480452df89b2675215bb91e0ada87cb74575e"
+    },
+    "api_raw\\mission_0104.json": {
+      "size": 2589,
+      "sha1": "adb6d6b78ab0f2ad03e38d25fedf83d2ba5bf48c"
+    },
+    "api_raw\\mission_0105.json": {
+      "size": 2915,
+      "sha1": "08bdf1f657f51d59b1de6ba87f2175ce94aefc82"
+    },
+    "api_raw\\mission_0106.json": {
+      "size": 2645,
+      "sha1": "807f9361766f06a2fe20a9ec1bc02389abf99bd9"
+    },
+    "api_raw\\mission_0107.json": {
+      "size": 2601,
+      "sha1": "b423232a08e140817357e8d7d30ada7efba7c311"
+    },
+    "api_raw\\mission_0108.json": {
+      "size": 11423,
+      "sha1": "b2b5d1368028891bc8684cdc6d7b710c0adc232c"
+    },
+    "api_raw\\mission_0109.json": {
+      "size": 2667,
+      "sha1": "4ec98e7e46d73dc67f0254d6b876f9a8cbbd5eb0"
+    },
+    "api_raw\\mission_0110.json": {
+      "size": 5795,
+      "sha1": "c6f20cb7f558dd8d57de62e26260514c4667ba18"
+    },
+    "api_raw\\mission_0111.json": {
+      "size": 2969,
+      "sha1": "6e30680a2fcafcfe1feaf5c0893d39fd4b90158c"
+    },
+    "api_raw\\mission_0112.json": {
+      "size": 2645,
+      "sha1": "58c78890951d3e4bd486baf5c9f8e9db19268431"
+    },
+    "api_raw\\mission_0113.json": {
+      "size": 2573,
+      "sha1": "5a699033dca773711cf99b5e165a82ae790930d1"
+    },
+    "api_raw\\mission_0114.json": {
+      "size": 2536,
+      "sha1": "69da35f9d67023d2aab594686815d3cede337f77"
+    },
+    "api_raw\\mission_0115.json": {
+      "size": 7203,
+      "sha1": "08c72008146226abb573001eead24c0217a404cf"
+    },
+    "api_raw\\mission_0116.json": {
+      "size": 2617,
+      "sha1": "e482fff82aaf3d28231d4f3f8969a6185b5ec020"
+    },
+    "api_raw\\mission_0117.json": {
+      "size": 2536,
+      "sha1": "7a589a966e621b6b06af97964d97da875337aea0"
+    },
+    "api_raw\\mission_0118.json": {
+      "size": 2557,
+      "sha1": "b13fe4cf69638298aad1d2795f9dac8ec659d1b2"
+    },
+    "api_raw\\mission_0119.json": {
+      "size": 2606,
+      "sha1": "74ead34483bd2661e4ade85759ebc99c32867cb8"
+    },
+    "api_raw\\mission_0120.json": {
+      "size": 2761,
+      "sha1": "241ac28355e1cb64e6f79afeab91cb5177761456"
+    },
+    "missions\\mission_0001.json": {
+      "size": 5220,
+      "sha1": "6b6711749186d8b3c540663046d372ba8baf1375"
+    },
+    "missions\\mission_0002.json": {
+      "size": 2555,
+      "sha1": "106ddd280ab582b7060aa4ac06c04ecae21978a8"
+    },
+    "missions\\mission_0003.json": {
+      "size": 2953,
+      "sha1": "6aac562dbcb430f4043abc3ac53e3cd90d255a84"
+    },
+    "missions\\mission_0004.json": {
+      "size": 6189,
+      "sha1": "c0847409a652f4e27a68a251c61b6ecd7fde302e"
+    },
+    "missions\\mission_0005.json": {
+      "size": 8643,
+      "sha1": "754c7cd65531fcd1f4fb3e309dff8ffd92d5225e"
+    },
+    "missions\\mission_0006.json": {
+      "size": 2731,
+      "sha1": "4180bc769e5691d55e284215ff155519379aa510"
+    },
+    "missions\\mission_0007.json": {
+      "size": 2773,
+      "sha1": "6a27e082c932d60f42f63b154f271e894a461155"
+    },
+    "missions\\mission_0008.json": {
+      "size": 2707,
+      "sha1": "5b66241f50db8c2e1bbd616351cd4192aa9cdac4"
+    },
+    "missions\\mission_0009.json": {
+      "size": 2875,
+      "sha1": "923aca3cb559c8653a1bae2ff9f82842e279e404"
+    },
+    "missions\\mission_0010.json": {
+      "size": 6282,
+      "sha1": "430504761de9b4d4cdf70da6e1648a56c14c893f"
+    },
+    "missions\\mission_0011.json": {
+      "size": 2767,
+      "sha1": "a552579ce001f32f4974a7cd404975e890da6ec1"
+    },
+    "missions\\mission_0012.json": {
+      "size": 3110,
+      "sha1": "034eecb2fe4fb7046ee4d01b045e73904ba77403"
+    },
+    "missions\\mission_0013.json": {
+      "size": 3222,
+      "sha1": "9442a12a5ad4ce2e64c276cab84ea631ec96849c"
+    },
+    "missions\\mission_0014.json": {
+      "size": 2943,
+      "sha1": "d5a46aa017c64e38e25f65799fb16823b6b6ab1f"
+    },
+    "missions\\mission_0015.json": {
+      "size": 2703,
+      "sha1": "1d86eff6a50a317a2ec8919cad92e34a8395756d"
+    },
+    "missions\\mission_0016.json": {
+      "size": 3169,
+      "sha1": "5a0c6b803f4c5e64e7398e319c6591e57fe85857"
+    },
+    "missions\\mission_0017.json": {
+      "size": 9364,
+      "sha1": "3f05c47b69d0dae4875ca4196f9eb23b2d4a091b"
+    },
+    "missions\\mission_0018.json": {
+      "size": 4154,
+      "sha1": "5fa8e0d78114687047f750438dd89524657ac43f"
+    },
+    "missions\\mission_0019.json": {
+      "size": 3627,
+      "sha1": "289d3c3260565e0f709a30f9b795196b90ef428d"
+    },
+    "missions\\mission_0020.json": {
+      "size": 2751,
+      "sha1": "5ecb9899b808337aa866c71f86edd85dec5fa70e"
+    },
+    "missions\\mission_0021.json": {
+      "size": 5748,
+      "sha1": "5beb3e080883d5b4f531294fcb032d4904241b0b"
+    },
+    "missions\\mission_0022.json": {
+      "size": 3745,
+      "sha1": "61521543265b3b8aa4b99b0cfc7e32bbd3c6bf23"
+    },
+    "missions\\mission_0023.json": {
+      "size": 3139,
+      "sha1": "48f3ad89f9b1fe34ec781f36d4632f8c79f3d52a"
+    },
+    "missions\\mission_0024.json": {
+      "size": 4708,
+      "sha1": "7fbbf4d998ac3fed47fa65108ee0c44b7f2435fd"
+    },
+    "missions\\mission_0025.json": {
+      "size": 5332,
+      "sha1": "52929cb3bc5b70a009bd2dc8e1319333221f3e30"
+    },
+    "missions\\mission_0026.json": {
+      "size": 2999,
+      "sha1": "26ff9978fc918908e52f835be31e324a384ad080"
+    },
+    "missions\\mission_0027.json": {
+      "size": 5540,
+      "sha1": "c8098f05fb68552f6fb5e47ce2c6329db7aecd93"
+    },
+    "missions\\mission_0028.json": {
+      "size": 10880,
+      "sha1": "8a4f09e5d43e91010b4ca1d5e76e8ef4ad0bce12"
+    },
+    "missions\\mission_0029.json": {
+      "size": 6091,
+      "sha1": "bbf5d8f80c2e6b5aa96cff9b475a26de8ffd23ab"
+    },
+    "missions\\mission_0030.json": {
+      "size": 2630,
+      "sha1": "a0acdffddfa1a5536b948711cdcf35de9bd80184"
+    },
+    "missions\\mission_0031.json": {
+      "size": 2753,
+      "sha1": "273f6183a8efc61dbb3196b42122d340122c2d0c"
+    },
+    "missions\\mission_0032.json": {
+      "size": 5017,
+      "sha1": "8443efc2dc704816895d3717851bb1c36f4641b2"
+    },
+    "missions\\mission_0033.json": {
+      "size": 3257,
+      "sha1": "1fcbccfc49313d656a52e92c9b6d92f0843e596f"
+    },
+    "missions\\mission_0034.json": {
+      "size": 5703,
+      "sha1": "d10d63fd0c9129e34ff186502a7b1a49c0fb4e15"
+    },
+    "missions\\mission_0035.json": {
+      "size": 6341,
+      "sha1": "03dd8a7df35a1bdf35312b4f3cd8f68738c45277"
+    },
+    "missions\\mission_0036.json": {
+      "size": 3336,
+      "sha1": "a58c6a737f1b13cbe63bd44e4cb487121f203294"
+    },
+    "missions\\mission_0037.json": {
+      "size": 3187,
+      "sha1": "9e3af6854310f77f39fddedaa8266a61c59e5a11"
+    },
+    "missions\\mission_0038.json": {
+      "size": 3568,
+      "sha1": "11a40e23a72f51d5473a7467b666b6bc97e726a4"
+    },
+    "missions\\mission_0039.json": {
+      "size": 2741,
+      "sha1": "b22738cca0b07015fa2c0d18419be53b0c957f64"
+    },
+    "missions\\mission_0040.json": {
+      "size": 3920,
+      "sha1": "dc48024f2176a125c844a458f32aabadc4b985ae"
+    },
+    "missions\\mission_0041.json": {
+      "size": 2697,
+      "sha1": "0f7e4ad10128e4f424b745aa89197112109c4562"
+    },
+    "missions\\mission_0042.json": {
+      "size": 2935,
+      "sha1": "966240ad12cc684eb8ea56ae07f874a3909fad68"
+    },
+    "missions\\mission_0043.json": {
+      "size": 3292,
+      "sha1": "58fdbed36ee46af6ba36c2110eecbdcaeb68167b"
+    },
+    "missions\\mission_0044.json": {
+      "size": 3472,
+      "sha1": "b7198611070bddc9dbdc23e9932be44f326c69c7"
+    },
+    "missions\\mission_0045.json": {
+      "size": 4096,
+      "sha1": "72cecb058043254e315bc1d15d840c0343fe8b79"
+    },
+    "missions\\mission_0046.json": {
+      "size": 2530,
+      "sha1": "48e90634977ee79dd83f18b72f2192e1c6d42a32"
+    },
+    "missions\\mission_0047.json": {
+      "size": 3053,
+      "sha1": "2f96579e2363e5bf5da81e82c160cc84a33852dc"
+    },
+    "missions\\mission_0048.json": {
+      "size": 4676,
+      "sha1": "96af6922e513e8dedd0c20723b5dc8d8911d7682"
+    },
+    "missions\\mission_0049.json": {
+      "size": 2743,
+      "sha1": "4d096924c22d0b9468628c0d1e1b540bc1d2b420"
+    },
+    "missions\\mission_0050.json": {
+      "size": 2818,
+      "sha1": "ee85010c7033b2227be6a000adbfcf3a2a462a1e"
+    },
+    "missions\\mission_0051.json": {
+      "size": 3646,
+      "sha1": "be23335b07283b6d1b3b6c84136d7e3571721895"
+    },
+    "missions\\mission_0052.json": {
+      "size": 10209,
+      "sha1": "1852a1b36021740f9cc68a58b39ebec471f495d7"
+    },
+    "missions\\mission_0053.json": {
+      "size": 2651,
+      "sha1": "5cfbd1da01379f97a78e77ac31e92bb79af42f49"
+    },
+    "missions\\mission_0054.json": {
+      "size": 5990,
+      "sha1": "73d185efbb965f98faf94d3a9cc7e8fbba6d5f8b"
+    },
+    "missions\\mission_0055.json": {
+      "size": 3382,
+      "sha1": "032933304a0fc9192e7c9902ee36887d2a6986f7"
+    },
+    "missions\\mission_0056.json": {
+      "size": 8657,
+      "sha1": "589cbbcaa5e67d45c3778c9264deab12fa42d7f0"
+    },
+    "missions\\mission_0057.json": {
+      "size": 7220,
+      "sha1": "0ab0a44cb156138f9365929a17b88fa6cfd31d43"
+    },
+    "missions\\mission_0058.json": {
+      "size": 9857,
+      "sha1": "2e7d8ee796978eacca020b777c34029b667e7914"
+    },
+    "missions\\mission_0059.json": {
+      "size": 10708,
+      "sha1": "8d322b8333804a4c68f7aca47c2aba4a0c207be9"
+    },
+    "missions\\mission_0060.json": {
+      "size": 12634,
+      "sha1": "8318f84c7eef6de7047d4089ea4e866f63afebb1"
+    },
+    "missions\\mission_0061.json": {
+      "size": 6002,
+      "sha1": "0f8868fbf5b7e2d377628f3f3ddba1584800aef4"
+    },
+    "missions\\mission_0062.json": {
+      "size": 9475,
+      "sha1": "4a1d5921793cd98b70180666690e7035036f4806"
+    },
+    "missions\\mission_0063.json": {
+      "size": 5494,
+      "sha1": "6ef6072168aac4ee8147fbbd6b5e57f2731789fa"
+    },
+    "missions\\mission_0064.json": {
+      "size": 2615,
+      "sha1": "56b91bff07adc265e0284f176cc28a4f99e6bf38"
+    },
+    "missions\\mission_0065.json": {
+      "size": 2699,
+      "sha1": "960e1902dba6626f0567f1e2ffea6a87577bb034"
+    },
+    "missions\\mission_0066.json": {
+      "size": 4171,
+      "sha1": "7495dd6fc5c91f298590e5e85bd4a2180b19529d"
+    },
+    "missions\\mission_0067.json": {
+      "size": 16784,
+      "sha1": "719e48ecce5073ca7db705d03bd17c3e4304430e"
+    },
+    "missions\\mission_0068.json": {
+      "size": 3368,
+      "sha1": "c63f05c9ae4c26499ea07a6ae50eb747413418a1"
+    },
+    "missions\\mission_0069.json": {
+      "size": 4698,
+      "sha1": "b2872270e4189b805e82df959a55384a7a50ff93"
+    },
+    "missions\\mission_0070.json": {
+      "size": 8538,
+      "sha1": "d19f64b5d7467992496ae13f8490935106ab1fa5"
+    },
+    "missions\\mission_0071.json": {
+      "size": 7797,
+      "sha1": "f0c9e4f83f9f327bfb043c42485974bfb09a9d26"
+    },
+    "missions\\mission_0072.json": {
+      "size": 2768,
+      "sha1": "d8fa784bea8a7bc8dc73cad43a9d80f37d202c1a"
+    },
+    "missions\\mission_0073.json": {
+      "size": 3471,
+      "sha1": "ef85665f542d4681acf37a3183a0a907ce442530"
+    },
+    "missions\\mission_0074.json": {
+      "size": 2621,
+      "sha1": "e3b1382285e4687588856000e937350b018ceb40"
+    },
+    "missions\\mission_0075.json": {
+      "size": 2745,
+      "sha1": "891fc8463efaf3fb4f9acbe9d03b84b31f5a954e"
+    },
+    "missions\\mission_0076.json": {
+      "size": 3400,
+      "sha1": "da4a251e7c8297d1e815fe84c23dc4abb64c50f5"
+    },
+    "missions\\mission_0077.json": {
+      "size": 3666,
+      "sha1": "921394ec9310e5a671f6b7f0e3534b13cbbece74"
+    },
+    "missions\\mission_0078.json": {
+      "size": 17162,
+      "sha1": "6d295ab71ae4b4a9d90e2b290658685fc5146234"
+    },
+    "missions\\mission_0079.json": {
+      "size": 4644,
+      "sha1": "c192c8eaa1a1d5f767f6df523a6098837be29da0"
+    },
+    "missions\\mission_0080.json": {
+      "size": 2601,
+      "sha1": "10ac24f3e0a58fc4ec7f232db7aacf1788e1d640"
+    },
+    "missions\\mission_0081.json": {
+      "size": 11515,
+      "sha1": "881ef30f7344c35864def1eb3954e0b62cb31e6b"
+    },
+    "missions\\mission_0082.json": {
+      "size": 14428,
+      "sha1": "c3ae9ea16d17f2b74a485cf3d6e1ec9b72b50f0a"
+    },
+    "missions\\mission_0083.json": {
+      "size": 2781,
+      "sha1": "b317b0f95bb8b3284cc2da6f37169ea9fcd5634c"
+    },
+    "missions\\mission_0084.json": {
+      "size": 2532,
+      "sha1": "669062a1bfed6cdfcf1e11282db8b46812ca352a"
+    },
+    "missions\\mission_0085.json": {
+      "size": 10261,
+      "sha1": "01e7631f098801c6118e492d55548f333e9bffe0"
+    },
+    "missions\\mission_0086.json": {
+      "size": 2691,
+      "sha1": "f74e061830b95fc09e5875fe5b378f699acc9da4"
+    },
+    "missions\\mission_0087.json": {
+      "size": 5975,
+      "sha1": "f99f6e54071947cad067f4a2357e516f3379524e"
+    },
+    "missions\\mission_0088.json": {
+      "size": 3875,
+      "sha1": "72f68c10b24feb8018435d43f4a86a3a6e580e34"
+    },
+    "missions\\mission_0089.json": {
+      "size": 2935,
+      "sha1": "fb29a1f92d1b82cc4f39b4b6256619c5e6e2beec"
+    },
+    "missions\\mission_0090.json": {
+      "size": 8753,
+      "sha1": "3e7b6cfb419bf130e6adc05651d88e8eb7561502"
+    },
+    "missions\\mission_0091.json": {
+      "size": 6524,
+      "sha1": "938255cd7f5056377569f8e9f758d6d5ca6dd345"
+    },
+    "missions\\mission_0092.json": {
+      "size": 2858,
+      "sha1": "d4363e5c8546ddf90b923faa7d72a7a3616095b8"
+    },
+    "missions\\mission_0093.json": {
+      "size": 5461,
+      "sha1": "0845883e6ea2df8490e150111a2089289875961f"
+    },
+    "missions\\mission_0094.json": {
+      "size": 2560,
+      "sha1": "33a0bf4629f95e8bb14fd53743d7b780a5d0b3cd"
+    },
+    "missions\\mission_0095.json": {
+      "size": 2737,
+      "sha1": "4cd6b4dc9efe3057b0728a61eda0ec6d8708a731"
+    },
+    "missions\\mission_0096.json": {
+      "size": 2543,
+      "sha1": "dcb104ca34dc3533f3485bf88c24461e221d8b52"
+    },
+    "missions\\mission_0097.json": {
+      "size": 7893,
+      "sha1": "b67febc8828dcf32b3b8d52ecf96ac918df6a1cf"
+    },
+    "missions\\mission_0098.json": {
+      "size": 3746,
+      "sha1": "9bdf906a2804fd9bc816d90854aa570e10afedc5"
+    },
+    "missions\\mission_0099.json": {
+      "size": 2903,
+      "sha1": "eb478436647be83cf70b4ad61150766df8f4f88c"
+    },
+    "missions\\mission_0100.json": {
+      "size": 2680,
+      "sha1": "b057caeef6565e68413d06f32b14c968d9acd474"
+    },
+    "missions\\mission_0101.json": {
+      "size": 2615,
+      "sha1": "ecdefe656d81b1e40aebf10665591b5556fb34c3"
+    },
+    "missions\\mission_0102.json": {
+      "size": 6949,
+      "sha1": "7a2fc8324f137eafb1e982fd33bf7ae0a35904b2"
+    },
+    "missions\\mission_0103.json": {
+      "size": 2486,
+      "sha1": "c55480452df89b2675215bb91e0ada87cb74575e"
+    },
+    "missions\\mission_0104.json": {
+      "size": 2589,
+      "sha1": "adb6d6b78ab0f2ad03e38d25fedf83d2ba5bf48c"
+    },
+    "missions\\mission_0105.json": {
+      "size": 2915,
+      "sha1": "08bdf1f657f51d59b1de6ba87f2175ce94aefc82"
+    },
+    "missions\\mission_0106.json": {
+      "size": 2645,
+      "sha1": "807f9361766f06a2fe20a9ec1bc02389abf99bd9"
+    },
+    "missions\\mission_0107.json": {
+      "size": 2601,
+      "sha1": "b423232a08e140817357e8d7d30ada7efba7c311"
+    },
+    "missions\\mission_0108.json": {
+      "size": 11423,
+      "sha1": "b2b5d1368028891bc8684cdc6d7b710c0adc232c"
+    },
+    "missions\\mission_0109.json": {
+      "size": 2667,
+      "sha1": "4ec98e7e46d73dc67f0254d6b876f9a8cbbd5eb0"
+    },
+    "missions\\mission_0110.json": {
+      "size": 5795,
+      "sha1": "c6f20cb7f558dd8d57de62e26260514c4667ba18"
+    },
+    "missions\\mission_0111.json": {
+      "size": 2969,
+      "sha1": "6e30680a2fcafcfe1feaf5c0893d39fd4b90158c"
+    },
+    "missions\\mission_0112.json": {
+      "size": 2645,
+      "sha1": "58c78890951d3e4bd486baf5c9f8e9db19268431"
+    },
+    "missions\\mission_0113.json": {
+      "size": 2573,
+      "sha1": "5a699033dca773711cf99b5e165a82ae790930d1"
+    },
+    "missions\\mission_0114.json": {
+      "size": 2536,
+      "sha1": "69da35f9d67023d2aab594686815d3cede337f77"
+    },
+    "missions\\mission_0115.json": {
+      "size": 7203,
+      "sha1": "08c72008146226abb573001eead24c0217a404cf"
+    },
+    "missions\\mission_0116.json": {
+      "size": 2617,
+      "sha1": "e482fff82aaf3d28231d4f3f8969a6185b5ec020"
+    },
+    "missions\\mission_0117.json": {
+      "size": 2536,
+      "sha1": "7a589a966e621b6b06af97964d97da875337aea0"
+    },
+    "missions\\mission_0118.json": {
+      "size": 2557,
+      "sha1": "b13fe4cf69638298aad1d2795f9dac8ec659d1b2"
+    },
+    "missions\\mission_0119.json": {
+      "size": 2606,
+      "sha1": "74ead34483bd2661e4ade85759ebc99c32867cb8"
+    },
+    "missions\\mission_0120.json": {
+      "size": 2761,
+      "sha1": "241ac28355e1cb64e6f79afeab91cb5177761456"
+    },
+    "receipts\\mission\\mission_0001.json": {
+      "size": 5568,
+      "sha1": "acbe7bb933fef003fff410a0c4de0694ff863547"
+    },
+    "receipts\\mission\\mission_0002.json": {
+      "size": 2903,
+      "sha1": "77dc9ef920c23a43d29566dee5bc073cba9b0959"
+    },
+    "receipts\\mission\\mission_0003.json": {
+      "size": 3301,
+      "sha1": "6cbf2c69656f901f6c813f9b1b35c0354810b456"
+    },
+    "receipts\\mission\\mission_0004.json": {
+      "size": 6537,
+      "sha1": "07787c3b78ef5a0077d53e76bf8d2adb81c3fd8b"
+    },
+    "receipts\\mission\\mission_0005.json": {
+      "size": 8991,
+      "sha1": "1126d8b2bb66dfa013ccd422a9015e49d9d87810"
+    },
+    "receipts\\mission\\mission_0006.json": {
+      "size": 3079,
+      "sha1": "94e92b0754b36dac54366dbda865a79e1b0b1cf9"
+    },
+    "receipts\\mission\\mission_0007.json": {
+      "size": 3121,
+      "sha1": "01b1666d5ba6fcf580e31b4187ee65dfd500e9b2"
+    },
+    "receipts\\mission\\mission_0008.json": {
+      "size": 3055,
+      "sha1": "ba1fc11459538a3572b5eddcd2703eedac6752b8"
+    },
+    "receipts\\mission\\mission_0009.json": {
+      "size": 3223,
+      "sha1": "9c07fb27c856de8c208549eab3c18ad4ba9d6896"
+    },
+    "receipts\\mission\\mission_0010.json": {
+      "size": 6630,
+      "sha1": "d4de86ff46538c177f670377461a2699189b6597"
+    },
+    "receipts\\mission\\mission_0011.json": {
+      "size": 3115,
+      "sha1": "0b55384e6de2f50ce33dc29374c14afdec531263"
+    },
+    "receipts\\mission\\mission_0012.json": {
+      "size": 3458,
+      "sha1": "454aade2e9511ad59d2997f271a95d053f17be24"
+    },
+    "receipts\\mission\\mission_0013.json": {
+      "size": 3570,
+      "sha1": "bedd75be5c91b1d663543d5ae35ad70aa9fc0f27"
+    },
+    "receipts\\mission\\mission_0014.json": {
+      "size": 3291,
+      "sha1": "6791dd4fb0c3534d17e202ec7a36f0e5be7d8453"
+    },
+    "receipts\\mission\\mission_0015.json": {
+      "size": 3051,
+      "sha1": "8227eb872ceb82c191e89f816cf1abc5e93d5da4"
+    },
+    "receipts\\mission\\mission_0016.json": {
+      "size": 3517,
+      "sha1": "ea186faaff5de4e95c01de6547d37009c7ae451c"
+    },
+    "receipts\\mission\\mission_0017.json": {
+      "size": 9712,
+      "sha1": "e1ca039631a8ea636647d14cd1f8e3981466ed76"
+    },
+    "receipts\\mission\\mission_0018.json": {
+      "size": 4502,
+      "sha1": "b6840bfcfefb68f7a5b0412f5eefc1f606a5f7b4"
+    },
+    "receipts\\mission\\mission_0019.json": {
+      "size": 3975,
+      "sha1": "baaa0722dadebabe995e37a6dc22826a764430be"
+    },
+    "receipts\\mission\\mission_0020.json": {
+      "size": 3099,
+      "sha1": "038dbcf7025e43e1e618f964ff55af0e3afaa7a8"
+    },
+    "receipts\\mission\\mission_0021.json": {
+      "size": 6096,
+      "sha1": "49c2af9c9fa8931ae19b379d5c3f73b4a9fb23ed"
+    },
+    "receipts\\mission\\mission_0022.json": {
+      "size": 4093,
+      "sha1": "f9ebc57b3e9abf4721fae623543f915432b91383"
+    },
+    "receipts\\mission\\mission_0023.json": {
+      "size": 3487,
+      "sha1": "00823564cacdca90f68c0886ca5c5a62ce3fa0b0"
+    },
+    "receipts\\mission\\mission_0024.json": {
+      "size": 5056,
+      "sha1": "d21a473e753801bc6b6b873bd71824bb892ec4fa"
+    },
+    "receipts\\mission\\mission_0025.json": {
+      "size": 5680,
+      "sha1": "7c73bc4365b19257ac96708e9d371523320fff36"
+    },
+    "receipts\\mission\\mission_0026.json": {
+      "size": 3347,
+      "sha1": "58ef89537324101b084331a03dbc158c0463b80f"
+    },
+    "receipts\\mission\\mission_0027.json": {
+      "size": 5888,
+      "sha1": "a01a97c5cf98af43e5f7b7563de0e8177f86917d"
+    },
+    "receipts\\mission\\mission_0028.json": {
+      "size": 11228,
+      "sha1": "e8b0182d60084fef4e9df56974df132d54edfab6"
+    },
+    "receipts\\mission\\mission_0029.json": {
+      "size": 6439,
+      "sha1": "08a3de8c85607e3c14259093d8e0169257fcef02"
+    },
+    "receipts\\mission\\mission_0030.json": {
+      "size": 2978,
+      "sha1": "13236ac154325e2615a886d95da2d2d7f37a7945"
+    },
+    "receipts\\mission\\mission_0031.json": {
+      "size": 3101,
+      "sha1": "2b0ba1fe8d8b62b7092d768ed217b9174167752a"
+    },
+    "receipts\\mission\\mission_0032.json": {
+      "size": 5365,
+      "sha1": "415c508acaeef9419a48dc73846347d404a9eae2"
+    },
+    "receipts\\mission\\mission_0033.json": {
+      "size": 3605,
+      "sha1": "04751e031caa93958a58a9c0ff6fddb4081baf34"
+    },
+    "receipts\\mission\\mission_0034.json": {
+      "size": 6051,
+      "sha1": "c7cd2c64cdd777e68561d3d776517e1e92497349"
+    },
+    "receipts\\mission\\mission_0035.json": {
+      "size": 6689,
+      "sha1": "cd61a5414ada7f4b7d4cd118cb1d11a21b574f7f"
+    },
+    "receipts\\mission\\mission_0036.json": {
+      "size": 3684,
+      "sha1": "ff94e980848e438d94a6f81d04be422cb29d5dcd"
+    },
+    "receipts\\mission\\mission_0037.json": {
+      "size": 3535,
+      "sha1": "a4e54b4f6bff151da1da14daface2de848cb10e3"
+    },
+    "receipts\\mission\\mission_0038.json": {
+      "size": 3916,
+      "sha1": "4463533d3b344ca673c2c769267cdb85c114ae2b"
+    },
+    "receipts\\mission\\mission_0039.json": {
+      "size": 3089,
+      "sha1": "993f3c8507c45681f5b27b130f74a56eb9096d42"
+    },
+    "receipts\\mission\\mission_0040.json": {
+      "size": 4268,
+      "sha1": "0470d6d3053e9cd6a7d6ee8364f097d89774a15f"
+    },
+    "receipts\\mission\\mission_0041.json": {
+      "size": 3045,
+      "sha1": "79a2828fbe9d9799cec1dacb7a02ba030c7f376f"
+    },
+    "receipts\\mission\\mission_0042.json": {
+      "size": 3283,
+      "sha1": "0b9c7e6e7e6c95e70b51c1ddaacba3479da0c67b"
+    },
+    "receipts\\mission\\mission_0043.json": {
+      "size": 3640,
+      "sha1": "3223c8b4a3f211ffaec8a6399540cab087614be0"
+    },
+    "receipts\\mission\\mission_0044.json": {
+      "size": 3820,
+      "sha1": "81995f9f3fc3bc375e40532d39a8cc8ae9f9f899"
+    },
+    "receipts\\mission\\mission_0045.json": {
+      "size": 4444,
+      "sha1": "21ee21b110620b61373a0fd404a8bef175416cae"
+    },
+    "receipts\\mission\\mission_0046.json": {
+      "size": 2878,
+      "sha1": "7ccbe601ad2a2eb68b567f18decfda07e03c9440"
+    },
+    "receipts\\mission\\mission_0047.json": {
+      "size": 3401,
+      "sha1": "a140005c61f2bece33dc1be2bf31df14276c709b"
+    },
+    "receipts\\mission\\mission_0048.json": {
+      "size": 5024,
+      "sha1": "1ebd7f4734c4cb3034c81f88b7b606e9864e0cca"
+    },
+    "receipts\\mission\\mission_0049.json": {
+      "size": 3091,
+      "sha1": "c83b417828804ddfbc58749d9d4ddc1a50b33425"
+    },
+    "receipts\\mission\\mission_0050.json": {
+      "size": 3166,
+      "sha1": "5c3a2c68695893cf6a1368a93c9f43193037db94"
+    },
+    "receipts\\mission\\mission_0051.json": {
+      "size": 3994,
+      "sha1": "488077278a0c7d1b176158f8b43a837e790b5450"
+    },
+    "receipts\\mission\\mission_0052.json": {
+      "size": 10557,
+      "sha1": "a7408930e6220372013767d10da1d7b503a1edf6"
+    },
+    "receipts\\mission\\mission_0053.json": {
+      "size": 2999,
+      "sha1": "73af7e5fb6a70920241e4afe03a2a50cbca5f7ce"
+    },
+    "receipts\\mission\\mission_0054.json": {
+      "size": 6338,
+      "sha1": "c12cdf41c330817456f4bcd46967e8bd5576dadb"
+    },
+    "receipts\\mission\\mission_0055.json": {
+      "size": 3730,
+      "sha1": "2eda1dec5238e67fe026f8c0428880acbe74bb72"
+    },
+    "receipts\\mission\\mission_0056.json": {
+      "size": 9005,
+      "sha1": "14a41d3993f6f6d79b89cc46287b0f8fc48f21cd"
+    },
+    "receipts\\mission\\mission_0057.json": {
+      "size": 7568,
+      "sha1": "35a2e202887805a3a7818e3ff44f0b545dcbc04c"
+    },
+    "receipts\\mission\\mission_0058.json": {
+      "size": 10205,
+      "sha1": "8732135f2fa5d1d549b2d4995e9ffcd1b9d9d45d"
+    },
+    "receipts\\mission\\mission_0059.json": {
+      "size": 11056,
+      "sha1": "b8c8e1ffc52e940ded373473ee8003bf7a86913e"
+    },
+    "receipts\\mission\\mission_0060.json": {
+      "size": 12982,
+      "sha1": "afa45dd3a5543edb7a359092bab27cb079fa60a7"
+    },
+    "receipts\\mission\\mission_0061.json": {
+      "size": 6350,
+      "sha1": "2c7cebf584c573837261c27ab2b1818ee8254cbf"
+    },
+    "receipts\\mission\\mission_0062.json": {
+      "size": 9823,
+      "sha1": "e0571e4f6f12e8660d1812baa026f9b63b94c09d"
+    },
+    "receipts\\mission\\mission_0063.json": {
+      "size": 5842,
+      "sha1": "de4bf49368ac5f343d7add7b2f59e40c65f9fec7"
+    },
+    "receipts\\mission\\mission_0064.json": {
+      "size": 2963,
+      "sha1": "7bb10a2802316a4ed24ed657897fefa9be13ef6f"
+    },
+    "receipts\\mission\\mission_0065.json": {
+      "size": 3047,
+      "sha1": "74538d2a0603c6b8cdfdecdfabd34aa342c461ae"
+    },
+    "receipts\\mission\\mission_0066.json": {
+      "size": 4519,
+      "sha1": "90d0daab1c1084df195ae40eb6b708cc64f993ce"
+    },
+    "receipts\\mission\\mission_0067.json": {
+      "size": 17132,
+      "sha1": "88d2acbd3391bdad766140b5a40b5acb1d59020c"
+    },
+    "receipts\\mission\\mission_0068.json": {
+      "size": 3716,
+      "sha1": "32f37d96de564a3b359900276a7b43c85d00cb14"
+    },
+    "receipts\\mission\\mission_0069.json": {
+      "size": 5046,
+      "sha1": "1724fc0a78b44122f065dce1ceb982cb09948e35"
+    },
+    "receipts\\mission\\mission_0070.json": {
+      "size": 8886,
+      "sha1": "32a83d73e1c8a5574d6c529c56b1154435079348"
+    },
+    "receipts\\mission\\mission_0071.json": {
+      "size": 8145,
+      "sha1": "2c18ceb9c44a7443dc119f29bfe6483cb640fe86"
+    },
+    "receipts\\mission\\mission_0072.json": {
+      "size": 3116,
+      "sha1": "1f2d5205fa0231dd30defabcd2df8d5ec77cfdd0"
+    },
+    "receipts\\mission\\mission_0073.json": {
+      "size": 3819,
+      "sha1": "7c4d6950b24af04a41bcb5c291807cbd38a7ac2c"
+    },
+    "receipts\\mission\\mission_0074.json": {
+      "size": 2969,
+      "sha1": "521bd1e07bb14eb13dc33ad3e5b20c4589189e8e"
+    },
+    "receipts\\mission\\mission_0075.json": {
+      "size": 3093,
+      "sha1": "e3ab5fbcf8bfd846c90e64f29be473879ac3b849"
+    },
+    "receipts\\mission\\mission_0076.json": {
+      "size": 3748,
+      "sha1": "1c4b6895e9968be37a00eecc6711195ae71b4fab"
+    },
+    "receipts\\mission\\mission_0077.json": {
+      "size": 4014,
+      "sha1": "747efa277c5a9feae82a663fff0d21e2c8c2df50"
+    },
+    "receipts\\mission\\mission_0078.json": {
+      "size": 17510,
+      "sha1": "8ee03e05081735f772c9b5bc5f8b4d83f8884a72"
+    },
+    "receipts\\mission\\mission_0079.json": {
+      "size": 4992,
+      "sha1": "e27e7fecdac65e0d1c556405d19479b2a6adf237"
+    },
+    "receipts\\mission\\mission_0080.json": {
+      "size": 2949,
+      "sha1": "2f93a0e825ce426b310c7162e2b215b4ec2f8d7f"
+    },
+    "receipts\\mission\\mission_0081.json": {
+      "size": 11863,
+      "sha1": "2cea9720c3ff95e3e3d078d3000da20c55dec543"
+    },
+    "receipts\\mission\\mission_0082.json": {
+      "size": 14776,
+      "sha1": "545bd9251bdb4cae9d02a051b3d86e63e58d9b60"
+    },
+    "receipts\\mission\\mission_0083.json": {
+      "size": 3129,
+      "sha1": "00822e435a55d717492bc5b9cefba733c23c5dfb"
+    },
+    "receipts\\mission\\mission_0084.json": {
+      "size": 2880,
+      "sha1": "0d27c379a723a4f0ed08c4f6cf3f9be3483f5aad"
+    },
+    "receipts\\mission\\mission_0085.json": {
+      "size": 10609,
+      "sha1": "be01f3dbbcf58c8da83c2f074363a372b999cda5"
+    },
+    "receipts\\mission\\mission_0086.json": {
+      "size": 3039,
+      "sha1": "599a89afcb3ad33014d5914b158a9fea3e817dcd"
+    },
+    "receipts\\mission\\mission_0087.json": {
+      "size": 6323,
+      "sha1": "13214b29d23cb62fb4fc8dd72504ce7e2a8ff493"
+    },
+    "receipts\\mission\\mission_0088.json": {
+      "size": 4223,
+      "sha1": "dddf8bf578d2e15f27e959102be7d14a234608ea"
+    },
+    "receipts\\mission\\mission_0089.json": {
+      "size": 3283,
+      "sha1": "10767310c01549580d604821e0d4611d3751e88d"
+    },
+    "receipts\\mission\\mission_0090.json": {
+      "size": 9101,
+      "sha1": "3502f994f1a117a6d80302f0e5f69bd677d33a20"
+    },
+    "receipts\\mission\\mission_0091.json": {
+      "size": 6872,
+      "sha1": "5c98a16748d0e48b1740ce67d300ec1700171ac8"
+    },
+    "receipts\\mission\\mission_0092.json": {
+      "size": 3206,
+      "sha1": "e5b077c32c1a527ae380e355a26f5c11e38f7c73"
+    },
+    "receipts\\mission\\mission_0093.json": {
+      "size": 5809,
+      "sha1": "9f386c95a884ca1fc91f343e250f55f2b9400e45"
+    },
+    "receipts\\mission\\mission_0094.json": {
+      "size": 2908,
+      "sha1": "14429452f8845663726c2da31e58a879c5821f4b"
+    },
+    "receipts\\mission\\mission_0095.json": {
+      "size": 3085,
+      "sha1": "dbddab0e6c5740a66c4150543dfd17f34aa55314"
+    },
+    "receipts\\mission\\mission_0096.json": {
+      "size": 2891,
+      "sha1": "e2ca00144921b8d962b04c9d97d05224af968e01"
+    },
+    "receipts\\mission\\mission_0097.json": {
+      "size": 8241,
+      "sha1": "e0afbebfcb2d167b86a847e476489dd050d03e21"
+    },
+    "receipts\\mission\\mission_0098.json": {
+      "size": 4094,
+      "sha1": "404d0c698b9db5c1e9c48a2e3d5badd1c60bb691"
+    },
+    "receipts\\mission\\mission_0099.json": {
+      "size": 3251,
+      "sha1": "f07ecb0c67f566b63a58ea5f299983a37679d049"
+    },
+    "receipts\\mission\\mission_0100.json": {
+      "size": 3028,
+      "sha1": "9a3e90a8f7ece1b8f70a0affd356c03db53cf39e"
+    },
+    "receipts\\mission\\mission_0101.json": {
+      "size": 2963,
+      "sha1": "75c51abef315aa2f7d1512d861c6132e664958e6"
+    },
+    "receipts\\mission\\mission_0102.json": {
+      "size": 7297,
+      "sha1": "4c22b63c4a331e8c6d7f73b0ca7cfb9a574af8ea"
+    },
+    "receipts\\mission\\mission_0103.json": {
+      "size": 2834,
+      "sha1": "147384e7df65fd4d434001341f30d63bc4cec402"
+    },
+    "receipts\\mission\\mission_0104.json": {
+      "size": 2937,
+      "sha1": "455e9eab325bde9778b54cd22441477faa262b28"
+    },
+    "receipts\\mission\\mission_0105.json": {
+      "size": 3263,
+      "sha1": "7b7860518f40403d6f38145be8b795aa8a7c0ac4"
+    },
+    "receipts\\mission\\mission_0106.json": {
+      "size": 2993,
+      "sha1": "dc923b9db38beaa15b6e5c0607af503428481d9c"
+    },
+    "receipts\\mission\\mission_0107.json": {
+      "size": 2949,
+      "sha1": "56400828e43c945fc0a9f5baa52358db96b65ebc"
+    },
+    "receipts\\mission\\mission_0108.json": {
+      "size": 11771,
+      "sha1": "0adf0faeceaaff3c0dbb7aafe8aac0eec06d8cb4"
+    },
+    "receipts\\mission\\mission_0109.json": {
+      "size": 3015,
+      "sha1": "400028d5788b89a930f56c35c8b73f51e4d7864a"
+    },
+    "receipts\\mission\\mission_0110.json": {
+      "size": 6143,
+      "sha1": "b3fcd2e4ba763a94e1f8520db5b77001d925d029"
+    },
+    "receipts\\mission\\mission_0111.json": {
+      "size": 3317,
+      "sha1": "5bc373f09978b9258db4fc75a1da98e606373e15"
+    },
+    "receipts\\mission\\mission_0112.json": {
+      "size": 2993,
+      "sha1": "f18eb73e368ed32bc7f86b2d3123ff0887abf71e"
+    },
+    "receipts\\mission\\mission_0113.json": {
+      "size": 2921,
+      "sha1": "f852d473f6b8dc050f27f22852b5f18f885543de"
+    },
+    "receipts\\mission\\mission_0114.json": {
+      "size": 2884,
+      "sha1": "f5938d5633452c221b126055631c7374c7a952a5"
+    },
+    "receipts\\mission\\mission_0115.json": {
+      "size": 7551,
+      "sha1": "3c78e77c27f6ffcca06c345c691a810913dc8bfd"
+    },
+    "receipts\\mission\\mission_0116.json": {
+      "size": 2965,
+      "sha1": "80e37b751521cfacb87ca566071a015861d880f1"
+    },
+    "receipts\\mission\\mission_0117.json": {
+      "size": 2884,
+      "sha1": "f1bf22d2a3e73ad0b85bc0063fab2c4a29484fcc"
+    },
+    "receipts\\mission\\mission_0118.json": {
+      "size": 2905,
+      "sha1": "1c3b26bbc2e543aa6463e46504aa3ad80e57a67d"
+    },
+    "receipts\\mission\\mission_0119.json": {
+      "size": 2954,
+      "sha1": "8ad677b0b8b90725e394036e177323b3e10d7e30"
+    },
+    "receipts\\mission\\mission_0120.json": {
+      "size": 3109,
+      "sha1": "219d6f6e901cbfa9c5ba250e0116ed614eb191d2"
+    }
+  }
+}

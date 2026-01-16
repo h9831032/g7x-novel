@@ -1,0 +1,27 @@
+[
+    {
+        "run": "RUN_0111_191310",
+        "verdict": "FAIL",
+        "api_raw": 120
+    },
+    {
+        "run": "RUN_0111_191319",
+        "verdict": "FAIL",
+        "api_raw": 60
+    },
+    {
+        "run": "RUN_0111_191324",
+        "verdict": "FAIL",
+        "api_raw": 10
+    },
+    {
+        "run": "RUN_0111_191614",
+        "verdict": "FAIL",
+        "api_raw": 10
+    },
+    {
+        "run": "RUN_0111_192134",
+        "verdict": "PASS",
+        "api_raw": 10
+    }
+]

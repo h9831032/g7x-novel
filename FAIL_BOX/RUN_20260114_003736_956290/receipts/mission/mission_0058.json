@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0058",
+  "timestamp": "2026-01-14T00:42:35.114616",
+  "status": "SUCCESS",
+  "content_hash": "0c4215ed60f3ce7fb42dd8a5086800dbf05c763f",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M058",
+    "content": "```json\n{\n  \"MISSION_ID\": \"M058\",\n  \"MISSION_TITLE\": \"Operation: Iron Grip\",\n  \"OPERATIONAL_BRIEF\": \"Overseer Thorne has established a tyrannical and exploitative regime within Sector Gamma, leveraging his position to collude with the Crimson Syndicate. His corruption has led to widespread suffering, resource diversion, and a breakdown of legitimate governance. Your primary task is to infiltrate Thorne's primary administrative complex, neutralize his influence, and dismantle his network of illicit operations to restore order and accountability to Sector Gamma.\",\n  \"OBJECTIVES\": [\n    {\n      \"OBJECTIVE_ID\": \"M058_1\",\n      \"DESCRIPTION\": \"Infiltrate the Gamma Sector Administration Complex, Thorne's fortified headquarters.\",\n      \"STATUS\": \"ACTIVE\"\n    },\n    {\n      \"OBJECTIVE_ID\": \"M058_2\",\n      \"DESCRIPTION\": \"Locate and secure critical evidence of Thorne's corruption and his ties to the Crimson Syndicate within his private office or secure data servers.\",\n      \"STATUS\": \"ACTIVE\"\n    },\n    {\n      \"OBJECTIVE_ID\": \"M058_3\",\n      \"DESCRIPTION\": \"Neutralize Overseer Thorne, removing him from power and ending his corrupt reign.\",\n      \"STATUS\": \"ACTIVE\"\n    },\n    {\n      \"OBJECTIVE_ID\": \"M058_4\",\n      \"DESCRIPTION\": \"Disrupt Thorne's operational network by disabling key communication arrays or destroying illicit resource caches within the complex.\",\n      \"STATUS\": \"ACTIVE\"\n    }\n  ],\n  \"SECONDARY_OBJECTIVES\": [\n    {\n      \"OBJECTIVE_ID\": \"M058_S1\",\n      \"DESCRIPTION\": \"Identify and tag any high-ranking Crimson Syndicate operatives encountered within the complex for future intelligence gathering.\",\n      \"STATUS\": \"ACTIVE\"\n    },\n    {\n      \"OBJECTIVE_ID\": \"M058_S2\",\n      \"DESCRIPTION\": \"Recover or destroy Thorne's 'Black Book' ledger, detailing his illicit financial transactions.\",\n      \"STATUS\": \"ACTIVE\"\n    }\n  ],\n  \"CRITICAL_ASSETS\": [\n    \"Encrypted data drive for evidence extraction.\",\n    \"Access schematics for the Gamma Sector Administration Complex (provided in intel package).\",\n    \"Specialized breaching tools for reinforced access points.\"\n  ],\n  \"THREAT_ASSESSMENT\": [\n    \"Elite personal guard contingent loyal to Thorne.\",\n    \"Crimson Syndicate enforcers embedded within the complex's security.\",\n    \"Advanced surveillance systems and automated defensive turrets.\",\n    \"Potential for environmental hazards or traps within restricted areas.\"\n  ],\n  \"INTEL_PACKAGE\": {\n    \"LOCATION_OVERVIEW\": \"The Gamma Sector Administration Complex is a multi-level fortified structure, featuring a primary administrative tower, a secure data vault, and an underground resource processing facility. Thorne's private office is on the top floor of the administrative tower.\",\n    \"THORNE_PROFILE\": \"Overseer Thorne is a highly paranoid and ruthless individual, rarely leaving his complex. He is known to have a hidden safe room within his office. He trusts few, but relies heavily on his head of security, Commander Vex, who maintains a strict patrol schedule.\",\n    \"SYNDICATE_TIES\": \"Crimson Syndicate operatives are known to use the complex's lower levels as a staging ground for resource smuggling, with dedicated access routes and storage areas.\"\n  },\n  \"EXTRACTION_PROTOCOL\": \"Upon completion of objectives, proceed to the designated rooftop helipad for VTOL extraction. In case of primary exfil compromise, an emergency extraction beacon will be activated at the complex's secondary sub-level maintenance tunnel exit.\",\n  \"STATUS\": \"ACTIVE\"\n}\n```",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:42:35 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=12382",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "```json\n{\n  \"MISSION_ID\": \"M058\",\n  \"MISSION_TITLE\": \"Operation: Iron Grip\",\n  \"OPERATIONAL_BRIEF\": \"Overseer Thorne has established a tyrannical and exploitative regime within Sector Gamma, leveraging his position to collude with the Crimson Syndicate. His corruption has led to widespread suffering, resource diversion, and a breakdown of legitimate governance. Your primary task is to infiltrate Thorne's primary administrative complex, neutralize his influence, and dismantle his network of illicit operations to restore order and accountability to Sector Gamma.\",\n  \"OBJECTIVES\": [\n    {\n      \"OBJECTIVE_ID\": \"M058_1\",\n      \"DESCRIPTION\": \"Infiltrate the Gamma Sector Administration Complex, Thorne's fortified headquarters.\",\n      \"STATUS\": \"ACTIVE\"\n    },\n    {\n      \"OBJECTIVE_ID\": \"M058_2\",\n      \"DESCRIPTION\": \"Locate and secure critical evidence of Thorne's corruption and his ties to the Crimson Syndicate within his private office or secure data servers.\",\n      \"STATUS\": \"ACTIVE\"\n    },\n    {\n      \"OBJECTIVE_ID\": \"M058_3\",\n      \"DESCRIPTION\": \"Neutralize Overseer Thorne, removing him from power and ending his corrupt reign.\",\n      \"STATUS\": \"ACTIVE\"\n    },\n    {\n      \"OBJECTIVE_ID\": \"M058_4\",\n      \"DESCRIPTION\": \"Disrupt Thorne's operational network by disabling key communication arrays or destroying illicit resource caches within the complex.\",\n      \"STATUS\": \"ACTIVE\"\n    }\n  ],\n  \"SECONDARY_OBJECTIVES\": [\n    {\n      \"OBJECTIVE_ID\": \"M058_S1\",\n      \"DESCRIPTION\": \"Identify and tag any high-ranking Crimson Syndicate operatives encountered within the complex for future intelligence gathering.\",\n      \"STATUS\": \"ACTIVE\"\n    },\n    {\n      \"OBJECTIVE_ID\": \"M058_S2\",\n      \"DESCRIPTION\": \"Recover or destroy Thorne's 'Black Book' ledger, detailing his illicit financial transactions.\",\n      \"STATUS\": \"ACTIVE\"\n    }\n  ],\n  \"CRITICAL_ASSETS\": [\n    \"Encrypted data drive for evidence extraction.\",\n    \"Access schematics for the Gamma Sector Administration Complex (provided in intel package).\",\n    \"Specialized breaching tools for reinforced access points.\"\n  ],\n  \"THREAT_ASSESSMENT\": [\n    \"Elite personal guard contingent loyal to Thorne.\",\n    \"Crimson Syndicate enforcers embedded within the complex's security.\",\n    \"Advanced surveillance systems and automated defensive turrets.\",\n    \"Potential for environmental hazards or traps within restricted areas.\"\n  ],\n  \"INTEL_PACKAGE\": {\n    \"LOCATION_OVERVIEW\": \"The Gamma Sector Administration Complex is a multi-level fortified structure, featuring a primary administrative tower, a secure data vault, and an underground resource processing facility. Thorne's private office is on the top floor of the administrative tower.\",\n    \"THORNE_PROFILE\": \"Overseer Thorne is a highly paranoid and ruthless individual, rarely leaving his complex. He is known to have a hidden safe room within his office. He trusts few, but relies heavily on his head of security, Commander Vex, who maintains a strict patrol schedule.\",\n    \"SYNDICATE_TIES\": \"Crimson Syndicate operatives are known to use the complex's lower levels as a staging ground for resource smuggling, with dedicated access routes and storage areas.\"\n  },\n  \"EXTRACTION_PROTOCOL\": \"Upon completion of objectives, proceed to the designated rooftop helipad for VTOL extraction. In case of primary exfil compromise, an emergency extraction beacon will be activated at the complex's secondary sub-level maintenance tunnel exit.\",\n  \"STATUS\": \"ACTIVE\"\n}\n```",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "62dmaeiUI9mTvr0P2ui1gQ4",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 832,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 1449,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 2293,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0058",
+    "timestamp": "2026-01-14T00:42:35.114616"
+  }
+}

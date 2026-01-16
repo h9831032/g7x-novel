@@ -1,0 +1,459 @@
+======================================================================
+RUN: RUN_20260114_000902_620392
+======================================================================
+Timestamp: 2026-01-14T00:09:06.926931
+Start: 2026-01-14T00:09:02.626398
+End: 2026-01-14T00:09:06.925930
+Duration: 4 sec
+
+Order Path: UNKNOWN
+Expected Missions: 3
+Done Missions: 3
+API Error Count: 0
+
+Exitcode: 0
+PASS: True
+Reason: ORDER_EOF
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_000907_044688
+======================================================================
+Timestamp: 2026-01-14T00:09:11.683422
+Start: 2026-01-14T00:09:07.045689
+End: 2026-01-14T00:09:11.682344
+Duration: 4 sec
+
+Order Path: UNKNOWN
+Expected Missions: 3
+Done Missions: 3
+API Error Count: 0
+
+Exitcode: 0
+PASS: True
+Reason: ORDER_EOF
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_000935_600973
+======================================================================
+Timestamp: 2026-01-14T00:10:31.390460
+Start: 2026-01-14T00:09:35.601974
+End: 2026-01-14T00:10:31.389491
+Duration: 55 sec
+
+Order Path: UNKNOWN
+Expected Missions: 120
+Done Missions: 16
+API Error Count: 104
+
+Exitcode: 1
+PASS: False
+Reason: API_ERROR
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_001823_575910
+======================================================================
+Timestamp: 2026-01-14T00:18:24.573652
+Start: 2026-01-14T00:18:23.576911
+End: 2026-01-14T00:18:24.572651
+Duration: 0 sec
+
+Order Path: UNKNOWN
+Expected Missions: 3
+Done Missions: 0
+API Error Count: 3
+
+Exitcode: 1
+PASS: False
+Reason: API_ERROR
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_001824_805452
+======================================================================
+Timestamp: 2026-01-14T00:19:11.111637
+Start: 2026-01-14T00:18:24.806454
+End: 2026-01-14T00:19:11.110636
+Duration: 46 sec
+
+Order Path: UNKNOWN
+Expected Missions: 120
+Done Missions: 0
+API Error Count: 120
+
+Exitcode: 1
+PASS: False
+Reason: API_ERROR
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_002903_283035
+======================================================================
+Timestamp: 2026-01-14T00:29:06.480476
+Start: 2026-01-14T00:29:03.286038
+End: 2026-01-14T00:29:06.478473
+Duration: 3 sec
+
+Order Path: UNKNOWN
+Expected Missions: 3
+Done Missions: 0
+API Error Count: 3
+
+Exitcode: 1
+PASS: False
+Reason: API_ERROR
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_003159_622715
+======================================================================
+Timestamp: 2026-01-14T00:32:02.632307
+Start: 2026-01-14T00:31:59.625718
+End: 2026-01-14T00:32:02.630321
+Duration: 3 sec
+
+Order Path: UNKNOWN
+Expected Missions: 3
+Done Missions: 0
+API Error Count: 3
+
+Exitcode: 1
+PASS: False
+Reason: API_ERROR
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_003721_187111
+======================================================================
+Timestamp: 2026-01-14T00:37:36.336688
+Start: 2026-01-14T00:37:21.191115
+End: 2026-01-14T00:37:36.335687
+Duration: 15 sec
+
+Order Path: UNKNOWN
+Expected Missions: 3
+Done Missions: 3
+API Error Count: 0
+
+Exitcode: 0
+PASS: True
+Reason: ORDER_EOF
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_003736_956290
+======================================================================
+Timestamp: 2026-01-14T00:49:07.597491
+Start: 2026-01-14T00:37:36.958292
+End: 2026-01-14T00:49:07.596490
+Duration: 690 sec
+
+Order Path: UNKNOWN
+Expected Missions: 120
+Done Missions: 120
+API Error Count: 0
+
+Exitcode: 0
+PASS: True
+Reason: ORDER_EOF
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_215821_829179
+======================================================================
+Timestamp: 2026-01-14T22:04:03.014546
+Start: None
+End: None
+Duration: 0 sec
+
+Order Path: UNKNOWN
+Expected Missions: 0
+Done Missions: 0
+API Error Count: 0
+
+Exitcode: 1
+PASS: False
+Reason: INTERRUPTED
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: MISSING
+  stdout_manager.txt: MISSING
+  stderr_manager.txt: MISSING
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_221346_612713
+======================================================================
+Timestamp: 2026-01-14T22:19:37.177191
+Start: None
+End: None
+Duration: 0 sec
+
+Order Path: UNKNOWN
+Expected Missions: 0
+Done Missions: 0
+API Error Count: 0
+
+Exitcode: 1
+PASS: False
+Reason: INTERRUPTED
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: MISSING
+  stdout_manager.txt: MISSING
+  stderr_manager.txt: MISSING
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_222348_939435
+======================================================================
+Timestamp: 2026-01-14T22:50:05.881364
+Start: None
+End: None
+Duration: 0 sec
+
+Order Path: UNKNOWN
+Expected Missions: 0
+Done Missions: 0
+API Error Count: 0
+
+Exitcode: 0
+PASS: True
+Reason: ORDER_EOF
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: MISSING
+  stdout_manager.txt: MISSING
+  stderr_manager.txt: MISSING
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_232801_316671
+======================================================================
+Timestamp: 2026-01-14T23:31:42.200180
+Start: None
+End: None
+Duration: 0 sec
+
+Order Path: UNKNOWN
+Expected Missions: 0
+Done Missions: 0
+API Error Count: 0
+
+Exitcode: 1
+PASS: False
+Reason: INTERRUPTED
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: MISSING
+  stdout_manager.txt: MISSING
+  stderr_manager.txt: MISSING
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_234013_812997
+======================================================================
+Timestamp: 2026-01-14T23:40:17.543725
+Start: 2026-01-14T23:40:13
+End: 2026-01-14T23:40:17
+Duration: 4 sec
+
+Order Path: UNKNOWN
+Expected Missions: 0
+Done Missions: 0
+API Error Count: 0
+
+Exitcode: 1
+PASS: False
+Reason: INTERRUPTED
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: MISSING
+  stderr_manager.txt: MISSING
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_234040_457989
+======================================================================
+Timestamp: 2026-01-14T23:45:17.342112
+Start: 2026-01-14T23:40:40
+End: 2026-01-14T23:45:17
+Duration: 277 sec
+
+Order Path: UNKNOWN
+Expected Missions: 0
+Done Missions: 0
+API Error Count: 0
+
+Exitcode: 1
+PASS: False
+Reason: INTERRUPTED
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: MISSING
+  stderr_manager.txt: MISSING
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_234856_377718
+======================================================================
+Timestamp: 2026-01-14T23:49:00.242475
+Start: 2026-01-14T23:48:56
+End: 2026-01-14T23:49:00
+Duration: 4 sec
+
+Order Path: UNKNOWN
+Expected Missions: 0
+Done Missions: 0
+API Error Count: 0
+
+Exitcode: 1
+PASS: False
+Reason: INTERRUPTED
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: MISSING
+  stderr_manager.txt: MISSING
+  exitcode.txt: EXISTS
+
+
+======================================================================
+======================================================================
+RUN: RUN_20260114_235228_901385
+======================================================================
+Timestamp: 2026-01-14T23:54:54.672878
+Start: 2026-01-14T23:52:28
+End: 2026-01-14T23:54:54
+Duration: 146 sec
+
+Order Path: UNKNOWN
+Expected Missions: 0
+Done Missions: 0
+API Error Count: 0
+
+Exitcode: 1
+PASS: False
+Reason: INTERRUPTED
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: MISSING
+  stderr_manager.txt: MISSING
+  exitcode.txt: EXISTS
+
+
+======================================================================

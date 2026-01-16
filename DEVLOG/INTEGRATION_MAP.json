@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "version": 2,
+    "updated_at": "2026-01-16T01:14:14.096254",
+    "total_progress": 1.0
+  },
+  "nodes": {
+    "MANAGER": {
+      "name": "Manager",
+      "status": "WELDED",
+      "path": "main/manager.py",
+      "progress": 1.0,
+      "type": "core"
+    },
+    "EVIDENCE_WRITER": {
+      "name": "Evidence Writer",
+      "status": "WELDED",
+      "path": "engine/evidence_writer.py",
+      "progress": 1.0,
+      "type": "core"
+    },
+    "DEVLOG_SYSTEM": {
+      "name": "Devlog System",
+      "status": "WELDED",
+      "path": "tools/devlog_writer.py",
+      "progress": 1.0,
+      "type": "module"
+    }
+  },
+  "edges": [
+    {
+      "from": "MANAGER",
+      "to": "EVIDENCE_WRITER",
+      "relation": "USES"
+    },
+    {
+      "from": "MANAGER",
+      "to": "DEVLOG_SYSTEM",
+      "relation": "USES"
+    }
+  ]
+}

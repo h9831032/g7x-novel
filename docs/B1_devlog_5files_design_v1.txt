@@ -1,0 +1,85 @@
+# B1 - DEVLOG 5파일 설계 매핑
+
+## 파일별 생성 시점 및 데이터 소스
+
+### 1. DAILY_REPORT_YYYY-MM-DD.txt
+**생성 시점**: RUN 종료 후 generate_devlog_5files() 실행 시
+**데이터 소스**:
+- verify_report.json (Evidence 결과)
+- delta 파일 스캔 (scan_delta_files)
+- INTEGRATION_MAP.json (전체 상태)
+**필수 필드**:
+- RUN ID
+- Exitcode
+- Expected/Done missions
+- Verdict (PASS/FAIL/UNKNOWN)
+- Delta 파일 목록
+- INTEGRATION_MAP 스냅샷
+
+### 2. EVIDENCE_LATEST.json
+**생성 시점**: 매 RUN 종료 시 (덮어쓰기)
+**데이터 소스**: verify_report.json
+**필수 필드**:
+- run_id
+- timestamp
+- exitcode
+- expected_missions
+- done_missions
+- api_error_count
+- pass (bool)
+- verdict (str)
+- reason_code
+
+### 3. DELTA_TODAY.json
+**생성 시점**: 매 RUN 종료 시 (덮어쓰기)
+**데이터 소스**: 파일 시스템 스캔 (최근 24시간)
+**필수 필드**:
+- date
+- timestamp
+- count
+- items (list)
+  - path
+  - change_type
+  - size
+
+### 4. NEXT_TOMORROW.json
+**생성 시점**: 매 RUN 종료 시 (덮어쓰기)
+**데이터 소스**: 템플릿 기반 생성
+**필수 필드**:
+- date
+- timestamp
+- tasks (list)
+  - id
+  - title
+  - priority
+  - reason
+  - related_files
+
+### 5. INTEGRATION_MAP.json
+**생성 시점**: 매 RUN 종료 시 (누적 갱신)
+**데이터 소스**: 기존 MAP + 현재 파일 시스템
+**필수 필드**:
+- meta
+  - version
+  - updated_at
+  - total_progress (0.0~1.0)
+- nodes (dict)
+  - {node_id}: {name, type, path, status, progress}
+- edges (list)
+  - {from, to, relation}
+
+## 구현 함수 매핑
+
+| 파일 | 함수 |
+|------|------|
+| DAILY_REPORT | write_daily_report() |
+| EVIDENCE_LATEST | write_evidence_latest() |
+| DELTA_TODAY | write_delta_today() |
+| NEXT_TOMORROW | write_next_tomorrow() |
+| INTEGRATION_MAP | write_integration_map() |
+
+## 공통 규칙
+- 모든 파일은 UTF-8 encoding
+- JSON은 indent=2, ensure_ascii=False
+- 날짜 형식: YYYY-MM-DD
+- 타임스탬프: ISO8601 format

@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M009",
+  "content": "Okay, I understand. You've given me the task identifier:\n\n**TASK_V3|mission=M009**\n\nThis tells me I'm operating under Task Version 3 and the specific mission is M009.\n\n**To help me fulfill this task, please provide more information. What is mission M009 about? What are my objectives? What resources do I have? What is the context?**\n\nFor example, you could tell me:\n\n*   \"Mission M009: Analyze customer feedback data to identify key areas for product improvement.\"\n*   \"Mission M009: Draft a marketing campaign for our new energy drink targeting young adults.\"\n*   \"Mission M009: Research the feasibility of expanding our operations into the European market.\"\n\nThe more information you provide, the better I can understand the task and assist you effectively. I'm ready to help!\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Okay, I understand. You've given me the task identifier:\n\n**TASK_V3|mission=M009**\n\nThis tells me I'm operating under Task Version 3 and the specific mission is M009.\n\n**To help me fulfill this task, please provide more information. What is mission M009 about? What are my objectives? What resources do I have? What is the context?**\n\nFor example, you could tell me:\n\n*   \"Mission M009: Analyze customer feedback data to identify key areas for product improvement.\"\n*   \"Mission M009: Draft a marketing campaign for our new energy drink targeting young adults.\"\n*   \"Mission M009: Research the feasibility of expanding our operations into the European market.\"\n\nThe more information you provide, the better I can understand the task and assist you effectively. I'm ready to help!\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.3756763418925177
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 11,
+      "candidatesTokenCount": 194,
+      "totalTokenCount": 205,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 194
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "FztmadK8Ge3h2roP4tz1mQg"
+  },
+  "mission_id": "mission_0009",
+  "timestamp": "2026-01-13T21:31:21.183532"
+}

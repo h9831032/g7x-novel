@@ -1,0 +1,83 @@
+NEXT_ORDER_SONNET.txt (다음 작업: 소넷 하청지시서)
+
+[ROLE] 부사장(설계감리/현장소장)
+[TASK] NEXT_STEP_REAL120_NIGHTFACTORY_V1
+[ROOT] C:\g7core\g7_v1
+[HARD_RULES]
+
+새 엔트리 금지(항상 main\manager.py)
+
+증거팩 없으면 FAIL
+
+예상 로그 금지(실행 로그만)
+
+ROWS=120 유지
+
+[GOAL]
+A) REAL120(120미션) 야간루프 1회 완주를 “증거팩으로 봉인”
+B) FAIL_BOX 발생 시 AUTO_REISSUE 최소형(재시도 1회) 추가
+C) POST_VERIFY 분리(후행 검증 스텝) 설계/스캐폴딩 1개 파일로 추가
+
+[WORK_A_REAL120]
+
+REAL120 주문서 파일 경로 확정:
+
+C:\g7core\g7_v1\GPTORDER\REAL120_A.txt (또는 기존 REAL120)
+
+night_loop로 1회 실행:
+
+.\tools\night_loop.ps1 -OrderPath "REAL120_A.txt" -Loops 1
+
+통과 조건:
+
+최신 RUN 폴더에 exitcode=0
+
+final_audit PASS=True
+
+verify_report/stamp_manifest/stdout/stderr 존재
+
+devlog.jsonl append 확인
+
+[WORK_B_AUTO_REISSUE_MINI]
+
+night_loop에서 FAIL 발생 시:
+
+FAIL_BOX로 복사(기존)
+
+추가로 C:\g7core\g7_v1\reissue_queue.jsonl에 RUN_ID 1줄 append
+
+다음 night_loop 시작 시:
+
+reissue_queue.jsonl에 항목이 있으면 그 RUN의 원본 order_path를 찾아 “재시도 1회” 수행
+
+재시도도 FAIL이면 queue에서 제거하고 STOP
+
+[WORK_C_POST_VERIFY_SKELETON]
+
+C:\g7core\g7_v1\tools\post_verify.py 생성(또는 main에 용접되는 위치)
+
+입력: run_path
+
+출력: verify_report.json / hash_manifest.json (스켈레톤이라도 생성)
+
+night_loop에서 PASS일 때만 post_verify 호출(후행)
+
+[OUTPUT_REQUIRED]
+
+수정된 파일 원문/경로
+
+REAL120 야간 1회 실행 “실제 콘솔 로그”
+
+생성된 RUN 폴더 경로 1개 + 증거팩 파일 목록
+
+reissue_queue.jsonl 생성/샘플 1줄
+
+post_verify.py 생성 + 1회 실행 로그
+
+[FAIL_FAST]
+
+REAL120이 120미션 아닌데 120이라고 우기면 FAIL
+
+실행 로그 없으면 FAIL
+
+새 엔트리 만들면 FAIL

@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0061",
+  "timestamp": "2026-01-14T00:43:06.483810",
+  "status": "SUCCESS",
+  "content_hash": "0fb5fa9348ce49b9e494ef2dbb34d84e00baf9dd",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M061",
+    "content": "**Mission Briefing: M061 - Psyche Reconnaissance Mission**\n\n**Mission ID:** M061\n**Mission Type:** Exploration\n**Target:** Asteroid belt between Mars and Jupiter, specifically asteroid 16 Psyche.\n\n**Primary Objective:**\nTo characterize the composition and potential resource value of asteroid 16 Psyche.\n\n**Secondary Objectives:**\n1.  Map surface features and topography of 16 Psyche.\n2.  Analyze the mineralogical and elemental composition of the asteroid's surface.\n3.  Search for any signs of active outgassing or cryovolcanism.\n\n**Payload:**\n*   Multispectral Imager\n*   Gamma-ray Spectrometer\n*   Neutron Spectrometer\n*   Magnetometer\n*   High-Resolution Camera\n\n**Duration:**\n2 years (orbital phase around 16 Psyche)\n\n**Current Status:**\nPlanned. Launch window TBD.\n\n**Key Information:**\nAsteroid 16 Psyche is a truly unique celestial body, distinguished by its incredibly high metal content. Current hypotheses suggest that Psyche could be the exposed nickel-iron core of a protoplanet that lost its rocky outer layers due to early solar system collisions. This mission offers an unprecedented opportunity to study a metallic world directly, providing invaluable insights into planetary differentiation, the formation of rocky planets, and the early solar system. Understanding its composition could also have significant implications for future space resource utilization.\n\n**Expected Challenges:**\n*   Long transit time to the asteroid belt.\n*   Precise orbital insertion and maintenance around an irregularly shaped asteroid.\n*   Characterizing a potentially highly reflective metallic surface.\n\nThis mission promises to be a groundbreaking endeavor, potentially rewriting our understanding of planetary formation.",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:43:07 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=4022",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "**Mission Briefing: M061 - Psyche Reconnaissance Mission**\n\n**Mission ID:** M061\n**Mission Type:** Exploration\n**Target:** Asteroid belt between Mars and Jupiter, specifically asteroid 16 Psyche.\n\n**Primary Objective:**\nTo characterize the composition and potential resource value of asteroid 16 Psyche.\n\n**Secondary Objectives:**\n1.  Map surface features and topography of 16 Psyche.\n2.  Analyze the mineralogical and elemental composition of the asteroid's surface.\n3.  Search for any signs of active outgassing or cryovolcanism.\n\n**Payload:**\n*   Multispectral Imager\n*   Gamma-ray Spectrometer\n*   Neutron Spectrometer\n*   Magnetometer\n*   High-Resolution Camera\n\n**Duration:**\n2 years (orbital phase around 16 Psyche)\n\n**Current Status:**\nPlanned. Launch window TBD.\n\n**Key Information:**\nAsteroid 16 Psyche is a truly unique celestial body, distinguished by its incredibly high metal content. Current hypotheses suggest that Psyche could be the exposed nickel-iron core of a protoplanet that lost its rocky outer layers due to early solar system collisions. This mission offers an unprecedented opportunity to study a metallic world directly, providing invaluable insights into planetary differentiation, the formation of rocky planets, and the early solar system. Understanding its composition could also have significant implications for future space resource utilization.\n\n**Expected Challenges:**\n*   Long transit time to the asteroid belt.\n*   Precise orbital insertion and maintenance around an irregularly shaped asteroid.\n*   Characterizing a potentially highly reflective metallic surface.\n\nThis mission promises to be a groundbreaking endeavor, potentially rewriting our understanding of planetary formation.",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "CmhmadbYO9K0vr0P_6P3gA0",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 367,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 234,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 613,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0061",
+    "timestamp": "2026-01-14T00:43:06.482811"
+  }
+}

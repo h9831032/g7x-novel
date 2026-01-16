@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M004",
+  "content": "Okay, I understand. You've initiated **TASK_V3** with the mission code **M004**.\n\nTo help you further, I need more information. Please tell me:\n\n*   **What is the objective of mission M004?** What are you trying to achieve?\n*   **What is the context of this mission?** What is the situation or problem that this mission is designed to address?\n*   **What resources are available for this mission?** Do you have data, tools, or personnel at your disposal?\n*   **What specific help do you need from me regarding this mission?** Are you looking for ideas, planning assistance, code, information, or something else?\n\nThe more details you provide, the better I can assist you with TASK_V3, mission M004.\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Okay, I understand. You've initiated **TASK_V3** with the mission code **M004**.\n\nTo help you further, I need more information. Please tell me:\n\n*   **What is the objective of mission M004?** What are you trying to achieve?\n*   **What is the context of this mission?** What is the situation or problem that this mission is designed to address?\n*   **What resources are available for this mission?** Do you have data, tools, or personnel at your disposal?\n*   **What specific help do you need from me regarding this mission?** Are you looking for ideas, planning assistance, code, information, or something else?\n\nThe more details you provide, the better I can assist you with TASK_V3, mission M004.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.2873504812067205
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 11,
+      "candidatesTokenCount": 176,
+      "totalTokenCount": 187,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 176
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "CTtmacK8Lf3k2roP9da4oQg"
+  },
+  "mission_id": "mission_0004",
+  "timestamp": "2026-01-13T21:31:07.156721"
+}

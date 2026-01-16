@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0019",
+  "timestamp": "2026-01-14T00:39:19.205292",
+  "status": "SUCCESS",
+  "content_hash": "3bc99f4ab6127ab6a3867f291b2b1d982c295a4a",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M019",
+    "content": "Okay, you've specified `mission=M019`.\n\nTo provide you with information about this mission, I need a bit more context. Could you please tell me:\n\n*   **What game, system, or fictional universe is M019 from?** (e.g., \"It's a mission in [Game Name]\", \"It's part of a custom RPG campaign\", \"It's a task in a project management system\").\n*   **What kind of information are you looking for?** (e.g., \"the objective\", \"a walkthrough\", \"rewards\", \"lore details\", \"prerequisites\").\n\nOnce I have that context, I can do my best to help you with Mission M019!",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:39:19 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=6058",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "Okay, you've specified `mission=M019`.\n\nTo provide you with information about this mission, I need a bit more context. Could you please tell me:\n\n*   **What game, system, or fictional universe is M019 from?** (e.g., \"It's a mission in [Game Name]\", \"It's part of a custom RPG campaign\", \"It's a task in a project management system\").\n*   **What kind of information are you looking for?** (e.g., \"the objective\", \"a walkthrough\", \"rewards\", \"lore details\", \"prerequisites\").\n\nOnce I have that context, I can do my best to help you with Mission M019!",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "J2dmabLaKMHt1e8PncPEiQ4",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 156,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 879,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1047,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0019",
+    "timestamp": "2026-01-14T00:39:19.204291"
+  }
+}

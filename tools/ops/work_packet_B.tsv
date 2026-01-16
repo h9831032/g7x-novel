@@ -1,0 +1,7 @@
+﻿row_id	lane	kind	task_signature	semantic_dup_key	input_path	output_path	action
+1	1	DATA	SIG_modern_chunks.jsonl	DATA|modern_chunks.jsonl|SYNC	C:\g6core\g6_v24\data\umr\chunks\modern_chunks.jsonl	C:/g7core/g7_v1/data_output/B/modern_chunks.jsonl	SYNC
+2	2	DATA	SIG_romance_chunks.jsonl	DATA|romance_chunks.jsonl|SYNC	C:\g6core\g6_v24\data\umr\chunks\romance_chunks.jsonl	C:/g7core/g7_v1/data_output/B/romance_chunks.jsonl	SYNC
+3	3	DATA	SIG_scifi_chunks.jsonl	DATA|scifi_chunks.jsonl|SYNC	C:\g6core\g6_v24\data\umr\chunks\scifi_chunks.jsonl	C:/g7core/g7_v1/data_output/B/scifi_chunks.jsonl	SYNC
+4	4	DATA	SIG_sport_chunks.jsonl	DATA|sport_chunks.jsonl|SYNC	C:\g6core\g6_v24\data\umr\chunks\sport_chunks.jsonl	C:/g7core/g7_v1/data_output/B/sport_chunks.jsonl	SYNC
+5	5	DATA	SIG_universal_chunks.jsonl	DATA|universal_chunks.jsonl|SYNC	C:\g6core\g6_v24\data\umr\chunks\universal_chunks.jsonl	C:/g7core/g7_v1/data_output/B/universal_chunks.jsonl	SYNC
+6	6	DATA	SIG_wuxia_chunks.jsonl	DATA|wuxia_chunks.jsonl|SYNC	C:\g6core\g6_v24\data\umr\chunks\wuxia_chunks.jsonl	C:/g7core/g7_v1/data_output/B/wuxia_chunks.jsonl	SYNC

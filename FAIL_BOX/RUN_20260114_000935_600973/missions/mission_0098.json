@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "FILL_basic_97",
+  "content": "Please provide me with more context! \"FILL_basic_97\" doesn't tell me what you want me to fill in or what the topic is. I need more information to help you. For example, are you:\n\n*   **Asking me to fill in the blank in a sentence?** If so, what is the sentence?\n*   **Asking me to write a paragraph about something?** If so, what is the topic?\n*   **Referring to a specific form or document?** If so, what is the form or document, and what section is \"basic_97\"?\n\nOnce you give me more details, I can assist you.\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Please provide me with more context! \"FILL_basic_97\" doesn't tell me what you want me to fill in or what the topic is. I need more information to help you. For example, are you:\n\n*   **Asking me to fill in the blank in a sentence?** If so, what is the sentence?\n*   **Asking me to write a paragraph about something?** If so, what is the topic?\n*   **Referring to a specific form or document?** If so, what is the form or document, and what section is \"basic_97\"?\n\nOnce you give me more details, I can assist you.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.22617901393345424
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 6,
+      "candidatesTokenCount": 140,
+      "totalTokenCount": 146,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 6
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 140
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "VmBmaffVLpek1e8P6OeZsAw"
+  },
+  "mission_id": "mission_0098",
+  "timestamp": "2026-01-14T00:10:16.093889"
+}

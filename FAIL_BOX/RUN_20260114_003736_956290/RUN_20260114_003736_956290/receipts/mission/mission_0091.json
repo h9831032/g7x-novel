@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0091",
+  "timestamp": "2026-01-14T00:46:48.272576",
+  "status": "SUCCESS",
+  "content_hash": "acac96392bd0233d99f33bab1bf3097d562572fb",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M091",
+    "content": "**Mission M091: Rally Point**\n\n**Campaign:** Arctic\n**Player Character:** Sergeant \"Soap\" MacTavish\n**Allies:** Captain Price, SAS forces\n**Antagonists:** Ultranationalists\n\n**Mission Briefing:**\nFollowing the catastrophic helicopter crash in the Arctic, you (as Soap) and Captain Price must link up with General Sheppard's convoy, which is expected to pass through the area. Your objective is to reach a designated rally point and establish contact.\n\n**Mission Walkthrough:**\n\n1.  **Regroup and Advance:** The mission begins immediately after the helicopter crash. You and Captain Price gather the surviving SAS soldiers. Your initial task is to push through the snowy, mountainous terrain, engaging small groups of Ultranationalist soldiers.\n2.  **Cross the Ice Field:** Navigate a treacherous ice field, using cover to eliminate enemy resistance positioned across the frozen landscape.\n3.  **The Valley:** Proceed through a narrow valley, which is heavily patrolled by enemy forces. Expect more intense firefights here, often involving enemies in elevated positions.\n4.  **The Frozen Ship:** Reach a large, ice-locked cargo ship. This ship is the designated rally point but is heavily occupied by Ultranationalist forces.\n5.  **Clear the Ship:** Clear the ship's decks and interior of all enemy combatants. This section often involves close-quarters combat and requires careful clearing of multiple levels.\n6.  **Establish Contact:** Once the ship is secure, you and Price set up a vantage point. Price attempts to contact General Sheppard's convoy.\n\n**Key Events/Outcome:**\nAs Price makes contact, the convoy is spotted in the distance. However, it soon comes under heavy attack and is destroyed. Following this devastating event, a massive nuclear detonation lights up the distant horizon, indicating the activation of one of Zakhaev's nuclear missiles (this is the outcome of the separate mission M092 \"Shock and Awe\"). The mission ends with the realization of the escalating global threat.",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:46:48 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=5585",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "**Mission M091: Rally Point**\n\n**Campaign:** Arctic\n**Player Character:** Sergeant \"Soap\" MacTavish\n**Allies:** Captain Price, SAS forces\n**Antagonists:** Ultranationalists\n\n**Mission Briefing:**\nFollowing the catastrophic helicopter crash in the Arctic, you (as Soap) and Captain Price must link up with General Sheppard's convoy, which is expected to pass through the area. Your objective is to reach a designated rally point and establish contact.\n\n**Mission Walkthrough:**\n\n1.  **Regroup and Advance:** The mission begins immediately after the helicopter crash. You and Captain Price gather the surviving SAS soldiers. Your initial task is to push through the snowy, mountainous terrain, engaging small groups of Ultranationalist soldiers.\n2.  **Cross the Ice Field:** Navigate a treacherous ice field, using cover to eliminate enemy resistance positioned across the frozen landscape.\n3.  **The Valley:** Proceed through a narrow valley, which is heavily patrolled by enemy forces. Expect more intense firefights here, often involving enemies in elevated positions.\n4.  **The Frozen Ship:** Reach a large, ice-locked cargo ship. This ship is the designated rally point but is heavily occupied by Ultranationalist forces.\n5.  **Clear the Ship:** Clear the ship's decks and interior of all enemy combatants. This section often involves close-quarters combat and requires careful clearing of multiple levels.\n6.  **Establish Contact:** Once the ship is secure, you and Price set up a vantage point. Price attempts to contact General Sheppard's convoy.\n\n**Key Events/Outcome:**\nAs Price makes contact, the convoy is spotted in the distance. However, it soon comes under heavy attack and is destroyed. Following this devastating event, a massive nuclear detonation lights up the distant horizon, indicating the activation of one of Zakhaev's nuclear missiles (this is the outcome of the separate mission M092 \"Shock and Awe\"). The mission ends with the realization of the escalating global threat.",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "6GhmaZrxLMilvr0P_cKzkA0",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 428,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 359,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 799,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0091",
+    "timestamp": "2026-01-14T00:46:48.272576"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M005",
+  "content": "Okay, I understand.  You want me to focus on tasks related to **Mission M005**.  Please provide me with more information about what you need me to do regarding Mission M005. For example, tell me:\n\n*   **What kind of task is this?** (e.g., planning, analysis, reporting, execution, monitoring, etc.)\n*   **What specific actions do you want me to take?** (e.g., \"Summarize the objectives of Mission M005,\" \"Create a timeline for Mission M005,\" \"Identify potential risks for Mission M005,\" \"Write a draft email to the team about Mission M005,\" etc.)\n*   **What is the context of Mission M005?** (e.g., What is the overall goal of the mission? Who are the key stakeholders? What are the relevant resources?)\n*   **Are there any specific constraints or guidelines?** (e.g., deadlines, budget limitations, specific formats, etc.)\n\nThe more information you give me, the better I can assist you with tasks related to Mission M005.\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Okay, I understand.  You want me to focus on tasks related to **Mission M005**.  Please provide me with more information about what you need me to do regarding Mission M005. For example, tell me:\n\n*   **What kind of task is this?** (e.g., planning, analysis, reporting, execution, monitoring, etc.)\n*   **What specific actions do you want me to take?** (e.g., \"Summarize the objectives of Mission M005,\" \"Create a timeline for Mission M005,\" \"Identify potential risks for Mission M005,\" \"Write a draft email to the team about Mission M005,\" etc.)\n*   **What is the context of Mission M005?** (e.g., What is the overall goal of the mission? Who are the key stakeholders? What are the relevant resources?)\n*   **Are there any specific constraints or guidelines?** (e.g., deadlines, budget limitations, specific formats, etc.)\n\nThe more information you give me, the better I can assist you with tasks related to Mission M005.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.26508618964523567
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 11,
+      "candidatesTokenCount": 244,
+      "totalTokenCount": 255,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 244
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "Cztmad6bN5220-kPz6qeuAc"
+  },
+  "mission_id": "mission_0005",
+  "timestamp": "2026-01-13T21:31:10.114063"
+}

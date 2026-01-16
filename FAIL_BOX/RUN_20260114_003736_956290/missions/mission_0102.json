@@ -1,0 +1,82 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M102",
+  "content": "Acknowledged. Retrieving details for `MISSION M102`.\n\n---\n\n**MISSION ID:** M102\n**MISSION TITLE:** The Rogue Signal\n**CLASSIFICATION:** Investigation, Data Recovery\n**STATUS:** Active\n\n**BRIEFING:**\nA faint, repeating distress signal has been detected originating from the derelict research vessel *Ares III*, which was abandoned nearly three cycles ago after a catastrophic system failure and presumed crew loss during deep space exploration. While the signal is fragmented and appears to be automated, its persistence suggests a deeper issue than initial assessments indicated, or perhaps a long-delayed secondary system coming online.\n\n**OBJECTIVE:**\n1.  **Infiltrate the *Ares III*:** Gain access to the vessel's bridge or main control room.\n2.  **Locate the Signal Source:** Pinpoint the origin of the distress signal within the ship.\n3.  **Retrieve Data Core:** Access the *Ares III*'s primary data core and extract all available logs and research data, specifically looking for information related to the anomaly detected before the ship went dark.\n4.  **Investigate Anomaly (Optional/Secondary):** If possible, identify the nature of the anomaly that caused the original system failure.\n\n**LOCATION:**\nOrbit of Planetoid Xylos-7, Sector Gamma-9, Outer Rim. The *Ares III* is drifting in a relatively stable but hazardous asteroid field.\n\n**KNOWN HAZARDS & CHALLENGES:**\n*   **Derelict Environment:** Power fluctuations, structural instability, depressurized zones.\n*   **Automated Defenses:** Remaining security systems may still be active, albeit degraded.\n*   **Environmental Dangers:** Micro-meteoroid showers are common in the asteroid field.\n*   **Unknown Entity:** The source of the original anomaly remains a mystery and could still be present or have left behind dangerous residues.\n\n**EXPECTED REWARD:**\n*   Credit Payout: 15,000 CR\n*   Reputation Boost: +10 (Exploration Guild)\n*   Bonus for Anomaly Identification: 5,000 CR + Rare Data Chip\n\n**RECOMMENDED EQUIPMENT:**\n*   Environmental Suit (Class B or higher)\n*   Utility Tool Kit (for bypassing security/repairs)\n*   Data Slicer/Hacking Device\n*   Long-range Scanner\n\n---\n\n**Proceed with caution. Good luck, Operative.**",
+  "raw_response": {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 13 Jan 2026 15:47:48 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=6700",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Acknowledged. Retrieving details for `MISSION M102`.\n\n---\n\n**MISSION ID:** M102\n**MISSION TITLE:** The Rogue Signal\n**CLASSIFICATION:** Investigation, Data Recovery\n**STATUS:** Active\n\n**BRIEFING:**\nA faint, repeating distress signal has been detected originating from the derelict research vessel *Ares III*, which was abandoned nearly three cycles ago after a catastrophic system failure and presumed crew loss during deep space exploration. While the signal is fragmented and appears to be automated, its persistence suggests a deeper issue than initial assessments indicated, or perhaps a long-delayed secondary system coming online.\n\n**OBJECTIVE:**\n1.  **Infiltrate the *Ares III*:** Gain access to the vessel's bridge or main control room.\n2.  **Locate the Signal Source:** Pinpoint the origin of the distress signal within the ship.\n3.  **Retrieve Data Core:** Access the *Ares III*'s primary data core and extract all available logs and research data, specifically looking for information related to the anomaly detected before the ship went dark.\n4.  **Investigate Anomaly (Optional/Secondary):** If possible, identify the nature of the anomaly that caused the original system failure.\n\n**LOCATION:**\nOrbit of Planetoid Xylos-7, Sector Gamma-9, Outer Rim. The *Ares III* is drifting in a relatively stable but hazardous asteroid field.\n\n**KNOWN HAZARDS & CHALLENGES:**\n*   **Derelict Environment:** Power fluctuations, structural instability, depressurized zones.\n*   **Automated Defenses:** Remaining security systems may still be active, albeit degraded.\n*   **Environmental Dangers:** Micro-meteoroid showers are common in the asteroid field.\n*   **Unknown Entity:** The source of the original anomaly remains a mystery and could still be present or have left behind dangerous residues.\n\n**EXPECTED REWARD:**\n*   Credit Payout: 15,000 CR\n*   Reputation Boost: +10 (Exploration Guild)\n*   Bonus for Anomaly Identification: 5,000 CR + Rare Data Chip\n\n**RECOMMENDED EQUIPMENT:**\n*   Environmental Suit (Class B or higher)\n*   Utility Tool Kit (for bypassing security/repairs)\n*   Data Slicer/Hacking Device\n*   Long-range Scanner\n\n---\n\n**Proceed with caution. Good luck, Operative.**",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-2.5-flash",
+    "prompt_feedback": null,
+    "response_id": "JGlmaf7nKcLkosUP7dX2kQ0",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 516,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 12,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 12
+        }
+      ],
+      "thoughts_token_count": 500,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1028,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": null
+  },
+  "attempt": 1,
+  "mission_id": "mission_0102",
+  "timestamp": "2026-01-14T00:47:48.162105"
+}

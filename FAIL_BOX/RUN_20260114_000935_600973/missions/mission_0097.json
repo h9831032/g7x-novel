@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "FILL_basic_96",
+  "content": "Please provide me with more context! \"FILL_basic_96\" doesn't tell me what you want me to fill in.  I need more information to understand what kind of content or data you're looking for. \n\nFor example, are you looking for:\n\n* **A specific type of data for a form?** (e.g., Name, Address, Phone Number)\n* **Code to fill a specific field in a program?** (e.g., a variable with a specific value)\n* **Content for a template or document?** (e.g., a paragraph of text)\n\nThe more information you give me, the better I can help you!\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Please provide me with more context! \"FILL_basic_96\" doesn't tell me what you want me to fill in.  I need more information to understand what kind of content or data you're looking for. \n\nFor example, are you looking for:\n\n* **A specific type of data for a form?** (e.g., Name, Address, Phone Number)\n* **Code to fill a specific field in a program?** (e.g., a variable with a specific value)\n* **Content for a template or document?** (e.g., a paragraph of text)\n\nThe more information you give me, the better I can help you!\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.37382104807886585
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 6,
+      "candidatesTokenCount": 145,
+      "totalTokenCount": 151,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 6
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 145
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "VGBmaZC7KaWn1e8P5tikiQ8"
+  },
+  "mission_id": "mission_0097",
+  "timestamp": "2026-01-14T00:10:13.939502"
+}

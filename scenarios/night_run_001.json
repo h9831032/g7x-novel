@@ -1,0 +1,14 @@
+{
+  "scenario_id": "night_run_001_v3_anti_refusal",
+  "config": {
+    "unit": 120,
+    "repeat": 1,
+    "task_profile": "DEVLOG_TEST",
+    "safety": {
+        "max_api_error_rate": 0.05,
+        "max_token_limit": 500000
+    },
+    "env_api_key_name": "G7X_GEMINI_API_KEY",
+    "work_mode": 2
+  }
+}

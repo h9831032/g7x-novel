@@ -1,0 +1,14 @@
+{
+  "mission_id": "mission_0064",
+  "timestamp": "2026-01-14T00:09:57.068888",
+  "status": "API_ERROR",
+  "content_hash": "540577d267be972b5e88f9d3fcb9915df7fdf137",
+  "metadata": {
+    "status": "API_ERROR",
+    "order": "FILL_basic_63",
+    "error": "HTTP 429",
+    "error_body": "{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n          ",
+    "mission_id": "mission_0064",
+    "timestamp": "2026-01-14T00:09:57.068888"
+  }
+}

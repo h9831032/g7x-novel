@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "FILL_basic_2",
+  "content": "Please provide me with more context! I need to know what you want me to fill in.  For example, are you looking for:\n\n*   **A specific type of content?** (e.g., a story, a poem, code, a list, a definition)\n*   **A specific topic?** (e.g., science, history, a particular hobby)\n*   **A specific format?** (e.g., a bulleted list, a paragraph, a table)\n*   **Any keywords or themes you want me to include?**\n\nThe more information you give me, the better I can fill in the blank!\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Please provide me with more context! I need to know what you want me to fill in.  For example, are you looking for:\n\n*   **A specific type of content?** (e.g., a story, a poem, code, a list, a definition)\n*   **A specific topic?** (e.g., science, history, a particular hobby)\n*   **A specific format?** (e.g., a bulleted list, a paragraph, a table)\n*   **Any keywords or themes you want me to include?**\n\nThe more information you give me, the better I can fill in the blank!\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.3205161716627038
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 5,
+      "candidatesTokenCount": 138,
+      "totalTokenCount": 143,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 5
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 138
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "M2BmaZ_wOdCk1e8P75W0iAs"
+  },
+  "mission_id": "mission_0003",
+  "timestamp": "2026-01-14T00:09:41.168820"
+}

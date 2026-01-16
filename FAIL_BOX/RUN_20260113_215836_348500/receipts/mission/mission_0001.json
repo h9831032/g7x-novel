@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0001",
+  "timestamp": "2026-01-13T21:58:39.200640",
+  "status": "SUCCESS",
+  "content_hash": "9aaeadc05abbac7193bef37ff03a03e745983b96",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M001",
+    "content": "Okay, I understand. You've given me the following task:\n\n**TASK_V3 | mission=M001**\n\nThis likely means:\n\n*   **TASK_V3:**  This is the identifier for the task itself, possibly indicating a version or category.\n*   **mission=M001:**  This specifies the particular mission that this task is related to. The mission is identified as \"M001\".\n\n**To help me be more useful, please tell me what you want me to *do* with this information.  For example, are you asking me to:**\n\n*   **Describe mission M001?** (e.g., \"What is the objective of mission M001?\")\n*   **Generate content related to mission M001?** (e.g., \"Write a short story about mission M001.\")\n*   **Find information about mission M001?** (e.g., \"Search the web for details about mission M001.\")\n*   **Create a plan for completing task TASK_V3 for mission M001?**\n*   **Something else entirely?**\n\nThe more context you provide, the better I can understand your request and give you a relevant and helpful response.\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Okay, I understand. You've given me the following task:\n\n**TASK_V3 | mission=M001**\n\nThis likely means:\n\n*   **TASK_V3:**  This is the identifier for the task itself, possibly indicating a version or category.\n*   **mission=M001:**  This specifies the particular mission that this task is related to. The mission is identified as \"M001\".\n\n**To help me be more useful, please tell me what you want me to *do* with this information.  For example, are you asking me to:**\n\n*   **Describe mission M001?** (e.g., \"What is the objective of mission M001?\")\n*   **Generate content related to mission M001?** (e.g., \"Write a short story about mission M001.\")\n*   **Find information about mission M001?** (e.g., \"Search the web for details about mission M001.\")\n*   **Create a plan for completing task TASK_V3 for mission M001?**\n*   **Something else entirely?**\n\nThe more context you provide, the better I can understand your request and give you a relevant and helpful response.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.24144299825032553
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 11,
+        "candidatesTokenCount": 276,
+        "totalTokenCount": 287,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 11
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 276
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "fUFmadXaCua50-kPn9uP2QM"
+    },
+    "mission_id": "mission_0001",
+    "timestamp": "2026-01-13T21:58:39.194286"
+  }
+}

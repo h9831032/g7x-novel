@@ -1,0 +1,82 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M024",
+  "content": "Mission M024 refers to the **Apollo-Soyuz Test Project (ASTP)**.\n\nThis historic mission, launched in **July 1975**, was the first joint space flight between the United States and the Soviet Union. It marked a significant moment of détente during the Cold War, demonstrating international cooperation in space.\n\n**Key aspects of ASTP:**\n*   **Purpose:** To test compatible rendezvous and docking systems and conduct joint scientific experiments.\n*   **Spacecraft:** An American Apollo Command/Service Module (CSM) and a Soviet Soyuz 7K-TM spacecraft.\n*   **Docking:** The two spacecraft successfully docked in Earth orbit, allowing the American and Soviet crews to exchange visits, share meals, and conduct joint experiments for two days.\n*   **Crews:**\n    *   **US Apollo:** Thomas Stafford, Vance Brand, Deke Slayton.\n    *   **Soviet Soyuz:** Alexei Leonov, Valery Kubasov.\n\nASTP was the final flight of an Apollo spacecraft and played a crucial role in laying the groundwork for future international space cooperation, including the Shuttle-Mir program and the International Space Station (ISS).",
+  "raw_response": {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 13 Jan 2026 15:39:42 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=5280",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Mission M024 refers to the **Apollo-Soyuz Test Project (ASTP)**.\n\nThis historic mission, launched in **July 1975**, was the first joint space flight between the United States and the Soviet Union. It marked a significant moment of détente during the Cold War, demonstrating international cooperation in space.\n\n**Key aspects of ASTP:**\n*   **Purpose:** To test compatible rendezvous and docking systems and conduct joint scientific experiments.\n*   **Spacecraft:** An American Apollo Command/Service Module (CSM) and a Soviet Soyuz 7K-TM spacecraft.\n*   **Docking:** The two spacecraft successfully docked in Earth orbit, allowing the American and Soviet crews to exchange visits, share meals, and conduct joint experiments for two days.\n*   **Crews:**\n    *   **US Apollo:** Thomas Stafford, Vance Brand, Deke Slayton.\n    *   **Soviet Soyuz:** Alexei Leonov, Valery Kubasov.\n\nASTP was the final flight of an Apollo spacecraft and played a crucial role in laying the groundwork for future international space cooperation, including the Shuttle-Mir program and the International Space Station (ISS).",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-2.5-flash",
+    "prompt_feedback": null,
+    "response_id": "PmdmaevZDoqnvr0Pn_qsoA4",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 245,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 12,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 12
+        }
+      ],
+      "thoughts_token_count": 651,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 908,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": null
+  },
+  "attempt": 1,
+  "mission_id": "mission_0024",
+  "timestamp": "2026-01-14T00:39:41.732203"
+}

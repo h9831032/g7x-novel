@@ -1,0 +1,362 @@
+"""
+G7X Manager (완전 재작성)
+- 제미나이 2.5 Flash 직접 호출 (urllib, 표준라이브러리만)
+- 증거팩 자동 생성 (evidence_writer 통합)
+- FAIL_FAST (실패해도 증거팩은 남김)
+"""
+
+import os
+import sys
+import json
+import urllib.request
+import urllib.parse
+import argparse
+import traceback
+from pathlib import Path
+from datetime import datetime
+from typing import List, Dict, Any
+
+# 제미나이 API 설정
+GEMINI_API_KEY = "AIzaSyBreX9jWMmxzCD7aySlpZ2I3PJUmcY1AgY"
+GEMINI_MODEL = "gemini-2.5-flash"  # 최신 모델명
+
+
+class TeeWriter:
+    """표준 출력을 파일과 콘솔 동시 기록"""
+    
+    def __init__(self, original, file_path: Path):
+        self.original = original
+        self.file = open(file_path, "w", encoding="utf-8")
+    
+    def write(self, text):
+        self.original.write(text)
+        self.file.write(text)
+        self.file.flush()
+    
+    def flush(self):
+        self.original.flush()
+        self.file.flush()
+
+
+class BasicEngineAdapter:
+    """제미나이 2.5 Flash API 직접 호출 (표준라이브러리만)"""
+    
+    def __init__(self):
+        self.api_key = GEMINI_API_KEY
+        self.model = GEMINI_MODEL
+        
+        if not self.api_key:
+            raise RuntimeError("[FAIL_FAST] GEMINI_API_KEY not configured")
+    
+    def execute_real_mission(self, mission_order: str, output_dir: Path) -> Dict[str, Any]:
+        """
+        실제 미션 실행 (제미나이 API 호출)
+        표준라이브러리만 사용 (urllib)
+        """
+        try:
+            # API 엔드포인트
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model}:generateContent?key={self.api_key}"
+            
+            # 요청 페이로드
+            payload = {
+                "contents": [{
+                    "parts": [{"text": mission_order}]
+                }],
+                "generationConfig": {
+                    "temperature": 0.7,
+                    "maxOutputTokens": 2048
+                }
+            }
+            
+            # JSON 인코딩
+            data = json.dumps(payload).encode('utf-8')
+            
+            # HTTP 요청
+            req = urllib.request.Request(
+                url,
+                data=data,
+                headers={'Content-Type': 'application/json'},
+                method='POST'
+            )
+            
+            # 타임아웃 30초
+            with urllib.request.urlopen(req, timeout=30) as response:
+                response_data = json.loads(response.read().decode('utf-8'))
+            
+            # 응답 파싱
+            content = ""
+            if "candidates" in response_data and len(response_data["candidates"]) > 0:
+                candidate = response_data["candidates"][0]
+                if "content" in candidate and "parts" in candidate["content"]:
+                    parts = candidate["content"]["parts"]
+                    content = "".join(p.get("text", "") for p in parts)
+            
+            result = {
+                "status": "SUCCESS",
+                "order": mission_order,
+                "content": content,
+                "content_length": len(content),
+                "model": self.model,
+                "raw_response": response_data
+            }
+            
+            return result
+            
+        except urllib.error.HTTPError as e:
+            error_body = e.read().decode('utf-8', errors='ignore')
+            return {
+                "status": "API_ERROR",
+                "order": mission_order,
+                "error": f"HTTP {e.code}",
+                "error_body": error_body[:500]
+            }
+        except Exception as e:
+            return {
+                "status": "ERROR",
+                "order": mission_order,
+                "error": str(e),
+                "traceback": traceback.format_exc()
+            }
+
+
+class EvidenceWriter:
+    """증거팩 작성기 (인라인 버전 - evidence_writer.py와 동일)"""
+    
+    def __init__(self, run_path: Path):
+        self.run_path = Path(run_path)
+        self.blackbox_path = self.run_path / "blackbox_log.jsonl"
+        self.receipts_dir = self.run_path / "receipts" / "mission"
+        self.api_receipt_path = self.run_path / "api_receipt.jsonl"
+        self.api_raw_dir = self.run_path / "api_raw"
+        
+        self.receipts_dir.mkdir(parents=True, exist_ok=True)
+        self.api_raw_dir.mkdir(parents=True, exist_ok=True)
+        
+        self._write_blackbox_event("START", {"run_id": self.run_path.name})
+    
+    def _write_blackbox_event(self, event_type: str, data: Dict[str, Any]):
+        event = {"timestamp": datetime.now().isoformat(), "event": event_type, "data": data}
+        with open(self.blackbox_path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(event, ensure_ascii=False) + "\n")
+    
+    def write_mission_receipt(self, mission_id: str, mission_data: Dict[str, Any]):
+        receipt_file = self.receipts_dir / f"{mission_id}.json"
+        receipt = {
+            "mission_id": mission_id,
+            "timestamp": datetime.now().isoformat(),
+            "status": mission_data.get("status", "UNKNOWN"),
+            "order": mission_data.get("order", ""),
+            "content_length": len(str(mission_data.get("content", ""))),
+            "metadata": mission_data
+        }
+        
+        with open(receipt_file, "w", encoding="utf-8") as f:
+            json.dump(receipt, f, indent=2, ensure_ascii=False)
+        
+        file_size = receipt_file.stat().st_size
+        
+        with open(self.api_receipt_path, "a", encoding="utf-8") as f:
+            f.write(json.dumps({
+                "mission_id": mission_id,
+                "timestamp": receipt["timestamp"],
+                "status": receipt["status"],
+                "size": file_size
+            }, ensure_ascii=False) + "\n")
+        
+        self._write_blackbox_event("PROGRESS", {"mission_id": mission_id, "status": receipt["status"]})
+    
+    def finalize(self, exitcode: int, total_missions: int):
+        print("[EVIDENCE] Finalizing...")
+        
+        exitcode_path = self.run_path / "exitcode.txt"
+        exitcode_path.write_text(str(exitcode), encoding="utf-8")
+        
+        receipts_list = list(self.receipts_dir.glob("*.json"))
+        receipts_count = len(receipts_list)
+        receipts_valid_count = sum(1 for r in receipts_list if r.stat().st_size >= 200)
+        
+        api_lines = sum(1 for _ in open(self.api_receipt_path, encoding="utf-8")) if self.api_receipt_path.exists() else 0
+        api_raw_count = len(list(self.api_raw_dir.glob("*.json")))
+        
+        stamp_path = self.run_path / "stamp_manifest.json"
+        with open(stamp_path, "w", encoding="utf-8") as f:
+            json.dump({"run_id": self.run_path.name, "timestamp": datetime.now().isoformat()}, f)
+        
+        verify_path = self.run_path / "verify_report.json"
+        verify_report = {
+            "run_id": self.run_path.name,
+            "exitcode": exitcode,
+            "receipts_count": receipts_count,
+            "receipts_valid_count": receipts_valid_count,
+            "api_receipt_lines": api_lines,
+            "api_raw_count": api_raw_count
+        }
+        with open(verify_path, "w", encoding="utf-8") as f:
+            json.dump(verify_report, f, indent=2, ensure_ascii=False)
+        
+        audit_path = self.run_path / "final_audit.json"
+        final_audit = {
+            "run_id": self.run_path.name,
+            "pass": (exitcode == 0 and receipts_valid_count >= total_missions and api_lines >= total_missions),
+            "exitcode": exitcode,
+            "expected_missions": total_missions,
+            "receipts_count": receipts_count,
+            "receipts_valid_count": receipts_valid_count
+        }
+        with open(audit_path, "w", encoding="utf-8") as f:
+            json.dump(final_audit, f, indent=2, ensure_ascii=False)
+        
+        self._write_blackbox_event("END", {"exitcode": exitcode, "pass": final_audit["pass"]})
+        print(f"[EVIDENCE] Complete: PASS={final_audit['pass']}")
+
+
+class RunManager:
+    """RUN 실행 관리자"""
+    
+    def __init__(self, ssot_root: Path):
+        self.ssot_root = Path(ssot_root)
+        self.runs_dir = self.ssot_root / "runs"
+        self.runs_dir.mkdir(exist_ok=True)
+        
+        # RUN 폴더 생성
+        run_id = datetime.now().strftime("RUN_%Y%m%d_%H%M%S_%f")[:26]
+        self.run_path = self.runs_dir / run_id
+        self.run_path.mkdir(exist_ok=True)
+        
+        # 증거팩 작성기 초기화
+        self.evidence = EvidenceWriter(self.run_path)
+        
+        # stdout/stderr 저장
+        self.stdout_path = self.run_path / "stdout_manager.txt"
+        self.stderr_path = self.run_path / "stderr_manager.txt"
+        
+        sys.stdout = TeeWriter(sys.stdout, self.stdout_path)
+        sys.stderr = TeeWriter(sys.stderr, self.stderr_path)
+        
+        print(f"[MANAGER] RUN CREATED: {self.run_path}")
+        print(f"TARGET_RUN_PATH:{self.run_path}")
+        
+        # 실엔진 초기화
+        try:
+            self.engine = BasicEngineAdapter()
+            print(f"[MANAGER] Engine initialized: {GEMINI_MODEL}")
+        except Exception as e:
+            print(f"[FAIL_FAST] Engine init failed: {e}")
+            raise
+    
+    def load_orders(self, order_path: Path) -> List[str]:
+        """오더 파일 로딩"""
+        if not order_path.exists():
+            raise FileNotFoundError(f"Order file not found: {order_path}")
+        
+        with open(order_path, "r", encoding="utf-8") as f:
+            lines = [line.strip() for line in f if line.strip()]
+        
+        print(f"[MANAGER] Loaded {len(lines)} orders")
+        return lines
+    
+    def execute_mission(self, mission_id: str, mission_order: str) -> Dict[str, Any]:
+        """개별 미션 실행 (실제 API 호출)"""
+        
+        print(f"[MISSION] {mission_id} | Order: {mission_order[:50]}...")
+        
+        # 실엔진 호출
+        result = self.engine.execute_real_mission(
+            mission_order=mission_order,
+            output_dir=self.run_path / "api_raw"
+        )
+        
+        result["mission_id"] = mission_id
+        result["timestamp"] = datetime.now().isoformat()
+        
+        # api_raw 저장
+        api_raw_file = self.run_path / "api_raw" / f"{mission_id}.json"
+        with open(api_raw_file, "w", encoding="utf-8") as f:
+            json.dump(result, f, indent=2, ensure_ascii=False)
+        
+        # 파일 크기 검증
+        file_size = api_raw_file.stat().st_size
+        if file_size < 1024:  # 1KB 미만
+            print(f"[WARNING] API raw file too small: {file_size} bytes")
+        
+        # 증거팩 기록
+        self.evidence.write_mission_receipt(mission_id, result)
+        
+        # missions 폴더 (호환용)
+        missions_dir = self.run_path / "missions"
+        missions_dir.mkdir(exist_ok=True)
+        mission_file = missions_dir / f"{mission_id}.json"
+        with open(mission_file, "w", encoding="utf-8") as f:
+            json.dump(result, f, indent=2, ensure_ascii=False)
+        
+        print(f"[MISSION] {mission_id} status: {result.get('status')}")
+        
+        return result
+    
+    def run(self, order_path: Path):
+        """메인 실행 루프"""
+        exitcode = 0
+        orders = []
+        
+        try:
+            orders = self.load_orders(order_path)
+            total_missions = len(orders)
+            
+            print(f"[MANAGER] Starting {total_missions} missions...")
+            
+            for idx, order in enumerate(orders, 1):
+                mission_id = f"mission_{idx:04d}"
+                
+                try:
+                    self.execute_mission(mission_id, order)
+                except Exception as e:
+                    print(f"[ERROR] Mission {mission_id} failed: {e}")
+                    traceback.print_exc()
+                    exitcode = 1
+            
+            print(f"[MANAGER] Completed {total_missions} missions")
+            
+        except Exception as e:
+            print(f"[FATAL] Manager execution failed: {e}")
+            traceback.print_exc()
+            exitcode = 2
+        
+        finally:
+            # 증거팩 최종 생성 (무조건 실행)
+            total = len(orders) if orders else 0
+            self.evidence.finalize(exitcode=exitcode, total_missions=total)
+            
+            print(f"[MANAGER] RUN COMPLETE: exitcode={exitcode}")
+            print(f"TARGET_RUN_PATH:{self.run_path}")
+        
+        return exitcode
+
+
+def main():
+    parser = argparse.ArgumentParser(description="G7X Manager")
+    parser.add_argument("--order_path", required=True, help="Order file path")
+    parser.add_argument("--ssot_root", default=r"C:\g7core\g7_v1", help="SSOT root")
+    
+    args = parser.parse_args()
+    
+    ssot_root = Path(args.ssot_root)
+    if not ssot_root.exists():
+        print(f"[ERROR] SSOT_ROOT not found: {ssot_root}")
+        sys.exit(1)
+    
+    order_path = Path(args.order_path)
+    if not order_path.is_absolute():
+        order_path = ssot_root / "GPTORDER" / args.order_path
+    
+    try:
+        manager = RunManager(ssot_root)
+        exitcode = manager.run(order_path)
+        sys.exit(exitcode)
+    except Exception as e:
+        print(f"[FATAL] Manager failed to start: {e}")
+        traceback.print_exc()
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,27 @@
+======================================================================
+RUN: RUN_20260113_215836_348500
+======================================================================
+Timestamp: 2026-01-13T21:59:26.891821
+Start: 2026-01-13T21:58:36.349501
+End: 2026-01-13T21:59:26.889819
+Duration: 50 sec
+
+Order Path: UNKNOWN
+Expected Missions: 120
+Done Missions: 11
+API Error Count: 109
+
+Exitcode: 1
+PASS: False
+Reason: API_ERROR
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================

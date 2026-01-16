@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M006",
+  "content": "Okay, I understand. The task is **TASK_V3** and the mission associated with it is **M006**. \n\nIs there anything else you need me to do with this information? For example, do you want me to:\n\n*   **Search for information about TASK_V3 and M006?**\n*   **Generate ideas related to TASK_V3 and M006?**\n*   **Help you brainstorm potential solutions for a problem related to TASK_V3 and M006?**\n*   **Simply store this information for later use?**\n\nPlease provide more context or instructions!\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Okay, I understand. The task is **TASK_V3** and the mission associated with it is **M006**. \n\nIs there anything else you need me to do with this information? For example, do you want me to:\n\n*   **Search for information about TASK_V3 and M006?**\n*   **Generate ideas related to TASK_V3 and M006?**\n*   **Help you brainstorm potential solutions for a problem related to TASK_V3 and M006?**\n*   **Simply store this information for later use?**\n\nPlease provide more context or instructions!\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.24713751849006205
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 11,
+      "candidatesTokenCount": 136,
+      "totalTokenCount": 147,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 136
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "DjtmaY7xNcie0-kPkJeTyQc"
+  },
+  "mission_id": "mission_0006",
+  "timestamp": "2026-01-13T21:31:12.269901"
+}

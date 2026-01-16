@@ -1,0 +1,1 @@
+Python: Python 3.11.9 | Path: C:\g6core\g6_v24\venv\Scripts\python.exe

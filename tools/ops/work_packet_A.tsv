@@ -1,0 +1,7 @@
+﻿row_id	lane	kind	task_signature	semantic_dup_key	input_path	output_path	action
+1	1	DATA	SIG_chunk_A_fantasy.jsonl	DATA|chunk_A_fantasy.jsonl|SYNC	C:\g6core\g6_v24\data\umr\chunks\chunk_A_fantasy.jsonl	C:/g7core/g7_v1/data_output/A/chunk_A_fantasy.jsonl	SYNC
+2	2	DATA	SIG_chunk_B_martial.jsonl	DATA|chunk_B_martial.jsonl|SYNC	C:\g6core\g6_v24\data\umr\chunks\chunk_B_martial.jsonl	C:/g7core/g7_v1/data_output/A/chunk_B_martial.jsonl	SYNC
+3	3	DATA	SIG_economy_chunks.jsonl	DATA|economy_chunks.jsonl|SYNC	C:\g6core\g6_v24\data\umr\chunks\economy_chunks.jsonl	C:/g7core/g7_v1/data_output/A/economy_chunks.jsonl	SYNC
+4	4	DATA	SIG_fantasy_chunks.jsonl	DATA|fantasy_chunks.jsonl|SYNC	C:\g6core\g6_v24\data\umr\chunks\fantasy_chunks.jsonl	C:/g7core/g7_v1/data_output/A/fantasy_chunks.jsonl	SYNC
+5	5	DATA	SIG_fusion_chunks.jsonl	DATA|fusion_chunks.jsonl|SYNC	C:\g6core\g6_v24\data\umr\chunks\fusion_chunks.jsonl	C:/g7core/g7_v1/data_output/A/fusion_chunks.jsonl	SYNC
+6	6	DATA	SIG_hunter_chunks.jsonl	DATA|hunter_chunks.jsonl|SYNC	C:\g6core\g6_v24\data\umr\chunks\hunter_chunks.jsonl	C:/g7core/g7_v1/data_output/A/hunter_chunks.jsonl	SYNC

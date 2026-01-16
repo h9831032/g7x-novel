@@ -1,0 +1,9 @@
+{
+    "card_id": "CARD_0574",
+    "priority": "P1",
+    "lane": "LANE_6",
+    "payload_type": "LOGIC",
+    "input_ref": "internal_db_574",
+    "prompt": "Analyze the fall of the Roman Empire. (Var_574)",
+    "created_at": "2026-01-06"
+}

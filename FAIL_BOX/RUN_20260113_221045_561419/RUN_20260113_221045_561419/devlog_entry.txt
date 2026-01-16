@@ -1,0 +1,27 @@
+======================================================================
+RUN: RUN_20260113_221045_561419
+======================================================================
+Timestamp: 2026-01-13T22:10:50.035420
+Start: 2026-01-13T22:10:45.562420
+End: 2026-01-13T22:10:50.034419
+Duration: 4 sec
+
+Order Path: UNKNOWN
+Expected Missions: 3
+Done Missions: 3
+API Error Count: 0
+
+Exitcode: 0
+PASS: True
+Reason: ORDER_EOF
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================

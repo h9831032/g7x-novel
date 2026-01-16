@@ -1,0 +1,602 @@
+[
+  {
+    "target_path": "engine/tools/plugin_M001.py",
+    "code_content": "def run(): print('Plugin M001 active')",
+    "id": "M001"
+  },
+  {
+    "target_path": "engine/tools/plugin_M002.py",
+    "code_content": "def run(): print('Plugin M002 active')",
+    "id": "M002"
+  },
+  {
+    "target_path": "engine/tools/plugin_M003.py",
+    "code_content": "def run(): print('Plugin M003 active')",
+    "id": "M003"
+  },
+  {
+    "target_path": "engine/tools/plugin_M004.py",
+    "code_content": "def run(): print('Plugin M004 active')",
+    "id": "M004"
+  },
+  {
+    "target_path": "engine/tools/plugin_M005.py",
+    "code_content": "def run(): print('Plugin M005 active')",
+    "id": "M005"
+  },
+  {
+    "target_path": "engine/tools/plugin_M006.py",
+    "code_content": "def run(): print('Plugin M006 active')",
+    "id": "M006"
+  },
+  {
+    "target_path": "engine/tools/plugin_M007.py",
+    "code_content": "def run(): print('Plugin M007 active')",
+    "id": "M007"
+  },
+  {
+    "target_path": "engine/tools/plugin_M008.py",
+    "code_content": "def run(): print('Plugin M008 active')",
+    "id": "M008"
+  },
+  {
+    "target_path": "engine/tools/plugin_M009.py",
+    "code_content": "def run(): print('Plugin M009 active')",
+    "id": "M009"
+  },
+  {
+    "target_path": "engine/tools/plugin_M010.py",
+    "code_content": "def run(): print('Plugin M010 active')",
+    "id": "M010"
+  },
+  {
+    "target_path": "engine/tools/plugin_M011.py",
+    "code_content": "def run(): print('Plugin M011 active')",
+    "id": "M011"
+  },
+  {
+    "target_path": "engine/tools/plugin_M012.py",
+    "code_content": "def run(): print('Plugin M012 active')",
+    "id": "M012"
+  },
+  {
+    "target_path": "engine/tools/plugin_M013.py",
+    "code_content": "def run(): print('Plugin M013 active')",
+    "id": "M013"
+  },
+  {
+    "target_path": "engine/tools/plugin_M014.py",
+    "code_content": "def run(): print('Plugin M014 active')",
+    "id": "M014"
+  },
+  {
+    "target_path": "engine/tools/plugin_M015.py",
+    "code_content": "def run(): print('Plugin M015 active')",
+    "id": "M015"
+  },
+  {
+    "target_path": "engine/tools/plugin_M016.py",
+    "code_content": "def run(): print('Plugin M016 active')",
+    "id": "M016"
+  },
+  {
+    "target_path": "engine/tools/plugin_M017.py",
+    "code_content": "def run(): print('Plugin M017 active')",
+    "id": "M017"
+  },
+  {
+    "target_path": "engine/tools/plugin_M018.py",
+    "code_content": "def run(): print('Plugin M018 active')",
+    "id": "M018"
+  },
+  {
+    "target_path": "engine/tools/plugin_M019.py",
+    "code_content": "def run(): print('Plugin M019 active')",
+    "id": "M019"
+  },
+  {
+    "target_path": "engine/tools/plugin_M020.py",
+    "code_content": "def run(): print('Plugin M020 active')",
+    "id": "M020"
+  },
+  {
+    "target_path": "engine/tools/plugin_M021.py",
+    "code_content": "def run(): print('Plugin M021 active')",
+    "id": "M021"
+  },
+  {
+    "target_path": "engine/tools/plugin_M022.py",
+    "code_content": "def run(): print('Plugin M022 active')",
+    "id": "M022"
+  },
+  {
+    "target_path": "engine/tools/plugin_M023.py",
+    "code_content": "def run(): print('Plugin M023 active')",
+    "id": "M023"
+  },
+  {
+    "target_path": "engine/tools/plugin_M024.py",
+    "code_content": "def run(): print('Plugin M024 active')",
+    "id": "M024"
+  },
+  {
+    "target_path": "engine/tools/plugin_M025.py",
+    "code_content": "def run(): print('Plugin M025 active')",
+    "id": "M025"
+  },
+  {
+    "target_path": "engine/tools/plugin_M026.py",
+    "code_content": "def run(): print('Plugin M026 active')",
+    "id": "M026"
+  },
+  {
+    "target_path": "engine/tools/plugin_M027.py",
+    "code_content": "def run(): print('Plugin M027 active')",
+    "id": "M027"
+  },
+  {
+    "target_path": "engine/tools/plugin_M028.py",
+    "code_content": "def run(): print('Plugin M028 active')",
+    "id": "M028"
+  },
+  {
+    "target_path": "engine/tools/plugin_M029.py",
+    "code_content": "def run(): print('Plugin M029 active')",
+    "id": "M029"
+  },
+  {
+    "target_path": "engine/tools/plugin_M030.py",
+    "code_content": "def run(): print('Plugin M030 active')",
+    "id": "M030"
+  },
+  {
+    "target_path": "engine/tools/plugin_M031.py",
+    "code_content": "def run(): print('Plugin M031 active')",
+    "id": "M031"
+  },
+  {
+    "target_path": "engine/tools/plugin_M032.py",
+    "code_content": "def run(): print('Plugin M032 active')",
+    "id": "M032"
+  },
+  {
+    "target_path": "engine/tools/plugin_M033.py",
+    "code_content": "def run(): print('Plugin M033 active')",
+    "id": "M033"
+  },
+  {
+    "target_path": "engine/tools/plugin_M034.py",
+    "code_content": "def run(): print('Plugin M034 active')",
+    "id": "M034"
+  },
+  {
+    "target_path": "engine/tools/plugin_M035.py",
+    "code_content": "def run(): print('Plugin M035 active')",
+    "id": "M035"
+  },
+  {
+    "target_path": "engine/tools/plugin_M036.py",
+    "code_content": "def run(): print('Plugin M036 active')",
+    "id": "M036"
+  },
+  {
+    "target_path": "engine/tools/plugin_M037.py",
+    "code_content": "def run(): print('Plugin M037 active')",
+    "id": "M037"
+  },
+  {
+    "target_path": "engine/tools/plugin_M038.py",
+    "code_content": "def run(): print('Plugin M038 active')",
+    "id": "M038"
+  },
+  {
+    "target_path": "engine/tools/plugin_M039.py",
+    "code_content": "def run(): print('Plugin M039 active')",
+    "id": "M039"
+  },
+  {
+    "target_path": "engine/tools/plugin_M040.py",
+    "code_content": "def run(): print('Plugin M040 active')",
+    "id": "M040"
+  },
+  {
+    "target_path": "engine/tools/plugin_M041.py",
+    "code_content": "def run(): print('Plugin M041 active')",
+    "id": "M041"
+  },
+  {
+    "target_path": "engine/tools/plugin_M042.py",
+    "code_content": "def run(): print('Plugin M042 active')",
+    "id": "M042"
+  },
+  {
+    "target_path": "engine/tools/plugin_M043.py",
+    "code_content": "def run(): print('Plugin M043 active')",
+    "id": "M043"
+  },
+  {
+    "target_path": "engine/tools/plugin_M044.py",
+    "code_content": "def run(): print('Plugin M044 active')",
+    "id": "M044"
+  },
+  {
+    "target_path": "engine/tools/plugin_M045.py",
+    "code_content": "def run(): print('Plugin M045 active')",
+    "id": "M045"
+  },
+  {
+    "target_path": "engine/tools/plugin_M046.py",
+    "code_content": "def run(): print('Plugin M046 active')",
+    "id": "M046"
+  },
+  {
+    "target_path": "engine/tools/plugin_M047.py",
+    "code_content": "def run(): print('Plugin M047 active')",
+    "id": "M047"
+  },
+  {
+    "target_path": "engine/tools/plugin_M048.py",
+    "code_content": "def run(): print('Plugin M048 active')",
+    "id": "M048"
+  },
+  {
+    "target_path": "engine/tools/plugin_M049.py",
+    "code_content": "def run(): print('Plugin M049 active')",
+    "id": "M049"
+  },
+  {
+    "target_path": "engine/tools/plugin_M050.py",
+    "code_content": "def run(): print('Plugin M050 active')",
+    "id": "M050"
+  },
+  {
+    "target_path": "engine/tools/plugin_M051.py",
+    "code_content": "def run(): print('Plugin M051 active')",
+    "id": "M051"
+  },
+  {
+    "target_path": "engine/tools/plugin_M052.py",
+    "code_content": "def run(): print('Plugin M052 active')",
+    "id": "M052"
+  },
+  {
+    "target_path": "engine/tools/plugin_M053.py",
+    "code_content": "def run(): print('Plugin M053 active')",
+    "id": "M053"
+  },
+  {
+    "target_path": "engine/tools/plugin_M054.py",
+    "code_content": "def run(): print('Plugin M054 active')",
+    "id": "M054"
+  },
+  {
+    "target_path": "engine/tools/plugin_M055.py",
+    "code_content": "def run(): print('Plugin M055 active')",
+    "id": "M055"
+  },
+  {
+    "target_path": "engine/tools/plugin_M056.py",
+    "code_content": "def run(): print('Plugin M056 active')",
+    "id": "M056"
+  },
+  {
+    "target_path": "engine/tools/plugin_M057.py",
+    "code_content": "def run(): print('Plugin M057 active')",
+    "id": "M057"
+  },
+  {
+    "target_path": "engine/tools/plugin_M058.py",
+    "code_content": "def run(): print('Plugin M058 active')",
+    "id": "M058"
+  },
+  {
+    "target_path": "engine/tools/plugin_M059.py",
+    "code_content": "def run(): print('Plugin M059 active')",
+    "id": "M059"
+  },
+  {
+    "target_path": "engine/tools/plugin_M060.py",
+    "code_content": "def run(): print('Plugin M060 active')",
+    "id": "M060"
+  },
+  {
+    "target_path": "engine/tools/plugin_M061.py",
+    "code_content": "def run(): print('Plugin M061 active')",
+    "id": "M061"
+  },
+  {
+    "target_path": "engine/tools/plugin_M062.py",
+    "code_content": "def run(): print('Plugin M062 active')",
+    "id": "M062"
+  },
+  {
+    "target_path": "engine/tools/plugin_M063.py",
+    "code_content": "def run(): print('Plugin M063 active')",
+    "id": "M063"
+  },
+  {
+    "target_path": "engine/tools/plugin_M064.py",
+    "code_content": "def run(): print('Plugin M064 active')",
+    "id": "M064"
+  },
+  {
+    "target_path": "engine/tools/plugin_M065.py",
+    "code_content": "def run(): print('Plugin M065 active')",
+    "id": "M065"
+  },
+  {
+    "target_path": "engine/tools/plugin_M066.py",
+    "code_content": "def run(): print('Plugin M066 active')",
+    "id": "M066"
+  },
+  {
+    "target_path": "engine/tools/plugin_M067.py",
+    "code_content": "def run(): print('Plugin M067 active')",
+    "id": "M067"
+  },
+  {
+    "target_path": "engine/tools/plugin_M068.py",
+    "code_content": "def run(): print('Plugin M068 active')",
+    "id": "M068"
+  },
+  {
+    "target_path": "engine/tools/plugin_M069.py",
+    "code_content": "def run(): print('Plugin M069 active')",
+    "id": "M069"
+  },
+  {
+    "target_path": "engine/tools/plugin_M070.py",
+    "code_content": "def run(): print('Plugin M070 active')",
+    "id": "M070"
+  },
+  {
+    "target_path": "engine/tools/plugin_M071.py",
+    "code_content": "def run(): print('Plugin M071 active')",
+    "id": "M071"
+  },
+  {
+    "target_path": "engine/tools/plugin_M072.py",
+    "code_content": "def run(): print('Plugin M072 active')",
+    "id": "M072"
+  },
+  {
+    "target_path": "engine/tools/plugin_M073.py",
+    "code_content": "def run(): print('Plugin M073 active')",
+    "id": "M073"
+  },
+  {
+    "target_path": "engine/tools/plugin_M074.py",
+    "code_content": "def run(): print('Plugin M074 active')",
+    "id": "M074"
+  },
+  {
+    "target_path": "engine/tools/plugin_M075.py",
+    "code_content": "def run(): print('Plugin M075 active')",
+    "id": "M075"
+  },
+  {
+    "target_path": "engine/tools/plugin_M076.py",
+    "code_content": "def run(): print('Plugin M076 active')",
+    "id": "M076"
+  },
+  {
+    "target_path": "engine/tools/plugin_M077.py",
+    "code_content": "def run(): print('Plugin M077 active')",
+    "id": "M077"
+  },
+  {
+    "target_path": "engine/tools/plugin_M078.py",
+    "code_content": "def run(): print('Plugin M078 active')",
+    "id": "M078"
+  },
+  {
+    "target_path": "engine/tools/plugin_M079.py",
+    "code_content": "def run(): print('Plugin M079 active')",
+    "id": "M079"
+  },
+  {
+    "target_path": "engine/tools/plugin_M080.py",
+    "code_content": "def run(): print('Plugin M080 active')",
+    "id": "M080"
+  },
+  {
+    "target_path": "engine/tools/plugin_M081.py",
+    "code_content": "def run(): print('Plugin M081 active')",
+    "id": "M081"
+  },
+  {
+    "target_path": "engine/tools/plugin_M082.py",
+    "code_content": "def run(): print('Plugin M082 active')",
+    "id": "M082"
+  },
+  {
+    "target_path": "engine/tools/plugin_M083.py",
+    "code_content": "def run(): print('Plugin M083 active')",
+    "id": "M083"
+  },
+  {
+    "target_path": "engine/tools/plugin_M084.py",
+    "code_content": "def run(): print('Plugin M084 active')",
+    "id": "M084"
+  },
+  {
+    "target_path": "engine/tools/plugin_M085.py",
+    "code_content": "def run(): print('Plugin M085 active')",
+    "id": "M085"
+  },
+  {
+    "target_path": "engine/tools/plugin_M086.py",
+    "code_content": "def run(): print('Plugin M086 active')",
+    "id": "M086"
+  },
+  {
+    "target_path": "engine/tools/plugin_M087.py",
+    "code_content": "def run(): print('Plugin M087 active')",
+    "id": "M087"
+  },
+  {
+    "target_path": "engine/tools/plugin_M088.py",
+    "code_content": "def run(): print('Plugin M088 active')",
+    "id": "M088"
+  },
+  {
+    "target_path": "engine/tools/plugin_M089.py",
+    "code_content": "def run(): print('Plugin M089 active')",
+    "id": "M089"
+  },
+  {
+    "target_path": "engine/tools/plugin_M090.py",
+    "code_content": "def run(): print('Plugin M090 active')",
+    "id": "M090"
+  },
+  {
+    "target_path": "engine/tools/plugin_M091.py",
+    "code_content": "def run(): print('Plugin M091 active')",
+    "id": "M091"
+  },
+  {
+    "target_path": "engine/tools/plugin_M092.py",
+    "code_content": "def run(): print('Plugin M092 active')",
+    "id": "M092"
+  },
+  {
+    "target_path": "engine/tools/plugin_M093.py",
+    "code_content": "def run(): print('Plugin M093 active')",
+    "id": "M093"
+  },
+  {
+    "target_path": "engine/tools/plugin_M094.py",
+    "code_content": "def run(): print('Plugin M094 active')",
+    "id": "M094"
+  },
+  {
+    "target_path": "engine/tools/plugin_M095.py",
+    "code_content": "def run(): print('Plugin M095 active')",
+    "id": "M095"
+  },
+  {
+    "target_path": "engine/tools/plugin_M096.py",
+    "code_content": "def run(): print('Plugin M096 active')",
+    "id": "M096"
+  },
+  {
+    "target_path": "engine/tools/plugin_M097.py",
+    "code_content": "def run(): print('Plugin M097 active')",
+    "id": "M097"
+  },
+  {
+    "target_path": "engine/tools/plugin_M098.py",
+    "code_content": "def run(): print('Plugin M098 active')",
+    "id": "M098"
+  },
+  {
+    "target_path": "engine/tools/plugin_M099.py",
+    "code_content": "def run(): print('Plugin M099 active')",
+    "id": "M099"
+  },
+  {
+    "target_path": "engine/tools/plugin_M100.py",
+    "code_content": "def run(): print('Plugin M100 active')",
+    "id": "M100"
+  },
+  {
+    "target_path": "engine/tools/plugin_M101.py",
+    "code_content": "def run(): print('Plugin M101 active')",
+    "id": "M101"
+  },
+  {
+    "target_path": "engine/tools/plugin_M102.py",
+    "code_content": "def run(): print('Plugin M102 active')",
+    "id": "M102"
+  },
+  {
+    "target_path": "engine/tools/plugin_M103.py",
+    "code_content": "def run(): print('Plugin M103 active')",
+    "id": "M103"
+  },
+  {
+    "target_path": "engine/tools/plugin_M104.py",
+    "code_content": "def run(): print('Plugin M104 active')",
+    "id": "M104"
+  },
+  {
+    "target_path": "engine/tools/plugin_M105.py",
+    "code_content": "def run(): print('Plugin M105 active')",
+    "id": "M105"
+  },
+  {
+    "target_path": "engine/tools/plugin_M106.py",
+    "code_content": "def run(): print('Plugin M106 active')",
+    "id": "M106"
+  },
+  {
+    "target_path": "engine/tools/plugin_M107.py",
+    "code_content": "def run(): print('Plugin M107 active')",
+    "id": "M107"
+  },
+  {
+    "target_path": "engine/tools/plugin_M108.py",
+    "code_content": "def run(): print('Plugin M108 active')",
+    "id": "M108"
+  },
+  {
+    "target_path": "engine/tools/plugin_M109.py",
+    "code_content": "def run(): print('Plugin M109 active')",
+    "id": "M109"
+  },
+  {
+    "target_path": "engine/tools/plugin_M110.py",
+    "code_content": "def run(): print('Plugin M110 active')",
+    "id": "M110"
+  },
+  {
+    "target_path": "engine/tools/plugin_M111.py",
+    "code_content": "def run(): print('Plugin M111 active')",
+    "id": "M111"
+  },
+  {
+    "target_path": "engine/tools/plugin_M112.py",
+    "code_content": "def run(): print('Plugin M112 active')",
+    "id": "M112"
+  },
+  {
+    "target_path": "engine/tools/plugin_M113.py",
+    "code_content": "def run(): print('Plugin M113 active')",
+    "id": "M113"
+  },
+  {
+    "target_path": "engine/tools/plugin_M114.py",
+    "code_content": "def run(): print('Plugin M114 active')",
+    "id": "M114"
+  },
+  {
+    "target_path": "engine/tools/plugin_M115.py",
+    "code_content": "def run(): print('Plugin M115 active')",
+    "id": "M115"
+  },
+  {
+    "target_path": "engine/tools/plugin_M116.py",
+    "code_content": "def run(): print('Plugin M116 active')",
+    "id": "M116"
+  },
+  {
+    "target_path": "engine/tools/plugin_M117.py",
+    "code_content": "def run(): print('Plugin M117 active')",
+    "id": "M117"
+  },
+  {
+    "target_path": "engine/tools/plugin_M118.py",
+    "code_content": "def run(): print('Plugin M118 active')",
+    "id": "M118"
+  },
+  {
+    "target_path": "engine/tools/plugin_M119.py",
+    "code_content": "def run(): print('Plugin M119 active')",
+    "id": "M119"
+  },
+  {
+    "target_path": "engine/tools/plugin_M120.py",
+    "code_content": "def run(): print('Plugin M120 active')",
+    "id": "M120"
+  }
+]

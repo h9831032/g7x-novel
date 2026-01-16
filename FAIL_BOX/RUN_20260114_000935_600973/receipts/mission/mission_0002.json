@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0002",
+  "timestamp": "2026-01-14T00:09:39.093109",
+  "status": "SUCCESS",
+  "content_hash": "c943d85b7d58489258af7de5f894e67001fae7fd",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "FILL_basic_1",
+    "content": "Please provide me with more context! I need to know what you want me to fill in.  For example, are you asking me to:\n\n* **Fill in a blank in a sentence?**  (e.g., \"The sky is ____ today.\")\n* **Complete a code snippet?** (e.g., `def add(x, y):  return ____`)\n* **Fill in a table?** (e.g., a table with columns like Name, Age, and City)\n* **Finish a story?** (e.g., \"Once upon a time, there was a ____\")\n\nGive me the sentence, code, table, or story you want me to complete, and I'll do my best!\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Please provide me with more context! I need to know what you want me to fill in.  For example, are you asking me to:\n\n* **Fill in a blank in a sentence?**  (e.g., \"The sky is ____ today.\")\n* **Complete a code snippet?** (e.g., `def add(x, y):  return ____`)\n* **Fill in a table?** (e.g., a table with columns like Name, Age, and City)\n* **Finish a story?** (e.g., \"Once upon a time, there was a ____\")\n\nGive me the sentence, code, table, or story you want me to complete, and I'll do my best!\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.25528821519985323
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 5,
+        "candidatesTokenCount": 157,
+        "totalTokenCount": 162,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 157
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "MmBmafLdAr24vr0P9s_FkQg"
+    },
+    "mission_id": "mission_0002",
+    "timestamp": "2026-01-14T00:09:39.092032"
+  }
+}

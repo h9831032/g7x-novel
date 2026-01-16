@@ -1,0 +1,9 @@
+{
+    "card_id": "CARD_0443",
+    "priority": "P2",
+    "lane": "LANE_3",
+    "payload_type": "TRANS",
+    "input_ref": "internal_db_443",
+    "prompt": "Translate 'Hello World' to 5 languages. (Var_443)",
+    "created_at": "2026-01-06"
+}

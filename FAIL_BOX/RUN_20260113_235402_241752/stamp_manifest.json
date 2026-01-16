@@ -1,0 +1,22 @@
+{
+  "run_id": "RUN_20260113_235402_241752",
+  "timestamp": "2026-01-13T23:54:02.246757",
+  "files": {
+    "blackbox_log.jsonl": {
+      "size": 113,
+      "sha1": "1088cf5b2011f8995c17ae01b41a04ba9c376a8b"
+    },
+    "exitcode.txt": {
+      "size": 1,
+      "sha1": "356a192b7913b04c54574d18c28d46e6395428ab"
+    },
+    "stderr_manager.txt": {
+      "size": 0,
+      "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    "stdout_manager.txt": {
+      "size": 823,
+      "sha1": "0cee6380997f8e4904eb1f800422a57924da61a2"
+    }
+  }
+}

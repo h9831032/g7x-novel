@@ -1,0 +1,4 @@
+[DATE] 20260114_211130
+[RESULT] REAL120_A night_loop 1회전 결과: (PASS/FAIL)
+[LATEST_RUN] C:\g7core\g7_v1\runs\RUN_20260114_003736_956290
+[TODO_NEXT] (api_error_count / done_missions / reason_code 중심으로 1줄)

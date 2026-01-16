@@ -1,0 +1,27 @@
+======================================================================
+RUN: RUN_20260114_003736_956290
+======================================================================
+Timestamp: 2026-01-14T00:49:07.597491
+Start: 2026-01-14T00:37:36.958292
+End: 2026-01-14T00:49:07.596490
+Duration: 690 sec
+
+Order Path: UNKNOWN
+Expected Missions: 120
+Done Missions: 120
+API Error Count: 0
+
+Exitcode: 0
+PASS: True
+Reason: ORDER_EOF
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================

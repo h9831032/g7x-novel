@@ -1,0 +1,3007 @@
+{
+  "version": "mission_catalog_v1",
+  "created_at": "20260110_162817",
+  "ssot_root": "C:\\g7core\\g7_v1",
+  "missions": [
+    {
+      "mission_id": "M001",
+      "title": "DEVLOG Night Report 1",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_01.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M001",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M002",
+      "title": "DEVLOG Night Report 2",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_02.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M002",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M003",
+      "title": "DEVLOG Night Report 3",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_03.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M003",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M004",
+      "title": "DEVLOG Night Report 4",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_04.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M004",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M005",
+      "title": "DEVLOG Night Report 5",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_05.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M005",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M006",
+      "title": "DEVLOG Night Report 6",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_06.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M006",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M007",
+      "title": "DEVLOG Night Report 7",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_07.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M007",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M008",
+      "title": "DEVLOG Night Report 8",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_08.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M008",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M009",
+      "title": "DEVLOG Night Report 9",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_09.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M009",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M010",
+      "title": "DEVLOG Night Report 10",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_10.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M010",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M011",
+      "title": "DEVLOG Night Report 11",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_11.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M011",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M012",
+      "title": "DEVLOG Night Report 12",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_12.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M012",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M013",
+      "title": "DEVLOG Night Report 13",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_13.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M013",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M014",
+      "title": "DEVLOG Night Report 14",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_14.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M014",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M015",
+      "title": "DEVLOG Night Report 15",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_15.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M015",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M016",
+      "title": "DEVLOG Night Report 16",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_16.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M016",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M017",
+      "title": "DEVLOG Night Report 17",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_17.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M017",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M018",
+      "title": "DEVLOG Night Report 18",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_18.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M018",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M019",
+      "title": "DEVLOG Night Report 19",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_19.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M019",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M020",
+      "title": "DEVLOG Night Report 20",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_20.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M020",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M021",
+      "title": "DEVLOG Night Report 21",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_21.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M021",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M022",
+      "title": "DEVLOG Night Report 22",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_22.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M022",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M023",
+      "title": "DEVLOG Night Report 23",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_23.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M023",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M024",
+      "title": "DEVLOG Night Report 24",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_24.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M024",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M025",
+      "title": "DEVLOG Night Report 25",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_25.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M025",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M026",
+      "title": "DEVLOG Night Report 26",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_26.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M026",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M027",
+      "title": "DEVLOG Night Report 27",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_27.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M027",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M028",
+      "title": "DEVLOG Night Report 28",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_28.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M028",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M029",
+      "title": "DEVLOG Night Report 29",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_29.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M029",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M030",
+      "title": "DEVLOG Night Report 30",
+      "kind": "DEVLOG",
+      "objective": "최신 RUN 3~10개 증거팩을 읽고, 사람이 읽는 '오늘 작업 개발일지'를 markdown으로 생성한다. 빈통/모니터링만 금지.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\DEVLOG\\DEVLOG_20260110_NIGHT_30.md"
+      ],
+      "acceptance": [
+        "파일이 실제로 생성되어야 한다",
+        "PLAN/DO/RESULT/ISSUE/DECISION/NEXT 섹션이 있어야 한다",
+        "최근 RUN 경로 3개 이상을 본문에 포함해야 한다",
+        "FAIL_BOX 건수와 Top3 이유를 포함해야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M030",
+      "tags": [
+        "devlog",
+        "night",
+        "human"
+      ]
+    },
+    {
+      "mission_id": "M031",
+      "title": "AUDIT Evidence Pack Scan 1",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M031.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M031",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M032",
+      "title": "AUDIT Evidence Pack Scan 2",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M032.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M032",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M033",
+      "title": "AUDIT Evidence Pack Scan 3",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M033.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M033",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M034",
+      "title": "AUDIT Evidence Pack Scan 4",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M034.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M034",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M035",
+      "title": "AUDIT Evidence Pack Scan 5",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M035.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M035",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M036",
+      "title": "AUDIT Evidence Pack Scan 6",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M036.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M036",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M037",
+      "title": "AUDIT Evidence Pack Scan 7",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M037.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M037",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M038",
+      "title": "AUDIT Evidence Pack Scan 8",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M038.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M038",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M039",
+      "title": "AUDIT Evidence Pack Scan 9",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M039.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M039",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M040",
+      "title": "AUDIT Evidence Pack Scan 10",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M040.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M040",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M041",
+      "title": "AUDIT Evidence Pack Scan 11",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M041.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M041",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M042",
+      "title": "AUDIT Evidence Pack Scan 12",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M042.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M042",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M043",
+      "title": "AUDIT Evidence Pack Scan 13",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M043.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M043",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M044",
+      "title": "AUDIT Evidence Pack Scan 14",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M044.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M044",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M045",
+      "title": "AUDIT Evidence Pack Scan 15",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M045.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M045",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M046",
+      "title": "AUDIT Evidence Pack Scan 16",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M046.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M046",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M047",
+      "title": "AUDIT Evidence Pack Scan 17",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M047.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M047",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M048",
+      "title": "AUDIT Evidence Pack Scan 18",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M048.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M048",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M049",
+      "title": "AUDIT Evidence Pack Scan 19",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M049.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M049",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M050",
+      "title": "AUDIT Evidence Pack Scan 20",
+      "kind": "AUDIT",
+      "objective": "runs 폴더에서 최신 RUN 5개를 스캔하여 증거팩 6종(api_receipt/blackbox/stamp_manifest/verify_report/final_audit/exitcode) 존재 여부와 라인카운트를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\AUDIT\\audit_20260110_M050.json"
+      ],
+      "acceptance": [
+        "RUN 5개 이상을 검사해야 한다",
+        "각 RUN별 파일 존재 여부와 라인카운트를 기록해야 한다",
+        "결과 JSON 파일이 생성되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M050",
+      "tags": [
+        "audit",
+        "evidence",
+        "counts"
+      ]
+    },
+    {
+      "mission_id": "M051",
+      "title": "PATCH 1: manager.py: SUBCONTRACT_ONLY 모드가 주문서(미션) 들어오면 '실행 모드'로 전환되게 용접",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M051.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M051",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M052",
+      "title": "PATCH 2: manager.py: GPTORDER 폴더에서 주문서 파일 읽기(인자 파일명) 경로 고정",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M052.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M052",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M053",
+      "title": "PATCH 3: TASK 파서: TASK_V3|mission=... 스키마 검사 및 unknown mission 즉시 FAIL",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M053.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M053",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M054",
+      "title": "PATCH 4: mission_catalog 로더: engine/mission_catalog_v1.json 로드+검증(필수필드 누락 FAIL)",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M054.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M054",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M055",
+      "title": "PATCH 5: blackbox_log: START/END, elapsed_ms, err_code, output_files 기록",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M055.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M055",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M056",
+      "title": "PATCH 6: stamp_manifest: mission_id -> output_files -> sha1 매핑 기록",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M056.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M056",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M057",
+      "title": "PATCH 7: verify_report: target/ok/fail, 파일존재율, sha1매핑율 통계 생성",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M057.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M057",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M058",
+      "title": "PATCH 8: stdout/stderr 캡처: runs/<RUN>/stdout.txt, stderr.txt 강제",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M058.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M058",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M059",
+      "title": "PATCH 9: hash_manifest: 주요 산출물 sha1 봉인",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M059.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M059",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M060",
+      "title": "PATCH 10: final_audit.json: run_id, success_rate, fail_reasons_top5, elapsed_total_ms",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M060.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M060",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M061",
+      "title": "PATCH 11: FAIL_FAST: 증거팩 누락 시 exitcode=1",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M061.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M061",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M062",
+      "title": "PATCH 12: tokens/usage 가드: REAL인데 usage==0 또는 누락이면 FAIL",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M062.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M062",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M063",
+      "title": "PATCH 13: api_raw 저장: runs/<RUN>/api_raw/mission_<id>.json 저장",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M063.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M063",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M064",
+      "title": "PATCH 14: 초고속 완료 탐지: elapsed_ms 임계치 이하인데 output 없음이면 FAIL",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M064.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M064",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M065",
+      "title": "PATCH 15: 중복산출물 탐지: output sha1 반복 급증 시 STOP",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M065.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M065",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M066",
+      "title": "PATCH 16: FailBox 격리: 실패는 FAIL_BOX로 이동 + requeue 기록",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M066.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M066",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M067",
+      "title": "PATCH 17: auto_requeue: 재시도 cap, 백오프, 재투입 이유 기록",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M067.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M067",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M068",
+      "title": "PATCH 18: PowerShell 창닫힘 방지: run.ps1 실패 시 pause/exitcode",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M068.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M068",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M069",
+      "title": "PATCH 19: SSOT_ROOT write 가드: C:\\g7core\\g7_v1 외 write 시 즉시 FAIL",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M069.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M069",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M070",
+      "title": "PATCH 20: LEGACY_ROOT write 금지: C:\\g6core\\g6_v24 write 탐지 시 FAIL",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M070.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M070",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M071",
+      "title": "PATCH 21: 오더 혼용 금지: GPTORDER_ONLY 강제, 다른 입력 통로 거부",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M071.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M071",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M072",
+      "title": "PATCH 22: RUN 이름 규칙 통일: RUN_YYYYMMDD_HHMMSS",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M072.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M072",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M073",
+      "title": "PATCH 23: DEVLOG builder 호출: DEVLOG 미션이 실제로 LLM을 호출하도록 연결",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M073.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M073",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M074",
+      "title": "PATCH 24: 미션별 output_files 비어있으면 FAIL",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M074.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M074",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M075",
+      "title": "PATCH 25: 미션별 stamp_key 중복 금지",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M075.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M075",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M076",
+      "title": "PATCH 26: RUN 요약 인덱스: runs/latest_run.json 갱신",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M076.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M076",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M077",
+      "title": "PATCH 27: 에러 요약: runs/FAIL_BOX/index.json 갱신",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M077.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M077",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M078",
+      "title": "PATCH 28: 환경변수 확인: GEMINI_API_KEY / MODEL 존재여부 기록",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M078.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M078",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M079",
+      "title": "PATCH 29: 의존성 경고: google.generativeai 경고를 devlog에 포함",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M079.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M079",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M080",
+      "title": "PATCH 30: 비용 상한: 일일 최대 호출/토큰 상한 초과 시 STOP",
+      "kind": "PATCH",
+      "objective": "통합 공장(메인)에서만 동작하도록 '가라 방지' 안전장치와 증거체인을 강화한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\engine"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\patch_notes_M080.txt"
+      ],
+      "acceptance": [
+        "manager.py 또는 관련 파일이 실제로 변경되어야 한다(해시 변화)",
+        "다음 run에서 증거팩 파일 중 최소 1개가 추가/강화되어야 한다"
+      ],
+      "llm_required": true,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M080",
+      "tags": [
+        "patch",
+        "weld",
+        "evidence"
+      ]
+    },
+    {
+      "mission_id": "M081",
+      "title": "HOUSEKEEP 1: Retention/Cleanup",
+      "kind": "HOUSEKEEP",
+      "objective": "runs/FAIL_BOX/DEVLOG/AUDIT 폴더 보관정책(7일 롤링, 크기 제한, 압축/삭제)을 실행하고 결과를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs",
+        "C:\\g7core\\g7_v1\\runs\\FAIL_BOX",
+        "C:\\g7core\\g7_v1\\DEVLOG"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\HOUSEKEEP\\housekeep_20260110_M081.json"
+      ],
+      "acceptance": [
+        "정리 결과 JSON 파일이 생성되어야 한다",
+        "삭제/이동/압축 목록이 포함되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M081",
+      "tags": [
+        "housekeep",
+        "retention"
+      ]
+    },
+    {
+      "mission_id": "M082",
+      "title": "HOUSEKEEP 2: Retention/Cleanup",
+      "kind": "HOUSEKEEP",
+      "objective": "runs/FAIL_BOX/DEVLOG/AUDIT 폴더 보관정책(7일 롤링, 크기 제한, 압축/삭제)을 실행하고 결과를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs",
+        "C:\\g7core\\g7_v1\\runs\\FAIL_BOX",
+        "C:\\g7core\\g7_v1\\DEVLOG"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\HOUSEKEEP\\housekeep_20260110_M082.json"
+      ],
+      "acceptance": [
+        "정리 결과 JSON 파일이 생성되어야 한다",
+        "삭제/이동/압축 목록이 포함되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M082",
+      "tags": [
+        "housekeep",
+        "retention"
+      ]
+    },
+    {
+      "mission_id": "M083",
+      "title": "HOUSEKEEP 3: Retention/Cleanup",
+      "kind": "HOUSEKEEP",
+      "objective": "runs/FAIL_BOX/DEVLOG/AUDIT 폴더 보관정책(7일 롤링, 크기 제한, 압축/삭제)을 실행하고 결과를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs",
+        "C:\\g7core\\g7_v1\\runs\\FAIL_BOX",
+        "C:\\g7core\\g7_v1\\DEVLOG"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\HOUSEKEEP\\housekeep_20260110_M083.json"
+      ],
+      "acceptance": [
+        "정리 결과 JSON 파일이 생성되어야 한다",
+        "삭제/이동/압축 목록이 포함되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M083",
+      "tags": [
+        "housekeep",
+        "retention"
+      ]
+    },
+    {
+      "mission_id": "M084",
+      "title": "HOUSEKEEP 4: Retention/Cleanup",
+      "kind": "HOUSEKEEP",
+      "objective": "runs/FAIL_BOX/DEVLOG/AUDIT 폴더 보관정책(7일 롤링, 크기 제한, 압축/삭제)을 실행하고 결과를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs",
+        "C:\\g7core\\g7_v1\\runs\\FAIL_BOX",
+        "C:\\g7core\\g7_v1\\DEVLOG"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\HOUSEKEEP\\housekeep_20260110_M084.json"
+      ],
+      "acceptance": [
+        "정리 결과 JSON 파일이 생성되어야 한다",
+        "삭제/이동/압축 목록이 포함되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M084",
+      "tags": [
+        "housekeep",
+        "retention"
+      ]
+    },
+    {
+      "mission_id": "M085",
+      "title": "HOUSEKEEP 5: Retention/Cleanup",
+      "kind": "HOUSEKEEP",
+      "objective": "runs/FAIL_BOX/DEVLOG/AUDIT 폴더 보관정책(7일 롤링, 크기 제한, 압축/삭제)을 실행하고 결과를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs",
+        "C:\\g7core\\g7_v1\\runs\\FAIL_BOX",
+        "C:\\g7core\\g7_v1\\DEVLOG"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\HOUSEKEEP\\housekeep_20260110_M085.json"
+      ],
+      "acceptance": [
+        "정리 결과 JSON 파일이 생성되어야 한다",
+        "삭제/이동/압축 목록이 포함되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M085",
+      "tags": [
+        "housekeep",
+        "retention"
+      ]
+    },
+    {
+      "mission_id": "M086",
+      "title": "HOUSEKEEP 6: Retention/Cleanup",
+      "kind": "HOUSEKEEP",
+      "objective": "runs/FAIL_BOX/DEVLOG/AUDIT 폴더 보관정책(7일 롤링, 크기 제한, 압축/삭제)을 실행하고 결과를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs",
+        "C:\\g7core\\g7_v1\\runs\\FAIL_BOX",
+        "C:\\g7core\\g7_v1\\DEVLOG"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\HOUSEKEEP\\housekeep_20260110_M086.json"
+      ],
+      "acceptance": [
+        "정리 결과 JSON 파일이 생성되어야 한다",
+        "삭제/이동/압축 목록이 포함되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M086",
+      "tags": [
+        "housekeep",
+        "retention"
+      ]
+    },
+    {
+      "mission_id": "M087",
+      "title": "HOUSEKEEP 7: Retention/Cleanup",
+      "kind": "HOUSEKEEP",
+      "objective": "runs/FAIL_BOX/DEVLOG/AUDIT 폴더 보관정책(7일 롤링, 크기 제한, 압축/삭제)을 실행하고 결과를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs",
+        "C:\\g7core\\g7_v1\\runs\\FAIL_BOX",
+        "C:\\g7core\\g7_v1\\DEVLOG"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\HOUSEKEEP\\housekeep_20260110_M087.json"
+      ],
+      "acceptance": [
+        "정리 결과 JSON 파일이 생성되어야 한다",
+        "삭제/이동/압축 목록이 포함되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M087",
+      "tags": [
+        "housekeep",
+        "retention"
+      ]
+    },
+    {
+      "mission_id": "M088",
+      "title": "HOUSEKEEP 8: Retention/Cleanup",
+      "kind": "HOUSEKEEP",
+      "objective": "runs/FAIL_BOX/DEVLOG/AUDIT 폴더 보관정책(7일 롤링, 크기 제한, 압축/삭제)을 실행하고 결과를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs",
+        "C:\\g7core\\g7_v1\\runs\\FAIL_BOX",
+        "C:\\g7core\\g7_v1\\DEVLOG"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\HOUSEKEEP\\housekeep_20260110_M088.json"
+      ],
+      "acceptance": [
+        "정리 결과 JSON 파일이 생성되어야 한다",
+        "삭제/이동/압축 목록이 포함되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M088",
+      "tags": [
+        "housekeep",
+        "retention"
+      ]
+    },
+    {
+      "mission_id": "M089",
+      "title": "HOUSEKEEP 9: Retention/Cleanup",
+      "kind": "HOUSEKEEP",
+      "objective": "runs/FAIL_BOX/DEVLOG/AUDIT 폴더 보관정책(7일 롤링, 크기 제한, 압축/삭제)을 실행하고 결과를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs",
+        "C:\\g7core\\g7_v1\\runs\\FAIL_BOX",
+        "C:\\g7core\\g7_v1\\DEVLOG"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\HOUSEKEEP\\housekeep_20260110_M089.json"
+      ],
+      "acceptance": [
+        "정리 결과 JSON 파일이 생성되어야 한다",
+        "삭제/이동/압축 목록이 포함되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M089",
+      "tags": [
+        "housekeep",
+        "retention"
+      ]
+    },
+    {
+      "mission_id": "M090",
+      "title": "HOUSEKEEP 10: Retention/Cleanup",
+      "kind": "HOUSEKEEP",
+      "objective": "runs/FAIL_BOX/DEVLOG/AUDIT 폴더 보관정책(7일 롤링, 크기 제한, 압축/삭제)을 실행하고 결과를 기록한다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\runs",
+        "C:\\g7core\\g7_v1\\runs\\FAIL_BOX",
+        "C:\\g7core\\g7_v1\\DEVLOG"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\HOUSEKEEP\\housekeep_20260110_M090.json"
+      ],
+      "acceptance": [
+        "정리 결과 JSON 파일이 생성되어야 한다",
+        "삭제/이동/압축 목록이 포함되어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M090",
+      "tags": [
+        "housekeep",
+        "retention"
+      ]
+    },
+    {
+      "mission_id": "M091",
+      "title": "GUARD 1: SSOT_ROOT/LEGACY_ROOT 경계 가드 실행(WRITE 차단)",
+      "kind": "GUARD",
+      "objective": "운영 헌법 위반을 자동 차단하고 증거로 남긴다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\tools"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\GUARD\\guard_20260110_M091.json"
+      ],
+      "acceptance": [
+        "가드 결과 JSON이 생성되어야 한다",
+        "위반 발견 시 exitcode=1 또는 FAIL_BOX 기록이 있어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M091",
+      "tags": [
+        "guard",
+        "policy"
+      ]
+    },
+    {
+      "mission_id": "M092",
+      "title": "GUARD 2: 환경변수 가드(API 키/모델/리밋) 체크 및 기록",
+      "kind": "GUARD",
+      "objective": "운영 헌법 위반을 자동 차단하고 증거로 남긴다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\tools"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\GUARD\\guard_20260110_M092.json"
+      ],
+      "acceptance": [
+        "가드 결과 JSON이 생성되어야 한다",
+        "위반 발견 시 exitcode=1 또는 FAIL_BOX 기록이 있어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M092",
+      "tags": [
+        "guard",
+        "policy"
+      ]
+    },
+    {
+      "mission_id": "M093",
+      "title": "GUARD 3: 인코딩 가드(UTF-8 no BOM) 검사",
+      "kind": "GUARD",
+      "objective": "운영 헌법 위반을 자동 차단하고 증거로 남긴다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\tools"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\GUARD\\guard_20260110_M093.json"
+      ],
+      "acceptance": [
+        "가드 결과 JSON이 생성되어야 한다",
+        "위반 발견 시 exitcode=1 또는 FAIL_BOX 기록이 있어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M093",
+      "tags": [
+        "guard",
+        "policy"
+      ]
+    },
+    {
+      "mission_id": "M094",
+      "title": "GUARD 4: RUN 폴더 생성 규칙 가드",
+      "kind": "GUARD",
+      "objective": "운영 헌법 위반을 자동 차단하고 증거로 남긴다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\tools"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\GUARD\\guard_20260110_M094.json"
+      ],
+      "acceptance": [
+        "가드 결과 JSON이 생성되어야 한다",
+        "위반 발견 시 exitcode=1 또는 FAIL_BOX 기록이 있어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M094",
+      "tags": [
+        "guard",
+        "policy"
+      ]
+    },
+    {
+      "mission_id": "M095",
+      "title": "GUARD 5: 증거팩 6종 존재 가드(없으면 FAIL)",
+      "kind": "GUARD",
+      "objective": "운영 헌법 위반을 자동 차단하고 증거로 남긴다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\tools"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\GUARD\\guard_20260110_M095.json"
+      ],
+      "acceptance": [
+        "가드 결과 JSON이 생성되어야 한다",
+        "위반 발견 시 exitcode=1 또는 FAIL_BOX 기록이 있어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M095",
+      "tags": [
+        "guard",
+        "policy"
+      ]
+    },
+    {
+      "mission_id": "M096",
+      "title": "GUARD 6: 중복 스탬프/중복 미션 가드",
+      "kind": "GUARD",
+      "objective": "운영 헌법 위반을 자동 차단하고 증거로 남긴다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\tools"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\GUARD\\guard_20260110_M096.json"
+      ],
+      "acceptance": [
+        "가드 결과 JSON이 생성되어야 한다",
+        "위반 발견 시 exitcode=1 또는 FAIL_BOX 기록이 있어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M096",
+      "tags": [
+        "guard",
+        "policy"
+      ]
+    },
+    {
+      "mission_id": "M097",
+      "title": "GUARD 7: 오더 혼용 금지 가드(GPTORDER_ONLY)",
+      "kind": "GUARD",
+      "objective": "운영 헌법 위반을 자동 차단하고 증거로 남긴다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\tools"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\GUARD\\guard_20260110_M097.json"
+      ],
+      "acceptance": [
+        "가드 결과 JSON이 생성되어야 한다",
+        "위반 발견 시 exitcode=1 또는 FAIL_BOX 기록이 있어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M097",
+      "tags": [
+        "guard",
+        "policy"
+      ]
+    },
+    {
+      "mission_id": "M098",
+      "title": "GUARD 8: 타임아웃/재시도 상한 가드",
+      "kind": "GUARD",
+      "objective": "운영 헌법 위반을 자동 차단하고 증거로 남긴다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\tools"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\GUARD\\guard_20260110_M098.json"
+      ],
+      "acceptance": [
+        "가드 결과 JSON이 생성되어야 한다",
+        "위반 발견 시 exitcode=1 또는 FAIL_BOX 기록이 있어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M098",
+      "tags": [
+        "guard",
+        "policy"
+      ]
+    },
+    {
+      "mission_id": "M099",
+      "title": "GUARD 9: 초고속 완료 탐지 가드",
+      "kind": "GUARD",
+      "objective": "운영 헌법 위반을 자동 차단하고 증거로 남긴다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\tools"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\GUARD\\guard_20260110_M099.json"
+      ],
+      "acceptance": [
+        "가드 결과 JSON이 생성되어야 한다",
+        "위반 발견 시 exitcode=1 또는 FAIL_BOX 기록이 있어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M099",
+      "tags": [
+        "guard",
+        "policy"
+      ]
+    },
+    {
+      "mission_id": "M100",
+      "title": "GUARD 10: 비용 상한 가드(일일 최대 호출)",
+      "kind": "GUARD",
+      "objective": "운영 헌법 위반을 자동 차단하고 증거로 남긴다.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\main\\manager.py",
+        "C:\\g7core\\g7_v1\\tools"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\runs\\GUARD\\guard_20260110_M100.json"
+      ],
+      "acceptance": [
+        "가드 결과 JSON이 생성되어야 한다",
+        "위반 발견 시 exitcode=1 또는 FAIL_BOX 기록이 있어야 한다"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_FAST",
+      "stamp_key": "STAMP_M100",
+      "tags": [
+        "guard",
+        "policy"
+      ]
+    },
+    {
+      "mission_id": "M101",
+      "title": "INDEX 1: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M101.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M101.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M101",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M102",
+      "title": "INDEX 2: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M102.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M102.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M102",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M103",
+      "title": "INDEX 3: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M103.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M103.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M103",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M104",
+      "title": "INDEX 4: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M104.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M104.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M104",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M105",
+      "title": "INDEX 5: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M105.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M105.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M105",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M106",
+      "title": "INDEX 6: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M106.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M106.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M106",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M107",
+      "title": "INDEX 7: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M107.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M107.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M107",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M108",
+      "title": "INDEX 8: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M108.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M108.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M108",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M109",
+      "title": "INDEX 9: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M109.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M109.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M109",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M110",
+      "title": "INDEX 10: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M110.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M110.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M110",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M111",
+      "title": "INDEX 11: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M111.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M111.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M111",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M112",
+      "title": "INDEX 12: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M112.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M112.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M112",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M113",
+      "title": "INDEX 13: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M113.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M113.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M113",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M114",
+      "title": "INDEX 14: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M114.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M114.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M114",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M115",
+      "title": "INDEX 15: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M115.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M115.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M115",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M116",
+      "title": "INDEX 16: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M116.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M116.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M116",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M117",
+      "title": "INDEX 17: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M117.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M117.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M117",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M118",
+      "title": "INDEX 18: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M118.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M118.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M118",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M119",
+      "title": "INDEX 19: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M119.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M119.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M119",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    },
+    {
+      "mission_id": "M120",
+      "title": "INDEX 20: Chunk Map Build",
+      "kind": "INDEX",
+      "objective": "library 폴더를 스캔하여 청크 맵(csv/json)을 생성한다. 레코드 0이면 FAIL.",
+      "input_paths": [
+        "C:\\g7core\\g7_v1\\library"
+      ],
+      "expected_outputs": [
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M120.csv",
+        "C:\\g7core\\g7_v1\\index\\chunk_map_20260110_M120.json"
+      ],
+      "acceptance": [
+        "csv/json 둘 다 생성되어야 한다",
+        "레코드 수가 0이면 FAIL"
+      ],
+      "llm_required": false,
+      "fail_policy": "FAIL_BOX",
+      "stamp_key": "STAMP_M120",
+      "tags": [
+        "index",
+        "chunk"
+      ]
+    }
+  ]
+}

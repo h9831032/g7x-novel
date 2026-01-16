@@ -1,0 +1,965 @@
+{
+    "schema_version": 3,
+    "tasks": {
+        "devlog_tick_001": {
+            "id": "devlog_tick_001",
+            "objective": "tick 001: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_001.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_002": {
+            "id": "devlog_tick_002",
+            "objective": "tick 002: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_002.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_003": {
+            "id": "devlog_tick_003",
+            "objective": "tick 003: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_003.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_004": {
+            "id": "devlog_tick_004",
+            "objective": "tick 004: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_004.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_005": {
+            "id": "devlog_tick_005",
+            "objective": "tick 005: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_005.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_006": {
+            "id": "devlog_tick_006",
+            "objective": "tick 006: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_006.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_007": {
+            "id": "devlog_tick_007",
+            "objective": "tick 007: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_007.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_008": {
+            "id": "devlog_tick_008",
+            "objective": "tick 008: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_008.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_009": {
+            "id": "devlog_tick_009",
+            "objective": "tick 009: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_009.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_010": {
+            "id": "devlog_tick_010",
+            "objective": "tick 010: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_010.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_011": {
+            "id": "devlog_tick_011",
+            "objective": "tick 011: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_011.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_012": {
+            "id": "devlog_tick_012",
+            "objective": "tick 012: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_012.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_013": {
+            "id": "devlog_tick_013",
+            "objective": "tick 013: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_013.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_014": {
+            "id": "devlog_tick_014",
+            "objective": "tick 014: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_014.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_015": {
+            "id": "devlog_tick_015",
+            "objective": "tick 015: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_015.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_016": {
+            "id": "devlog_tick_016",
+            "objective": "tick 016: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_016.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_017": {
+            "id": "devlog_tick_017",
+            "objective": "tick 017: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_017.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_018": {
+            "id": "devlog_tick_018",
+            "objective": "tick 018: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_018.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_019": {
+            "id": "devlog_tick_019",
+            "objective": "tick 019: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_019.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_020": {
+            "id": "devlog_tick_020",
+            "objective": "tick 020: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_020.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_021": {
+            "id": "devlog_tick_021",
+            "objective": "tick 021: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_021.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_022": {
+            "id": "devlog_tick_022",
+            "objective": "tick 022: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_022.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_023": {
+            "id": "devlog_tick_023",
+            "objective": "tick 023: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_023.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_024": {
+            "id": "devlog_tick_024",
+            "objective": "tick 024: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_024.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_025": {
+            "id": "devlog_tick_025",
+            "objective": "tick 025: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_025.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_026": {
+            "id": "devlog_tick_026",
+            "objective": "tick 026: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_026.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_027": {
+            "id": "devlog_tick_027",
+            "objective": "tick 027: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_027.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_028": {
+            "id": "devlog_tick_028",
+            "objective": "tick 028: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_028.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_029": {
+            "id": "devlog_tick_029",
+            "objective": "tick 029: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_029.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_030": {
+            "id": "devlog_tick_030",
+            "objective": "tick 030: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_030.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_031": {
+            "id": "devlog_tick_031",
+            "objective": "tick 031: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_031.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_032": {
+            "id": "devlog_tick_032",
+            "objective": "tick 032: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_032.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_033": {
+            "id": "devlog_tick_033",
+            "objective": "tick 033: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_033.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_034": {
+            "id": "devlog_tick_034",
+            "objective": "tick 034: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_034.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_035": {
+            "id": "devlog_tick_035",
+            "objective": "tick 035: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_035.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_036": {
+            "id": "devlog_tick_036",
+            "objective": "tick 036: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_036.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_037": {
+            "id": "devlog_tick_037",
+            "objective": "tick 037: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_037.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_038": {
+            "id": "devlog_tick_038",
+            "objective": "tick 038: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_038.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_039": {
+            "id": "devlog_tick_039",
+            "objective": "tick 039: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_039.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_040": {
+            "id": "devlog_tick_040",
+            "objective": "tick 040: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_040.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_041": {
+            "id": "devlog_tick_041",
+            "objective": "tick 041: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_041.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_042": {
+            "id": "devlog_tick_042",
+            "objective": "tick 042: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_042.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_043": {
+            "id": "devlog_tick_043",
+            "objective": "tick 043: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_043.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_044": {
+            "id": "devlog_tick_044",
+            "objective": "tick 044: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_044.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_045": {
+            "id": "devlog_tick_045",
+            "objective": "tick 045: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_045.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_046": {
+            "id": "devlog_tick_046",
+            "objective": "tick 046: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_046.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_047": {
+            "id": "devlog_tick_047",
+            "objective": "tick 047: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_047.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_048": {
+            "id": "devlog_tick_048",
+            "objective": "tick 048: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_048.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_049": {
+            "id": "devlog_tick_049",
+            "objective": "tick 049: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_049.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_050": {
+            "id": "devlog_tick_050",
+            "objective": "tick 050: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_050.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_051": {
+            "id": "devlog_tick_051",
+            "objective": "tick 051: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_051.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_052": {
+            "id": "devlog_tick_052",
+            "objective": "tick 052: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_052.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_053": {
+            "id": "devlog_tick_053",
+            "objective": "tick 053: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_053.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_054": {
+            "id": "devlog_tick_054",
+            "objective": "tick 054: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_054.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_055": {
+            "id": "devlog_tick_055",
+            "objective": "tick 055: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_055.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_056": {
+            "id": "devlog_tick_056",
+            "objective": "tick 056: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_056.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_057": {
+            "id": "devlog_tick_057",
+            "objective": "tick 057: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_057.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_058": {
+            "id": "devlog_tick_058",
+            "objective": "tick 058: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_058.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_059": {
+            "id": "devlog_tick_059",
+            "objective": "tick 059: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_059.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_060": {
+            "id": "devlog_tick_060",
+            "objective": "tick 060: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_060.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_061": {
+            "id": "devlog_tick_061",
+            "objective": "tick 061: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_061.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_062": {
+            "id": "devlog_tick_062",
+            "objective": "tick 062: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_062.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_063": {
+            "id": "devlog_tick_063",
+            "objective": "tick 063: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_063.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_064": {
+            "id": "devlog_tick_064",
+            "objective": "tick 064: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_064.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_065": {
+            "id": "devlog_tick_065",
+            "objective": "tick 065: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_065.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_066": {
+            "id": "devlog_tick_066",
+            "objective": "tick 066: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_066.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_067": {
+            "id": "devlog_tick_067",
+            "objective": "tick 067: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_067.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_068": {
+            "id": "devlog_tick_068",
+            "objective": "tick 068: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_068.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_069": {
+            "id": "devlog_tick_069",
+            "objective": "tick 069: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_069.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_070": {
+            "id": "devlog_tick_070",
+            "objective": "tick 070: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_070.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_071": {
+            "id": "devlog_tick_071",
+            "objective": "tick 071: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_071.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_072": {
+            "id": "devlog_tick_072",
+            "objective": "tick 072: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_072.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_073": {
+            "id": "devlog_tick_073",
+            "objective": "tick 073: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_073.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_074": {
+            "id": "devlog_tick_074",
+            "objective": "tick 074: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_074.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_075": {
+            "id": "devlog_tick_075",
+            "objective": "tick 075: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_075.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_076": {
+            "id": "devlog_tick_076",
+            "objective": "tick 076: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_076.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_077": {
+            "id": "devlog_tick_077",
+            "objective": "tick 077: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_077.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_078": {
+            "id": "devlog_tick_078",
+            "objective": "tick 078: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_078.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_079": {
+            "id": "devlog_tick_079",
+            "objective": "tick 079: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_079.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_080": {
+            "id": "devlog_tick_080",
+            "objective": "tick 080: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_080.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_081": {
+            "id": "devlog_tick_081",
+            "objective": "tick 081: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_081.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_082": {
+            "id": "devlog_tick_082",
+            "objective": "tick 082: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_082.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_083": {
+            "id": "devlog_tick_083",
+            "objective": "tick 083: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_083.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_084": {
+            "id": "devlog_tick_084",
+            "objective": "tick 084: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_084.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_085": {
+            "id": "devlog_tick_085",
+            "objective": "tick 085: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_085.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_086": {
+            "id": "devlog_tick_086",
+            "objective": "tick 086: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_086.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_087": {
+            "id": "devlog_tick_087",
+            "objective": "tick 087: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_087.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_088": {
+            "id": "devlog_tick_088",
+            "objective": "tick 088: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_088.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_089": {
+            "id": "devlog_tick_089",
+            "objective": "tick 089: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_089.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_090": {
+            "id": "devlog_tick_090",
+            "objective": "tick 090: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_090.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_091": {
+            "id": "devlog_tick_091",
+            "objective": "tick 091: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_091.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_092": {
+            "id": "devlog_tick_092",
+            "objective": "tick 092: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_092.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_093": {
+            "id": "devlog_tick_093",
+            "objective": "tick 093: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_093.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_094": {
+            "id": "devlog_tick_094",
+            "objective": "tick 094: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_094.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_095": {
+            "id": "devlog_tick_095",
+            "objective": "tick 095: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_095.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_096": {
+            "id": "devlog_tick_096",
+            "objective": "tick 096: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_096.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_097": {
+            "id": "devlog_tick_097",
+            "objective": "tick 097: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_097.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_098": {
+            "id": "devlog_tick_098",
+            "objective": "tick 098: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_098.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_099": {
+            "id": "devlog_tick_099",
+            "objective": "tick 099: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_099.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_100": {
+            "id": "devlog_tick_100",
+            "objective": "tick 100: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_100.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_101": {
+            "id": "devlog_tick_101",
+            "objective": "tick 101: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_101.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_102": {
+            "id": "devlog_tick_102",
+            "objective": "tick 102: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_102.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_103": {
+            "id": "devlog_tick_103",
+            "objective": "tick 103: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_103.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_104": {
+            "id": "devlog_tick_104",
+            "objective": "tick 104: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_104.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_105": {
+            "id": "devlog_tick_105",
+            "objective": "tick 105: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_105.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_106": {
+            "id": "devlog_tick_106",
+            "objective": "tick 106: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_106.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_107": {
+            "id": "devlog_tick_107",
+            "objective": "tick 107: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_107.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_108": {
+            "id": "devlog_tick_108",
+            "objective": "tick 108: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_108.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_109": {
+            "id": "devlog_tick_109",
+            "objective": "tick 109: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_109.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_110": {
+            "id": "devlog_tick_110",
+            "objective": "tick 110: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_110.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_111": {
+            "id": "devlog_tick_111",
+            "objective": "tick 111: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_111.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_112": {
+            "id": "devlog_tick_112",
+            "objective": "tick 112: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_112.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_113": {
+            "id": "devlog_tick_113",
+            "objective": "tick 113: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_113.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_114": {
+            "id": "devlog_tick_114",
+            "objective": "tick 114: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_114.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_115": {
+            "id": "devlog_tick_115",
+            "objective": "tick 115: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_115.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_116": {
+            "id": "devlog_tick_116",
+            "objective": "tick 116: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_116.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_117": {
+            "id": "devlog_tick_117",
+            "objective": "tick 117: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_117.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_118": {
+            "id": "devlog_tick_118",
+            "objective": "tick 118: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_118.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_119": {
+            "id": "devlog_tick_119",
+            "objective": "tick 119: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_119.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        },
+        "devlog_tick_120": {
+            "id": "devlog_tick_120",
+            "objective": "tick 120: simclock +2min, scheduler.check(4h/23:00) and log activity.",
+            "outputs": [
+                "runs/REAL/DEVLOG/tick_120.log"
+            ],
+            "acceptance": "Devlog scheduler must evaluate time and generate files if conditions met."
+        }
+    }
+}

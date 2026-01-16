@@ -1,0 +1,82 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M108",
+  "content": "Understood. Mission M108 details are as follows:\n\n---\n\n**MISSION BRIEFING: M108**\n\n**AGENT:** [Designated Operative]\n**MISSION ID:** M108\n**CLASSIFICATION:** CRITICAL / HIGH PRIORITY\n**MISSION TITLE:** \"Project Chimera: Data Core Retrieval\"\n\n**1. SITUATION OVERVIEW:**\nThe 'Chimera' project, a highly classified initiative focused on advanced quantum encryption, has been compromised. A prototype data core containing critical algorithms and sensitive intelligence was stolen from our secure facility, Sector-7, approximately 36 hours ago. Lead intelligence indicates the perpetrator is a rogue former operative, designated \"Specter,\" who is believed to be attempting to sell the data core to a rival faction or hostile state actors. Analysis of Specter's known patterns suggests a temporary hiding place within a decommissioned deep-sea research station, designated \"Trenchwalker-17,\" located in a remote sector of the Mariana Trench.\n\n**2. PRIMARY OBJECTIVES:**\n*   **Infiltrate:** Access and secure the Trenchwalker-17 facility without detection, if possible.\n*   **Locate & Secure:** Identify the precise location of the 'Chimera' Data Core within Trenchwalker-17. Secure and retrieve the Data Core.\n*   **Neutralize/Apprehend:** Neutralize or apprehend Specter. Non-lethal methods are preferred for interrogation, but lethal force is authorized if Specter poses an immediate threat to the mission or your life.\n*   **Extract:** Exfiltrate the Data Core (and Specter, if apprehended) to Rendezvous Point Delta (Submarine 'Nautilus' at grid coord 11-B-7).\n\n**3. SECONDARY OBJECTIVES:**\n*   **Data Scavenge:** Retrieve any additional data Specter may have compiled or stored related to Project Chimera or other sensitive intelligence.\n*   **Sabotage:** Disable Trenchwalker-17's primary communication array to prevent Specter (or any unknown accomplices) from transmitting data or calling for reinforcements.\n\n**4. LOCATION DETAILS:**\n*   **Facility:** Decommissioned Deep-Sea Research Station 'Trenchwalker-17'.\n*   **Depth:** Approximately 8,000 meters (26,247 feet) below sea level.\n*   **Environment:** Extreme pressure, near-zero visibility, low temperatures. Facility is powered by an aging geothermal generator.\n\n**5. THREAT ASSESSMENT:**\n*   **Specter:** Highly trained in stealth, close-quarters combat, and technical infiltration. Known to employ improvised traps and surveillance. Extremely resourceful.\n*   **Facility Security:** While decommissioned, Trenchwalker-17 may still contain automated defense systems, pressure-sensitive traps, and potentially biological hazards due to long-term neglect. Expect compromised structural integrity.\n*   **Environmental:** Extreme deep-sea conditions. Any breach in your submersible or environmental suit will be catastrophic. Limited power means intermittent lighting and system functionality.\n*   **Unknowns:** Potential for Specter to have allies or have already initiated a data transfer process.\n\n**6. ASSETS & SUPPORT:**\n*   **Insertion:** Advanced single-person deep-sea submersible ('Manta Ray') equipped with silent propulsion, sonar, and manipulator arms.\n*   **Equipment:** Standard operative deep-sea environmental suit (reinforced, stealth-enabled), multi-spectral vision goggles, breaching tools, EMP device, tranquilizer darts (for Specter), and a silenced sub-aquatic firearm.\n*   **Intel:** Outdated schematics of Trenchwalker-17, known weaknesses in its aging systems, Specter's psychological profile.\n*   **Exfiltration:** Submarine 'Nautilus' awaiting at RP Delta for immediate extraction.\n\n**7. TIMELINE:**\n*   **Critical Window:** 72 hours from deployment. Further delays significantly increase the risk of the data core being compromised beyond retrieval.\n\n**8. RULES OF ENGAGEMENT:**\n*   Maintain radio silence unless under extreme duress or mission-critical update.\n*   Minimize collateral damage to Trenchwalker-17, especially to the structural integrity.\n*   Prioritize Data Core retrieval above all else.\n\n**9. CONSEQUENCES OF FAILURE:**\n*   The 'Chimera' encryption protocols will be compromised, rendering all secure communications vulnerable.\n*   Sensitive intelligence on multiple global operations will be exposed, leading to catastrophic operational failures and loss of agent lives.\n*   Severe blow to agency credibility and global security.\n\n**EXECUTE WITH EXTREME PRECAUTION AND PRECISION. GOOD LUCK, AGENT.**\n\n---",
+  "raw_response": {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 13 Jan 2026 15:48:19 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=13936",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Understood. Mission M108 details are as follows:\n\n---\n\n**MISSION BRIEFING: M108**\n\n**AGENT:** [Designated Operative]\n**MISSION ID:** M108\n**CLASSIFICATION:** CRITICAL / HIGH PRIORITY\n**MISSION TITLE:** \"Project Chimera: Data Core Retrieval\"\n\n**1. SITUATION OVERVIEW:**\nThe 'Chimera' project, a highly classified initiative focused on advanced quantum encryption, has been compromised. A prototype data core containing critical algorithms and sensitive intelligence was stolen from our secure facility, Sector-7, approximately 36 hours ago. Lead intelligence indicates the perpetrator is a rogue former operative, designated \"Specter,\" who is believed to be attempting to sell the data core to a rival faction or hostile state actors. Analysis of Specter's known patterns suggests a temporary hiding place within a decommissioned deep-sea research station, designated \"Trenchwalker-17,\" located in a remote sector of the Mariana Trench.\n\n**2. PRIMARY OBJECTIVES:**\n*   **Infiltrate:** Access and secure the Trenchwalker-17 facility without detection, if possible.\n*   **Locate & Secure:** Identify the precise location of the 'Chimera' Data Core within Trenchwalker-17. Secure and retrieve the Data Core.\n*   **Neutralize/Apprehend:** Neutralize or apprehend Specter. Non-lethal methods are preferred for interrogation, but lethal force is authorized if Specter poses an immediate threat to the mission or your life.\n*   **Extract:** Exfiltrate the Data Core (and Specter, if apprehended) to Rendezvous Point Delta (Submarine 'Nautilus' at grid coord 11-B-7).\n\n**3. SECONDARY OBJECTIVES:**\n*   **Data Scavenge:** Retrieve any additional data Specter may have compiled or stored related to Project Chimera or other sensitive intelligence.\n*   **Sabotage:** Disable Trenchwalker-17's primary communication array to prevent Specter (or any unknown accomplices) from transmitting data or calling for reinforcements.\n\n**4. LOCATION DETAILS:**\n*   **Facility:** Decommissioned Deep-Sea Research Station 'Trenchwalker-17'.\n*   **Depth:** Approximately 8,000 meters (26,247 feet) below sea level.\n*   **Environment:** Extreme pressure, near-zero visibility, low temperatures. Facility is powered by an aging geothermal generator.\n\n**5. THREAT ASSESSMENT:**\n*   **Specter:** Highly trained in stealth, close-quarters combat, and technical infiltration. Known to employ improvised traps and surveillance. Extremely resourceful.\n*   **Facility Security:** While decommissioned, Trenchwalker-17 may still contain automated defense systems, pressure-sensitive traps, and potentially biological hazards due to long-term neglect. Expect compromised structural integrity.\n*   **Environmental:** Extreme deep-sea conditions. Any breach in your submersible or environmental suit will be catastrophic. Limited power means intermittent lighting and system functionality.\n*   **Unknowns:** Potential for Specter to have allies or have already initiated a data transfer process.\n\n**6. ASSETS & SUPPORT:**\n*   **Insertion:** Advanced single-person deep-sea submersible ('Manta Ray') equipped with silent propulsion, sonar, and manipulator arms.\n*   **Equipment:** Standard operative deep-sea environmental suit (reinforced, stealth-enabled), multi-spectral vision goggles, breaching tools, EMP device, tranquilizer darts (for Specter), and a silenced sub-aquatic firearm.\n*   **Intel:** Outdated schematics of Trenchwalker-17, known weaknesses in its aging systems, Specter's psychological profile.\n*   **Exfiltration:** Submarine 'Nautilus' awaiting at RP Delta for immediate extraction.\n\n**7. TIMELINE:**\n*   **Critical Window:** 72 hours from deployment. Further delays significantly increase the risk of the data core being compromised beyond retrieval.\n\n**8. RULES OF ENGAGEMENT:**\n*   Maintain radio silence unless under extreme duress or mission-critical update.\n*   Minimize collateral damage to Trenchwalker-17, especially to the structural integrity.\n*   Prioritize Data Core retrieval above all else.\n\n**9. CONSEQUENCES OF FAILURE:**\n*   The 'Chimera' encryption protocols will be compromised, rendering all secure communications vulnerable.\n*   Sensitive intelligence on multiple global operations will be exposed, leading to catastrophic operational failures and loss of agent lives.\n*   Severe blow to agency credibility and global security.\n\n**EXECUTE WITH EXTREME PRECAUTION AND PRECISION. GOOD LUCK, AGENT.**\n\n---",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-2.5-flash",
+    "prompt_feedback": null,
+    "response_id": "Q2lmadaxE5qkvr0PvfHDqA4",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 987,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 12,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 12
+        }
+      ],
+      "thoughts_token_count": 1494,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2493,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": null
+  },
+  "attempt": 1,
+  "mission_id": "mission_0108",
+  "timestamp": "2026-01-14T00:48:18.852935"
+}

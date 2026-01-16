@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0001",
+  "timestamp": "2026-01-13T21:30:59.378485",
+  "status": "SUCCESS",
+  "content_hash": "1d0badc1ff54b4a32f68e6113f7873a12fd207fb",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M001",
+    "content": "Okay, I understand. You've given me a task specification in the format `TASK_V3|mission=M001`.  This indicates a task defined by version 3 and a mission code of \"M001\".\n\nTo help you further, I need more context. What do you want me to *do* with this information?  For example, are you asking me to:\n\n* **Define the mission M001?** (If so, please provide details about the mission objectives, context, required actions, etc.)\n* **Execute mission M001?** (If so, I need to know what capabilities I have and what resources are available to me.)\n* **Find information about mission M001?** (If so, tell me where I might find that information - e.g., a specific website, a database, or a set of documents.)\n* **Generate ideas related to mission M001?** (If so, what kind of ideas are you looking for?)\n* **Create a story or scenario about mission M001?**\n* **Simulate mission M001?**\n\nPlease provide more details so I can understand your request and provide a helpful response.\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Okay, I understand. You've given me a task specification in the format `TASK_V3|mission=M001`.  This indicates a task defined by version 3 and a mission code of \"M001\".\n\nTo help you further, I need more context. What do you want me to *do* with this information?  For example, are you asking me to:\n\n* **Define the mission M001?** (If so, please provide details about the mission objectives, context, required actions, etc.)\n* **Execute mission M001?** (If so, I need to know what capabilities I have and what resources are available to me.)\n* **Find information about mission M001?** (If so, tell me where I might find that information - e.g., a specific website, a database, or a set of documents.)\n* **Generate ideas related to mission M001?** (If so, what kind of ideas are you looking for?)\n* **Create a story or scenario about mission M001?**\n* **Simulate mission M001?**\n\nPlease provide more details so I can understand your request and provide a helpful response.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.3104235816547889
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 11,
+        "candidatesTokenCount": 262,
+        "totalTokenCount": 273,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 11
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 262
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "ATtmaYO_E9T92roP886c6QQ"
+    },
+    "mission_id": "mission_0001",
+    "timestamp": "2026-01-13T21:30:59.377485"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0096",
+  "timestamp": "2026-01-14T00:10:11.863847",
+  "status": "SUCCESS",
+  "content_hash": "d04f01fe9038b91bb6cd5049634bfd59ebaba150",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "FILL_basic_95",
+    "content": "Please provide me with more context. \"FILL_basic_95\" doesn't give me enough information to understand what you want me to do. I need to know:\n\n* **What is the context of \"FILL_basic_95\"?** Is it a variable name? A function name? A keyword in a specific language or system?\n* **What should I fill it with?** What kind of data or information is expected?\n* **What is the purpose of filling it?** What are you trying to achieve?\n\nFor example, you could be asking me to:\n\n* **Fill in a blank in a sentence:** \"The temperature today is FILL_basic_95 degrees.\" (Perhaps you want me to fill it with \"95\" again, or a different temperature).\n* **Complete a code snippet:** `int FILL_basic_95;` (Perhaps you want me to fill it with `= 0;` or another initialization value).\n* **Generate a description based on a template:** \"FILL_basic_95 is a common type of...\" (Perhaps you want me to fill it with a type of data structure and generate a description of it).\n\nThe more information you give me, the better I can understand your request and provide a helpful response.\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Please provide me with more context. \"FILL_basic_95\" doesn't give me enough information to understand what you want me to do. I need to know:\n\n* **What is the context of \"FILL_basic_95\"?** Is it a variable name? A function name? A keyword in a specific language or system?\n* **What should I fill it with?** What kind of data or information is expected?\n* **What is the purpose of filling it?** What are you trying to achieve?\n\nFor example, you could be asking me to:\n\n* **Fill in a blank in a sentence:** \"The temperature today is FILL_basic_95 degrees.\" (Perhaps you want me to fill it with \"95\" again, or a different temperature).\n* **Complete a code snippet:** `int FILL_basic_95;` (Perhaps you want me to fill it with `= 0;` or another initialization value).\n* **Generate a description based on a template:** \"FILL_basic_95 is a common type of...\" (Perhaps you want me to fill it with a type of data structure and generate a description of it).\n\nThe more information you give me, the better I can understand your request and provide a helpful response.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.32815837153682004
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 6,
+        "candidatesTokenCount": 270,
+        "totalTokenCount": 276,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 270
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "UWBmaaK9Joai1e8PwabW0Ag"
+    },
+    "mission_id": "mission_0096",
+    "timestamp": "2026-01-14T00:10:11.863847"
+  }
+}

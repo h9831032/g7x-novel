@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M007",
+  "content": "Okay, I understand.  The task is TASK_V3, and the mission is M007.  How can I help you with this task and mission?  Please provide more details about what you need me to do. For example, are you looking for:\n\n*   **Information about mission M007?** (What kind of mission is it, what are its objectives, etc.)\n*   **Assistance with a specific part of task TASK_V3 related to mission M007?** (e.g., writing code, generating text, analyzing data, etc.)\n*   **A creative writing prompt based on TASK_V3 and mission M007?**\n*   **Something else entirely?**\n\nThe more information you give me, the better I can assist you.\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Okay, I understand.  The task is TASK_V3, and the mission is M007.  How can I help you with this task and mission?  Please provide more details about what you need me to do. For example, are you looking for:\n\n*   **Information about mission M007?** (What kind of mission is it, what are its objectives, etc.)\n*   **Assistance with a specific part of task TASK_V3 related to mission M007?** (e.g., writing code, generating text, analyzing data, etc.)\n*   **A creative writing prompt based on TASK_V3 and mission M007?**\n*   **Something else entirely?**\n\nThe more information you give me, the better I can assist you.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.24116103593693222
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 11,
+      "candidatesTokenCount": 172,
+      "totalTokenCount": 183,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 172
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "jEFmaeecIZ6g0-kPk9aAqAc"
+  },
+  "mission_id": "mission_0007",
+  "timestamp": "2026-01-13T21:58:53.430720"
+}

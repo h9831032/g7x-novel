@@ -1,0 +1,6 @@
+============================================================
+[BOOT] G7X ENGINE ONLINE | RUN_ID: RUN_1767784364
+[MODE] PRODUCTION | [TARGET] 20260107_dataset
+[SSOT_PATH] C:\g7core\g7_v1\queue\work_orders\20260107_dataset_production
+[CRITICAL] Directory NOT FOUND: C:\g7core\g7_v1\queue\work_orders\20260107_dataset_production
+[DEBUG] List in parent: ['20260107']

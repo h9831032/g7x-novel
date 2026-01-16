@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0101",
+  "timestamp": "2026-01-14T00:10:22.839434",
+  "status": "SUCCESS",
+  "content_hash": "840f268dcd07073053a11632ffc3c13e815c6fb7",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "FILL_basic_100",
+    "content": "Please provide me with more context. \"FILL_basic_100\" doesn't tell me what you want me to fill in or what kind of information you need. \n\nTo help me, please tell me:\n\n*   **What is the context?** (e.g., a quiz, a story, a code snippet, a form, a list, etc.)\n*   **What kind of information are you looking for?** (e.g., a word, a sentence, a number, a piece of code, etc.)\n*   **What is the surrounding text or code?** (This is crucial for me to understand the meaning and provide the correct answer.)\n\nFor example, you could say:\n\n*   \"I'm completing a quiz. The question is: 'The basic unit of matter is the _____. FILL_basic_100'\"\n*   \"I'm writing a story: 'The hero reached for the _____. FILL_basic_100'\"\n*   \"I'm learning Python: 'for i in range(____): FILL_basic_100'\"\n\nThe more information you give me, the better I can understand your request and provide a helpful response.\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Please provide me with more context. \"FILL_basic_100\" doesn't tell me what you want me to fill in or what kind of information you need. \n\nTo help me, please tell me:\n\n*   **What is the context?** (e.g., a quiz, a story, a code snippet, a form, a list, etc.)\n*   **What kind of information are you looking for?** (e.g., a word, a sentence, a number, a piece of code, etc.)\n*   **What is the surrounding text or code?** (This is crucial for me to understand the meaning and provide the correct answer.)\n\nFor example, you could say:\n\n*   \"I'm completing a quiz. The question is: 'The basic unit of matter is the _____. FILL_basic_100'\"\n*   \"I'm writing a story: 'The hero reached for the _____. FILL_basic_100'\"\n*   \"I'm learning Python: 'for i in range(____): FILL_basic_100'\"\n\nThe more information you give me, the better I can understand your request and provide a helpful response.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.26644594052583553
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 7,
+        "candidatesTokenCount": 259,
+        "totalTokenCount": 266,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 259
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "XGBmabSuMtCkvr0Pt8GmwQc"
+    },
+    "mission_id": "mission_0101",
+    "timestamp": "2026-01-14T00:10:22.838432"
+  }
+}

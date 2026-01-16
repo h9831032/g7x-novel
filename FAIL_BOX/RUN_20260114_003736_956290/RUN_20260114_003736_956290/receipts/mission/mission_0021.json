@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0021",
+  "timestamp": "2026-01-14T00:39:25.637375",
+  "status": "SUCCESS",
+  "content_hash": "99df781e394c25ea7a56767395d0cc012d65a585",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M021",
+    "content": "**Mission M021: Environmental Reconnaissance & Resource Assessment**\n\n**Objective:** To conduct a thorough reconnaissance of designated Sector Gamma and assess its environmental conditions and resource potential.\n\n**Goals:**\n\n1.  **Map Terrain & Key Features:** Detail the topography, geological features, potential natural shelters, and access routes within Sector Gamma.\n2.  **Identify Water Sources:** Locate, assess the potability of, and map all viable fresh water sources (streams, springs, lakes, etc.).\n3.  **Catalog Flora & Fauna:** Document predominant plant life (identifying potential edibles, medicinal plants, or hazards) and significant animal species (indicating potential food sources, dangerous wildlife, or signs of human activity).\n4.  **Assess Resource Availability:** Evaluate the presence and accessibility of raw materials (wood, stone, minerals) suitable for shelter construction or tool-making.\n5.  **Identify Potential Hazards:** Pinpoint areas of instability, dangerous wildlife habitats, toxic flora, or other environmental threats.\n\n**Deliverables:**\n\n*   Detailed topographical map of Sector Gamma with all identified features marked.\n*   Resource log categorizing water, flora, fauna, and raw materials.\n*   Hazard assessment report with risk mitigation recommendations.\n\n**Special Instructions:**\n*   Maintain low visibility and minimize environmental impact.\n*   Prioritize safety. Avoid direct engagement with unknown wildlife or potential human presence.\n*   All data collected must be geo-tagged and timestamped.\n*   Report any unexpected findings or anomalies immediately.",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:39:26 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=3887",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "**Mission M021: Environmental Reconnaissance & Resource Assessment**\n\n**Objective:** To conduct a thorough reconnaissance of designated Sector Gamma and assess its environmental conditions and resource potential.\n\n**Goals:**\n\n1.  **Map Terrain & Key Features:** Detail the topography, geological features, potential natural shelters, and access routes within Sector Gamma.\n2.  **Identify Water Sources:** Locate, assess the potability of, and map all viable fresh water sources (streams, springs, lakes, etc.).\n3.  **Catalog Flora & Fauna:** Document predominant plant life (identifying potential edibles, medicinal plants, or hazards) and significant animal species (indicating potential food sources, dangerous wildlife, or signs of human activity).\n4.  **Assess Resource Availability:** Evaluate the presence and accessibility of raw materials (wood, stone, minerals) suitable for shelter construction or tool-making.\n5.  **Identify Potential Hazards:** Pinpoint areas of instability, dangerous wildlife habitats, toxic flora, or other environmental threats.\n\n**Deliverables:**\n\n*   Detailed topographical map of Sector Gamma with all identified features marked.\n*   Resource log categorizing water, flora, fauna, and raw materials.\n*   Hazard assessment report with risk mitigation recommendations.\n\n**Special Instructions:**\n*   Maintain low visibility and minimize environmental impact.\n*   Prioritize safety. Avoid direct engagement with unknown wildlife or potential human presence.\n*   All data collected must be geo-tagged and timestamped.\n*   Report any unexpected findings or anomalies immediately.",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "LmdmaePFCZ3r1e8PzIPk8A4",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 315,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 229,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 556,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0021",
+    "timestamp": "2026-01-14T00:39:25.637375"
+  }
+}

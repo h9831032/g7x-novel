@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0081",
+  "timestamp": "2026-01-14T00:45:22.356888",
+  "status": "SUCCESS",
+  "content_hash": "71048cce01b5b264ecc0cd5a75995966ea4d71e6",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M081",
+    "content": "## MISSION BRIEFING: M081 - Aegis Containment Protocol\n\n**MISSION ID:** M081\n**TITLE:** Aegis Containment Protocol\n**FACTION/CLIENT:** Federation Strategic Command (FEDCOM)\n**TYPE:** Investigation, Containment, Salvage, Combat\n**SECTOR/LOCATION:** The Penumbra Veil Nebula, Uncharted System XZ-17 - Aegis VI Research Outpost\n**PRIORITY:** CRITICAL\n\n---\n\n**BRIEFING:**\n\n\"Commander, we've intercepted a fragmented, high-priority distress beacon originating from Aegis VI, a classified xenobiological research outpost established deep within the uncharted Penumbra Veil Nebula. The beacon abruptly cut out, followed by a complete comms blackout. All attempts to re-establish contact have failed.\n\nOur last known intelligence indicates Aegis VI was researching highly volatile, mutagenic xenofauna samples. While the facility was designed for maximum containment, the nature of the distress signal suggests a catastrophic breach. We fear a localized biohazard event could quickly escalate to a sector-wide threat if left unchecked.\n\nYour primary objective is to penetrate the Aegis VI outpost, assess the situation, secure any surviving personnel (though odds are slim), and above all, contain the breach. Retrieve all research data logs concerning Project Chimera – the specific designation for the mutagenic samples – and ensure absolutely no hostile biomass leaves the facility. The fate of multiple systems could depend on your success in preventing a full-scale biological contagion.\"\n\n---\n\n**OBJECTIVES:**\n\n1.  **Travel to Aegis VI:** Navigate to Uncharted System XZ-17 and locate the Aegis VI Research Outpost.\n2.  **Establish Secure Perimeter:** Approach the outpost cautiously. Scan for life signs and external breaches. Prepare for immediate hostile engagement.\n3.  **Infiltrate and Clear:** Gain entry to the facility. Systematically clear each sector, neutralizing any hostile xenomorphic entities encountered. Prioritize securing key data archives and life support systems.\n4.  **Retrieve Project Chimera Data:** Locate and download all research data logs pertaining to \"Project Chimera\" from the central research archives.\n5.  **Initiate Containment Protocol:** Activate the facility's self-quarantine and sterilization protocols from the central command console. This will initiate a system-wide lockdown and purge, preventing any further spread.\n6.  **Exfiltrate:** Extract from Aegis VI immediately after initiating the containment protocol.\n\n---\n\n**THREATS:**\n\n*   **Xenomorphic Hostiles:** Highly aggressive, mutated life forms, potentially including former crew members. Expect various stages of biological corruption and unpredictable behavior.\n*   **Environmental Hazards:** Compromised life support, power fluctuations, hazardous material leaks, and structural instability within the facility.\n*   **Automated Defenses:** Dormant security systems may reactivate.\n*   **Limited Resources:** Expect depleted oxygen, power, and medical supplies within the outpost.\n\n---\n\n**REWARDS:**\n\n*   **Credits:** 35,000 CR\n*   **Reputation:** +1000 with Federation Strategic Command\n*   **Rare Component:** 1x Xenobiotic Stabilizer (High-tier shield or armor component)\n*   **Bonus Objective Reward:** +15,000 CR if all primary objectives are completed within 45 minutes.\n\n---\n\n**FAILURE CONDITIONS:**\n\n*   **Player Death:** Mission failure.\n*   **Failure to Retrieve Data:** Critical data loss, mission failure.\n*   **Xenomorphic Escape:** Any hostile entity detected leaving the Aegis VI facility before containment protocols are active will result in catastrophic failure and severe repercussions.\n\n---\n\n**RECOMMENDED LOADOUT:**\n\n*   **Ship:** High-shield/armor rating, good maneuverability for tight spaces. Equipped with powerful energy weapons (disruptors recommended for organic targets) and area-of-effect capabilities.\n*   **Modules:** Advanced scanner for bio-signatures, hacking module, heavy combat drones.\n*   **Personal Gear:** High-grade hazard suit, energy rifle, plasma grenade equivalents, med-kits, multi-tool for repairs/override.\n\n---\n\n**ADDITIONAL NOTES:**\n\n\"This is not a search and rescue. This is a containment operation. If you encounter any surviving personnel, assess their condition carefully. Any signs of infection must be handled according to strict quarantine procedures. Do not risk wider contamination. Your discretion and swift action are paramount. Good luck, Commander. We're counting on you.\"",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:45:22 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=14675",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "## MISSION BRIEFING: M081 - Aegis Containment Protocol\n\n**MISSION ID:** M081\n**TITLE:** Aegis Containment Protocol\n**FACTION/CLIENT:** Federation Strategic Command (FEDCOM)\n**TYPE:** Investigation, Containment, Salvage, Combat\n**SECTOR/LOCATION:** The Penumbra Veil Nebula, Uncharted System XZ-17 - Aegis VI Research Outpost\n**PRIORITY:** CRITICAL\n\n---\n\n**BRIEFING:**\n\n\"Commander, we've intercepted a fragmented, high-priority distress beacon originating from Aegis VI, a classified xenobiological research outpost established deep within the uncharted Penumbra Veil Nebula. The beacon abruptly cut out, followed by a complete comms blackout. All attempts to re-establish contact have failed.\n\nOur last known intelligence indicates Aegis VI was researching highly volatile, mutagenic xenofauna samples. While the facility was designed for maximum containment, the nature of the distress signal suggests a catastrophic breach. We fear a localized biohazard event could quickly escalate to a sector-wide threat if left unchecked.\n\nYour primary objective is to penetrate the Aegis VI outpost, assess the situation, secure any surviving personnel (though odds are slim), and above all, contain the breach. Retrieve all research data logs concerning Project Chimera – the specific designation for the mutagenic samples – and ensure absolutely no hostile biomass leaves the facility. The fate of multiple systems could depend on your success in preventing a full-scale biological contagion.\"\n\n---\n\n**OBJECTIVES:**\n\n1.  **Travel to Aegis VI:** Navigate to Uncharted System XZ-17 and locate the Aegis VI Research Outpost.\n2.  **Establish Secure Perimeter:** Approach the outpost cautiously. Scan for life signs and external breaches. Prepare for immediate hostile engagement.\n3.  **Infiltrate and Clear:** Gain entry to the facility. Systematically clear each sector, neutralizing any hostile xenomorphic entities encountered. Prioritize securing key data archives and life support systems.\n4.  **Retrieve Project Chimera Data:** Locate and download all research data logs pertaining to \"Project Chimera\" from the central research archives.\n5.  **Initiate Containment Protocol:** Activate the facility's self-quarantine and sterilization protocols from the central command console. This will initiate a system-wide lockdown and purge, preventing any further spread.\n6.  **Exfiltrate:** Extract from Aegis VI immediately after initiating the containment protocol.\n\n---\n\n**THREATS:**\n\n*   **Xenomorphic Hostiles:** Highly aggressive, mutated life forms, potentially including former crew members. Expect various stages of biological corruption and unpredictable behavior.\n*   **Environmental Hazards:** Compromised life support, power fluctuations, hazardous material leaks, and structural instability within the facility.\n*   **Automated Defenses:** Dormant security systems may reactivate.\n*   **Limited Resources:** Expect depleted oxygen, power, and medical supplies within the outpost.\n\n---\n\n**REWARDS:**\n\n*   **Credits:** 35,000 CR\n*   **Reputation:** +1000 with Federation Strategic Command\n*   **Rare Component:** 1x Xenobiotic Stabilizer (High-tier shield or armor component)\n*   **Bonus Objective Reward:** +15,000 CR if all primary objectives are completed within 45 minutes.\n\n---\n\n**FAILURE CONDITIONS:**\n\n*   **Player Death:** Mission failure.\n*   **Failure to Retrieve Data:** Critical data loss, mission failure.\n*   **Xenomorphic Escape:** Any hostile entity detected leaving the Aegis VI facility before containment protocols are active will result in catastrophic failure and severe repercussions.\n\n---\n\n**RECOMMENDED LOADOUT:**\n\n*   **Ship:** High-shield/armor rating, good maneuverability for tight spaces. Equipped with powerful energy weapons (disruptors recommended for organic targets) and area-of-effect capabilities.\n*   **Modules:** Advanced scanner for bio-signatures, hacking module, heavy combat drones.\n*   **Personal Gear:** High-grade hazard suit, energy rifle, plasma grenade equivalents, med-kits, multi-tool for repairs/override.\n\n---\n\n**ADDITIONAL NOTES:**\n\n\"This is not a search and rescue. This is a containment operation. If you encounter any surviving personnel, assess their condition carefully. Any signs of infection must be handled according to strict quarantine procedures. Do not risk wider contamination. Your discretion and swift action are paramount. Good luck, Commander. We're counting on you.\"",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "kmhmafqUM_eV1e8P7o_H6Aw",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 952,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 1438,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 2402,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0081",
+    "timestamp": "2026-01-14T00:45:22.355973"
+  }
+}

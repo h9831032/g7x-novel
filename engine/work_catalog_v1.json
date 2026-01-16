@@ -1,0 +1,1262 @@
+[
+    {
+        "id": "BASIC_ENGINE_WELD_001",
+        "objective": "Gate/Schema Validation",
+        "outputs": "main/gate.py"
+    },
+    {
+        "id": "BASIC_ENGINE_WELD_002",
+        "objective": "Verifier Logic (SHA1)",
+        "outputs": "main/verifier.py"
+    },
+    {
+        "id": "BASIC_ENGINE_WELD_003",
+        "objective": "Blackbox Logging",
+        "outputs": "engine/blackbox.py"
+    },
+    {
+        "id": "BASIC_ENGINE_WELD_004",
+        "objective": "StampManifest",
+        "outputs": "engine/stamp.py"
+    },
+    {
+        "id": "BASIC_ENGINE_WELD_005",
+        "objective": "VerifyReport",
+        "outputs": "main/report.py"
+    },
+    {
+        "id": "BASIC_ENGINE_WELD_006",
+        "objective": "FinalAudit",
+        "outputs": "main/audit.py"
+    },
+    {
+        "id": "COST_GUARD_001",
+        "objective": "Cost Guard",
+        "outputs": "engine/guard.py"
+    },
+    {
+        "id": "ANTI_TURBO_001",
+        "objective": "Anti-Turbo",
+        "outputs": "engine/anti_turbo.py"
+    },
+    {
+        "id": "ORDER_LOCK_001",
+        "objective": "Order Lock",
+        "outputs": "engine/lock.py"
+    },
+    {
+        "id": "RUN_WELD_001",
+        "objective": "Run Welder",
+        "outputs": "tools/run_stable.ps1"
+    },
+    {
+        "id": "FAIL_BOX_001",
+        "objective": "Fail Box",
+        "outputs": "engine/fail_box.py"
+    },
+    {
+        "id": "SMOKE3_PACK_001",
+        "objective": "Smoke Pack",
+        "outputs": "tools/make_smoke3.ps1"
+    },
+    {
+        "id": "REAL_001",
+        "objective": "Real Task 001",
+        "outputs": "src/module_001.py"
+    },
+    {
+        "id": "REAL_002",
+        "objective": "Real Task 002",
+        "outputs": "src/module_002.py"
+    },
+    {
+        "id": "REAL_003",
+        "objective": "Real Task 003",
+        "outputs": "src/module_003.py"
+    },
+    {
+        "id": "REAL_004",
+        "objective": "Real Task 004",
+        "outputs": "src/module_004.py"
+    },
+    {
+        "id": "REAL_005",
+        "objective": "Real Task 005",
+        "outputs": "src/module_005.py"
+    },
+    {
+        "id": "REAL_006",
+        "objective": "Real Task 006",
+        "outputs": "src/module_006.py"
+    },
+    {
+        "id": "REAL_007",
+        "objective": "Real Task 007",
+        "outputs": "src/module_007.py"
+    },
+    {
+        "id": "REAL_008",
+        "objective": "Real Task 008",
+        "outputs": "src/module_008.py"
+    },
+    {
+        "id": "REAL_009",
+        "objective": "Real Task 009",
+        "outputs": "src/module_009.py"
+    },
+    {
+        "id": "REAL_010",
+        "objective": "Real Task 010",
+        "outputs": "src/module_010.py"
+    },
+    {
+        "id": "REAL_011",
+        "objective": "Real Task 011",
+        "outputs": "src/module_011.py"
+    },
+    {
+        "id": "REAL_012",
+        "objective": "Real Task 012",
+        "outputs": "src/module_012.py"
+    },
+    {
+        "id": "REAL_013",
+        "objective": "Real Task 013",
+        "outputs": "src/module_013.py"
+    },
+    {
+        "id": "REAL_014",
+        "objective": "Real Task 014",
+        "outputs": "src/module_014.py"
+    },
+    {
+        "id": "REAL_015",
+        "objective": "Real Task 015",
+        "outputs": "src/module_015.py"
+    },
+    {
+        "id": "REAL_016",
+        "objective": "Real Task 016",
+        "outputs": "src/module_016.py"
+    },
+    {
+        "id": "REAL_017",
+        "objective": "Real Task 017",
+        "outputs": "src/module_017.py"
+    },
+    {
+        "id": "REAL_018",
+        "objective": "Real Task 018",
+        "outputs": "src/module_018.py"
+    },
+    {
+        "id": "REAL_019",
+        "objective": "Real Task 019",
+        "outputs": "src/module_019.py"
+    },
+    {
+        "id": "REAL_020",
+        "objective": "Real Task 020",
+        "outputs": "src/module_020.py"
+    },
+    {
+        "id": "REAL_021",
+        "objective": "Real Task 021",
+        "outputs": "src/module_021.py"
+    },
+    {
+        "id": "REAL_022",
+        "objective": "Real Task 022",
+        "outputs": "src/module_022.py"
+    },
+    {
+        "id": "REAL_023",
+        "objective": "Real Task 023",
+        "outputs": "src/module_023.py"
+    },
+    {
+        "id": "REAL_024",
+        "objective": "Real Task 024",
+        "outputs": "src/module_024.py"
+    },
+    {
+        "id": "REAL_025",
+        "objective": "Real Task 025",
+        "outputs": "src/module_025.py"
+    },
+    {
+        "id": "REAL_026",
+        "objective": "Real Task 026",
+        "outputs": "src/module_026.py"
+    },
+    {
+        "id": "REAL_027",
+        "objective": "Real Task 027",
+        "outputs": "src/module_027.py"
+    },
+    {
+        "id": "REAL_028",
+        "objective": "Real Task 028",
+        "outputs": "src/module_028.py"
+    },
+    {
+        "id": "REAL_029",
+        "objective": "Real Task 029",
+        "outputs": "src/module_029.py"
+    },
+    {
+        "id": "REAL_030",
+        "objective": "Real Task 030",
+        "outputs": "src/module_030.py"
+    },
+    {
+        "id": "REAL_031",
+        "objective": "Real Task 031",
+        "outputs": "src/module_031.py"
+    },
+    {
+        "id": "REAL_032",
+        "objective": "Real Task 032",
+        "outputs": "src/module_032.py"
+    },
+    {
+        "id": "REAL_033",
+        "objective": "Real Task 033",
+        "outputs": "src/module_033.py"
+    },
+    {
+        "id": "REAL_034",
+        "objective": "Real Task 034",
+        "outputs": "src/module_034.py"
+    },
+    {
+        "id": "REAL_035",
+        "objective": "Real Task 035",
+        "outputs": "src/module_035.py"
+    },
+    {
+        "id": "REAL_036",
+        "objective": "Real Task 036",
+        "outputs": "src/module_036.py"
+    },
+    {
+        "id": "REAL_037",
+        "objective": "Real Task 037",
+        "outputs": "src/module_037.py"
+    },
+    {
+        "id": "REAL_038",
+        "objective": "Real Task 038",
+        "outputs": "src/module_038.py"
+    },
+    {
+        "id": "REAL_039",
+        "objective": "Real Task 039",
+        "outputs": "src/module_039.py"
+    },
+    {
+        "id": "REAL_040",
+        "objective": "Real Task 040",
+        "outputs": "src/module_040.py"
+    },
+    {
+        "id": "REAL_041",
+        "objective": "Real Task 041",
+        "outputs": "src/module_041.py"
+    },
+    {
+        "id": "REAL_042",
+        "objective": "Real Task 042",
+        "outputs": "src/module_042.py"
+    },
+    {
+        "id": "REAL_043",
+        "objective": "Real Task 043",
+        "outputs": "src/module_043.py"
+    },
+    {
+        "id": "REAL_044",
+        "objective": "Real Task 044",
+        "outputs": "src/module_044.py"
+    },
+    {
+        "id": "REAL_045",
+        "objective": "Real Task 045",
+        "outputs": "src/module_045.py"
+    },
+    {
+        "id": "REAL_046",
+        "objective": "Real Task 046",
+        "outputs": "src/module_046.py"
+    },
+    {
+        "id": "REAL_047",
+        "objective": "Real Task 047",
+        "outputs": "src/module_047.py"
+    },
+    {
+        "id": "REAL_048",
+        "objective": "Real Task 048",
+        "outputs": "src/module_048.py"
+    },
+    {
+        "id": "REAL_049",
+        "objective": "Real Task 049",
+        "outputs": "src/module_049.py"
+    },
+    {
+        "id": "REAL_050",
+        "objective": "Real Task 050",
+        "outputs": "src/module_050.py"
+    },
+    {
+        "id": "REAL_051",
+        "objective": "Real Task 051",
+        "outputs": "src/module_051.py"
+    },
+    {
+        "id": "REAL_052",
+        "objective": "Real Task 052",
+        "outputs": "src/module_052.py"
+    },
+    {
+        "id": "REAL_053",
+        "objective": "Real Task 053",
+        "outputs": "src/module_053.py"
+    },
+    {
+        "id": "REAL_054",
+        "objective": "Real Task 054",
+        "outputs": "src/module_054.py"
+    },
+    {
+        "id": "REAL_055",
+        "objective": "Real Task 055",
+        "outputs": "src/module_055.py"
+    },
+    {
+        "id": "REAL_056",
+        "objective": "Real Task 056",
+        "outputs": "src/module_056.py"
+    },
+    {
+        "id": "REAL_057",
+        "objective": "Real Task 057",
+        "outputs": "src/module_057.py"
+    },
+    {
+        "id": "REAL_058",
+        "objective": "Real Task 058",
+        "outputs": "src/module_058.py"
+    },
+    {
+        "id": "REAL_059",
+        "objective": "Real Task 059",
+        "outputs": "src/module_059.py"
+    },
+    {
+        "id": "REAL_060",
+        "objective": "Real Task 060",
+        "outputs": "src/module_060.py"
+    },
+    {
+        "id": "REAL_061",
+        "objective": "Real Task 061",
+        "outputs": "src/module_061.py"
+    },
+    {
+        "id": "REAL_062",
+        "objective": "Real Task 062",
+        "outputs": "src/module_062.py"
+    },
+    {
+        "id": "REAL_063",
+        "objective": "Real Task 063",
+        "outputs": "src/module_063.py"
+    },
+    {
+        "id": "REAL_064",
+        "objective": "Real Task 064",
+        "outputs": "src/module_064.py"
+    },
+    {
+        "id": "REAL_065",
+        "objective": "Real Task 065",
+        "outputs": "src/module_065.py"
+    },
+    {
+        "id": "REAL_066",
+        "objective": "Real Task 066",
+        "outputs": "src/module_066.py"
+    },
+    {
+        "id": "REAL_067",
+        "objective": "Real Task 067",
+        "outputs": "src/module_067.py"
+    },
+    {
+        "id": "REAL_068",
+        "objective": "Real Task 068",
+        "outputs": "src/module_068.py"
+    },
+    {
+        "id": "REAL_069",
+        "objective": "Real Task 069",
+        "outputs": "src/module_069.py"
+    },
+    {
+        "id": "REAL_070",
+        "objective": "Real Task 070",
+        "outputs": "src/module_070.py"
+    },
+    {
+        "id": "REAL_071",
+        "objective": "Real Task 071",
+        "outputs": "src/module_071.py"
+    },
+    {
+        "id": "REAL_072",
+        "objective": "Real Task 072",
+        "outputs": "src/module_072.py"
+    },
+    {
+        "id": "REAL_073",
+        "objective": "Real Task 073",
+        "outputs": "src/module_073.py"
+    },
+    {
+        "id": "REAL_074",
+        "objective": "Real Task 074",
+        "outputs": "src/module_074.py"
+    },
+    {
+        "id": "REAL_075",
+        "objective": "Real Task 075",
+        "outputs": "src/module_075.py"
+    },
+    {
+        "id": "REAL_076",
+        "objective": "Real Task 076",
+        "outputs": "src/module_076.py"
+    },
+    {
+        "id": "REAL_077",
+        "objective": "Real Task 077",
+        "outputs": "src/module_077.py"
+    },
+    {
+        "id": "REAL_078",
+        "objective": "Real Task 078",
+        "outputs": "src/module_078.py"
+    },
+    {
+        "id": "REAL_079",
+        "objective": "Real Task 079",
+        "outputs": "src/module_079.py"
+    },
+    {
+        "id": "REAL_080",
+        "objective": "Real Task 080",
+        "outputs": "src/module_080.py"
+    },
+    {
+        "id": "REAL_081",
+        "objective": "Real Task 081",
+        "outputs": "src/module_081.py"
+    },
+    {
+        "id": "REAL_082",
+        "objective": "Real Task 082",
+        "outputs": "src/module_082.py"
+    },
+    {
+        "id": "REAL_083",
+        "objective": "Real Task 083",
+        "outputs": "src/module_083.py"
+    },
+    {
+        "id": "REAL_084",
+        "objective": "Real Task 084",
+        "outputs": "src/module_084.py"
+    },
+    {
+        "id": "REAL_085",
+        "objective": "Real Task 085",
+        "outputs": "src/module_085.py"
+    },
+    {
+        "id": "REAL_086",
+        "objective": "Real Task 086",
+        "outputs": "src/module_086.py"
+    },
+    {
+        "id": "REAL_087",
+        "objective": "Real Task 087",
+        "outputs": "src/module_087.py"
+    },
+    {
+        "id": "REAL_088",
+        "objective": "Real Task 088",
+        "outputs": "src/module_088.py"
+    },
+    {
+        "id": "REAL_089",
+        "objective": "Real Task 089",
+        "outputs": "src/module_089.py"
+    },
+    {
+        "id": "REAL_090",
+        "objective": "Real Task 090",
+        "outputs": "src/module_090.py"
+    },
+    {
+        "id": "REAL_091",
+        "objective": "Real Task 091",
+        "outputs": "src/module_091.py"
+    },
+    {
+        "id": "REAL_092",
+        "objective": "Real Task 092",
+        "outputs": "src/module_092.py"
+    },
+    {
+        "id": "REAL_093",
+        "objective": "Real Task 093",
+        "outputs": "src/module_093.py"
+    },
+    {
+        "id": "REAL_094",
+        "objective": "Real Task 094",
+        "outputs": "src/module_094.py"
+    },
+    {
+        "id": "REAL_095",
+        "objective": "Real Task 095",
+        "outputs": "src/module_095.py"
+    },
+    {
+        "id": "REAL_096",
+        "objective": "Real Task 096",
+        "outputs": "src/module_096.py"
+    },
+    {
+        "id": "REAL_097",
+        "objective": "Real Task 097",
+        "outputs": "src/module_097.py"
+    },
+    {
+        "id": "REAL_098",
+        "objective": "Real Task 098",
+        "outputs": "src/module_098.py"
+    },
+    {
+        "id": "REAL_099",
+        "objective": "Real Task 099",
+        "outputs": "src/module_099.py"
+    },
+    {
+        "id": "REAL_100",
+        "objective": "Real Task 100",
+        "outputs": "src/module_100.py"
+    },
+    {
+        "id": "REAL_101",
+        "objective": "Real Task 101",
+        "outputs": "src/module_101.py"
+    },
+    {
+        "id": "REAL_102",
+        "objective": "Real Task 102",
+        "outputs": "src/module_102.py"
+    },
+    {
+        "id": "REAL_103",
+        "objective": "Real Task 103",
+        "outputs": "src/module_103.py"
+    },
+    {
+        "id": "REAL_104",
+        "objective": "Real Task 104",
+        "outputs": "src/module_104.py"
+    },
+    {
+        "id": "REAL_105",
+        "objective": "Real Task 105",
+        "outputs": "src/module_105.py"
+    },
+    {
+        "id": "REAL_106",
+        "objective": "Real Task 106",
+        "outputs": "src/module_106.py"
+    },
+    {
+        "id": "REAL_107",
+        "objective": "Real Task 107",
+        "outputs": "src/module_107.py"
+    },
+    {
+        "id": "REAL_108",
+        "objective": "Real Task 108",
+        "outputs": "src/module_108.py"
+    },
+    {
+        "id": "REAL_109",
+        "objective": "Real Task 109",
+        "outputs": "src/module_109.py"
+    },
+    {
+        "id": "REAL_110",
+        "objective": "Real Task 110",
+        "outputs": "src/module_110.py"
+    },
+    {
+        "id": "REAL_111",
+        "objective": "Real Task 111",
+        "outputs": "src/module_111.py"
+    },
+    {
+        "id": "REAL_112",
+        "objective": "Real Task 112",
+        "outputs": "src/module_112.py"
+    },
+    {
+        "id": "REAL_113",
+        "objective": "Real Task 113",
+        "outputs": "src/module_113.py"
+    },
+    {
+        "id": "REAL_114",
+        "objective": "Real Task 114",
+        "outputs": "src/module_114.py"
+    },
+    {
+        "id": "REAL_115",
+        "objective": "Real Task 115",
+        "outputs": "src/module_115.py"
+    },
+    {
+        "id": "REAL_116",
+        "objective": "Real Task 116",
+        "outputs": "src/module_116.py"
+    },
+    {
+        "id": "REAL_117",
+        "objective": "Real Task 117",
+        "outputs": "src/module_117.py"
+    },
+    {
+        "id": "REAL_118",
+        "objective": "Real Task 118",
+        "outputs": "src/module_118.py"
+    },
+    {
+        "id": "REAL_119",
+        "objective": "Real Task 119",
+        "outputs": "src/module_119.py"
+    },
+    {
+        "id": "REAL_120",
+        "objective": "Real Task 120",
+        "outputs": "src/module_120.py"
+    },
+    {
+        "id": "REAL_121",
+        "objective": "Real Task 121",
+        "outputs": "src/module_121.py"
+    },
+    {
+        "id": "REAL_122",
+        "objective": "Real Task 122",
+        "outputs": "src/module_122.py"
+    },
+    {
+        "id": "REAL_123",
+        "objective": "Real Task 123",
+        "outputs": "src/module_123.py"
+    },
+    {
+        "id": "REAL_124",
+        "objective": "Real Task 124",
+        "outputs": "src/module_124.py"
+    },
+    {
+        "id": "REAL_125",
+        "objective": "Real Task 125",
+        "outputs": "src/module_125.py"
+    },
+    {
+        "id": "REAL_126",
+        "objective": "Real Task 126",
+        "outputs": "src/module_126.py"
+    },
+    {
+        "id": "REAL_127",
+        "objective": "Real Task 127",
+        "outputs": "src/module_127.py"
+    },
+    {
+        "id": "REAL_128",
+        "objective": "Real Task 128",
+        "outputs": "src/module_128.py"
+    },
+    {
+        "id": "REAL_129",
+        "objective": "Real Task 129",
+        "outputs": "src/module_129.py"
+    },
+    {
+        "id": "REAL_130",
+        "objective": "Real Task 130",
+        "outputs": "src/module_130.py"
+    },
+    {
+        "id": "REAL_131",
+        "objective": "Real Task 131",
+        "outputs": "src/module_131.py"
+    },
+    {
+        "id": "REAL_132",
+        "objective": "Real Task 132",
+        "outputs": "src/module_132.py"
+    },
+    {
+        "id": "REAL_133",
+        "objective": "Real Task 133",
+        "outputs": "src/module_133.py"
+    },
+    {
+        "id": "REAL_134",
+        "objective": "Real Task 134",
+        "outputs": "src/module_134.py"
+    },
+    {
+        "id": "REAL_135",
+        "objective": "Real Task 135",
+        "outputs": "src/module_135.py"
+    },
+    {
+        "id": "REAL_136",
+        "objective": "Real Task 136",
+        "outputs": "src/module_136.py"
+    },
+    {
+        "id": "REAL_137",
+        "objective": "Real Task 137",
+        "outputs": "src/module_137.py"
+    },
+    {
+        "id": "REAL_138",
+        "objective": "Real Task 138",
+        "outputs": "src/module_138.py"
+    },
+    {
+        "id": "REAL_139",
+        "objective": "Real Task 139",
+        "outputs": "src/module_139.py"
+    },
+    {
+        "id": "REAL_140",
+        "objective": "Real Task 140",
+        "outputs": "src/module_140.py"
+    },
+    {
+        "id": "REAL_141",
+        "objective": "Real Task 141",
+        "outputs": "src/module_141.py"
+    },
+    {
+        "id": "REAL_142",
+        "objective": "Real Task 142",
+        "outputs": "src/module_142.py"
+    },
+    {
+        "id": "REAL_143",
+        "objective": "Real Task 143",
+        "outputs": "src/module_143.py"
+    },
+    {
+        "id": "REAL_144",
+        "objective": "Real Task 144",
+        "outputs": "src/module_144.py"
+    },
+    {
+        "id": "REAL_145",
+        "objective": "Real Task 145",
+        "outputs": "src/module_145.py"
+    },
+    {
+        "id": "REAL_146",
+        "objective": "Real Task 146",
+        "outputs": "src/module_146.py"
+    },
+    {
+        "id": "REAL_147",
+        "objective": "Real Task 147",
+        "outputs": "src/module_147.py"
+    },
+    {
+        "id": "REAL_148",
+        "objective": "Real Task 148",
+        "outputs": "src/module_148.py"
+    },
+    {
+        "id": "REAL_149",
+        "objective": "Real Task 149",
+        "outputs": "src/module_149.py"
+    },
+    {
+        "id": "REAL_150",
+        "objective": "Real Task 150",
+        "outputs": "src/module_150.py"
+    },
+    {
+        "id": "REAL_151",
+        "objective": "Real Task 151",
+        "outputs": "src/module_151.py"
+    },
+    {
+        "id": "REAL_152",
+        "objective": "Real Task 152",
+        "outputs": "src/module_152.py"
+    },
+    {
+        "id": "REAL_153",
+        "objective": "Real Task 153",
+        "outputs": "src/module_153.py"
+    },
+    {
+        "id": "REAL_154",
+        "objective": "Real Task 154",
+        "outputs": "src/module_154.py"
+    },
+    {
+        "id": "REAL_155",
+        "objective": "Real Task 155",
+        "outputs": "src/module_155.py"
+    },
+    {
+        "id": "REAL_156",
+        "objective": "Real Task 156",
+        "outputs": "src/module_156.py"
+    },
+    {
+        "id": "REAL_157",
+        "objective": "Real Task 157",
+        "outputs": "src/module_157.py"
+    },
+    {
+        "id": "REAL_158",
+        "objective": "Real Task 158",
+        "outputs": "src/module_158.py"
+    },
+    {
+        "id": "REAL_159",
+        "objective": "Real Task 159",
+        "outputs": "src/module_159.py"
+    },
+    {
+        "id": "REAL_160",
+        "objective": "Real Task 160",
+        "outputs": "src/module_160.py"
+    },
+    {
+        "id": "REAL_161",
+        "objective": "Real Task 161",
+        "outputs": "src/module_161.py"
+    },
+    {
+        "id": "REAL_162",
+        "objective": "Real Task 162",
+        "outputs": "src/module_162.py"
+    },
+    {
+        "id": "REAL_163",
+        "objective": "Real Task 163",
+        "outputs": "src/module_163.py"
+    },
+    {
+        "id": "REAL_164",
+        "objective": "Real Task 164",
+        "outputs": "src/module_164.py"
+    },
+    {
+        "id": "REAL_165",
+        "objective": "Real Task 165",
+        "outputs": "src/module_165.py"
+    },
+    {
+        "id": "REAL_166",
+        "objective": "Real Task 166",
+        "outputs": "src/module_166.py"
+    },
+    {
+        "id": "REAL_167",
+        "objective": "Real Task 167",
+        "outputs": "src/module_167.py"
+    },
+    {
+        "id": "REAL_168",
+        "objective": "Real Task 168",
+        "outputs": "src/module_168.py"
+    },
+    {
+        "id": "REAL_169",
+        "objective": "Real Task 169",
+        "outputs": "src/module_169.py"
+    },
+    {
+        "id": "REAL_170",
+        "objective": "Real Task 170",
+        "outputs": "src/module_170.py"
+    },
+    {
+        "id": "REAL_171",
+        "objective": "Real Task 171",
+        "outputs": "src/module_171.py"
+    },
+    {
+        "id": "REAL_172",
+        "objective": "Real Task 172",
+        "outputs": "src/module_172.py"
+    },
+    {
+        "id": "REAL_173",
+        "objective": "Real Task 173",
+        "outputs": "src/module_173.py"
+    },
+    {
+        "id": "REAL_174",
+        "objective": "Real Task 174",
+        "outputs": "src/module_174.py"
+    },
+    {
+        "id": "REAL_175",
+        "objective": "Real Task 175",
+        "outputs": "src/module_175.py"
+    },
+    {
+        "id": "REAL_176",
+        "objective": "Real Task 176",
+        "outputs": "src/module_176.py"
+    },
+    {
+        "id": "REAL_177",
+        "objective": "Real Task 177",
+        "outputs": "src/module_177.py"
+    },
+    {
+        "id": "REAL_178",
+        "objective": "Real Task 178",
+        "outputs": "src/module_178.py"
+    },
+    {
+        "id": "REAL_179",
+        "objective": "Real Task 179",
+        "outputs": "src/module_179.py"
+    },
+    {
+        "id": "REAL_180",
+        "objective": "Real Task 180",
+        "outputs": "src/module_180.py"
+    },
+    {
+        "id": "REAL_181",
+        "objective": "Real Task 181",
+        "outputs": "src/module_181.py"
+    },
+    {
+        "id": "REAL_182",
+        "objective": "Real Task 182",
+        "outputs": "src/module_182.py"
+    },
+    {
+        "id": "REAL_183",
+        "objective": "Real Task 183",
+        "outputs": "src/module_183.py"
+    },
+    {
+        "id": "REAL_184",
+        "objective": "Real Task 184",
+        "outputs": "src/module_184.py"
+    },
+    {
+        "id": "REAL_185",
+        "objective": "Real Task 185",
+        "outputs": "src/module_185.py"
+    },
+    {
+        "id": "REAL_186",
+        "objective": "Real Task 186",
+        "outputs": "src/module_186.py"
+    },
+    {
+        "id": "REAL_187",
+        "objective": "Real Task 187",
+        "outputs": "src/module_187.py"
+    },
+    {
+        "id": "REAL_188",
+        "objective": "Real Task 188",
+        "outputs": "src/module_188.py"
+    },
+    {
+        "id": "REAL_189",
+        "objective": "Real Task 189",
+        "outputs": "src/module_189.py"
+    },
+    {
+        "id": "REAL_190",
+        "objective": "Real Task 190",
+        "outputs": "src/module_190.py"
+    },
+    {
+        "id": "REAL_191",
+        "objective": "Real Task 191",
+        "outputs": "src/module_191.py"
+    },
+    {
+        "id": "REAL_192",
+        "objective": "Real Task 192",
+        "outputs": "src/module_192.py"
+    },
+    {
+        "id": "REAL_193",
+        "objective": "Real Task 193",
+        "outputs": "src/module_193.py"
+    },
+    {
+        "id": "REAL_194",
+        "objective": "Real Task 194",
+        "outputs": "src/module_194.py"
+    },
+    {
+        "id": "REAL_195",
+        "objective": "Real Task 195",
+        "outputs": "src/module_195.py"
+    },
+    {
+        "id": "REAL_196",
+        "objective": "Real Task 196",
+        "outputs": "src/module_196.py"
+    },
+    {
+        "id": "REAL_197",
+        "objective": "Real Task 197",
+        "outputs": "src/module_197.py"
+    },
+    {
+        "id": "REAL_198",
+        "objective": "Real Task 198",
+        "outputs": "src/module_198.py"
+    },
+    {
+        "id": "REAL_199",
+        "objective": "Real Task 199",
+        "outputs": "src/module_199.py"
+    },
+    {
+        "id": "REAL_200",
+        "objective": "Real Task 200",
+        "outputs": "src/module_200.py"
+    },
+    {
+        "id": "REAL_201",
+        "objective": "Real Task 201",
+        "outputs": "src/module_201.py"
+    },
+    {
+        "id": "REAL_202",
+        "objective": "Real Task 202",
+        "outputs": "src/module_202.py"
+    },
+    {
+        "id": "REAL_203",
+        "objective": "Real Task 203",
+        "outputs": "src/module_203.py"
+    },
+    {
+        "id": "REAL_204",
+        "objective": "Real Task 204",
+        "outputs": "src/module_204.py"
+    },
+    {
+        "id": "REAL_205",
+        "objective": "Real Task 205",
+        "outputs": "src/module_205.py"
+    },
+    {
+        "id": "REAL_206",
+        "objective": "Real Task 206",
+        "outputs": "src/module_206.py"
+    },
+    {
+        "id": "REAL_207",
+        "objective": "Real Task 207",
+        "outputs": "src/module_207.py"
+    },
+    {
+        "id": "REAL_208",
+        "objective": "Real Task 208",
+        "outputs": "src/module_208.py"
+    },
+    {
+        "id": "REAL_209",
+        "objective": "Real Task 209",
+        "outputs": "src/module_209.py"
+    },
+    {
+        "id": "REAL_210",
+        "objective": "Real Task 210",
+        "outputs": "src/module_210.py"
+    },
+    {
+        "id": "REAL_211",
+        "objective": "Real Task 211",
+        "outputs": "src/module_211.py"
+    },
+    {
+        "id": "REAL_212",
+        "objective": "Real Task 212",
+        "outputs": "src/module_212.py"
+    },
+    {
+        "id": "REAL_213",
+        "objective": "Real Task 213",
+        "outputs": "src/module_213.py"
+    },
+    {
+        "id": "REAL_214",
+        "objective": "Real Task 214",
+        "outputs": "src/module_214.py"
+    },
+    {
+        "id": "REAL_215",
+        "objective": "Real Task 215",
+        "outputs": "src/module_215.py"
+    },
+    {
+        "id": "REAL_216",
+        "objective": "Real Task 216",
+        "outputs": "src/module_216.py"
+    },
+    {
+        "id": "REAL_217",
+        "objective": "Real Task 217",
+        "outputs": "src/module_217.py"
+    },
+    {
+        "id": "REAL_218",
+        "objective": "Real Task 218",
+        "outputs": "src/module_218.py"
+    },
+    {
+        "id": "REAL_219",
+        "objective": "Real Task 219",
+        "outputs": "src/module_219.py"
+    },
+    {
+        "id": "REAL_220",
+        "objective": "Real Task 220",
+        "outputs": "src/module_220.py"
+    },
+    {
+        "id": "REAL_221",
+        "objective": "Real Task 221",
+        "outputs": "src/module_221.py"
+    },
+    {
+        "id": "REAL_222",
+        "objective": "Real Task 222",
+        "outputs": "src/module_222.py"
+    },
+    {
+        "id": "REAL_223",
+        "objective": "Real Task 223",
+        "outputs": "src/module_223.py"
+    },
+    {
+        "id": "REAL_224",
+        "objective": "Real Task 224",
+        "outputs": "src/module_224.py"
+    },
+    {
+        "id": "REAL_225",
+        "objective": "Real Task 225",
+        "outputs": "src/module_225.py"
+    },
+    {
+        "id": "REAL_226",
+        "objective": "Real Task 226",
+        "outputs": "src/module_226.py"
+    },
+    {
+        "id": "REAL_227",
+        "objective": "Real Task 227",
+        "outputs": "src/module_227.py"
+    },
+    {
+        "id": "REAL_228",
+        "objective": "Real Task 228",
+        "outputs": "src/module_228.py"
+    },
+    {
+        "id": "REAL_229",
+        "objective": "Real Task 229",
+        "outputs": "src/module_229.py"
+    },
+    {
+        "id": "REAL_230",
+        "objective": "Real Task 230",
+        "outputs": "src/module_230.py"
+    },
+    {
+        "id": "REAL_231",
+        "objective": "Real Task 231",
+        "outputs": "src/module_231.py"
+    },
+    {
+        "id": "REAL_232",
+        "objective": "Real Task 232",
+        "outputs": "src/module_232.py"
+    },
+    {
+        "id": "REAL_233",
+        "objective": "Real Task 233",
+        "outputs": "src/module_233.py"
+    },
+    {
+        "id": "REAL_234",
+        "objective": "Real Task 234",
+        "outputs": "src/module_234.py"
+    },
+    {
+        "id": "REAL_235",
+        "objective": "Real Task 235",
+        "outputs": "src/module_235.py"
+    },
+    {
+        "id": "REAL_236",
+        "objective": "Real Task 236",
+        "outputs": "src/module_236.py"
+    },
+    {
+        "id": "REAL_237",
+        "objective": "Real Task 237",
+        "outputs": "src/module_237.py"
+    },
+    {
+        "id": "REAL_238",
+        "objective": "Real Task 238",
+        "outputs": "src/module_238.py"
+    },
+    {
+        "id": "REAL_239",
+        "objective": "Real Task 239",
+        "outputs": "src/module_239.py"
+    },
+    {
+        "id": "REAL_240",
+        "objective": "Real Task 240",
+        "outputs": "src/module_240.py"
+    }
+]

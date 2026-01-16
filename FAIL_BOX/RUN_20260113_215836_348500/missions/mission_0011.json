@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M011",
+  "content": "Okay, I understand. You want me to help you with a task related to **Mission M011**. \n\nTo give you the best assistance, please tell me more about what you need me to do. For example:\n\n*   **What is the goal of Mission M011?** (e.g., \"Gather intelligence,\" \"Secure a location,\" \"Rescue a target\")\n*   **What specific task do you want me to perform related to Mission M011?** (e.g., \"Write a mission briefing,\" \"Analyze satellite imagery,\" \"Generate a list of potential threats,\" \"Draft a communication protocol\")\n*   **Do you have any specific constraints or requirements?** (e.g., \"Keep it under 500 words,\" \"Focus on urban environments,\" \"Use a specific tone\")\n*   **What is the desired output format?** (e.g., \"A written report,\" \"A list,\" \"A diagram\")\n\nThe more information you provide, the better I can help you with your task related to Mission M011.\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Okay, I understand. You want me to help you with a task related to **Mission M011**. \n\nTo give you the best assistance, please tell me more about what you need me to do. For example:\n\n*   **What is the goal of Mission M011?** (e.g., \"Gather intelligence,\" \"Secure a location,\" \"Rescue a target\")\n*   **What specific task do you want me to perform related to Mission M011?** (e.g., \"Write a mission briefing,\" \"Analyze satellite imagery,\" \"Generate a list of potential threats,\" \"Draft a communication protocol\")\n*   **Do you have any specific constraints or requirements?** (e.g., \"Keep it under 500 words,\" \"Focus on urban environments,\" \"Use a specific tone\")\n*   **What is the desired output format?** (e.g., \"A written report,\" \"A list,\" \"A diagram\")\n\nThe more information you provide, the better I can help you with your task related to Mission M011.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.2499478879182235
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 11,
+      "candidatesTokenCount": 230,
+      "totalTokenCount": 241,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 230
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "lUFmaanRLOGy2roP6JbS-Ac"
+  },
+  "mission_id": "mission_0011",
+  "timestamp": "2026-01-13T21:59:03.664808"
+}

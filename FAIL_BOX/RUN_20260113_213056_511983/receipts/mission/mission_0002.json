@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0002",
+  "timestamp": "2026-01-13T21:31:01.223442",
+  "status": "SUCCESS",
+  "content_hash": "f6405ebb23274939da544e8fcbd9cba27c4cc2ec",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M002",
+    "content": "Okay, I understand.  The task is **TASK_V3** and the mission is **M002**.\n\nIs there anything else I can help you with regarding this task or mission? Do you need me to:\n\n*   **Provide information about TASK_V3 or MISSION_M002?** (If so, please provide context or details)\n*   **Help you brainstorm ideas related to TASK_V3 and MISSION_M002?**\n*   **Execute a specific command related to TASK_V3 and MISSION_M002 (if applicable)?**\n*   **Something else entirely?**\n\nPlease tell me what you need me to do.\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Okay, I understand.  The task is **TASK_V3** and the mission is **M002**.\n\nIs there anything else I can help you with regarding this task or mission? Do you need me to:\n\n*   **Provide information about TASK_V3 or MISSION_M002?** (If so, please provide context or details)\n*   **Help you brainstorm ideas related to TASK_V3 and MISSION_M002?**\n*   **Execute a specific command related to TASK_V3 and MISSION_M002 (if applicable)?**\n*   **Something else entirely?**\n\nPlease tell me what you need me to do.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.29048091862477415
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 11,
+        "candidatesTokenCount": 147,
+        "totalTokenCount": 158,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 11
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 147
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "BDtmacqsBvmX0-kP1_z68AQ"
+    },
+    "mission_id": "mission_0002",
+    "timestamp": "2026-01-13T21:31:01.223442"
+  }
+}

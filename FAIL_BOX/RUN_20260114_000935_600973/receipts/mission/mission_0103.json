@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0103",
+  "timestamp": "2026-01-14T00:10:26.958449",
+  "status": "SUCCESS",
+  "content_hash": "316a801b671dd503713fc5a4bf1e7e81f5e11850",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "FILL_basic_102",
+    "content": "Please provide me with more context. \"FILL_basic_102\" doesn't tell me what you want me to fill in. \n\nTo help me understand, please tell me:\n\n*   **What kind of content are you expecting?** (e.g., a sentence, a paragraph, code, a list, a table)\n*   **What is the topic or subject matter?**\n*   **What specific information are you looking for?**\n*   **Where should I fill it in?** (e.g., \"Fill in the blank: The capital of France is FILL_basic_102.\")\n\nOnce I have this information, I can provide a helpful and accurate answer.\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Please provide me with more context. \"FILL_basic_102\" doesn't tell me what you want me to fill in. \n\nTo help me understand, please tell me:\n\n*   **What kind of content are you expecting?** (e.g., a sentence, a paragraph, code, a list, a table)\n*   **What is the topic or subject matter?**\n*   **What specific information are you looking for?**\n*   **Where should I fill it in?** (e.g., \"Fill in the blank: The capital of France is FILL_basic_102.\")\n\nOnce I have this information, I can provide a helpful and accurate answer.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.27160498006454364
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 7,
+        "candidatesTokenCount": 151,
+        "totalTokenCount": 158,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 7
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 151
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "YWBmabrXJri8vr0PlIn7yAg"
+    },
+    "mission_id": "mission_0103",
+    "timestamp": "2026-01-14T00:10:26.956907"
+  }
+}

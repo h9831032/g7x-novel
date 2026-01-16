@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0032",
+  "timestamp": "2026-01-14T00:40:18.307366",
+  "status": "SUCCESS",
+  "content_hash": "053793cb3fc466b918a554dee9ae3d0d44e3242f",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M032",
+    "content": "Here's the summary for M032:\n\n**Mission M032: Analyze User Feedback for Feature Prioritization**\n\nYour task is to review a collection of user feedback, categorize it by reported feature or area of concern, identify key pain points, and suggest potential improvements or new features.\n\n**Objectives:**\n*   Categorize feedback into predefined feature areas (e.g., \"Login/Authentication,\" \"Dashboard,\" \"Reporting,\" \"Integrations,\" \"Performance\").\n*   Quantify the frequency of mentions for each category.\n*   Identify at least 3 critical pain points or highly requested features based on the feedback.\n*   Propose specific, actionable recommendations for addressing these pain points or implementing new features.\n\n**Deliverable:**\nA concise report (document or presentation) summarizing your findings, including:\n1.  **Feedback Categorization:** A breakdown of feedback by category.\n2.  **Top Pain Points/Requests:** A list of the top 3-5 most frequently mentioned or impactful issues/requests.\n3.  **Recommendations:** Actionable suggestions for product improvements or new features based on the identified pain points/requests.\n4.  **Supporting Quotes (Optional but Recommended):** A few representative user quotes to illustrate key points.",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:40:18 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=2736",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "Here's the summary for M032:\n\n**Mission M032: Analyze User Feedback for Feature Prioritization**\n\nYour task is to review a collection of user feedback, categorize it by reported feature or area of concern, identify key pain points, and suggest potential improvements or new features.\n\n**Objectives:**\n*   Categorize feedback into predefined feature areas (e.g., \"Login/Authentication,\" \"Dashboard,\" \"Reporting,\" \"Integrations,\" \"Performance\").\n*   Quantify the frequency of mentions for each category.\n*   Identify at least 3 critical pain points or highly requested features based on the feedback.\n*   Propose specific, actionable recommendations for addressing these pain points or implementing new features.\n\n**Deliverable:**\nA concise report (document or presentation) summarizing your findings, including:\n1.  **Feedback Categorization:** A breakdown of feedback by category.\n2.  **Top Pain Points/Requests:** A list of the top 3-5 most frequently mentioned or impactful issues/requests.\n3.  **Recommendations:** Actionable suggestions for product improvements or new features based on the identified pain points/requests.\n4.  **Supporting Quotes (Optional but Recommended):** A few representative user quotes to illustrate key points.",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "YmdmaeCgL8LkosUP7dX2kQ0",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 264,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 55,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 331,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0032",
+    "timestamp": "2026-01-14T00:40:18.307366"
+  }
+}

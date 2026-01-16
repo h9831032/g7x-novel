@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-15T21:49:50.716370",
+  "root": "C:\\g7core\\g7_v1",
+  "nodes": {
+    "manager": {
+      "path": "main\\manager.py",
+      "status": "WELDED",
+      "role": "main_entry"
+    },
+    "evidence_writer": {
+      "path": "main/pipeline/evidence.py",
+      "status": "WIRED",
+      "role": "evidence_generation"
+    }
+  }
+}

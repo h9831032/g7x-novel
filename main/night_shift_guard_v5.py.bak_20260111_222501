@@ -1,0 +1,51 @@
+import subprocess, sys, os, glob, argparse
+
+def run_real_manager():
+    root = "C:\\g7core\\g7_v1"
+    mgr = os.path.join(root, "main", "manager.py")
+    
+    # 1. 인자 추출
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--queue", type=str)
+    args, _ = parser.parse_known_args()
+
+    # 2. 환경 및 실행 (stderr 통합)
+    env = os.environ.copy()
+    env["PYTHONPATH"] = root
+    
+    proc = subprocess.run(
+        [sys.executable, mgr, "--queue", args.queue if args.queue else ""],
+        capture_output=True, text=True, cwd=root, env=env
+    )
+    
+    # 3. 결과 파싱 (TARGET_RUN_PATH 검색)
+    target = ""
+    for line in proc.stdout.splitlines():
+        if "TARGET_RUN_PATH:" in line:
+            target = line.split("TARGET_RUN_PATH:")[1].strip()
+    
+    if not target or proc.returncode != 0:
+        return None, {}, 0
+
+    # 4. 무결성 검증
+    reqs = ["verify_report.json", "stamp_manifest.json", "final_audit.json", "exitcode.txt", "blackbox_log.jsonl"]
+    results = {f: os.path.exists(os.path.join(target, f)) for f in reqs}
+    
+    receipt_log = os.path.join(target, "api_receipt.jsonl")
+    count = 0
+    if os.path.exists(receipt_log):
+        with open(receipt_log, "r", encoding="utf-8") as f:
+            count = len([l for l in f if l.strip()])
+    
+    return target, results, count
+
+if __name__ == "__main__":
+    try:
+        path, res, count = run_real_manager()
+        if path and all(res.values()) and count >= 120:
+            print(f"LATEST_RUN: {path}")
+            print(f"REQ_STATUS: {res}")
+            print(f"RECEIPTS: {count}")
+            sys.exit(0)
+    except Exception: pass
+    sys.exit(1)

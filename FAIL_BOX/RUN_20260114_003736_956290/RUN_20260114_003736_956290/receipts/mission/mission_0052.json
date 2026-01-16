@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0052",
+  "timestamp": "2026-01-14T00:41:58.184374",
+  "status": "SUCCESS",
+  "content_hash": "9342b387338bfcf00659fa2709f2b2580adb421f",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M052",
+    "content": "Here's a breakdown of **Mission M052: Project Nightingale**:\n\n---\n\n### **Mission M052: Project Nightingale**\n\n*   **Type:** Infiltration, Data Retrieval, Sabotage (Secondary)\n*   **Faction:** [Your Faction Name] / Independent Contractor\n*   **Urgency:** High\n\n**Overview:**\nThe notorious Atlas Syndicate has been developing a highly advanced and potentially devastating AI weapon, codenamed \"Nightingale,\" at their remote Aetheria Research Outpost Gamma-7. Intelligence suggests Nightingale is nearing completion and poses a significant threat to galactic stability. Your mission is to infiltrate the heavily guarded facility, download critical research data on Nightingale, and if possible, disrupt their progress by disabling the outpost's primary power conduit.\n\n**Objectives:**\n\n1.  **Primary Objective:** Infiltrate Aetheria Research Outpost Gamma-7 and download Project Nightingale's core data from the Central Server Array.\n2.  **Secondary Objective (Optional):** Sabotage the facility's main power conduit.\n\n**Location:**\n**Aetheria Research Outpost Gamma-7** on the desolate ice moon of **Xylos Prime**.\n*   The outpost is a sprawling, multi-layered facility, built into an icy canyon, featuring several interconnected research labs, power generation facilities, a central data hub, and extensive security barracks.\n*   Environmental conditions: Extreme cold (-80°C average), frequent blizzards reducing visibility, and hazardous icy terrain outside the facility.\n\n**Threats:**\n\n*   **Atlas Security Forces:** Heavily armored guards (various ranks), agile Sentinel-class patrol drones, and elite Enforcers equipped with personal energy shields.\n*   **Automated Defenses:** External automated turrets, internal laser grids, pressure plates, motion sensors, and retinal scanners protecting sensitive areas.\n*   **Environmental Hazards:** Exposure to extreme cold, limited visibility during blizzards, and potential structural instability in older sections of the outpost.\n\n**Recommended Strategy & Gear:**\n\n*   **Stealth Focus:** This mission heavily favors a stealthy approach. Equipping gear that enhances cloaking, reduces noise, and provides hacking capabilities is crucial.\n*   **Thermal Regulation:** Ensure your suit has high cold resistance. A \"Cryo-Shield\" mod or similar environmental protection is highly recommended for exterior sections.\n*   **EMP Grenades/Disruptors:** Invaluable for temporarily disabling drones, automated turrets, and energy shields without triggering general alarms.\n*   **Advanced Hacking Tool:** Essential for bypassing digital security systems, laser grids, and accessing the central server array.\n*   **Reconnaissance:** Observe enemy patrol patterns carefully. Utilize ventilation shafts, maintenance tunnels, and environmental cover for covert movement.\n*   **Secondary Objective (Sabotage):** Be aware that disabling the main power conduit will likely trigger a full facility lockdown, disable some non-critical security systems, but also redirect all available Atlas forces to your location, significantly increasing combat difficulty. Plan for a swift extraction if attempting this.\n\n**Rewards:**\n\n*   **Completion (Primary Objective):**\n    *   **Credits:** 3500\n    *   **XP:** 1500\n    *   **Item:** 1x \"Nightingale Core Fragment\" (Rare crafting material)\n    *   **Reputation:** +100 with [Your Faction Name], -50 with Atlas Syndicate\n*   **Bonus (Secondary Objective):**\n    *   **Credits:** +1000\n    *   **XP:** +500\n    *   **Item:** 1x \"Experimental Power Conduit Component\" (Epic crafting material)\n*   **First-Time Completion Bonus:**\n    *   **Unique Item:** \"Winter's Veil\" (Legendary Stealth Helmet - Increases cloaking duration and cold resistance).\n\n---\n\nGood luck, Agent. The fate of Project Nightingale rests on your shoulders.",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:41:58 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=12933",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "Here's a breakdown of **Mission M052: Project Nightingale**:\n\n---\n\n### **Mission M052: Project Nightingale**\n\n*   **Type:** Infiltration, Data Retrieval, Sabotage (Secondary)\n*   **Faction:** [Your Faction Name] / Independent Contractor\n*   **Urgency:** High\n\n**Overview:**\nThe notorious Atlas Syndicate has been developing a highly advanced and potentially devastating AI weapon, codenamed \"Nightingale,\" at their remote Aetheria Research Outpost Gamma-7. Intelligence suggests Nightingale is nearing completion and poses a significant threat to galactic stability. Your mission is to infiltrate the heavily guarded facility, download critical research data on Nightingale, and if possible, disrupt their progress by disabling the outpost's primary power conduit.\n\n**Objectives:**\n\n1.  **Primary Objective:** Infiltrate Aetheria Research Outpost Gamma-7 and download Project Nightingale's core data from the Central Server Array.\n2.  **Secondary Objective (Optional):** Sabotage the facility's main power conduit.\n\n**Location:**\n**Aetheria Research Outpost Gamma-7** on the desolate ice moon of **Xylos Prime**.\n*   The outpost is a sprawling, multi-layered facility, built into an icy canyon, featuring several interconnected research labs, power generation facilities, a central data hub, and extensive security barracks.\n*   Environmental conditions: Extreme cold (-80°C average), frequent blizzards reducing visibility, and hazardous icy terrain outside the facility.\n\n**Threats:**\n\n*   **Atlas Security Forces:** Heavily armored guards (various ranks), agile Sentinel-class patrol drones, and elite Enforcers equipped with personal energy shields.\n*   **Automated Defenses:** External automated turrets, internal laser grids, pressure plates, motion sensors, and retinal scanners protecting sensitive areas.\n*   **Environmental Hazards:** Exposure to extreme cold, limited visibility during blizzards, and potential structural instability in older sections of the outpost.\n\n**Recommended Strategy & Gear:**\n\n*   **Stealth Focus:** This mission heavily favors a stealthy approach. Equipping gear that enhances cloaking, reduces noise, and provides hacking capabilities is crucial.\n*   **Thermal Regulation:** Ensure your suit has high cold resistance. A \"Cryo-Shield\" mod or similar environmental protection is highly recommended for exterior sections.\n*   **EMP Grenades/Disruptors:** Invaluable for temporarily disabling drones, automated turrets, and energy shields without triggering general alarms.\n*   **Advanced Hacking Tool:** Essential for bypassing digital security systems, laser grids, and accessing the central server array.\n*   **Reconnaissance:** Observe enemy patrol patterns carefully. Utilize ventilation shafts, maintenance tunnels, and environmental cover for covert movement.\n*   **Secondary Objective (Sabotage):** Be aware that disabling the main power conduit will likely trigger a full facility lockdown, disable some non-critical security systems, but also redirect all available Atlas forces to your location, significantly increasing combat difficulty. Plan for a swift extraction if attempting this.\n\n**Rewards:**\n\n*   **Completion (Primary Objective):**\n    *   **Credits:** 3500\n    *   **XP:** 1500\n    *   **Item:** 1x \"Nightingale Core Fragment\" (Rare crafting material)\n    *   **Reputation:** +100 with [Your Faction Name], -50 with Atlas Syndicate\n*   **Bonus (Secondary Objective):**\n    *   **Credits:** +1000\n    *   **XP:** +500\n    *   **Item:** 1x \"Experimental Power Conduit Component\" (Epic crafting material)\n*   **First-Time Completion Bonus:**\n    *   **Unique Item:** \"Winter's Veil\" (Legendary Stealth Helmet - Increases cloaking duration and cold resistance).\n\n---\n\nGood luck, Agent. The fate of Project Nightingale rests on your shoulders.",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "xmdmaaTAKfahvr0PqMDNoQ4",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 835,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 1266,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 2113,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0052",
+    "timestamp": "2026-01-14T00:41:58.173823"
+  }
+}

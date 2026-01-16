@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0095",
+  "timestamp": "2026-01-14T00:10:08.796456",
+  "status": "SUCCESS",
+  "content_hash": "9226868a639320b5dc880a7f26bb606a8616cbe6",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "FILL_basic_94",
+    "content": "Please provide me with more context! I need to know what you want me to fill in. \"FILL_basic_94\" doesn't tell me anything about the subject or the type of information you're looking for. \n\nFor example, are you looking for:\n\n* **A code snippet?** If so, what language and what should the code do?\n* **A mathematical formula?** If so, what is the context of the formula?\n* **A sentence or paragraph?** If so, what is the topic?\n* **A list of items?** If so, what kind of items?\n\nThe more information you give me, the better I can help you.\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Please provide me with more context! I need to know what you want me to fill in. \"FILL_basic_94\" doesn't tell me anything about the subject or the type of information you're looking for. \n\nFor example, are you looking for:\n\n* **A code snippet?** If so, what language and what should the code do?\n* **A mathematical formula?** If so, what is the context of the formula?\n* **A sentence or paragraph?** If so, what is the topic?\n* **A list of items?** If so, what kind of items?\n\nThe more information you give me, the better I can help you.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.24122833879026648
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 6,
+        "candidatesTokenCount": 146,
+        "totalTokenCount": 152,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 146
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "T2BmafLgDsTDvr0P9dyG6Aw"
+    },
+    "mission_id": "mission_0095",
+    "timestamp": "2026-01-14T00:10:08.796456"
+  }
+}

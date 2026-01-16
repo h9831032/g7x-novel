@@ -1,0 +1,9 @@
+{
+    "card_id": "CARD_0545",
+    "priority": "P0",
+    "lane": "LANE_1",
+    "payload_type": "CODE",
+    "input_ref": "internal_db_545",
+    "prompt": "Optimize a Python sorting algorithm. (Var_545)",
+    "created_at": "2026-01-06"
+}

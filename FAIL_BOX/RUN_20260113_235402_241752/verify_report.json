@@ -1,0 +1,21 @@
+{
+  "run_id": "RUN_20260113_235402_241752",
+  "timestamp": "2026-01-13T23:54:02.259769",
+  "exitcode": 1,
+  "expected_missions": 120,
+  "done_missions": 0,
+  "receipts_count": 0,
+  "receipts_nonempty_count": 0,
+  "api_receipt_lines": 0,
+  "api_raw_count": 0,
+  "api_error_count": 0,
+  "reason_code": "FAIL_FAST",
+  "required_files": {
+    "verify_report.json": true,
+    "stamp_manifest.json": true,
+    "final_audit.json": true,
+    "exitcode.txt": true,
+    "blackbox_log.jsonl": true,
+    "api_receipt.jsonl": false
+  }
+}

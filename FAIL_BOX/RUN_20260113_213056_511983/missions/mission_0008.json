@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M008",
+  "content": "Okay, I understand.  You've initiated TASK_V3 with the mission code M008.  To proceed effectively, I need more information about **mission M008**.\n\nPlease tell me:\n\n*   **What is the objective of mission M008?** (e.g., \"Retrieve a lost artifact,\" \"Gather intelligence on a target,\" \"Secure a location.\")\n*   **What are the known constraints or limitations?** (e.g., \"Time limit of 24 hours,\" \"Must remain undetected,\" \"Limited resources.\")\n*   **What is the context of the mission?** (e.g., \"Ongoing conflict,\" \"Research expedition,\" \"Peacekeeping operation.\")\n*   **What specific assistance do you require from me?** (e.g., \"Analyze data,\" \"Generate possible strategies,\" \"Provide real-time updates.\")\n\nThe more detail you provide, the better I can assist you with mission M008.\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Okay, I understand.  You've initiated TASK_V3 with the mission code M008.  To proceed effectively, I need more information about **mission M008**.\n\nPlease tell me:\n\n*   **What is the objective of mission M008?** (e.g., \"Retrieve a lost artifact,\" \"Gather intelligence on a target,\" \"Secure a location.\")\n*   **What are the known constraints or limitations?** (e.g., \"Time limit of 24 hours,\" \"Must remain undetected,\" \"Limited resources.\")\n*   **What is the context of the mission?** (e.g., \"Ongoing conflict,\" \"Research expedition,\" \"Peacekeeping operation.\")\n*   **What specific assistance do you require from me?** (e.g., \"Analyze data,\" \"Generate possible strategies,\" \"Provide real-time updates.\")\n\nThe more detail you provide, the better I can assist you with mission M008.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.35610803429055327
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 11,
+      "candidatesTokenCount": 207,
+      "totalTokenCount": 218,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 11
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 207
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "FDtmaeugLd-02roP_MiU2Qc"
+  },
+  "mission_id": "mission_0008",
+  "timestamp": "2026-01-13T21:31:18.620554"
+}

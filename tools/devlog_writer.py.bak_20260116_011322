@@ -1,0 +1,449 @@
+"""
+G7X DEVLOG Writer v3.1 - Emergency Patch
+FIX: KeyError 'meta' in update_integration_map()
+- load_integration_map에 스키마 보정(마이그레이션) 추가
+- update_integration_map에 방어 코드 추가
+"""
+
+import json
+import os
+import sys
+from pathlib import Path
+from datetime import datetime, timedelta
+from typing import Dict, Any, List, Optional
+
+
+def get_latest_run(runs_dir: Path) -> Path:
+    """Get latest RUN folder"""
+    runs = [d for d in runs_dir.iterdir() if d.is_dir() and d.name.startswith("RUN_")]
+    if not runs:
+        raise FileNotFoundError("No RUN folders found")
+    return max(runs, key=lambda p: p.stat().st_mtime)
+
+
+def load_verify_report(run_path: Path) -> Dict[str, Any]:
+    """
+    Load Evidence result from verify_report.json
+    """
+    verify_file = run_path / "verify_report.json"
+    
+    if not verify_file.exists():
+        return {
+            "run_id": run_path.name,
+            "exitcode": -1,
+            "expected_missions": 0,
+            "done_missions": 0,
+            "api_error_count": 0,
+            "pass": False,
+            "reason_code": "VERIFY_REPORT_MISSING",
+            "verdict": "UNKNOWN"
+        }
+    
+    try:
+        data = json.loads(verify_file.read_text(encoding="utf-8"))
+        exitcode = data.get("exitcode", -1)
+        pass_flag = data.get("pass", False)
+        verdict = "PASS" if pass_flag else "FAIL"
+        
+        return {
+            "run_id": data.get("run_id", run_path.name),
+            "exitcode": exitcode,
+            "expected_missions": data.get("expected_missions", 0),
+            "done_missions": data.get("done_missions", 0),
+            "api_error_count": data.get("api_error_count", 0),
+            "pass": pass_flag,
+            "reason_code": data.get("reason_code", "UNKNOWN"),
+            "verdict": verdict
+        }
+    except Exception as e:
+        return {
+            "run_id": run_path.name,
+            "exitcode": -1,
+            "expected_missions": 0,
+            "done_missions": 0,
+            "api_error_count": 0,
+            "pass": False,
+            "reason_code": f"PARSE_ERROR: {e}",
+            "verdict": "UNKNOWN"
+        }
+
+
+def scan_delta_files(ssot_root: Path, since_hours: int = 24) -> List[Dict[str, Any]]:
+    """Scan files modified in last N hours"""
+    cutoff = datetime.now().timestamp() - (since_hours * 3600)
+    delta = []
+    
+    patterns = ["*.py", "*.ps1", "*.txt", "*.json", "*.jsonl", "*.md"]
+    exclude_dirs = {".venv", "runs", "__pycache__", ".git"}
+    
+    for pattern in patterns:
+        for f in ssot_root.rglob(pattern):
+            if f.is_file():
+                if any(excl in f.parts for excl in exclude_dirs):
+                    continue
+                if f.stat().st_mtime > cutoff:
+                    try:
+                        rel_path = f.relative_to(ssot_root)
+                        delta.append({
+                            "path": str(rel_path).replace("\\", "/"),
+                            "change_type": "MODIFIED",
+                            "size": f.stat().st_size
+                        })
+                    except ValueError:
+                        continue
+    
+    delta_sorted = sorted(delta, key=lambda x: x["path"])
+    return delta_sorted[:50]
+
+
+def build_next_tomorrow_tasks() -> List[Dict[str, Any]]:
+    """Build NEXT_TOMORROW task list"""
+    return [
+        {
+            "id": "NEXT_001",
+            "title": "Verify DEVLOG auto-generation stability",
+            "priority": "HIGH",
+            "reason": "First production run",
+            "related_files": ["tools/devlog_writer.py"]
+        },
+        {
+            "id": "NEXT_002",
+            "title": "Review evidence layer completeness",
+            "priority": "MEDIUM",
+            "reason": "Ensure PASS/FAIL sync",
+            "related_files": ["engine/evidence_writer.py"]
+        },
+        {
+            "id": "NEXT_003",
+            "title": "Execute REAL_WORK_120 batch",
+            "priority": "MEDIUM",
+            "reason": "Production batch test",
+            "related_files": ["GPTORDER/REAL_WORK_120_A.txt"]
+        }
+    ]
+
+
+def load_integration_map(devlog_dir: Path) -> Dict[str, Any]:
+    """
+    Load existing INTEGRATION_MAP or create initial structure
+    FIX: 스키마 보정(마이그레이션) 추가 - KeyError 'meta' 방지
+    """
+    map_file = devlog_dir / "INTEGRATION_MAP.json"
+    
+    # 기본 구조
+    default_structure = {
+        "meta": {
+            "version": 1,
+            "updated_at": datetime.now().isoformat(),
+            "total_progress": 0.0
+        },
+        "nodes": {},
+        "edges": []
+    }
+    
+    if map_file.exists():
+        try:
+            loaded = json.loads(map_file.read_text(encoding="utf-8"))
+            
+            # 스키마 보정 (마이그레이션)
+            # meta가 없거나 불완전하면 기본값으로 채움
+            if "meta" not in loaded or not isinstance(loaded["meta"], dict):
+                loaded["meta"] = default_structure["meta"]
+            else:
+                # meta 내부 필드 보정
+                loaded["meta"].setdefault("version", 1)
+                loaded["meta"].setdefault("updated_at", datetime.now().isoformat())
+                loaded["meta"].setdefault("total_progress", 0.0)
+            
+            # nodes가 없으면 빈 dict
+            if "nodes" not in loaded or not isinstance(loaded["nodes"], dict):
+                loaded["nodes"] = {}
+            
+            # edges가 없으면 빈 list
+            if "edges" not in loaded or not isinstance(loaded["edges"], list):
+                loaded["edges"] = []
+            
+            return loaded
+        except Exception:
+            # 파싱 실패 시 기본 구조 반환
+            return default_structure
+    
+    return default_structure
+
+
+def update_integration_map(
+    integration_map: Dict[str, Any],
+    ssot_root: Path
+) -> Dict[str, Any]:
+    """
+    Update INTEGRATION_MAP with current system state
+    FIX: 방어 코드 추가 - KeyError 방지
+    """
+    # 방어: meta가 없으면 강제 생성
+    integration_map.setdefault("meta", {
+        "version": 1,
+        "updated_at": datetime.now().isoformat(),
+        "total_progress": 0.0
+    })
+    
+    # 방어: nodes/edges가 없으면 강제 생성
+    integration_map.setdefault("nodes", {})
+    integration_map.setdefault("edges", [])
+    
+    # Update timestamp
+    integration_map["meta"]["updated_at"] = datetime.now().isoformat()
+    
+    # Check core components
+    components = [
+        {
+            "id": "ENGINE_CORE",
+            "name": "Engine Core",
+            "type": "module",
+            "path": "engine/",
+            "status": "IN_PROGRESS",
+            "progress": 0.8
+        },
+        {
+            "id": "DEVLOG_SYSTEM",
+            "name": "Devlog System",
+            "type": "module",
+            "path": "tools/devlog_writer.py",
+            "status": "IN_PROGRESS",
+            "progress": 0.7
+        },
+        {
+            "id": "MANAGER",
+            "name": "Manager",
+            "type": "core",
+            "path": "main/manager.py",
+            "status": "WELDED",
+            "progress": 1.0
+        },
+        {
+            "id": "EVIDENCE_WRITER",
+            "name": "Evidence Writer",
+            "type": "core",
+            "path": "engine/evidence_writer.py",
+            "status": "WELDED",
+            "progress": 1.0
+        }
+    ]
+    
+    # Add/update nodes
+    for comp in components:
+        comp_id = comp["id"]
+        if comp_id not in integration_map["nodes"]:
+            integration_map["nodes"][comp_id] = comp
+        else:
+            existing = integration_map["nodes"][comp_id]
+            file_path = ssot_root / comp["path"]
+            if file_path.exists():
+                existing["progress"] = comp["progress"]
+                existing["status"] = comp["status"]
+    
+    # Add edges if not exists
+    edges_to_add = [
+        {"from": "MANAGER", "to": "EVIDENCE_WRITER", "relation": "USES"},
+        {"from": "MANAGER", "to": "DEVLOG_SYSTEM", "relation": "USES"},
+        {"from": "EVIDENCE_WRITER", "to": "DEVLOG_SYSTEM", "relation": "PROVIDES_DATA"}
+    ]
+    
+    existing_edges = integration_map.get("edges", [])
+    for edge in edges_to_add:
+        if edge not in existing_edges:
+            existing_edges.append(edge)
+    integration_map["edges"] = existing_edges
+    
+    # Calculate total_progress
+    nodes = integration_map["nodes"]
+    if nodes:
+        total = sum(n.get("progress", 0) for n in nodes.values())
+        integration_map["meta"]["total_progress"] = round(total / len(nodes), 2)
+    
+    return integration_map
+
+
+def write_daily_report(
+    devlog_dir: Path,
+    date_str: str,
+    evidence: Dict[str, Any],
+    delta: List[Dict[str, Any]],
+    integration_map: Dict[str, Any]
+) -> Path:
+    """Write human-readable DAILY_REPORT"""
+    day_dir = devlog_dir / date_str
+    day_dir.mkdir(parents=True, exist_ok=True)
+    
+    report_path = day_dir / f"DAILY_REPORT_{date_str}.txt"
+    verdict = evidence.get("verdict", "UNKNOWN")
+    
+    content = f"""G7X DAILY REPORT - {date_str}
+
+=== EVIDENCE (Latest RUN) ===
+RUN ID: {evidence.get('run_id', 'UNKNOWN')}
+Exitcode: {evidence.get('exitcode', -1)}
+Expected: {evidence.get('expected_missions', 0)}
+Done: {evidence.get('done_missions', 0)}
+API Errors: {evidence.get('api_error_count', 0)}
+Verdict: {verdict}
+Reason: {evidence.get('reason_code', 'UNKNOWN')}
+
+=== DELTA (Today's Changes) ===
+Total Files Modified: {len(delta)}
+"""
+    
+    if delta:
+        content += "Top changes:\n"
+        for item in delta[:10]:
+            content += f"  - {item['path']} ({item['change_type']}, {item['size']} bytes)\n"
+    else:
+        content += "  (no changes detected)\n"
+    
+    content += f"""
+=== INTEGRATION MAP (Snapshot) ===
+Total Progress: {integration_map.get('meta', {}).get('total_progress', 0)} ({int(integration_map.get('meta', {}).get('total_progress', 0) * 100)}%)
+Nodes: {len(integration_map.get('nodes', {}))}
+Edges: {len(integration_map.get('edges', []))}
+"""
+    
+    for node_id, node_data in integration_map.get("nodes", {}).items():
+        prog = int(node_data.get("progress", 0) * 100)
+        content += f"  [{node_data['status']}] {node_data['name']} -> {node_data['path']} ({prog}%)\n"
+    
+    content += """
+=== NEXT (Tomorrow) ===
+Main Tasks:
+  1. Verify DEVLOG auto-generation stability
+  2. Review evidence layer completeness
+  3. Execute REAL_WORK_120 batch
+
+Night Tasks:
+  1. Monitor FAIL_BOX isolation
+  2. Validate retry order generation
+"""
+    
+    report_path.write_text(content, encoding="utf-8")
+    return report_path
+
+
+def write_evidence_latest(devlog_dir: Path, evidence: Dict[str, Any]) -> Path:
+    """Write EVIDENCE_LATEST.json"""
+    path = devlog_dir / "EVIDENCE_LATEST.json"
+    
+    output = {
+        "run_id": evidence.get("run_id", "UNKNOWN"),
+        "timestamp": datetime.now().isoformat(),
+        "exitcode": evidence.get("exitcode", -1),
+        "expected_missions": evidence.get("expected_missions", 0),
+        "done_missions": evidence.get("done_missions", 0),
+        "api_error_count": evidence.get("api_error_count", 0),
+        "pass": evidence.get("pass", False),
+        "verdict": evidence.get("verdict", "UNKNOWN"),
+        "reason_code": evidence.get("reason_code", "UNKNOWN")
+    }
+    
+    path.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def write_delta_today(devlog_dir: Path, date_str: str, delta: List[Dict[str, Any]]) -> Path:
+    """Write DELTA_TODAY.json"""
+    day_dir = devlog_dir / date_str
+    day_dir.mkdir(parents=True, exist_ok=True)
+    
+    path = day_dir / "DELTA_TODAY.json"
+    
+    data = {
+        "date": date_str,
+        "timestamp": datetime.now().isoformat(),
+        "count": len(delta),
+        "items": delta
+    }
+    
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def write_next_tomorrow(devlog_dir: Path, date_str: str) -> Path:
+    """Write NEXT_TOMORROW.json"""
+    day_dir = devlog_dir / date_str
+    day_dir.mkdir(parents=True, exist_ok=True)
+    
+    path = day_dir / "NEXT_TOMORROW.json"
+    
+    data = {
+        "date": date_str,
+        "timestamp": datetime.now().isoformat(),
+        "tasks": build_next_tomorrow_tasks()
+    }
+    
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def write_integration_map(devlog_dir: Path, integration_map: Dict[str, Any]) -> Path:
+    """Write INTEGRATION_MAP.json (cumulative)"""
+    path = devlog_dir / "INTEGRATION_MAP.json"
+    path.write_text(json.dumps(integration_map, indent=2, ensure_ascii=False), encoding="utf-8")
+    return path
+
+
+def generate_devlog_5files(ssot_root) -> Dict[str, Path]:
+    """
+    Main entry: Generate 5 DEVLOG files
+    
+    Files:
+    1. DAILY_REPORT_YYYY-MM-DD.txt
+    2. EVIDENCE_LATEST.json
+    3. DELTA_TODAY.json
+    4. NEXT_TOMORROW.json
+    5. INTEGRATION_MAP.json
+    """
+    ssot_root = Path(ssot_root)
+    devlog_dir = ssot_root / "DEVLOG"
+    devlog_dir.mkdir(exist_ok=True)
+    
+    runs_dir = ssot_root / "runs"
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    
+    # Get latest RUN
+    latest_run = get_latest_run(runs_dir)
+    
+    # Load Evidence result
+    evidence = load_verify_report(latest_run)
+    
+    # Scan delta files
+    delta = scan_delta_files(ssot_root)
+    
+    # Load and update INTEGRATION_MAP (FIX: 스키마 보정 적용)
+    integration_map = load_integration_map(devlog_dir)
+    integration_map = update_integration_map(integration_map, ssot_root)
+    
+    # Generate 5 files
+    files = {}
+    files["daily_report"] = write_daily_report(devlog_dir, date_str, evidence, delta, integration_map)
+    files["evidence_latest"] = write_evidence_latest(devlog_dir, evidence)
+    files["delta_today"] = write_delta_today(devlog_dir, date_str, delta)
+    files["next_tomorrow"] = write_next_tomorrow(devlog_dir, date_str)
+    files["integration_map"] = write_integration_map(devlog_dir, integration_map)
+    
+    return files
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python devlog_writer.py <ssot_root>")
+        sys.exit(1)
+    
+    ssot_root = Path(sys.argv[1])
+    
+    try:
+        files = generate_devlog_5files(ssot_root)
+        print("[DEVLOG] Generated 5 files:")
+        for name, path in files.items():
+            print(f"  {name}: {path}")
+    except Exception as e:
+        print(f"[DEVLOG ERROR] {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)

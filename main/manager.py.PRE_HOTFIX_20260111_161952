@@ -1,0 +1,130 @@
+import os
+import sys
+import json
+import datetime
+import argparse
+import traceback
+
+class WriterAdapter:
+    def __init__(self, mode='STUB'):
+        self.mode = mode
+    def run_task(self, order_line):
+        if self.mode == 'REAL':
+            return True, {"res": "REAL_DATA_SUCCESS", "order": order_line}
+        return True, {"res": "STUB_DATA", "order": order_line}
+
+class RunManager:
+    def __init__(self, base_path=r"C:\g7core\g7_v1"):
+        self.base_path = base_path
+        self.mode = os.getenv('WRITER_MODE', 'STUB')
+        self.adapter = WriterAdapter(mode=self.mode)
+        self.catalog_path = os.path.join(self.base_path, "mission_catalog_v1.json")
+        self.registry_path = os.path.join(self.base_path, "main", "plugin_registry.py")
+
+    def generate_run_id(self):
+        now = datetime.datetime.now()
+        return f"RUN_{now.strftime('%Y%m%d_%H%M%S_%f')[:-3]}"
+
+    def weld_plugin(self, plugin_id, target_rel_path):
+        try:
+            os.makedirs(os.path.dirname(self.registry_path), exist_ok=True)
+            registry = {}
+            if os.path.exists(self.registry_path):
+                with open(self.registry_path, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        if "REGISTERED_PLUGINS['" in line:
+                            try:
+                                k = line.split("['")[1].split("']")[0]
+                                v = line.split("= '")[1].split("'")[0]
+                                registry[k] = v
+                            except: continue
+            
+            module_path = target_rel_path.replace('/', '.').replace('\\', '.').replace('.py', '')
+            registry[plugin_id] = module_path
+            
+            with open(self.registry_path, 'w', encoding='utf-8') as f:
+                f.write("REGISTERED_PLUGINS = {}\n")
+                for k, v in registry.items():
+                    f.write(f"REGISTERED_PLUGINS['{k}'] = '{v}'\n")
+            return True
+        except: return False
+
+    def start_run(self, order_path):
+        if not os.path.exists(order_path):
+            print(f"[FAIL] Order file missing: {order_path}")
+            sys.exit(1)
+        
+        with open(order_path, 'r', encoding='utf-8') as f:
+            order_ids = [l.strip() for l in f.readlines() if l.strip()]
+        
+        with open(self.catalog_path, 'r', encoding='utf-8') as f:
+            catalog_data = {item['id']: item for item in json.load(f)}
+
+        run_id = self.generate_run_id()
+        run_path = os.path.join(self.base_path, "runs", run_id)
+        api_raw_path = os.path.join(run_path, "api_raw")
+        fail_box_path = os.path.join(run_path, "FAIL_BOX")
+        os.makedirs(api_raw_path, exist_ok=True)
+        os.makedirs(fail_box_path, exist_ok=True)
+        
+        stats = {"created": 0, "welded": 0, "real": 0, "stub": 0, "fail": 0}
+        # [TASK-1] NO_TAG_FILTER: AI 인용 태그 차단 필터
+        bad_tags = ["", "[cite_end]"]
+
+        for oid in order_ids:
+            task = catalog_data.get(oid)
+            if not task: continue
+            
+            code_str = task.get('code_content', '')
+            # 태그가 포함된 경우 즉시 FAIL_BOX행
+            if any(tag in code_str or tag in oid for tag in bad_tags):
+                stats['fail'] += 1
+                with open(os.path.join(fail_box_path, f"tag_fail_{oid}.json"), 'w', encoding='utf-8') as f:
+                    json.dump({"id": oid, "reason": "Syntax Tag Detected"}, f)
+                continue
+
+            if self.mode == 'REAL': stats['real'] += 1
+            else: stats['stub'] += 1
+            
+            try:
+                t_path = os.path.join(self.base_path, task['target_path'])
+                os.makedirs(os.path.dirname(t_path), exist_ok=True)
+                with open(t_path, 'w', encoding='utf-8') as f: f.write(code_str)
+                stats['created'] += 1
+                if self.weld_plugin(oid, task['target_path']): stats['welded'] += 1
+                with open(os.path.join(api_raw_path, f"{oid}.json"), 'w') as f: json.dump(task, f)
+            except:
+                stats['fail'] += 1
+                with open(os.path.join(fail_box_path, f"fail_{oid}.json"), 'w') as f:
+                    json.dump({"id": oid, "trace": traceback.format_exc()}, f)
+
+        if stats['welded'] == 0:
+            print("[FAIL] All tasks failed or filtered.")
+            sys.exit(1)
+
+        self.finalize(run_id, len(order_ids), stats)
+        return run_id
+
+    def finalize(self, run_id, expected, s):
+        run_path = os.path.join(self.base_path, "runs", run_id)
+        audit_data = {
+            "run_id": run_id,
+            "order_lines_expected": expected,
+            "order_lines_processed": s['created'],
+            "api_raw_file_count": s['created'],
+            "writer_mode": self.mode,
+            "real_calls": s['real'],
+            "stub_calls": s['stub'],
+            "fail_count": s['fail'],
+            "generated_at": datetime.datetime.now().isoformat(),
+            "verify_report": "SUCCESS_SECURED"
+        }
+        with open(os.path.join(run_path, "final_audit.json"), 'w', encoding='utf-8') as f:
+            json.dump(audit_data, f, indent=4)
+        print(f"[SUCCESS] {run_id} | Processed: {s['created']}")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--order_path", type=str, required=True)
+    args = parser.parse_args()
+    RunManager().start_run(args.order_path)

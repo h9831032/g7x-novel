@@ -1,0 +1,6002 @@
+[
+  {
+    "mission_id": "F_BASIC_0",
+    "title": "Filler basic 0",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_0.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_1",
+    "title": "Filler basic 1",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_1.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_2",
+    "title": "Filler basic 2",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_2.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_3",
+    "title": "Filler basic 3",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_3.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_4",
+    "title": "Filler basic 4",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_4.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_5",
+    "title": "Filler basic 5",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_5.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_6",
+    "title": "Filler basic 6",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_6.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_7",
+    "title": "Filler basic 7",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_7.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_8",
+    "title": "Filler basic 8",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_8.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_9",
+    "title": "Filler basic 9",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_9.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_10",
+    "title": "Filler basic 10",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_10.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_11",
+    "title": "Filler basic 11",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_11.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_12",
+    "title": "Filler basic 12",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_12.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_13",
+    "title": "Filler basic 13",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_13.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_14",
+    "title": "Filler basic 14",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_14.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_15",
+    "title": "Filler basic 15",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_15.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_16",
+    "title": "Filler basic 16",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_16.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_17",
+    "title": "Filler basic 17",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_17.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_18",
+    "title": "Filler basic 18",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_18.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_19",
+    "title": "Filler basic 19",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_19.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_20",
+    "title": "Filler basic 20",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_20.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_21",
+    "title": "Filler basic 21",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_21.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_22",
+    "title": "Filler basic 22",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_22.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_23",
+    "title": "Filler basic 23",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_23.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_24",
+    "title": "Filler basic 24",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_24.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_25",
+    "title": "Filler basic 25",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_25.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_26",
+    "title": "Filler basic 26",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_26.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_27",
+    "title": "Filler basic 27",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_27.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_28",
+    "title": "Filler basic 28",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_28.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_29",
+    "title": "Filler basic 29",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_29.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_30",
+    "title": "Filler basic 30",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_30.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_31",
+    "title": "Filler basic 31",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_31.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_32",
+    "title": "Filler basic 32",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_32.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_33",
+    "title": "Filler basic 33",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_33.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_34",
+    "title": "Filler basic 34",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_34.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_35",
+    "title": "Filler basic 35",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_35.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_36",
+    "title": "Filler basic 36",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_36.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_37",
+    "title": "Filler basic 37",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_37.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_38",
+    "title": "Filler basic 38",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_38.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_39",
+    "title": "Filler basic 39",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_39.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_40",
+    "title": "Filler basic 40",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_40.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_41",
+    "title": "Filler basic 41",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_41.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_42",
+    "title": "Filler basic 42",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_42.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_43",
+    "title": "Filler basic 43",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_43.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_44",
+    "title": "Filler basic 44",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_44.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_45",
+    "title": "Filler basic 45",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_45.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_46",
+    "title": "Filler basic 46",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_46.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_47",
+    "title": "Filler basic 47",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_47.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_48",
+    "title": "Filler basic 48",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_48.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_49",
+    "title": "Filler basic 49",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_49.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_50",
+    "title": "Filler basic 50",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_50.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_51",
+    "title": "Filler basic 51",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_51.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_52",
+    "title": "Filler basic 52",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_52.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_53",
+    "title": "Filler basic 53",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_53.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_54",
+    "title": "Filler basic 54",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_54.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_55",
+    "title": "Filler basic 55",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_55.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_56",
+    "title": "Filler basic 56",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_56.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_57",
+    "title": "Filler basic 57",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_57.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_58",
+    "title": "Filler basic 58",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_58.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_59",
+    "title": "Filler basic 59",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_59.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_60",
+    "title": "Filler basic 60",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_60.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_61",
+    "title": "Filler basic 61",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_61.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_62",
+    "title": "Filler basic 62",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_62.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_63",
+    "title": "Filler basic 63",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_63.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_64",
+    "title": "Filler basic 64",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_64.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_65",
+    "title": "Filler basic 65",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_65.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_66",
+    "title": "Filler basic 66",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_66.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_67",
+    "title": "Filler basic 67",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_67.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_68",
+    "title": "Filler basic 68",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_68.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_69",
+    "title": "Filler basic 69",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_69.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_70",
+    "title": "Filler basic 70",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_70.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_71",
+    "title": "Filler basic 71",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_71.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_72",
+    "title": "Filler basic 72",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_72.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_73",
+    "title": "Filler basic 73",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_73.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_74",
+    "title": "Filler basic 74",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_74.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_75",
+    "title": "Filler basic 75",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_75.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_76",
+    "title": "Filler basic 76",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_76.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_77",
+    "title": "Filler basic 77",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_77.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_78",
+    "title": "Filler basic 78",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_78.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_79",
+    "title": "Filler basic 79",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_79.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_80",
+    "title": "Filler basic 80",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_80.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_81",
+    "title": "Filler basic 81",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_81.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_82",
+    "title": "Filler basic 82",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_82.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_83",
+    "title": "Filler basic 83",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_83.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_84",
+    "title": "Filler basic 84",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_84.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_85",
+    "title": "Filler basic 85",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_85.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_86",
+    "title": "Filler basic 86",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_86.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_87",
+    "title": "Filler basic 87",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_87.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_88",
+    "title": "Filler basic 88",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_88.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_89",
+    "title": "Filler basic 89",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_89.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_90",
+    "title": "Filler basic 90",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_90.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_91",
+    "title": "Filler basic 91",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_91.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_92",
+    "title": "Filler basic 92",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_92.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_93",
+    "title": "Filler basic 93",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_93.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_94",
+    "title": "Filler basic 94",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_94.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_95",
+    "title": "Filler basic 95",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_95.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_96",
+    "title": "Filler basic 96",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_96.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_97",
+    "title": "Filler basic 97",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_97.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_98",
+    "title": "Filler basic 98",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_98.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_99",
+    "title": "Filler basic 99",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_99.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_100",
+    "title": "Filler basic 100",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_100.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_101",
+    "title": "Filler basic 101",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_101.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_102",
+    "title": "Filler basic 102",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_102.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_103",
+    "title": "Filler basic 103",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_103.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_104",
+    "title": "Filler basic 104",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_104.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_105",
+    "title": "Filler basic 105",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_105.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_106",
+    "title": "Filler basic 106",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_106.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_107",
+    "title": "Filler basic 107",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_107.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_108",
+    "title": "Filler basic 108",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_108.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_109",
+    "title": "Filler basic 109",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_109.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_110",
+    "title": "Filler basic 110",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_110.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_111",
+    "title": "Filler basic 111",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_111.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_112",
+    "title": "Filler basic 112",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_112.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_113",
+    "title": "Filler basic 113",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_113.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_114",
+    "title": "Filler basic 114",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_114.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_115",
+    "title": "Filler basic 115",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_115.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_116",
+    "title": "Filler basic 116",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_116.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_117",
+    "title": "Filler basic 117",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_117.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_118",
+    "title": "Filler basic 118",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_118.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_119",
+    "title": "Filler basic 119",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_119.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_120",
+    "title": "Filler basic 120",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_120.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_121",
+    "title": "Filler basic 121",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_121.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_122",
+    "title": "Filler basic 122",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_122.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_123",
+    "title": "Filler basic 123",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_123.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_124",
+    "title": "Filler basic 124",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_124.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_125",
+    "title": "Filler basic 125",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_125.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_126",
+    "title": "Filler basic 126",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_126.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_127",
+    "title": "Filler basic 127",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_127.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_128",
+    "title": "Filler basic 128",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_128.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_129",
+    "title": "Filler basic 129",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_129.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_130",
+    "title": "Filler basic 130",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_130.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_131",
+    "title": "Filler basic 131",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_131.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_132",
+    "title": "Filler basic 132",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_132.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_133",
+    "title": "Filler basic 133",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_133.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_134",
+    "title": "Filler basic 134",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_134.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_135",
+    "title": "Filler basic 135",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_135.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_136",
+    "title": "Filler basic 136",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_136.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_137",
+    "title": "Filler basic 137",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_137.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_138",
+    "title": "Filler basic 138",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_138.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_139",
+    "title": "Filler basic 139",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_139.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_140",
+    "title": "Filler basic 140",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_140.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_141",
+    "title": "Filler basic 141",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_141.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_142",
+    "title": "Filler basic 142",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_142.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_143",
+    "title": "Filler basic 143",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_143.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_144",
+    "title": "Filler basic 144",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_144.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_145",
+    "title": "Filler basic 145",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_145.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_146",
+    "title": "Filler basic 146",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_146.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_147",
+    "title": "Filler basic 147",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_147.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_148",
+    "title": "Filler basic 148",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_148.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_149",
+    "title": "Filler basic 149",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_149.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_150",
+    "title": "Filler basic 150",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_150.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_151",
+    "title": "Filler basic 151",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_151.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_152",
+    "title": "Filler basic 152",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_152.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_153",
+    "title": "Filler basic 153",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_153.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_154",
+    "title": "Filler basic 154",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_154.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_155",
+    "title": "Filler basic 155",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_155.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_156",
+    "title": "Filler basic 156",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_156.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_157",
+    "title": "Filler basic 157",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_157.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_158",
+    "title": "Filler basic 158",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_158.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_159",
+    "title": "Filler basic 159",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_159.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_160",
+    "title": "Filler basic 160",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_160.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_161",
+    "title": "Filler basic 161",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_161.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_162",
+    "title": "Filler basic 162",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_162.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_163",
+    "title": "Filler basic 163",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_163.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_164",
+    "title": "Filler basic 164",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_164.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_165",
+    "title": "Filler basic 165",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_165.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_166",
+    "title": "Filler basic 166",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_166.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_167",
+    "title": "Filler basic 167",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_167.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_168",
+    "title": "Filler basic 168",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_168.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_169",
+    "title": "Filler basic 169",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_169.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_170",
+    "title": "Filler basic 170",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_170.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_171",
+    "title": "Filler basic 171",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_171.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_172",
+    "title": "Filler basic 172",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_172.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_173",
+    "title": "Filler basic 173",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_173.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_174",
+    "title": "Filler basic 174",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_174.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_175",
+    "title": "Filler basic 175",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_175.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_176",
+    "title": "Filler basic 176",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_176.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_177",
+    "title": "Filler basic 177",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_177.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_178",
+    "title": "Filler basic 178",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_178.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_BASIC_179",
+    "title": "Filler basic 179",
+    "handler_type": "LOCAL",
+    "objective": "Sync basic module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_BASIC_179.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_0",
+    "title": "Filler light 0",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_0.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_1",
+    "title": "Filler light 1",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_1.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_2",
+    "title": "Filler light 2",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_2.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_3",
+    "title": "Filler light 3",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_3.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_4",
+    "title": "Filler light 4",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_4.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_5",
+    "title": "Filler light 5",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_5.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_6",
+    "title": "Filler light 6",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_6.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_7",
+    "title": "Filler light 7",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_7.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_8",
+    "title": "Filler light 8",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_8.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_9",
+    "title": "Filler light 9",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_9.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_10",
+    "title": "Filler light 10",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_10.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_11",
+    "title": "Filler light 11",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_11.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_12",
+    "title": "Filler light 12",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_12.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_13",
+    "title": "Filler light 13",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_13.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_14",
+    "title": "Filler light 14",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_14.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_15",
+    "title": "Filler light 15",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_15.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_16",
+    "title": "Filler light 16",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_16.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_17",
+    "title": "Filler light 17",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_17.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_18",
+    "title": "Filler light 18",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_18.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_19",
+    "title": "Filler light 19",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_19.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_20",
+    "title": "Filler light 20",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_20.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_21",
+    "title": "Filler light 21",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_21.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_22",
+    "title": "Filler light 22",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_22.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_23",
+    "title": "Filler light 23",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_23.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_24",
+    "title": "Filler light 24",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_24.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_25",
+    "title": "Filler light 25",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_25.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_26",
+    "title": "Filler light 26",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_26.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_27",
+    "title": "Filler light 27",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_27.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_28",
+    "title": "Filler light 28",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_28.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_29",
+    "title": "Filler light 29",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_29.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_30",
+    "title": "Filler light 30",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_30.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_31",
+    "title": "Filler light 31",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_31.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_32",
+    "title": "Filler light 32",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_32.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_33",
+    "title": "Filler light 33",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_33.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_34",
+    "title": "Filler light 34",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_34.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_35",
+    "title": "Filler light 35",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_35.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_36",
+    "title": "Filler light 36",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_36.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_37",
+    "title": "Filler light 37",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_37.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_38",
+    "title": "Filler light 38",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_38.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_39",
+    "title": "Filler light 39",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_39.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_40",
+    "title": "Filler light 40",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_40.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_41",
+    "title": "Filler light 41",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_41.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_42",
+    "title": "Filler light 42",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_42.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_43",
+    "title": "Filler light 43",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_43.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_44",
+    "title": "Filler light 44",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_44.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_45",
+    "title": "Filler light 45",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_45.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_46",
+    "title": "Filler light 46",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_46.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_47",
+    "title": "Filler light 47",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_47.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_48",
+    "title": "Filler light 48",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_48.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_49",
+    "title": "Filler light 49",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_49.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_50",
+    "title": "Filler light 50",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_50.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_51",
+    "title": "Filler light 51",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_51.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_52",
+    "title": "Filler light 52",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_52.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_53",
+    "title": "Filler light 53",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_53.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_54",
+    "title": "Filler light 54",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_54.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_55",
+    "title": "Filler light 55",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_55.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_56",
+    "title": "Filler light 56",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_56.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_57",
+    "title": "Filler light 57",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_57.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_58",
+    "title": "Filler light 58",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_58.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_59",
+    "title": "Filler light 59",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_59.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_60",
+    "title": "Filler light 60",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_60.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_61",
+    "title": "Filler light 61",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_61.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_62",
+    "title": "Filler light 62",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_62.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_63",
+    "title": "Filler light 63",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_63.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_64",
+    "title": "Filler light 64",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_64.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_65",
+    "title": "Filler light 65",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_65.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_66",
+    "title": "Filler light 66",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_66.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_67",
+    "title": "Filler light 67",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_67.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_68",
+    "title": "Filler light 68",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_68.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_69",
+    "title": "Filler light 69",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_69.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_70",
+    "title": "Filler light 70",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_70.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_71",
+    "title": "Filler light 71",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_71.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_72",
+    "title": "Filler light 72",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_72.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_73",
+    "title": "Filler light 73",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_73.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_74",
+    "title": "Filler light 74",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_74.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_75",
+    "title": "Filler light 75",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_75.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_76",
+    "title": "Filler light 76",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_76.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_77",
+    "title": "Filler light 77",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_77.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_78",
+    "title": "Filler light 78",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_78.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_79",
+    "title": "Filler light 79",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_79.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_80",
+    "title": "Filler light 80",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_80.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_81",
+    "title": "Filler light 81",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_81.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_82",
+    "title": "Filler light 82",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_82.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_83",
+    "title": "Filler light 83",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_83.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_84",
+    "title": "Filler light 84",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_84.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_85",
+    "title": "Filler light 85",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_85.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_86",
+    "title": "Filler light 86",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_86.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_87",
+    "title": "Filler light 87",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_87.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_88",
+    "title": "Filler light 88",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_88.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_89",
+    "title": "Filler light 89",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_89.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_90",
+    "title": "Filler light 90",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_90.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_91",
+    "title": "Filler light 91",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_91.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_92",
+    "title": "Filler light 92",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_92.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_93",
+    "title": "Filler light 93",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_93.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_94",
+    "title": "Filler light 94",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_94.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_95",
+    "title": "Filler light 95",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_95.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_96",
+    "title": "Filler light 96",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_96.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_97",
+    "title": "Filler light 97",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_97.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_98",
+    "title": "Filler light 98",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_98.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_99",
+    "title": "Filler light 99",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_99.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_100",
+    "title": "Filler light 100",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_100.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_101",
+    "title": "Filler light 101",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_101.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_102",
+    "title": "Filler light 102",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_102.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_103",
+    "title": "Filler light 103",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_103.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_104",
+    "title": "Filler light 104",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_104.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_105",
+    "title": "Filler light 105",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_105.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_106",
+    "title": "Filler light 106",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_106.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_107",
+    "title": "Filler light 107",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_107.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_108",
+    "title": "Filler light 108",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_108.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_109",
+    "title": "Filler light 109",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_109.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_110",
+    "title": "Filler light 110",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_110.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_111",
+    "title": "Filler light 111",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_111.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_112",
+    "title": "Filler light 112",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_112.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_113",
+    "title": "Filler light 113",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_113.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_114",
+    "title": "Filler light 114",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_114.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_115",
+    "title": "Filler light 115",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_115.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_116",
+    "title": "Filler light 116",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_116.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_117",
+    "title": "Filler light 117",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_117.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_118",
+    "title": "Filler light 118",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_118.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_119",
+    "title": "Filler light 119",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_119.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_120",
+    "title": "Filler light 120",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_120.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_121",
+    "title": "Filler light 121",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_121.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_122",
+    "title": "Filler light 122",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_122.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_123",
+    "title": "Filler light 123",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_123.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_124",
+    "title": "Filler light 124",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_124.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_125",
+    "title": "Filler light 125",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_125.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_126",
+    "title": "Filler light 126",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_126.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_127",
+    "title": "Filler light 127",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_127.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_128",
+    "title": "Filler light 128",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_128.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_129",
+    "title": "Filler light 129",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_129.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_130",
+    "title": "Filler light 130",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_130.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_131",
+    "title": "Filler light 131",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_131.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_132",
+    "title": "Filler light 132",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_132.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_133",
+    "title": "Filler light 133",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_133.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_134",
+    "title": "Filler light 134",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_134.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_135",
+    "title": "Filler light 135",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_135.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_136",
+    "title": "Filler light 136",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_136.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_137",
+    "title": "Filler light 137",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_137.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_138",
+    "title": "Filler light 138",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_138.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_139",
+    "title": "Filler light 139",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_139.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_140",
+    "title": "Filler light 140",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_140.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_141",
+    "title": "Filler light 141",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_141.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_142",
+    "title": "Filler light 142",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_142.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_143",
+    "title": "Filler light 143",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_143.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_144",
+    "title": "Filler light 144",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_144.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_145",
+    "title": "Filler light 145",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_145.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_146",
+    "title": "Filler light 146",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_146.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_147",
+    "title": "Filler light 147",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_147.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_148",
+    "title": "Filler light 148",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_148.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_LIGHT_149",
+    "title": "Filler light 149",
+    "handler_type": "LOCAL",
+    "objective": "Sync light module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_LIGHT_149.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_0",
+    "title": "Filler fun 0",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_0.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_1",
+    "title": "Filler fun 1",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_1.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_2",
+    "title": "Filler fun 2",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_2.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_3",
+    "title": "Filler fun 3",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_3.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_4",
+    "title": "Filler fun 4",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_4.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_5",
+    "title": "Filler fun 5",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_5.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_6",
+    "title": "Filler fun 6",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_6.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_7",
+    "title": "Filler fun 7",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_7.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_8",
+    "title": "Filler fun 8",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_8.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_9",
+    "title": "Filler fun 9",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_9.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_10",
+    "title": "Filler fun 10",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_10.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_11",
+    "title": "Filler fun 11",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_11.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_12",
+    "title": "Filler fun 12",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_12.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_13",
+    "title": "Filler fun 13",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_13.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_14",
+    "title": "Filler fun 14",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_14.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_15",
+    "title": "Filler fun 15",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_15.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_16",
+    "title": "Filler fun 16",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_16.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_17",
+    "title": "Filler fun 17",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_17.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_18",
+    "title": "Filler fun 18",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_18.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_19",
+    "title": "Filler fun 19",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_19.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_20",
+    "title": "Filler fun 20",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_20.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_21",
+    "title": "Filler fun 21",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_21.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_22",
+    "title": "Filler fun 22",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_22.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_23",
+    "title": "Filler fun 23",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_23.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_24",
+    "title": "Filler fun 24",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_24.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_25",
+    "title": "Filler fun 25",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_25.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_26",
+    "title": "Filler fun 26",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_26.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_27",
+    "title": "Filler fun 27",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_27.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_28",
+    "title": "Filler fun 28",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_28.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_29",
+    "title": "Filler fun 29",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_29.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_30",
+    "title": "Filler fun 30",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_30.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_31",
+    "title": "Filler fun 31",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_31.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_32",
+    "title": "Filler fun 32",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_32.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_33",
+    "title": "Filler fun 33",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_33.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_34",
+    "title": "Filler fun 34",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_34.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_35",
+    "title": "Filler fun 35",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_35.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_36",
+    "title": "Filler fun 36",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_36.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_37",
+    "title": "Filler fun 37",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_37.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_38",
+    "title": "Filler fun 38",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_38.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_39",
+    "title": "Filler fun 39",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_39.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_40",
+    "title": "Filler fun 40",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_40.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_41",
+    "title": "Filler fun 41",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_41.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_42",
+    "title": "Filler fun 42",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_42.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_43",
+    "title": "Filler fun 43",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_43.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_44",
+    "title": "Filler fun 44",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_44.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_45",
+    "title": "Filler fun 45",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_45.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_46",
+    "title": "Filler fun 46",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_46.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_47",
+    "title": "Filler fun 47",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_47.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_48",
+    "title": "Filler fun 48",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_48.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_49",
+    "title": "Filler fun 49",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_49.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_50",
+    "title": "Filler fun 50",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_50.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_51",
+    "title": "Filler fun 51",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_51.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_52",
+    "title": "Filler fun 52",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_52.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_53",
+    "title": "Filler fun 53",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_53.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_54",
+    "title": "Filler fun 54",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_54.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_55",
+    "title": "Filler fun 55",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_55.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_56",
+    "title": "Filler fun 56",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_56.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_57",
+    "title": "Filler fun 57",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_57.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_58",
+    "title": "Filler fun 58",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_58.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_59",
+    "title": "Filler fun 59",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_59.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_60",
+    "title": "Filler fun 60",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_60.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_61",
+    "title": "Filler fun 61",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_61.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_62",
+    "title": "Filler fun 62",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_62.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_63",
+    "title": "Filler fun 63",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_63.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_64",
+    "title": "Filler fun 64",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_64.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_65",
+    "title": "Filler fun 65",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_65.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_66",
+    "title": "Filler fun 66",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_66.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_67",
+    "title": "Filler fun 67",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_67.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_68",
+    "title": "Filler fun 68",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_68.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_69",
+    "title": "Filler fun 69",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_69.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_70",
+    "title": "Filler fun 70",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_70.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_71",
+    "title": "Filler fun 71",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_71.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_72",
+    "title": "Filler fun 72",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_72.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_73",
+    "title": "Filler fun 73",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_73.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_74",
+    "title": "Filler fun 74",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_74.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_75",
+    "title": "Filler fun 75",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_75.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_76",
+    "title": "Filler fun 76",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_76.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_77",
+    "title": "Filler fun 77",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_77.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_78",
+    "title": "Filler fun 78",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_78.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_79",
+    "title": "Filler fun 79",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_79.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_80",
+    "title": "Filler fun 80",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_80.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_81",
+    "title": "Filler fun 81",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_81.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_82",
+    "title": "Filler fun 82",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_82.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_83",
+    "title": "Filler fun 83",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_83.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_84",
+    "title": "Filler fun 84",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_84.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_85",
+    "title": "Filler fun 85",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_85.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_86",
+    "title": "Filler fun 86",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_86.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_87",
+    "title": "Filler fun 87",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_87.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_88",
+    "title": "Filler fun 88",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_88.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_FUN_89",
+    "title": "Filler fun 89",
+    "handler_type": "LOCAL",
+    "objective": "Sync fun module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_FUN_89.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_0",
+    "title": "Filler navigator 0",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_0.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_1",
+    "title": "Filler navigator 1",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_1.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_2",
+    "title": "Filler navigator 2",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_2.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_3",
+    "title": "Filler navigator 3",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_3.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_4",
+    "title": "Filler navigator 4",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_4.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_5",
+    "title": "Filler navigator 5",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_5.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_6",
+    "title": "Filler navigator 6",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_6.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_7",
+    "title": "Filler navigator 7",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_7.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_8",
+    "title": "Filler navigator 8",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_8.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_9",
+    "title": "Filler navigator 9",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_9.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_10",
+    "title": "Filler navigator 10",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_10.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_11",
+    "title": "Filler navigator 11",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_11.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_12",
+    "title": "Filler navigator 12",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_12.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_13",
+    "title": "Filler navigator 13",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_13.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_14",
+    "title": "Filler navigator 14",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_14.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_15",
+    "title": "Filler navigator 15",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_15.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_16",
+    "title": "Filler navigator 16",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_16.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_17",
+    "title": "Filler navigator 17",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_17.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_18",
+    "title": "Filler navigator 18",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_18.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_19",
+    "title": "Filler navigator 19",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_19.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_20",
+    "title": "Filler navigator 20",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_20.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_21",
+    "title": "Filler navigator 21",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_21.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_22",
+    "title": "Filler navigator 22",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_22.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_23",
+    "title": "Filler navigator 23",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_23.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_24",
+    "title": "Filler navigator 24",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_24.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_25",
+    "title": "Filler navigator 25",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_25.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_26",
+    "title": "Filler navigator 26",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_26.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_27",
+    "title": "Filler navigator 27",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_27.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_28",
+    "title": "Filler navigator 28",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_28.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_29",
+    "title": "Filler navigator 29",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_29.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_30",
+    "title": "Filler navigator 30",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_30.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_31",
+    "title": "Filler navigator 31",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_31.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_32",
+    "title": "Filler navigator 32",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_32.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_33",
+    "title": "Filler navigator 33",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_33.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_34",
+    "title": "Filler navigator 34",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_34.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_35",
+    "title": "Filler navigator 35",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_35.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_36",
+    "title": "Filler navigator 36",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_36.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_37",
+    "title": "Filler navigator 37",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_37.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_38",
+    "title": "Filler navigator 38",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_38.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_39",
+    "title": "Filler navigator 39",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_39.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_40",
+    "title": "Filler navigator 40",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_40.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_41",
+    "title": "Filler navigator 41",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_41.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_42",
+    "title": "Filler navigator 42",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_42.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_43",
+    "title": "Filler navigator 43",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_43.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_44",
+    "title": "Filler navigator 44",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_44.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_45",
+    "title": "Filler navigator 45",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_45.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_46",
+    "title": "Filler navigator 46",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_46.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_47",
+    "title": "Filler navigator 47",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_47.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_48",
+    "title": "Filler navigator 48",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_48.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_49",
+    "title": "Filler navigator 49",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_49.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_50",
+    "title": "Filler navigator 50",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_50.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_51",
+    "title": "Filler navigator 51",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_51.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_52",
+    "title": "Filler navigator 52",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_52.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_53",
+    "title": "Filler navigator 53",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_53.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_54",
+    "title": "Filler navigator 54",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_54.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_55",
+    "title": "Filler navigator 55",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_55.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_56",
+    "title": "Filler navigator 56",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_56.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_57",
+    "title": "Filler navigator 57",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_57.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_58",
+    "title": "Filler navigator 58",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_58.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_59",
+    "title": "Filler navigator 59",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_59.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_60",
+    "title": "Filler navigator 60",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_60.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_61",
+    "title": "Filler navigator 61",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_61.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_62",
+    "title": "Filler navigator 62",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_62.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_63",
+    "title": "Filler navigator 63",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_63.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_64",
+    "title": "Filler navigator 64",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_64.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_65",
+    "title": "Filler navigator 65",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_65.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_66",
+    "title": "Filler navigator 66",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_66.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_67",
+    "title": "Filler navigator 67",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_67.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_68",
+    "title": "Filler navigator 68",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_68.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_69",
+    "title": "Filler navigator 69",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_69.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_70",
+    "title": "Filler navigator 70",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_70.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_71",
+    "title": "Filler navigator 71",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_71.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_72",
+    "title": "Filler navigator 72",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_72.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_73",
+    "title": "Filler navigator 73",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_73.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_74",
+    "title": "Filler navigator 74",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_74.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_75",
+    "title": "Filler navigator 75",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_75.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_76",
+    "title": "Filler navigator 76",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_76.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_77",
+    "title": "Filler navigator 77",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_77.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_78",
+    "title": "Filler navigator 78",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_78.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_79",
+    "title": "Filler navigator 79",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_79.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_80",
+    "title": "Filler navigator 80",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_80.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_81",
+    "title": "Filler navigator 81",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_81.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_82",
+    "title": "Filler navigator 82",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_82.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_83",
+    "title": "Filler navigator 83",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_83.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_84",
+    "title": "Filler navigator 84",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_84.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_85",
+    "title": "Filler navigator 85",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_85.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_86",
+    "title": "Filler navigator 86",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_86.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_87",
+    "title": "Filler navigator 87",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_87.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_88",
+    "title": "Filler navigator 88",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_88.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_NAVIGATOR_89",
+    "title": "Filler navigator 89",
+    "handler_type": "LOCAL",
+    "objective": "Sync navigator module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_NAVIGATOR_89.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_0",
+    "title": "Filler vmcl 0",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_0.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_1",
+    "title": "Filler vmcl 1",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_1.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_2",
+    "title": "Filler vmcl 2",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_2.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_3",
+    "title": "Filler vmcl 3",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_3.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_4",
+    "title": "Filler vmcl 4",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_4.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_5",
+    "title": "Filler vmcl 5",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_5.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_6",
+    "title": "Filler vmcl 6",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_6.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_7",
+    "title": "Filler vmcl 7",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_7.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_8",
+    "title": "Filler vmcl 8",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_8.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_9",
+    "title": "Filler vmcl 9",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_9.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_10",
+    "title": "Filler vmcl 10",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_10.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_11",
+    "title": "Filler vmcl 11",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_11.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_12",
+    "title": "Filler vmcl 12",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_12.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_13",
+    "title": "Filler vmcl 13",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_13.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_14",
+    "title": "Filler vmcl 14",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_14.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_15",
+    "title": "Filler vmcl 15",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_15.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_16",
+    "title": "Filler vmcl 16",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_16.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_17",
+    "title": "Filler vmcl 17",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_17.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_18",
+    "title": "Filler vmcl 18",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_18.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_19",
+    "title": "Filler vmcl 19",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_19.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_20",
+    "title": "Filler vmcl 20",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_20.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_21",
+    "title": "Filler vmcl 21",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_21.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_22",
+    "title": "Filler vmcl 22",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_22.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_23",
+    "title": "Filler vmcl 23",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_23.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_24",
+    "title": "Filler vmcl 24",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_24.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_25",
+    "title": "Filler vmcl 25",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_25.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_26",
+    "title": "Filler vmcl 26",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_26.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_27",
+    "title": "Filler vmcl 27",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_27.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_28",
+    "title": "Filler vmcl 28",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_28.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_29",
+    "title": "Filler vmcl 29",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_29.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_30",
+    "title": "Filler vmcl 30",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_30.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_31",
+    "title": "Filler vmcl 31",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_31.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_32",
+    "title": "Filler vmcl 32",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_32.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_33",
+    "title": "Filler vmcl 33",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_33.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_34",
+    "title": "Filler vmcl 34",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_34.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_35",
+    "title": "Filler vmcl 35",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_35.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_36",
+    "title": "Filler vmcl 36",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_36.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_37",
+    "title": "Filler vmcl 37",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_37.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_38",
+    "title": "Filler vmcl 38",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_38.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_39",
+    "title": "Filler vmcl 39",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_39.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_40",
+    "title": "Filler vmcl 40",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_40.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_41",
+    "title": "Filler vmcl 41",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_41.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_42",
+    "title": "Filler vmcl 42",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_42.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_43",
+    "title": "Filler vmcl 43",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_43.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_44",
+    "title": "Filler vmcl 44",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_44.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_45",
+    "title": "Filler vmcl 45",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_45.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_46",
+    "title": "Filler vmcl 46",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_46.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_47",
+    "title": "Filler vmcl 47",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_47.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_48",
+    "title": "Filler vmcl 48",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_48.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_49",
+    "title": "Filler vmcl 49",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_49.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_50",
+    "title": "Filler vmcl 50",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_50.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_51",
+    "title": "Filler vmcl 51",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_51.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_52",
+    "title": "Filler vmcl 52",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_52.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_53",
+    "title": "Filler vmcl 53",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_53.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_54",
+    "title": "Filler vmcl 54",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_54.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_55",
+    "title": "Filler vmcl 55",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_55.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_56",
+    "title": "Filler vmcl 56",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_56.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_57",
+    "title": "Filler vmcl 57",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_57.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_58",
+    "title": "Filler vmcl 58",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_58.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_59",
+    "title": "Filler vmcl 59",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_59.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_60",
+    "title": "Filler vmcl 60",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_60.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_61",
+    "title": "Filler vmcl 61",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_61.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_62",
+    "title": "Filler vmcl 62",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_62.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_63",
+    "title": "Filler vmcl 63",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_63.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_64",
+    "title": "Filler vmcl 64",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_64.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_65",
+    "title": "Filler vmcl 65",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_65.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_66",
+    "title": "Filler vmcl 66",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_66.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_67",
+    "title": "Filler vmcl 67",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_67.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_68",
+    "title": "Filler vmcl 68",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_68.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_69",
+    "title": "Filler vmcl 69",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_69.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_70",
+    "title": "Filler vmcl 70",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_70.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_71",
+    "title": "Filler vmcl 71",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_71.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_72",
+    "title": "Filler vmcl 72",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_72.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_73",
+    "title": "Filler vmcl 73",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_73.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_74",
+    "title": "Filler vmcl 74",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_74.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_75",
+    "title": "Filler vmcl 75",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_75.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_76",
+    "title": "Filler vmcl 76",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_76.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_77",
+    "title": "Filler vmcl 77",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_77.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_78",
+    "title": "Filler vmcl 78",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_78.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_79",
+    "title": "Filler vmcl 79",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_79.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_80",
+    "title": "Filler vmcl 80",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_80.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_81",
+    "title": "Filler vmcl 81",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_81.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_82",
+    "title": "Filler vmcl 82",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_82.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_83",
+    "title": "Filler vmcl 83",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_83.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_84",
+    "title": "Filler vmcl 84",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_84.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_85",
+    "title": "Filler vmcl 85",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_85.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_86",
+    "title": "Filler vmcl 86",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_86.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_87",
+    "title": "Filler vmcl 87",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_87.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_88",
+    "title": "Filler vmcl 88",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_88.json"
+    ],
+    "acceptance": "file_exists"
+  },
+  {
+    "mission_id": "F_VMCL_89",
+    "title": "Filler vmcl 89",
+    "handler_type": "LOCAL",
+    "objective": "Sync vmcl module",
+    "expected_outputs": [
+      "receipts\\mission\\res_F_VMCL_89.json"
+    ],
+    "acceptance": "file_exists"
+  }
+]

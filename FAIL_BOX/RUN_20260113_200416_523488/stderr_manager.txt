@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\g7core\g7_v1\main\manager.py", line 374, in main
+    exitcode = manager.run(order_path)
+  File "C:\g7core\g7_v1\main\manager.py", line 315, in run
+    self.evidence.finalize(
+TypeError: EvidenceWriter.finalize() got an unexpected keyword argument 'expected_missions'

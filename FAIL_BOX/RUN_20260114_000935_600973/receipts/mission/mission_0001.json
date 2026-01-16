@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0001",
+  "timestamp": "2026-01-14T00:09:37.221283",
+  "status": "SUCCESS",
+  "content_hash": "5110af8974af26d90813b67ce156a6097f75062c",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "FILL_basic_0",
+    "content": "Okay, I'm ready to FILL_basic_0. Please tell me what you want me to fill it with. I need some context or instructions. For example, are you looking for:\n\n*   **A specific word or phrase?**\n*   **A type of information (like a date, name, or location)?**\n*   **A sentence or paragraph related to a particular topic?**\n\nThe more information you give me, the better I can fill in the blank!\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Okay, I'm ready to FILL_basic_0. Please tell me what you want me to fill it with. I need some context or instructions. For example, are you looking for:\n\n*   **A specific word or phrase?**\n*   **A type of information (like a date, name, or location)?**\n*   **A sentence or paragraph related to a particular topic?**\n\nThe more information you give me, the better I can fill in the blank!\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.2713145839357839
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 5,
+        "candidatesTokenCount": 103,
+        "totalTokenCount": 108,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 103
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "MGBmaayzHdOE1e8Pv5C10Ac"
+    },
+    "mission_id": "mission_0001",
+    "timestamp": "2026-01-14T00:09:37.220290"
+  }
+}

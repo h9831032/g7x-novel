@@ -1,0 +1,18 @@
+{
+  "BACKLOG_COUNT": 0,
+  "TAG_COUNT": {
+    "basic": 180,
+    "light": 150,
+    "fun": 90,
+    "navigator": 90,
+    "vmcl": 90
+  },
+  "FILE_STATS": {},
+  "SAMPLES": {
+    "basic": [],
+    "light": [],
+    "fun": [],
+    "navigator": [],
+    "vmcl": []
+  }
+}

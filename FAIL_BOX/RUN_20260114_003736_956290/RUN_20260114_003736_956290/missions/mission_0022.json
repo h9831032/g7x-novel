@@ -1,0 +1,82 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M022",
+  "content": "**Mission M022: The Whispering Woods Anomaly**\n\n**Objective:** Investigate the recent reports of unusual energy fluctuations and strange phenomena emanating from the Whispering Woods. Determine the source of the anomaly and assess any potential threats to nearby settlements.\n\n**Location:** Whispering Woods, Northern Reaches\n\n**Status:** Active\n\n**Key Tasks:**\n1.  Deploy sensor drones to map energy signatures within the woods.\n2.  Establish a temporary observation post at the perimeter.\n3.  Gather any environmental data or witness accounts related to the anomaly.\n4.  Report findings and recommend further action.",
+  "raw_response": {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 13 Jan 2026 15:39:33 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=6812",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "**Mission M022: The Whispering Woods Anomaly**\n\n**Objective:** Investigate the recent reports of unusual energy fluctuations and strange phenomena emanating from the Whispering Woods. Determine the source of the anomaly and assess any potential threats to nearby settlements.\n\n**Location:** Whispering Woods, Northern Reaches\n\n**Status:** Active\n\n**Key Tasks:**\n1.  Deploy sensor drones to map energy signatures within the woods.\n2.  Establish a temporary observation post at the perimeter.\n3.  Gather any environmental data or witness accounts related to the anomaly.\n4.  Report findings and recommend further action.",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-2.5-flash",
+    "prompt_feedback": null,
+    "response_id": "NGdmaY-8N-naqfkPleyr0Aw",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 128,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 12,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 12
+        }
+      ],
+      "thoughts_token_count": 932,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1072,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": null
+  },
+  "attempt": 1,
+  "mission_id": "mission_0022",
+  "timestamp": "2026-01-14T00:39:32.490836"
+}

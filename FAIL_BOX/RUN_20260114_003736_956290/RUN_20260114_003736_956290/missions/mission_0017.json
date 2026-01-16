@@ -1,0 +1,82 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M017",
+  "content": "Understood. You've requested information regarding **Mission M017**.\n\nHere is a standard briefing for **Mission M017: Operation \"Crimson Cipher\"**:\n\n---\n\n**MISSION M017: OPERATION \"CRIMSON CIPHER\"**\n\n*   **Designation:** M017 - Operation Crimson Cipher\n*   **Status:** Active\n*   **Priority:** High\n*   **Classification:** Restricted (Level 4)\n\n**1. Objective:**\n    *   Infiltrate the heavily fortified **\"Aetherium Vault\"** data repository located within Sector 7, deep within the disputed territory of the Veridian Expanse.\n    *   Locate and extract the encrypted **\"Crimson Cipher\" data packet**. This packet is believed to contain critical intelligence regarding Project Chimera's next phase.\n    *   Ensure the integrity of the data packet upon extraction.\n    *   Exfiltrate the operative team safely.\n\n**2. Location:**\n    *   **Primary Target:** Aetherium Vault, Sector 7, Veridian Expanse.\n    *   **Coordinates:** [CLASSIFIED - Provided upon deployment]\n    *   **Environment:** Subterranean facility, high-tech security, extreme environmental controls.\n\n**3. Key Tasks:**\n    *   **A. Infiltration:** Bypass external perimeter defenses and internal automated security systems of the Aetherium Vault. Stealth and minimal engagement are highly recommended.\n    *   **B. Data Retrieval:** Navigate the facility to locate the primary server room and identify the Crimson Cipher data packet. Initiate data transfer using provided decryption and extraction tools.\n    *   **C. Evade/Neutralize Threats:** Respond to any detected security measures, including drone patrols, automated turrets, and elite guard units.\n    *   **D. Exfiltration:** Secure a clear path to the designated extraction point and await pickup by support craft.\n\n**4. Known Challenges:**\n    *   **Advanced AI Security:** The Aetherium Vault is defended by a sophisticated, self-learning AI capable of predicting intrusion patterns.\n    *   **Environmental Hazards:** The facility is prone to localized energy fluctuations and volatile atmosphere in certain sections.\n    *   **Hostile Patrols:** Regular patrols by highly trained and well-equipped hostile forces.\n    *   **Time Sensitive:** The data packet has a self-destruct protocol that could activate if tampered with incorrectly or after a certain time threshold.\n\n**5. Required Assets/Resources:**\n    *   **Operative Team:** Minimum 2, maximum 4 personnel, specialized in infiltration, data extraction, and combat.\n    *   **Equipment:**\n        *   Advanced Stealth Suits (Mk. IV or higher)\n        *   Multi-spectrum Scanners\n        *   Portable Decryption Suite (PDS-8)\n        *   EMP Grenades (Non-lethal variant recommended)\n        *   Grapple Hooks / Ascenders\n        *   Secure Comms Unit\n    *   **Support:**\n        *   Overwatch via satellite imagery (limited windows)\n        *   Rapid Extraction Vehicle (Raven-class gunship) on standby.\n\n**6. Success Criteria:**\n    *   Retrieval of the uncorrupted \"Crimson Cipher\" data packet.\n    *   Safe return of all deployed operative personnel.\n\n**7. Failure Consequences:**\n    *   Loss of critical intelligence, potentially altering the strategic balance in the region.\n    *   Compromise of operative team and severe reputational damage.\n\n---\n\n**Prepare for immediate deployment.** Do you require any further details or a specific aspect of the mission elaborated upon?",
+  "raw_response": {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 13 Jan 2026 15:39:05 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=10616",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Understood. You've requested information regarding **Mission M017**.\n\nHere is a standard briefing for **Mission M017: Operation \"Crimson Cipher\"**:\n\n---\n\n**MISSION M017: OPERATION \"CRIMSON CIPHER\"**\n\n*   **Designation:** M017 - Operation Crimson Cipher\n*   **Status:** Active\n*   **Priority:** High\n*   **Classification:** Restricted (Level 4)\n\n**1. Objective:**\n    *   Infiltrate the heavily fortified **\"Aetherium Vault\"** data repository located within Sector 7, deep within the disputed territory of the Veridian Expanse.\n    *   Locate and extract the encrypted **\"Crimson Cipher\" data packet**. This packet is believed to contain critical intelligence regarding Project Chimera's next phase.\n    *   Ensure the integrity of the data packet upon extraction.\n    *   Exfiltrate the operative team safely.\n\n**2. Location:**\n    *   **Primary Target:** Aetherium Vault, Sector 7, Veridian Expanse.\n    *   **Coordinates:** [CLASSIFIED - Provided upon deployment]\n    *   **Environment:** Subterranean facility, high-tech security, extreme environmental controls.\n\n**3. Key Tasks:**\n    *   **A. Infiltration:** Bypass external perimeter defenses and internal automated security systems of the Aetherium Vault. Stealth and minimal engagement are highly recommended.\n    *   **B. Data Retrieval:** Navigate the facility to locate the primary server room and identify the Crimson Cipher data packet. Initiate data transfer using provided decryption and extraction tools.\n    *   **C. Evade/Neutralize Threats:** Respond to any detected security measures, including drone patrols, automated turrets, and elite guard units.\n    *   **D. Exfiltration:** Secure a clear path to the designated extraction point and await pickup by support craft.\n\n**4. Known Challenges:**\n    *   **Advanced AI Security:** The Aetherium Vault is defended by a sophisticated, self-learning AI capable of predicting intrusion patterns.\n    *   **Environmental Hazards:** The facility is prone to localized energy fluctuations and volatile atmosphere in certain sections.\n    *   **Hostile Patrols:** Regular patrols by highly trained and well-equipped hostile forces.\n    *   **Time Sensitive:** The data packet has a self-destruct protocol that could activate if tampered with incorrectly or after a certain time threshold.\n\n**5. Required Assets/Resources:**\n    *   **Operative Team:** Minimum 2, maximum 4 personnel, specialized in infiltration, data extraction, and combat.\n    *   **Equipment:**\n        *   Advanced Stealth Suits (Mk. IV or higher)\n        *   Multi-spectrum Scanners\n        *   Portable Decryption Suite (PDS-8)\n        *   EMP Grenades (Non-lethal variant recommended)\n        *   Grapple Hooks / Ascenders\n        *   Secure Comms Unit\n    *   **Support:**\n        *   Overwatch via satellite imagery (limited windows)\n        *   Rapid Extraction Vehicle (Raven-class gunship) on standby.\n\n**6. Success Criteria:**\n    *   Retrieval of the uncorrupted \"Crimson Cipher\" data packet.\n    *   Safe return of all deployed operative personnel.\n\n**7. Failure Consequences:**\n    *   Loss of critical intelligence, potentially altering the strategic balance in the region.\n    *   Compromise of operative team and severe reputational damage.\n\n---\n\n**Prepare for immediate deployment.** Do you require any further details or a specific aspect of the mission elaborated upon?",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-2.5-flash",
+    "prompt_feedback": null,
+    "response_id": "GWdmaeWWJaadjuMP7f6r0Qw",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 777,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 12,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 12
+        }
+      ],
+      "thoughts_token_count": 927,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1716,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": null
+  },
+  "attempt": 1,
+  "mission_id": "mission_0017",
+  "timestamp": "2026-01-14T00:39:05.106496"
+}

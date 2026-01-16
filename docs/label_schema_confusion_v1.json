@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1.0",
+  "labels": ["OK", "STAGNATION", "DRIFT", "LOGIC_FAIL", "COMMON_SENSE_FAIL"],
+  "severity": [1, 2, 3, 4, 5],
+  "confusion_matrix_target": {
+    "precision_goal": 0.82,
+    "recall_goal": 0.75
+  }
+}

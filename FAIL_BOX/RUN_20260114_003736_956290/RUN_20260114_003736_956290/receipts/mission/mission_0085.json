@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0085",
+  "timestamp": "2026-01-14T00:46:16.818231",
+  "status": "SUCCESS",
+  "content_hash": "d9268d787cc96bd2f0663e356a4076893f9a7d4a",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M085",
+    "content": "Alright, Agent. Here's your brief for **Mission M085**.\n\n---\n\n### MISSION M085: Data Cascade Retrieval\n\n**Designation:** PROJECT CHIMERA - DATA CASCASDE RETRIEVAL\n**Priority:** CRITICAL\n**Location:** Sector 085 - Multi-Network Decentralized\n**Threat Level:** HIGH\n\n**Briefing:**\n\"Listen up, [Agent/Operative Name]. Roughly 72 hours ago, a catastrophic system cascade originating in Sector 085 resulted in the fragmentation and scattering of crucial Project Chimera research data across numerous subnetworks. While we've contained the immediate system collapse, these data fragments are now adrift in unstable, often hostile, digital environments. They are coveted by rival factions and constantly threatened by system degradation and opportunistic data scavengers. Your mission is to recover these fragments, consolidate them, and ensure their integrity for reconstruction.\"\n\n**Objectives:**\n\n1.  **Infiltrate & Secure Primary Fragments (3x):**\n    *   **Target A: The \"Apex Hub\" (Node 085-A):** Breach the primary firewall. This hub contains critical indexing keys needed to even *locate* the other fragments. Expect sophisticated, adapting AI defenses.\n    *   **Target B: \"Echo Grid\" (Nodes 085-B to 085-F - Choose 2):** Navigate a network of decaying, compromised servers. Each node holds a heavily encrypted \"Chimera-Prime\" data fragment. You must decrypt and extract at least two of these.\n    *   **Target C: \"Shadow Cache\" (Node 085-G - Physical Access Required):** This server is offline and requires physical infiltration to a data center. It holds the largest, most volatile fragment. Anticipate environmental hazards (power fluctuations, heat) and potentially entrenched physical security or opportunistic scavenging gangs.\n\n2.  **Establish Secure Uplink & Consolidate Data:**\n    *   Once the minimum number of fragments (Apex Hub keys + 2 Echo Grid + Shadow Cache) are acquired, proceed to a designated, transient secure uplink point.\n    *   Initiate the Data Consolidation Protocol. You will need to maintain a stable connection for a set duration while active countermeasures and potential network intrusions attempt to interrupt the upload. Data integrity is paramount.\n\n**Challenges & Complications:**\n\n*   **System Decay:** Subnetworks are unstable; nodes may go offline or suffer critical failures at any moment, limiting your window of opportunity.\n*   **Adaptive AI Defenses:** The remaining automated security protocols are learning from previous breaches and will react intelligently to your methods.\n*   **Rival Factions:** Expect encounters with other groups attempting to steal or corrupt the same data. They may employ their own agents or digital assets.\n*   **Data Corruption:** Some fragments may already be partially corrupted. You may need to employ on-the-fly repair protocols, which will consume valuable time and processing power.\n*   **Environmental Hazards:** Physical data centers may pose risks beyond digital security, including structural instability, electrical surges, or localized hostile elements.\n\n**Rewards:**\n\n*   **Base Payout:** 25,000 Credits\n*   **Reputation:** +150 with [Primary Faction, e.g., 'The Consortium' / 'Tech Guild']\n*   **Bonus 1 (Data Integrity):**\n    *   10,000 Credits for 95%+ overall data integrity.\n    *   Unique 'Decryption Tool - Mk.II' for 100% integrity.\n*   **Bonus 2 (Stealth Execution):** 5,000 Credits + 'Ghost Protocol' cyberware upgrade schematics for completing without triggering major network alerts or physical alarms.\n*   **Bonus 3 (Speed Run):** Rare 'Data Cache Key' (opens a high-value data cache elsewhere) for completing all objectives within [X] minutes.\n\n**Debrief:**\n\"Project Chimera is vital. The data you're recovering could be the difference between a new era of prosperity and utter chaos. Don't fail us, Agent. Good luck.\"\n\n---",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:46:17 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=13570",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "Alright, Agent. Here's your brief for **Mission M085**.\n\n---\n\n### MISSION M085: Data Cascade Retrieval\n\n**Designation:** PROJECT CHIMERA - DATA CASCASDE RETRIEVAL\n**Priority:** CRITICAL\n**Location:** Sector 085 - Multi-Network Decentralized\n**Threat Level:** HIGH\n\n**Briefing:**\n\"Listen up, [Agent/Operative Name]. Roughly 72 hours ago, a catastrophic system cascade originating in Sector 085 resulted in the fragmentation and scattering of crucial Project Chimera research data across numerous subnetworks. While we've contained the immediate system collapse, these data fragments are now adrift in unstable, often hostile, digital environments. They are coveted by rival factions and constantly threatened by system degradation and opportunistic data scavengers. Your mission is to recover these fragments, consolidate them, and ensure their integrity for reconstruction.\"\n\n**Objectives:**\n\n1.  **Infiltrate & Secure Primary Fragments (3x):**\n    *   **Target A: The \"Apex Hub\" (Node 085-A):** Breach the primary firewall. This hub contains critical indexing keys needed to even *locate* the other fragments. Expect sophisticated, adapting AI defenses.\n    *   **Target B: \"Echo Grid\" (Nodes 085-B to 085-F - Choose 2):** Navigate a network of decaying, compromised servers. Each node holds a heavily encrypted \"Chimera-Prime\" data fragment. You must decrypt and extract at least two of these.\n    *   **Target C: \"Shadow Cache\" (Node 085-G - Physical Access Required):** This server is offline and requires physical infiltration to a data center. It holds the largest, most volatile fragment. Anticipate environmental hazards (power fluctuations, heat) and potentially entrenched physical security or opportunistic scavenging gangs.\n\n2.  **Establish Secure Uplink & Consolidate Data:**\n    *   Once the minimum number of fragments (Apex Hub keys + 2 Echo Grid + Shadow Cache) are acquired, proceed to a designated, transient secure uplink point.\n    *   Initiate the Data Consolidation Protocol. You will need to maintain a stable connection for a set duration while active countermeasures and potential network intrusions attempt to interrupt the upload. Data integrity is paramount.\n\n**Challenges & Complications:**\n\n*   **System Decay:** Subnetworks are unstable; nodes may go offline or suffer critical failures at any moment, limiting your window of opportunity.\n*   **Adaptive AI Defenses:** The remaining automated security protocols are learning from previous breaches and will react intelligently to your methods.\n*   **Rival Factions:** Expect encounters with other groups attempting to steal or corrupt the same data. They may employ their own agents or digital assets.\n*   **Data Corruption:** Some fragments may already be partially corrupted. You may need to employ on-the-fly repair protocols, which will consume valuable time and processing power.\n*   **Environmental Hazards:** Physical data centers may pose risks beyond digital security, including structural instability, electrical surges, or localized hostile elements.\n\n**Rewards:**\n\n*   **Base Payout:** 25,000 Credits\n*   **Reputation:** +150 with [Primary Faction, e.g., 'The Consortium' / 'Tech Guild']\n*   **Bonus 1 (Data Integrity):**\n    *   10,000 Credits for 95%+ overall data integrity.\n    *   Unique 'Decryption Tool - Mk.II' for 100% integrity.\n*   **Bonus 2 (Stealth Execution):** 5,000 Credits + 'Ghost Protocol' cyberware upgrade schematics for completing without triggering major network alerts or physical alarms.\n*   **Bonus 3 (Speed Run):** Rare 'Data Cache Key' (opens a high-value data cache elsewhere) for completing all objectives within [X] minutes.\n\n**Debrief:**\n\"Project Chimera is vital. The data you're recovering could be the difference between a new era of prosperity and utter chaos. Don't fail us, Agent. Good luck.\"\n\n---",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "yWhmaZueEaSz4-EPmpPeyQw",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 882,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 1223,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 2117,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0085",
+    "timestamp": "2026-01-14T00:46:16.817230"
+  }
+}

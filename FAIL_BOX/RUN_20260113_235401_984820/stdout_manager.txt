@@ -1,0 +1,27 @@
+[MANAGER] RUN CREATED: C:\g7core\g7_v1\runs\RUN_20260113_235401_984820
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260113_235401_984820
+[MANAGER] Basic Engine initialized (Gemini API)
+[MANAGER] Loaded 3 orders from C:\g7core\g7_v1\GPTORDER\SMOKE3.txt
+[MANAGER] Starting 3 missions...
+[MANAGER] expected_missions = 3
+[MISSION] Executing: mission_0001 | Order: Write a haiku about coding...
+[FAIL_FAST] Mission mission_0001: requests module not installed (pip install requests)
+[FAIL_FAST] Stopping at mission mission_0001: FAIL_FAST: requests module not installed (pip install requests)
+[MANAGER] Loop finished:
+  expected_missions = 3
+  done_missions     = 0
+  api_error_count   = 0
+  reason_code       = FAIL_FAST
+[FAIL] done_missions(0) != expected_missions(3)
+[MANAGER] Finalizing evidence pack...
+[MANAGER] Calling devlog generator...
+[DEVLOG ENTRY] RUN_20260113_235401_984820
+  C:\g7core\g7_v1\runs\RUN_20260113_235401_984820\devlog_entry.json
+  C:\g7core\g7_v1\runs\RUN_20260113_235401_984820\devlog_entry.txt
+[DEVLOG APPEND]
+  C:\g7core\g7_v1\devlog\devlog.jsonl
+  C:\g7core\g7_v1\devlog\devlog_20260113.txt
+[MANAGER] RUN COMPLETE:
+  exitcode    = 1
+  reason_code = FAIL_FAST
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260113_235401_984820

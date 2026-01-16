@@ -1,0 +1,18 @@
+{
+    "contract_version": "V34.0",
+    "outer_rules": {
+        "trucks": ["A", "B"],
+        "per_truck_capacity": 120,
+        "lanes": 8,
+        "per_truck_real_work_min": 90
+    },
+    "inner_rules": {
+        "bundle_size": 6,
+        "serial_only": true,
+        "max_concurrency": 1
+    },
+    "naming_convention": {
+        "run_id_prefix": "RUN_AUTO_",
+        "truck_dir_layout": "runs/{run_id}/truck{truck_id}"
+    }
+}

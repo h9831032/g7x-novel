@@ -1,0 +1,17 @@
+[REJECTED] cleaned_fun_reviews.json | Reason: REASON: FAKE_PATTERN_DETECTED ((?<![가-힣])구라(?![가-힣]))
+[APPROVED] container_manifest_24.json | SHA256: aa9fca5b0eca1420328b65c9fbbba51e67dc6502ec3e0fe5d8354089e6c8eb6a
+[APPROVED] failed_reviews.json | SHA256: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+[APPROVED] fun_profile_by_title.json | SHA256: 193d2bc17fd1b92ced0bc47a018059ccfda549fdeb951e185f6a489495c77030
+[REJECTED] fun_vector_matrix_v50.json | Reason: REASON: FAKE_PATTERN_DETECTED ((?<![가-힣])구라(?![가-힣]))
+[APPROVED] manifest.json | SHA256: 4425461ecfd4d6f6b5142000194444fc545a8ebcab313ce046632f38d01dd2a9
+[APPROVED] novel_data_40.json | SHA256: c639977b07eb74e961c668d589401d0ba94b3f2c9a201c4465d01ef13d98315c
+[REJECTED] similarity_index_v40 (2).json | Reason: REASON: FAKE_PATTERN_DETECTED ((?<![가-힣])구라(?![가-힣]))
+[APPROVED] similarity_index_v40.json | SHA256: 8c8f9e85d5e6ca8f49a590df75884bb0e8d85421c10a33e4207af4692e8a921b
+[APPROVED] trm_policy_prod_v8.0.json | SHA256: 649ab3b1741d08a98ee5ef5f0bb5937dc738954e1f7edc39b74a07f98b7f728d
+[APPROVED] v2_actual_rewrite_results_40.json | SHA256: 2f446b9ff37f3d3262fcf1f3939a699dee95b117223f9fa5537c6590cfcd287e
+[APPROVED] v2_batch_test_results_40_final.json | SHA256: c7346978a61b529d311cab13ea4aef7d612c1955b615de20f923eb29bc25e657
+[APPROVED] v2_batch_test_results_40.json | SHA256: 6c21b0155728508fb216d3e5e8370b34381c0d054b3da4c0665b990b0f1255a0
+[APPROVED] v2_final_rewrite_results_20.json | SHA256: 353a25d03fa81571aada005985cde82605b4d75b9c67efd8a1924b12c3effa1a
+[APPROVED] v2_full_simulator_results.json | SHA256: 73acbef2c0ad979b5f03bcf71661141e50e1b59c18a8f1af78c70c6a59bfc3e1
+[APPROVED] v2_test_results_15.json | SHA256: 01e213cec1a6e4ffe3cf1c234ffc9d90d3f3740beb60e9553a61657b363b3b2d
+[APPROVED] v2_test_results.json | SHA256: 0230b422685600e02e156785806e327ca53fd0fb296727c40a026b7c1f38efd2

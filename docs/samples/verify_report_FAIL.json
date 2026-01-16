@@ -1,0 +1,22 @@
+{
+  "run_id": "RUN_20260115_140000_000002",
+  "timestamp": "2026-01-15T14:00:00.000000",
+  "exitcode": 1,
+  "expected_missions": 120,
+  "done_missions": 85,
+  "receipts_count": 85,
+  "receipts_nonempty_count": 85,
+  "api_receipt_lines": 85,
+  "api_raw_count": 85,
+  "api_error_count": 10,
+  "pass": false,
+  "reason_code": "API_ERROR",
+  "required_files": {
+    "verify_report.json": true,
+    "stamp_manifest.json": true,
+    "final_audit.json": true,
+    "exitcode.txt": true,
+    "blackbox_log.jsonl": true,
+    "api_receipt.jsonl": true
+  }
+}

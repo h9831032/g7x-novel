@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0060",
+  "timestamp": "2026-01-14T00:43:02.414879",
+  "status": "SUCCESS",
+  "content_hash": "49c0c7cdaea27a598c9b31530febfd6e2d936ff2",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M060",
+    "content": "```json\n{\n  \"mission_id\": \"M060\",\n  \"mission_title\": \"The Pandora Protocol\",\n  \"briefing\": \"Oracle here. OmniCorp has been disturbingly quiet about their 'Project Chimera' for too long. Our intel suggests they're on the verge of a breakthrough in neuro-interfacing, a technology that could give them unprecedented control over the populace, or worse, be weaponized on a global scale. We need to know what they're truly building inside their Aegis R&D facility in the Neo-Kyoto industrial sector. Your task is two-fold: infiltrate the facility, extract all viable data on Project Chimera, and upload the 'Black Ice' virus we've prepped to cripple their research servers. Time is critical. Expect heavy resistance.\",\n  \"location\": {\n    \"name\": \"OmniCorp Aegis R&D Facility\",\n    \"description\": \"A sprawling, high-security complex nestled within Neo-Kyoto's smog-choked industrial district. Features multiple layers of automated defenses, constant drone patrols, and a specialized human security force. The interior is a labyrinth of pristine labs, sprawling server farms, and prototype testing areas, all under constant surveillance.\",\n    \"environment_tags\": [\"urban\", \"industrial\", \"sci-fi\", \"high-tech\", \"secure\", \"corporate\", \"covert\"]\n  },\n  \"objectives\": [\n    {\n      \"id\": \"OBJ_M060_01\",\n      \"description\": \"Infiltrate the OmniCorp Aegis R&D Facility's secure data core.\",\n      \"status\": \"active\",\n      \"type\": \"infiltration\",\n      \"details\": \"Bypass external perimeter defenses and navigate internal security checkpoints to reach the primary server arrays housing Project Chimera's data. Stealth is advised.\"\n    },\n    {\n      \"id\": \"OBJ_M060_02\",\n      \"description\": \"Locate and initiate data extraction of Project Chimera schematics and research logs.\",\n      \"status\": \"active\",\n      \"type\": \"data_retrieval\",\n      \"details\": \"Access the main server hub and begin the upload of critical Chimera data to your secure network uplink. This process will take several minutes to complete, alerting local security.\"\n    },\n    {\n      \"id\": \"OBJ_M060_03\",\n      \"description\": \"Upload the 'Black Ice' virus to OmniCorp's R&D network.\",\n      \"status\": \"active\",\n      \"type\": \"sabotage\",\n      \"details\": \"While the data extraction is underway, find a secondary network access point within the R&D sector to deploy the 'Black Ice' virus. This will severely disrupt Project Chimera's development, buying us time.\"\n    },\n    {\n      \"id\": \"OBJ_M060_04\",\n      \"description\": \"Exfiltrate the OmniCorp Aegis R&D Facility.\",\n      \"status\": \"active\",\n      \"type\": \"escape\",\n      \"details\": \"Escape the facility before OmniCorp reinforcements fully mobilize and seal off all exits. Expect increased security presence and potential pursuit.\"\n    }\n  ],\n  \"potential_challenges\": [\n    \"OmniCorp security drones and advanced combat droids patrol the facility.\",\n    \"Heavily armed corporate guards and elite security personnel with cybernetic enhancements.\",\n    \"Automated turrets, laser grids, and biometric scanners protecting key areas.\",\n    \"Advanced cyber-security countermeasures and network traps that can trigger alarms or lock down sections.\",\n    \"A potential mini-boss encounter with a security chief or specialized mech unit guarding the data core.\",\n    \"Time pressure during data extraction and virus upload phases, triggering escalating security levels.\"\n  ],\n  \"rewards\": {\n    \"credits\": 7500,\n    \"reputation_gain\": {\n      \"faction\": \"The Collective\",\n      \"amount\": 250\n    },\n    \"items\": [\n      {\n        \"name\": \"Neural Bypass Module (Prototype)\",\n        \"type\": \"gear_mod\",\n        \"quality\": \"rare\",\n        \"description\": \"A rare prototype module recovered from OmniCorp's initial research. Enhances hacking speed by 15% and provides a minor reduction in detection risk when performing cyber-actions.\"\n      }\n    ],\n    \"unlocked_content\": [\"Mission M061: 'Ghost in the Machine'\"]\n  },\n  \"enemies\": [\n    \"OmniCorp Security Guard (standard, armed with energy carbines)\",\n    \"OmniCorp Heavy Enforcer (armored, armed with plasma shotguns)\",\n    \"OmniCorp Sentry Drone (flying, laser-equipped)\",\n    \"OmniCorp Combat Mech (rare, mini-boss, heavily armored with railgun)\",\n    \"Facility AI Defenses (static turrets, environmental traps)\"\n  ],\n  \"story_impact\": \"Successfully completing 'The Pandora Protocol' will expose OmniCorp's unethical Project Chimera, setting the stage for a broader conflict over advanced neural technology. The stolen data will provide The Collective with crucial insights into OmniCorp's future plans, while the 'Black Ice' virus will significantly hinder OmniCorp's progress, buying valuable time for counter-development or counter-intelligence operations. Failure could accelerate Project Chimera's completion and consolidate OmniCorp's power.\"\n}\n```",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:43:03 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=17670",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "```json\n{\n  \"mission_id\": \"M060\",\n  \"mission_title\": \"The Pandora Protocol\",\n  \"briefing\": \"Oracle here. OmniCorp has been disturbingly quiet about their 'Project Chimera' for too long. Our intel suggests they're on the verge of a breakthrough in neuro-interfacing, a technology that could give them unprecedented control over the populace, or worse, be weaponized on a global scale. We need to know what they're truly building inside their Aegis R&D facility in the Neo-Kyoto industrial sector. Your task is two-fold: infiltrate the facility, extract all viable data on Project Chimera, and upload the 'Black Ice' virus we've prepped to cripple their research servers. Time is critical. Expect heavy resistance.\",\n  \"location\": {\n    \"name\": \"OmniCorp Aegis R&D Facility\",\n    \"description\": \"A sprawling, high-security complex nestled within Neo-Kyoto's smog-choked industrial district. Features multiple layers of automated defenses, constant drone patrols, and a specialized human security force. The interior is a labyrinth of pristine labs, sprawling server farms, and prototype testing areas, all under constant surveillance.\",\n    \"environment_tags\": [\"urban\", \"industrial\", \"sci-fi\", \"high-tech\", \"secure\", \"corporate\", \"covert\"]\n  },\n  \"objectives\": [\n    {\n      \"id\": \"OBJ_M060_01\",\n      \"description\": \"Infiltrate the OmniCorp Aegis R&D Facility's secure data core.\",\n      \"status\": \"active\",\n      \"type\": \"infiltration\",\n      \"details\": \"Bypass external perimeter defenses and navigate internal security checkpoints to reach the primary server arrays housing Project Chimera's data. Stealth is advised.\"\n    },\n    {\n      \"id\": \"OBJ_M060_02\",\n      \"description\": \"Locate and initiate data extraction of Project Chimera schematics and research logs.\",\n      \"status\": \"active\",\n      \"type\": \"data_retrieval\",\n      \"details\": \"Access the main server hub and begin the upload of critical Chimera data to your secure network uplink. This process will take several minutes to complete, alerting local security.\"\n    },\n    {\n      \"id\": \"OBJ_M060_03\",\n      \"description\": \"Upload the 'Black Ice' virus to OmniCorp's R&D network.\",\n      \"status\": \"active\",\n      \"type\": \"sabotage\",\n      \"details\": \"While the data extraction is underway, find a secondary network access point within the R&D sector to deploy the 'Black Ice' virus. This will severely disrupt Project Chimera's development, buying us time.\"\n    },\n    {\n      \"id\": \"OBJ_M060_04\",\n      \"description\": \"Exfiltrate the OmniCorp Aegis R&D Facility.\",\n      \"status\": \"active\",\n      \"type\": \"escape\",\n      \"details\": \"Escape the facility before OmniCorp reinforcements fully mobilize and seal off all exits. Expect increased security presence and potential pursuit.\"\n    }\n  ],\n  \"potential_challenges\": [\n    \"OmniCorp security drones and advanced combat droids patrol the facility.\",\n    \"Heavily armed corporate guards and elite security personnel with cybernetic enhancements.\",\n    \"Automated turrets, laser grids, and biometric scanners protecting key areas.\",\n    \"Advanced cyber-security countermeasures and network traps that can trigger alarms or lock down sections.\",\n    \"A potential mini-boss encounter with a security chief or specialized mech unit guarding the data core.\",\n    \"Time pressure during data extraction and virus upload phases, triggering escalating security levels.\"\n  ],\n  \"rewards\": {\n    \"credits\": 7500,\n    \"reputation_gain\": {\n      \"faction\": \"The Collective\",\n      \"amount\": 250\n    },\n    \"items\": [\n      {\n        \"name\": \"Neural Bypass Module (Prototype)\",\n        \"type\": \"gear_mod\",\n        \"quality\": \"rare\",\n        \"description\": \"A rare prototype module recovered from OmniCorp's initial research. Enhances hacking speed by 15% and provides a minor reduction in detection risk when performing cyber-actions.\"\n      }\n    ],\n    \"unlocked_content\": [\"Mission M061: 'Ghost in the Machine'\"]\n  },\n  \"enemies\": [\n    \"OmniCorp Security Guard (standard, armed with energy carbines)\",\n    \"OmniCorp Heavy Enforcer (armored, armed with plasma shotguns)\",\n    \"OmniCorp Sentry Drone (flying, laser-equipped)\",\n    \"OmniCorp Combat Mech (rare, mini-boss, heavily armored with railgun)\",\n    \"Facility AI Defenses (static turrets, environmental traps)\"\n  ],\n  \"story_impact\": \"Successfully completing 'The Pandora Protocol' will expose OmniCorp's unethical Project Chimera, setting the stage for a broader conflict over advanced neural technology. The stolen data will provide The Collective with crucial insights into OmniCorp's future plans, while the 'Black Ice' virus will significantly hinder OmniCorp's progress, buying valuable time for counter-development or counter-intelligence operations. Failure could accelerate Project Chimera's completion and consolidate OmniCorp's power.\"\n}\n```",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "BmhmaafMN_6svr0PreymiQ4",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 1192,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 2263,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 3467,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0060",
+    "timestamp": "2026-01-14T00:43:02.413879"
+  }
+}

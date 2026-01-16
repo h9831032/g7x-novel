@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "FILL_basic_99",
+  "content": "Please provide me with more context! I need to know what you want me to \"FILL\".  \"FILL_basic_99\" could mean a lot of things. For example:\n\n*   **Fill a template:** Are you asking me to fill in a template with the name \"basic_99\"? If so, please provide the template.\n*   **Fill a database field:** Are you asking me to fill a database field called \"basic_99\" with some value? If so, tell me what kind of data it is and what value you want.\n*   **Fill a code snippet:** Are you asking me to complete a code snippet with the name \"basic_99\"? If so, please provide the code.\n*   **Fill a list/array:** Are you asking me to fill a list or array with 99 basic elements? If so, what kind of elements?\n\nThe more information you give me, the better I can assist you.\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Please provide me with more context! I need to know what you want me to \"FILL\".  \"FILL_basic_99\" could mean a lot of things. For example:\n\n*   **Fill a template:** Are you asking me to fill in a template with the name \"basic_99\"? If so, please provide the template.\n*   **Fill a database field:** Are you asking me to fill a database field called \"basic_99\" with some value? If so, tell me what kind of data it is and what value you want.\n*   **Fill a code snippet:** Are you asking me to complete a code snippet with the name \"basic_99\"? If so, please provide the code.\n*   **Fill a list/array:** Are you asking me to fill a list or array with 99 basic elements? If so, what kind of elements?\n\nThe more information you give me, the better I can assist you.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.34305576249664904
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 6,
+      "candidatesTokenCount": 204,
+      "totalTokenCount": 210,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 6
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 204
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "WmBmafm9GLH11e8PxIyr4Qs"
+  },
+  "mission_id": "mission_0100",
+  "timestamp": "2026-01-14T00:10:20.001075"
+}

@@ -1,0 +1,9 @@
+{
+    "card_id": "CARD_0452",
+    "priority": "P2",
+    "lane": "LANE_4",
+    "payload_type": "NOVEL",
+    "input_ref": "internal_db_452",
+    "prompt": "Write a scene about a futuristic Seoul. (Var_452)",
+    "created_at": "2026-01-06"
+}

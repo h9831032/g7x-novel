@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0045",
+  "timestamp": "2026-01-14T00:41:20.223080",
+  "status": "SUCCESS",
+  "content_hash": "d13a3d6210ecfae0f574c8d3811c4fba2baf2de1",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M045",
+    "content": "## Mission M045\n\nThe rover has successfully performed science activities at the first stop on its traverse, collecting samples and analyzing the local geology. It now needs to drive to the next designated science waypoint to continue its mission. The path ahead involves navigating a relatively flat, open area, but there are a few small obstacles and some loose regolith that require careful driving. The target waypoint is visible on the horizon.\n\n```json\n{\n  \"mission_id\": \"M045\",\n  \"mission_name\": \"Drive to Next Science Waypoint\",\n  \"mission_summary\": \"The rover needs to drive to the next designated science waypoint to continue its mission, navigating a relatively flat, open area with small obstacles and loose regolith.\",\n  \"image_path\": \"mission_images/M045.webp\"\n}\n```",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:41:20 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=3106",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "## Mission M045\n\nThe rover has successfully performed science activities at the first stop on its traverse, collecting samples and analyzing the local geology. It now needs to drive to the next designated science waypoint to continue its mission. The path ahead involves navigating a relatively flat, open area, but there are a few small obstacles and some loose regolith that require careful driving. The target waypoint is visible on the horizon.\n\n```json\n{\n  \"mission_id\": \"M045\",\n  \"mission_name\": \"Drive to Next Science Waypoint\",\n  \"mission_summary\": \"The rover needs to drive to the next designated science waypoint to continue its mission, navigating a relatively flat, open area with small obstacles and loose regolith.\",\n  \"image_path\": \"mission_images/M045.webp\"\n}\n```",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "oGdmabDWKq2jvr0PkN3UgQ0",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 179,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 244,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 435,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0045",
+    "timestamp": "2026-01-14T00:41:20.223080"
+  }
+}

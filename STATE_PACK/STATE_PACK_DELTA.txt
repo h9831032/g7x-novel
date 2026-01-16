@@ -1,0 +1,59 @@
+STATE_PACK_DELTA.txt (새 세션 복붙용, 압축)
+
+[STATE]
+
+단계: 야간공장 0.5 → 1.0 직전
+
+SSOT_ROOT=C:\g7core\g7_v1
+
+LEGACY_ROOT=C:\g6core\g6_v24 (READ ONLY)
+
+메인 엔트리: C:\g7core\g7_v1\main\manager.py (단일)
+
+봉인 완료: devlog 자동생성 + FINAL_CHECK(-File) 안정화 + night_loop 봉인 + order_path 정규화 + ANCHOR_RUN.txt 박제
+
+[SOUL]
+
+말PASS 금지, 증거팩(파일)만 인정
+
+새 파일/새 엔트리 금지, 무조건 main에 용접
+
+FAIL은 즉시 STOP + FAIL_BOX 격리
+
+[LOCK]
+
+FINAL_CHECK는 두 방식 모두 성공해야 통과:
+
+.\FINAL_CHECK.ps1
+
+powershell -ExecutionPolicy Bypass -File .\FINAL_CHECK.ps1
+
+night_loop는 exitcode.txt + FINAL_CHECK exitcode로만 PASS 판정
+
+주문서 경로는 GPTORDER 중복 붙으면 즉시 FAIL
+
+[TODAY_DONE]
+
+devlog 자동 호출 메인 용접 완료
+
+FINAL_CHECK.ps1 파서 에러 제거( -File 방식 OK )
+
+night_loop.ps1 봉인(FAIL_FAST + 근거출력)
+
+ANCHOR_RUN.txt 기준점 박제
+
+[NEXT_3]
+
+REAL120(120미션) 야간루프 1회 완주 실증(증거팩 포함)
+
+FAIL_BOX → AUTO_REISSUE 최소형(재발주 큐/재시도 1회)
+
+POST_VERIFY 분리(후행 검증 스텝) + verify_report/hash_manifest 표준화
+
+[DO_NOT]
+
+새 구조 제안/대규모 리팩터 금지
+
+“완성됐다” 말로 판정 금지
+
+240/360 확장 금지(ROWS=120 운행 유지)

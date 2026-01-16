@@ -1,0 +1,31 @@
+# A1 - Evidence PASS 규칙 주석 추가 위치
+
+## 파일
+C:\g7core\g7_v1\engine\evidence_writer.py
+
+## 추가 위치
+Line 99~120 (finalize 메서드 내부)
+
+## 추가 내용
+1. STRICT PASS RULE 주석 (7개 조건)
+2. Helper 함수 시그니처 예시
+   - is_strict_pass(run_summary: dict) -> bool
+   - devlog_writer에서 참고 가능
+
+## 핵심 규칙
+```python
+is_pass = (
+    exitcode == 0
+    and expected_missions > 0
+    and done_missions == expected_missions
+    and receipts_count == expected_missions
+    and receipts_nonempty_count == expected_missions
+    and api_lines == expected_missions
+    and api_error_count == 0
+)
+```
+
+## devlog_writer에서 사용 방법
+verify_report.json을 읽어서:
+- pass 필드 직접 참조, 또는
+- 위 7개 필드로 재검증 가능

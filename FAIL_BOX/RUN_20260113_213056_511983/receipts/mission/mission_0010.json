@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0010",
+  "timestamp": "2026-01-13T21:31:23.787807",
+  "status": "SUCCESS",
+  "content_hash": "4c05d4c46f3fd8cffced1c43dc95a9e31f4b7f17",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M010",
+    "content": "Okay, I understand. You're giving me a task with the identifier \"TASK_V3\" and specifying a mission labeled \"M010\". \n\nTo help you further, I need to know: **What do you want me to *do* with mission M010?**\n\nFor example, are you asking me to:\n\n*   **Provide information about mission M010?** (e.g., \"What is the objective of mission M010?\")\n*   **Generate a plan for mission M010?** (e.g., \"Create a step-by-step plan for mission M010.\")\n*   **Simulate mission M010?** (e.g., \"Simulate the execution of mission M010.\")\n*   **Write a story about mission M010?**\n*   **Critique a plan for mission M010?**\n*   **Compare mission M010 to other missions?**\n\nThe more context you give me, the better I can fulfill your request. Please tell me what you expect me to do with mission M010.\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Okay, I understand. You're giving me a task with the identifier \"TASK_V3\" and specifying a mission labeled \"M010\". \n\nTo help you further, I need to know: **What do you want me to *do* with mission M010?**\n\nFor example, are you asking me to:\n\n*   **Provide information about mission M010?** (e.g., \"What is the objective of mission M010?\")\n*   **Generate a plan for mission M010?** (e.g., \"Create a step-by-step plan for mission M010.\")\n*   **Simulate mission M010?** (e.g., \"Simulate the execution of mission M010.\")\n*   **Write a story about mission M010?**\n*   **Critique a plan for mission M010?**\n*   **Compare mission M010 to other missions?**\n\nThe more context you give me, the better I can fulfill your request. Please tell me what you expect me to do with mission M010.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.18729651358819777
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 11,
+        "candidatesTokenCount": 248,
+        "totalTokenCount": 259,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 11
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 248
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "GTtmacuAOcud0-kPgY7LuQQ"
+    },
+    "mission_id": "mission_0010",
+    "timestamp": "2026-01-13T21:31:23.777504"
+  }
+}

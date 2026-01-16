@@ -1,0 +1,82 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M115",
+  "content": "Okay, retrieving details for Mission M115.\n\n---\n\n**Mission ID:** M115\n**Title:** The Serpent's Coil\n\n**Briefing:**\nAn critical deep-space communication relay station, designated Relay Alpha-7, has unexpectedly gone silent within the disputed nebula known as \"The Serpent's Coil.\" All attempts to re-establish contact have failed, and several automated drone probes dispatched for reconnaissance have been lost without a trace. Command suspects a hostile entity or rogue faction may have seized the station, potentially gaining access to sensitive communication channels and strategic data. Your mission is to infiltrate Relay Alpha-7, identify and neutralize any threats, secure the station's control systems, and re-activate its primary communication functions. Time is critical.\n\n**Objectives:**\n1.  **Infiltrate Relay Alpha-7:** Gain access to the station, bypassing or neutralizing external defenses.\n2.  **Neutralize Hostile Presence:** Identify and eliminate any enemy combatants or systems occupying the station.\n3.  **Secure Control Core:** Reach and secure the station's central control core to prevent further hostile manipulation.\n4.  **Re-activate Communication Array:** Restore Relay Alpha-7's primary communication systems to full operational status.\n5.  **Report & Extract:** Transmit a status report to Command and await further instructions, or prepare for immediate extraction.\n\n**Location:**\nRelay Alpha-7, situated deep within the Serpent's Coil Nebula.\n\n**Known Threats/Challenges:**\n*   **Hostile Occupation:** Expect organized resistance from pirates, a rival corporation, or possibly an unknown alien force.\n*   **Environmental Hazards:** The Serpent's Coil Nebula is known for dense gas clouds, electromagnetic interference, and potential radiation pockets, which can affect sensors and shields.\n*   **Automated Defenses:** The station's own security systems may have been reprogrammed against you.\n*   **Limited Intel:** The exact nature and strength of the occupying force are currently unknown.\n\n**Success Criteria:**\nRelay Alpha-7 fully operational and secured under friendly control.\n\n**Potential Rewards:**\n*   Significant credit compensation.\n*   Reputation boost with Command.\n*   Access to salvaged data or technology from the station or neutralized hostiles.\n*   Promotional consideration.",
+  "raw_response": {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 13 Jan 2026 15:48:54 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=9719",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Okay, retrieving details for Mission M115.\n\n---\n\n**Mission ID:** M115\n**Title:** The Serpent's Coil\n\n**Briefing:**\nAn critical deep-space communication relay station, designated Relay Alpha-7, has unexpectedly gone silent within the disputed nebula known as \"The Serpent's Coil.\" All attempts to re-establish contact have failed, and several automated drone probes dispatched for reconnaissance have been lost without a trace. Command suspects a hostile entity or rogue faction may have seized the station, potentially gaining access to sensitive communication channels and strategic data. Your mission is to infiltrate Relay Alpha-7, identify and neutralize any threats, secure the station's control systems, and re-activate its primary communication functions. Time is critical.\n\n**Objectives:**\n1.  **Infiltrate Relay Alpha-7:** Gain access to the station, bypassing or neutralizing external defenses.\n2.  **Neutralize Hostile Presence:** Identify and eliminate any enemy combatants or systems occupying the station.\n3.  **Secure Control Core:** Reach and secure the station's central control core to prevent further hostile manipulation.\n4.  **Re-activate Communication Array:** Restore Relay Alpha-7's primary communication systems to full operational status.\n5.  **Report & Extract:** Transmit a status report to Command and await further instructions, or prepare for immediate extraction.\n\n**Location:**\nRelay Alpha-7, situated deep within the Serpent's Coil Nebula.\n\n**Known Threats/Challenges:**\n*   **Hostile Occupation:** Expect organized resistance from pirates, a rival corporation, or possibly an unknown alien force.\n*   **Environmental Hazards:** The Serpent's Coil Nebula is known for dense gas clouds, electromagnetic interference, and potential radiation pockets, which can affect sensors and shields.\n*   **Automated Defenses:** The station's own security systems may have been reprogrammed against you.\n*   **Limited Intel:** The exact nature and strength of the occupying force are currently unknown.\n\n**Success Criteria:**\nRelay Alpha-7 fully operational and secured under friendly control.\n\n**Potential Rewards:**\n*   Significant credit compensation.\n*   Reputation boost with Command.\n*   Access to salvaged data or technology from the station or neutralized hostiles.\n*   Promotional consideration.",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-2.5-flash",
+    "prompt_feedback": null,
+    "response_id": "Zmlmafe1CM_n2roPqYGT-AM",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 483,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 12,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 12
+        }
+      ],
+      "thoughts_token_count": 980,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1475,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": null
+  },
+  "attempt": 1,
+  "mission_id": "mission_0115",
+  "timestamp": "2026-01-14T00:48:53.612703"
+}

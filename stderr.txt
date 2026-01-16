@@ -1,0 +1,9 @@
+Get-Content: 
+Line |
+ 123 |  …    ${Rep} = Get-Content "${ROOT}\runs\${ID}\post_verify\verify_report …
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot find path 'C:\g7core\g7_v1\runs\REAL_RUN_A_215505\post_verify\verify_report.json' because it does not exist.
+2026-01-03 22:32:15 ERROR: SOURCE_DIR_NOT_FOUND: C:\g7core\input_source 경로가 존재하지 않습니다.
+[2026-01-03 22:36:17] ERROR: AUDIT_FAILED: 투입된 물리 파일이 0개입니다. 가라 생성을 거부합니다.
+Cannot find path 'C:\payload' because it does not exist.
+Sensor Audit Failed for 

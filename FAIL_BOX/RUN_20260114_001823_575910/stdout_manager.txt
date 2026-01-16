@@ -1,0 +1,33 @@
+[MANAGER] Stdout/stderr redirected to RUN folder
+[MANAGER] Engine initialized: models/gemini-2.0-flash-exp
+[MANAGER] Loaded 3 orders from C:\g7core\g7_v1\GPTORDER\SMOKE3.txt
+[MANAGER] Starting 3 missions...
+[MANAGER] expected_missions = 3
+[MISSION] Executing: mission_0001 | Order: Write a haiku about coding...
+[MISSION] mission_0001 status: API_ERROR (attempt=1)
+[API_ERROR] mission_0001: HTTP 400 (attempt=1)
+[MISSION] Executing: mission_0002 | Order: Explain quantum computing in 3 sentences...
+[MISSION] mission_0002 status: API_ERROR (attempt=1)
+[API_ERROR] mission_0002: HTTP 400 (attempt=1)
+[MISSION] Executing: mission_0003 | Order: List 5 programming languages...
+[MISSION] mission_0003 status: API_ERROR (attempt=1)
+[API_ERROR] mission_0003: HTTP 400 (attempt=1)
+[MANAGER] Loop finished:
+  expected_missions = 3
+  done_missions     = 0
+  api_error_count   = 3
+  reason_code       = ORDER_EOF
+[FAIL] done_missions(0) != expected_missions(3)
+[FAIL] api_error_count(3) > 0
+[MANAGER] Finalizing evidence pack...
+[MANAGER] Calling devlog generator...
+[DEVLOG ENTRY] RUN_20260114_001823_575910
+  C:\g7core\g7_v1\runs\RUN_20260114_001823_575910\devlog_entry.json
+  C:\g7core\g7_v1\runs\RUN_20260114_001823_575910\devlog_entry.txt
+[DEVLOG APPEND]
+  C:\g7core\g7_v1\devlog\devlog.jsonl
+  C:\g7core\g7_v1\devlog\devlog_20260114.txt
+[MANAGER] RUN COMPLETE:
+  exitcode    = 1
+  reason_code = API_ERROR
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260114_001823_575910

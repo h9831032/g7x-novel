@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "rules": {
+    "TAG_DRIFT_PLOT": "인과관계(Causal Chain) 단절 및 시공간적 물리 모순 발생 시",
+    "TAG_DRIFT_CHARACTER": "캐릭터의 기존 행동 양식 및 말투가 외압(사유) 없이 변동 시",
+    "TAG_DRIFT_TONE": "문장의 긴장도(Tension Index) 및 어휘 밀도가 급격히 하락 시",
+    "TAG_PETRIFY": "상태 변화 없이 정적인 묘사만 반복되어 서사가 전진하지 않을 시",
+    "TAG_PATTERN_LOOP": "동일 어미, 동일 문장 구조가 3회 이상 연속 노출 시",
+    "TAG_COMMONSENSE_FAIL": "보편적 물리 법칙 및 상식 수준의 개연성이 파괴될 시",
+    "TAG_POWER_RULE_FAIL": "설정된 능력치(Stat) 대비 결과값이 비논리적으로 도출될 시",
+    "TAG_CAUSAL_FAIL": "A행동 이후 B결과가 도출되는 과정의 논리적 연결이 부재할 시",
+    "TAG_FUN_LOW": "반복적 구조 및 낮은 정보 밀도로 지루함 유발 시",
+    "TAG_FUN_MID": "표준적 서사 구조를 유지하나 의외성이 부족할 시",
+    "TAG_FUN_HIGH": "인과가 명확하며 정보 밀도와 반전 요소가 조화를 이룰 시"
+  }
+}

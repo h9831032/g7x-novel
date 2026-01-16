@@ -1,0 +1,27 @@
+======================================================================
+RUN: RUN_20260113_235402_241752
+======================================================================
+Timestamp: 2026-01-13T23:54:02.261771
+Start: 2026-01-13T23:54:02.242753
+End: 2026-01-13T23:54:02.260770
+Duration: 0 sec
+
+Order Path: UNKNOWN
+Expected Missions: 120
+Done Missions: 0
+API Error Count: 0
+
+Exitcode: 1
+PASS: False
+Reason: FAIL_FAST
+
+Evidence Files:
+  verify_report.json: EXISTS
+  final_audit.json: EXISTS
+  stamp_manifest.json: EXISTS
+  stdout_manager.txt: EXISTS
+  stderr_manager.txt: EXISTS
+  exitcode.txt: EXISTS
+
+
+======================================================================

@@ -1,0 +1,17 @@
+{
+  "wrote_catalog": "C:\\g7core\\g7_v1\\engine\\mission_catalog_work_v2.json",
+  "wrote_queue": "C:\\g7core\\g7_v1\\GPTORDER\\NIGHT_QUEUE_600.txt",
+  "wrote_orders": [
+    "C:\\g7core\\g7_v1\\GPTORDER\\REAL_WORK_120_C.txt",
+    "C:\\g7core\\g7_v1\\GPTORDER\\REAL_WORK_120_D.txt",
+    "C:\\g7core\\g7_v1\\GPTORDER\\REAL_WORK_120_E.txt",
+    "C:\\g7core\\g7_v1\\GPTORDER\\REAL_WORK_120_F.txt",
+    "C:\\g7core\\g7_v1\\GPTORDER\\REAL_WORK_120_G.txt"
+  ],
+  "source_files_scanned": "AUTO",
+  "source_backlog_count": 32,
+  "tag_count": {
+    "basic": 32
+  },
+  "created_at": "20260111_211954"
+}

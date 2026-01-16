@@ -1,0 +1,12 @@
+[
+  {
+    "plugins": {
+      "daily_organizer": "@{path=plugins/daily_organizer.py; description=PyCharm venv compatible daily file organizer; version=1.5}"
+    }
+  },
+  {
+    "name": "factory_600",
+    "path": "plugins/factory_600.py",
+    "enabled": true
+  }
+]

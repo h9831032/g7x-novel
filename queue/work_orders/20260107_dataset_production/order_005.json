@@ -1,0 +1,6 @@
+{
+  "order_id": 5,
+  "target": "20260107_dataset",
+  "mode": "production",
+  "prompt_path": "prompt_v1.txt"
+}

@@ -1,0 +1,17 @@
+[MANAGER] RUN CREATED: C:\g7core\g7_v1\runs\RUN_20260113_200416_523488
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260113_200416_523488
+[MANAGER] Basic Engine initialized (Gemini API)
+[MANAGER] Loaded 3 orders from C:\g7core\g7_v1\GPTORDER\SMOKE3.txt
+[MANAGER] Starting 3 missions...
+[MANAGER] expected_missions = 3
+[MISSION] Executing: mission_0001 | Order: Write a haiku about coding...
+[FAIL_FAST] Mission mission_0001: requests module not installed (pip install requests)
+[FAIL_FAST] Stopping at mission mission_0001: FAIL_FAST: requests module not installed (pip install requests)
+[MANAGER] Loop finished:
+  expected_missions = 3
+  done_missions     = 0
+  api_error_count   = 0
+  reason_code       = FAIL_FAST
+[FAIL] done_missions(0) != expected_missions(3)
+[MANAGER] Finalizing evidence pack...
+[FATAL] Manager failed to start: EvidenceWriter.finalize() got an unexpected keyword argument 'expected_missions'

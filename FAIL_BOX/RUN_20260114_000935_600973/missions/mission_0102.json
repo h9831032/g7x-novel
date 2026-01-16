@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "FILL_basic_101",
+  "content": "Please provide more context! I need to know what you want me to fill in. \"FILL_basic_101\" is too vague. \n\nFor example, are you looking for:\n\n* **A code snippet to fill in?** If so, what language and what is the code supposed to do?\n* **A sentence to fill in?** If so, what is the topic of the sentence?\n* **Information about a specific subject called \"Basic 101\"?**\n\nOnce you give me more information, I can help you.\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Please provide more context! I need to know what you want me to fill in. \"FILL_basic_101\" is too vague. \n\nFor example, are you looking for:\n\n* **A code snippet to fill in?** If so, what language and what is the code supposed to do?\n* **A sentence to fill in?** If so, what is the topic of the sentence?\n* **Information about a specific subject called \"Basic 101\"?**\n\nOnce you give me more information, I can help you.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.20984374152289498
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 7,
+      "candidatesTokenCount": 117,
+      "totalTokenCount": 124,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 117
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "X2BmaevgKOnA1e8PrZ706Ac"
+  },
+  "mission_id": "mission_0102",
+  "timestamp": "2026-01-14T00:10:24.786738"
+}

@@ -1,0 +1,1 @@
+def run(): print('Plugin M025 active')

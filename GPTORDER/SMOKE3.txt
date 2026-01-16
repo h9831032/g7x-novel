@@ -1,0 +1,3 @@
+Write a haiku about coding
+Explain quantum computing in 3 sentences
+List 5 programming languages

@@ -1,0 +1,39 @@
+======================================================================
+G7X Integration Map - 2026-01-13 19:29:19
+======================================================================
+
+[MAIN ENTRY]
+  main/manager.py: EXISTS
+    Functions: RunManager, main, run
+
+[EVIDENCE]
+  engine/evidence_writer.py: EXISTS
+    Functions: EvidenceWriter, finalize, write_mission_receipt
+
+[VERIFY (CHECK)]
+  tools/check_run_pack.py: EXISTS
+    Functions: check_run_pack
+  tools/verify_run.ps1: EXISTS
+  tools/verify_latest_run.ps1: EXISTS
+
+[DEVLOG]
+  tools/generate_devlog.py: EXISTS
+    Functions: generate_devlog, append_devlog
+  devlog/ directory: EXISTS
+    devlog.jsonl: MISSING
+
+[NIGHT LOOP]
+  tools/night_loop.ps1: EXISTS
+  main/night_shift_guard_v5.py: EXISTS
+    Functions: run_manager, verify_run
+  tools/one_shot_night_work_600.py: EXISTS
+
+[ANCHOR RUN]
+  ANCHOR_RUN.txt: MISSING
+
+[LATEST RUN]
+  Latest: RUN_20260113_005131_240096
+    Evidence: 6/6
+    Receipts: 120
+
+======================================================================

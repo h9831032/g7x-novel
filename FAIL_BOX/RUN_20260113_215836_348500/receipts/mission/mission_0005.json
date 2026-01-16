@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0005",
+  "timestamp": "2026-01-13T21:58:49.875237",
+  "status": "SUCCESS",
+  "content_hash": "b33c1beb539bbe704a8d04484c94da27b4313689",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M005",
+    "content": "Okay, I understand. You're initiating a task, version 3 (TASK_V3), with the mission designated as M005. \n\nTo help you further, please provide more context. What kind of task is this? What are the objectives of mission M005? Knowing more will allow me to assist you more effectively.\n\nFor example, are you looking for:\n\n*   **Information about mission M005?** (e.g., \"What are the goals of mission M005?\")\n*   **Help in planning or executing mission M005?** (e.g., \"What resources are available for mission M005?\")\n*   **A specific action related to mission M005?** (e.g., \"Initiate data collection for mission M005.\")\n\nI'm ready to help once I have a better understanding of what you need.\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Okay, I understand. You're initiating a task, version 3 (TASK_V3), with the mission designated as M005. \n\nTo help you further, please provide more context. What kind of task is this? What are the objectives of mission M005? Knowing more will allow me to assist you more effectively.\n\nFor example, are you looking for:\n\n*   **Information about mission M005?** (e.g., \"What are the goals of mission M005?\")\n*   **Help in planning or executing mission M005?** (e.g., \"What resources are available for mission M005?\")\n*   **A specific action related to mission M005?** (e.g., \"Initiate data collection for mission M005.\")\n\nI'm ready to help once I have a better understanding of what you need.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.2672902710583745
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 11,
+        "candidatesTokenCount": 196,
+        "totalTokenCount": 207,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 11
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 196
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "iEFmabi4Fr620-kPxsPhqQQ"
+    },
+    "mission_id": "mission_0005",
+    "timestamp": "2026-01-13T21:58:49.874236"
+  }
+}

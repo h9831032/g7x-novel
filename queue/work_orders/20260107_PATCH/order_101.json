@@ -1,0 +1,6 @@
+{
+    "order_id": 101,
+    "task_type": "PATCH_VERIFY",
+    "target": "20260107_PATCH",
+    "mode": "production"
+}

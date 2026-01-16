@@ -1,0 +1,88 @@
+{
+  "mission_id": "mission_0097",
+  "timestamp": "2026-01-14T00:47:24.522069",
+  "status": "SUCCESS",
+  "content_hash": "aa9bb0f978d0bda30548462714522964db6baf7d",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M097",
+    "content": "Understood. This appears to be a request for information or a status update for a specific mission within a structured task system.\n\nHere's a detailed breakdown for **Mission M097** within the **TASK_V3** system, based on typical mission structures:\n\n---\n\n### **MISSION BRIEFING: M097 - \"The Serpent's Coil\"**\n\n*   **MISSION ID:** M097\n*   **TASK SYSTEM:** TASK_V3\n*   **STATUS:** Available\n*   **PRIORITY:** High\n*   **RECOMMENDED LEVEL:** 25+\n*   **PREREQUISITES:** Completed Mission M096 \"Whispers in the Void\"\n\n---\n\n**SYNOPSIS:**\nIntelligence reports confirm that the clandestine organization known as the 'Crimson Hand' has established a hidden research facility deep within the hazardous Serpent's Veil Nebula. Our sensors detect unusual energy signatures emanating from the facility, suggesting they are close to activating a powerful ancient artifact that could destabilize the entire sector's energy grid. Your mission is to infiltrate this facility, neutralize the threat, and secure the artifact before it can be weaponized.\n\n---\n\n**PRIMARY OBJECTIVES:**\n\n1.  **INFILTRATE Crimson Hand Research Facility:** Gain access to Outpost Gamma-7 in the Serpent's Veil Nebula.\n2.  **LOCATE Ancient Artifact:** Pinpoint the artifact's location within the facility.\n3.  **NEUTRALIZE Threat & SECURE Artifact:** Prevent the Crimson Hand from activating the artifact and extract it.\n4.  **EXTRACT SAFELY:** Return to Alliance lines with the artifact.\n\n---\n\n**SECONDARY OBJECTIVES (OPTIONAL):**\n\n*   **DISABLE Crimson Hand Communications Array (0/1):** Prevent them from calling reinforcements.\n*   **RESCUE Captured Alliance Engineer (0/1):** Intel suggests a high-value target is being held in Sector C.\n*   **RETRIEVE Research Data Logs (0/3):** Gather intel on their xenotech experiments.\n\n---\n\n**KNOWN THREATS:**\n\n*   **Crimson Hand Elite Operatives:** Heavily armored and skilled combatants.\n*   **Automated Turrets & Drones:** Stationary and mobile defenses.\n*   **Environmental Hazards:** Ion storms and unstable asteroid fields within the Serpent's Veil Nebula.\n*   **BOSS ENCOUNTER:** Commander 'Viper', leader of the Crimson Hand's research division.\n\n---\n\n**POTENTIAL REWARDS:**\n\n*   **Completion Reward:** +7500 Credits\n*   **Experience:** +1200 XP\n*   **Rare Item:** \"Serpent's Eye Core\" (Artifact Component)\n*   **Reputation:** +150 Alliance Reputation\n*   **Bonus Rewards (for Secondary Objectives):** Additional Credits, rare crafting materials, unique weapon blueprint.\n\n---\n\n**ADVISORY:**\nThis mission requires stealth, combat prowess, and strong environmental navigation skills. Prepare accordingly. Good luck, Operative.",
+    "raw_response": {
+      "sdk_http_response": {
+        "headers": {
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Origin, X-Origin, Referer",
+          "content-encoding": "gzip",
+          "date": "Tue, 13 Jan 2026 15:47:25 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "server-timing": "gfet4t7; dur=11695",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "transfer-encoding": "chunked"
+        },
+        "body": null
+      },
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "Understood. This appears to be a request for information or a status update for a specific mission within a structured task system.\n\nHere's a detailed breakdown for **Mission M097** within the **TASK_V3** system, based on typical mission structures:\n\n---\n\n### **MISSION BRIEFING: M097 - \"The Serpent's Coil\"**\n\n*   **MISSION ID:** M097\n*   **TASK SYSTEM:** TASK_V3\n*   **STATUS:** Available\n*   **PRIORITY:** High\n*   **RECOMMENDED LEVEL:** 25+\n*   **PREREQUISITES:** Completed Mission M096 \"Whispers in the Void\"\n\n---\n\n**SYNOPSIS:**\nIntelligence reports confirm that the clandestine organization known as the 'Crimson Hand' has established a hidden research facility deep within the hazardous Serpent's Veil Nebula. Our sensors detect unusual energy signatures emanating from the facility, suggesting they are close to activating a powerful ancient artifact that could destabilize the entire sector's energy grid. Your mission is to infiltrate this facility, neutralize the threat, and secure the artifact before it can be weaponized.\n\n---\n\n**PRIMARY OBJECTIVES:**\n\n1.  **INFILTRATE Crimson Hand Research Facility:** Gain access to Outpost Gamma-7 in the Serpent's Veil Nebula.\n2.  **LOCATE Ancient Artifact:** Pinpoint the artifact's location within the facility.\n3.  **NEUTRALIZE Threat & SECURE Artifact:** Prevent the Crimson Hand from activating the artifact and extract it.\n4.  **EXTRACT SAFELY:** Return to Alliance lines with the artifact.\n\n---\n\n**SECONDARY OBJECTIVES (OPTIONAL):**\n\n*   **DISABLE Crimson Hand Communications Array (0/1):** Prevent them from calling reinforcements.\n*   **RESCUE Captured Alliance Engineer (0/1):** Intel suggests a high-value target is being held in Sector C.\n*   **RETRIEVE Research Data Logs (0/3):** Gather intel on their xenotech experiments.\n\n---\n\n**KNOWN THREATS:**\n\n*   **Crimson Hand Elite Operatives:** Heavily armored and skilled combatants.\n*   **Automated Turrets & Drones:** Stationary and mobile defenses.\n*   **Environmental Hazards:** Ion storms and unstable asteroid fields within the Serpent's Veil Nebula.\n*   **BOSS ENCOUNTER:** Commander 'Viper', leader of the Crimson Hand's research division.\n\n---\n\n**POTENTIAL REWARDS:**\n\n*   **Completion Reward:** +7500 Credits\n*   **Experience:** +1200 XP\n*   **Rare Item:** \"Serpent's Eye Core\" (Artifact Component)\n*   **Reputation:** +150 Alliance Reputation\n*   **Bonus Rewards (for Secondary Objectives):** Additional Credits, rare crafting materials, unique weapon blueprint.\n\n---\n\n**ADVISORY:**\nThis mission requires stealth, combat prowess, and strong environmental navigation skills. Prepare accordingly. Good luck, Operative.",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "model"
+          },
+          "citation_metadata": null,
+          "finish_message": null,
+          "token_count": null,
+          "finish_reason": "STOP",
+          "avg_logprobs": null,
+          "grounding_metadata": null,
+          "index": 0,
+          "logprobs_result": null,
+          "safety_ratings": null,
+          "url_context_metadata": null
+        }
+      ],
+      "create_time": null,
+      "model_version": "gemini-2.5-flash",
+      "prompt_feedback": null,
+      "response_id": "DWlmabzcAs-v2roPneLcgQQ",
+      "usage_metadata": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 647,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 12,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 12
+          }
+        ],
+        "thoughts_token_count": 1370,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 2029,
+        "traffic_type": null
+      },
+      "automatic_function_calling_history": [],
+      "parsed": null
+    },
+    "attempt": 1,
+    "mission_id": "mission_0097",
+    "timestamp": "2026-01-14T00:47:24.521068"
+  }
+}

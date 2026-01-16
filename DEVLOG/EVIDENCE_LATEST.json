@@ -1,0 +1,11 @@
+{
+  "run_id": "RUN_20260116_011322_809578",
+  "timestamp": "2026-01-16T01:14:14.097255",
+  "exitcode": 0,
+  "expected_missions": 5,
+  "done_missions": 5,
+  "api_error_count": 0,
+  "pass": true,
+  "verdict": "PASS",
+  "reason_code": "ORDER_EOF"
+}

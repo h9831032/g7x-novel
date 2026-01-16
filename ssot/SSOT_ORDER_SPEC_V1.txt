@@ -1,0 +1,31 @@
+[SSOT_ORDER_SPEC_V1]
+[ROOT] C:\g7core\g7_v1
+[ORDER_DIR] C:\g7core\g7_v1\GPTORDER
+[ROWS_RULE] ROWS=120 ONLY (240↑ 금지, 120+120은 night_queue로만)
+[ENGINE_RULE] manager.py는 오더 1개 -> RUN 1개만 수행 (큐 로직 용접 금지)
+
+[OUTPUT_REQUIRED]
+- REAL_WORK_120_D.txt (120 lines)
+- REAL_WORK_120_E.txt (120 lines)
+- night_queue_list.txt (2 lines: D then E)
+
+[LINE_RULE]
+- 1줄 = 1개 작업 오더 문자열
+- 중복 줄(완전 동일 문자열) 1개라도 있으면 즉시 FAIL
+- FILL_basic / dummy / test / placeholder 류 문자열 포함 시 즉시 FAIL
+- 오더는 “실제 다음 공정”이어야 하며, 실행 가능해야 함(형식만 있고 내용 없는 것 금지)
+
+[SCOPE_RULE]
+- 오더는 “코드 추가/수정”이 아니라 “실행 작업 단위”로 작성
+- 목표: 야간에 돌아가서 RUN 증거팩 생성 + 실패는 FAIL_BOX/RETRY로 회수
+
+[VALIDATION_REQUIRED]
+- 생성 후 반드시 중복 검사 수행:
+  - 라인수 120 정확히
+  - 중복 0
+- 생성 후 night_queue_list.txt는 정확히 2줄
+  REAL_WORK_120_D.txt
+  REAL_WORK_120_E.txt
+
+[FAIL_FAST]
+- 위 조건 하나라도 어기면 전부 폐기하고 재생성

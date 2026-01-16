@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "Explain quantum computing in 3 sentences",
+  "content": "Quantum computing harnesses the bizarre laws of quantum mechanics, like superposition and entanglement, to perform computations in a fundamentally different way than classical computers. Instead of bits representing 0 or 1, quantum bits (qubits) can exist in a combination of both states simultaneously, allowing them to explore many possibilities at once. This enables quantum computers to potentially solve complex problems currently intractable for even the most powerful supercomputers, especially in fields like drug discovery, materials science, and cryptography.\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Quantum computing harnesses the bizarre laws of quantum mechanics, like superposition and entanglement, to perform computations in a fundamentally different way than classical computers. Instead of bits representing 0 or 1, quantum bits (qubits) can exist in a combination of both states simultaneously, allowing them to explore many possibilities at once. This enables quantum computers to potentially solve complex problems currently intractable for even the most powerful supercomputers, especially in fields like drug discovery, materials science, and cryptography.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.18240649574681334
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 7,
+      "candidatesTokenCount": 95,
+      "totalTokenCount": 102,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 7
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 95
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "V0RmaY_pFtenvr0PnfufyQo"
+  },
+  "mission_id": "mission_0002",
+  "timestamp": "2026-01-13T22:10:48.033335"
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "RUN_20260113_221045_561419",
+  "timestamp": "2026-01-13T22:10:50.035420",
+  "start_time": "2026-01-13T22:10:45.562420",
+  "end_time": "2026-01-13T22:10:50.034419",
+  "duration_sec": 4,
+  "order_path": "UNKNOWN",
+  "expected_missions": 3,
+  "done_missions": 3,
+  "api_error_count": 0,
+  "exitcode": 0,
+  "pass_bool": true,
+  "reason_code": "ORDER_EOF",
+  "evidence_paths": {
+    "verify_report.json": "C:\\g7core\\g7_v1\\runs\\RUN_20260113_221045_561419\\verify_report.json",
+    "final_audit.json": "C:\\g7core\\g7_v1\\runs\\RUN_20260113_221045_561419\\final_audit.json",
+    "stamp_manifest.json": "C:\\g7core\\g7_v1\\runs\\RUN_20260113_221045_561419\\stamp_manifest.json",
+    "stdout_manager.txt": "C:\\g7core\\g7_v1\\runs\\RUN_20260113_221045_561419\\stdout_manager.txt",
+    "stderr_manager.txt": "C:\\g7core\\g7_v1\\runs\\RUN_20260113_221045_561419\\stderr_manager.txt",
+    "exitcode.txt": "C:\\g7core\\g7_v1\\runs\\RUN_20260113_221045_561419\\exitcode.txt"
+  },
+  "used_files_path": null
+}

@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "FILL_basic_93",
+  "content": "Please provide me with more context! I need to know what \"FILL_basic_93\" refers to.  For example, is it:\n\n*   **A variable name in a programming language?** If so, what language? What is the expected data type?\n*   **A field in a form or database?** What kind of information should be filled in?\n*   **A placeholder in a document or template?** What content is expected to replace it?\n*   **Part of a specific task or assignment?** Please describe the task.\n\nOnce I understand what you're trying to \"fill,\" I can give you a relevant and helpful response.\n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Please provide me with more context! I need to know what \"FILL_basic_93\" refers to.  For example, is it:\n\n*   **A variable name in a programming language?** If so, what language? What is the expected data type?\n*   **A field in a form or database?** What kind of information should be filled in?\n*   **A placeholder in a document or template?** What content is expected to replace it?\n*   **Part of a specific task or assignment?** Please describe the task.\n\nOnce I understand what you're trying to \"fill,\" I can give you a relevant and helpful response.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.3604215527257175
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 6,
+      "candidatesTokenCount": 141,
+      "totalTokenCount": 147,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 6
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 141
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "TWBmacnUG8PBvr0Pg6PeqQY"
+  },
+  "mission_id": "mission_0094",
+  "timestamp": "2026-01-14T00:10:06.424971"
+}

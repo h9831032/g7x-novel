@@ -1,0 +1,31 @@
+import subprocess
+import os
+import sys
+
+def run_isolated_v3():
+    venv_py = r"C:\Users\00\PycharmProjects\PythonProject\.venv\Scripts\python.exe"
+    root = r"C:\g7core\g7_v1"
+    
+    print("\n>>> [SYSTEM] CHECKING RECURSION GUARD...")
+    # 환경 변수를 통해 중복 실행 방지 (안전장치)
+    if os.environ.get('G7_LAUNCHED') == 'TRUE':
+        return
+    os.environ['G7_LAUNCHED'] = 'TRUE'
+
+    # 1. 빌더 실행
+    builder_script = os.path.join(root, "tools", "build_work_catalog_v3.py")
+    print(f"\n>>> [STEP 1] Building Catalog...")
+    subprocess.run([venv_py, builder_script], check=True)
+    
+    # 2. 가드 실행 (실제 120발 사격 및 검사)
+    guard_script = os.path.join(root, "main", "night_shift_guard_v5.py")
+    queue_path = os.path.join(root, "GPTORDER", "NIGHT_QUEUE_WORK_600.txt")
+    
+    print(f"\n>>> [STEP 2] Launching Guard Engine (120 Shots)...")
+    # subprocess.run 사용 시, 해당 프로세스가 끝날 때까지 대기함
+    subprocess.run([venv_py, guard_script, "--queue", queue_path], check=True)
+
+    print(f"\n>>> [SUCCESS] MISSION ACCOMPLISHED.")
+
+if __name__ == "__main__":
+    run_isolated_v3()

@@ -1,0 +1,7 @@
+{
+    "order_id": 7,
+    "task_type": "dataset_production",
+    "target": "20260107_dataset",
+    "mode": "production",
+    "prompt_path": "C:\\g7core\\g7_v1\\prompts\\production_v1.txt"
+}

@@ -1,0 +1,82 @@
+{
+  "status": "SUCCESS",
+  "order": "TASK_V3|mission=M088",
+  "content": "Okay, I see you're requesting information regarding `mission=M088`.\n\nHowever, \"M088\" is a generic identifier, and I don't have specific details about it in my current context.\n\nTo provide you with the correct information, please tell me:\n\n1.  **What *type* of mission is M088?** (e.g., a specific project, a game mission, a fictional scenario, a real-world event, etc.)\n2.  **What *system* or *context* is this mission part of?** (e.g., \"from the game X\", \"for our project Y\", \"in the book Z\")\n3.  **What specific *information* are you looking for?** (e.g., objectives, status, participants, background, steps, etc.)\n\nOnce I have more details, I can help you with your request.",
+  "raw_response": {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 13 Jan 2026 15:46:28 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=6104",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "Okay, I see you're requesting information regarding `mission=M088`.\n\nHowever, \"M088\" is a generic identifier, and I don't have specific details about it in my current context.\n\nTo provide you with the correct information, please tell me:\n\n1.  **What *type* of mission is M088?** (e.g., a specific project, a game mission, a fictional scenario, a real-world event, etc.)\n2.  **What *system* or *context* is this mission part of?** (e.g., \"from the game X\", \"for our project Y\", \"in the book Z\")\n3.  **What specific *information* are you looking for?** (e.g., objectives, status, participants, background, steps, etc.)\n\nOnce I have more details, I can help you with your request.",
+              "thought": null,
+              "thought_signature": null,
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-2.5-flash",
+    "prompt_feedback": null,
+    "response_id": "1GhmaaiYLqCI1e8PvKWqkA4",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 194,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 12,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 12
+        }
+      ],
+      "thoughts_token_count": 880,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1086,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": null
+  },
+  "attempt": 1,
+  "mission_id": "mission_0088",
+  "timestamp": "2026-01-14T00:46:28.245752"
+}

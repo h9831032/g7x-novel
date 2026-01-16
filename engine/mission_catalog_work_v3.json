@@ -1,0 +1,6002 @@
+[
+  {
+    "mission_id": "FILL_basic_0",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_1",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_2",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_3",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_4",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_5",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_6",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_7",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_8",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_9",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_10",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_11",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_12",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_13",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_14",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_15",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_16",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_17",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_18",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_19",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_20",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_21",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_22",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_23",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_24",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_25",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_26",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_27",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_28",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_29",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_30",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_31",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_32",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_33",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_34",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_35",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_36",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_37",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_38",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_39",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_40",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_41",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_42",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_43",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_44",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_45",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_46",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_47",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_48",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_49",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_50",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_51",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_52",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_53",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_54",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_55",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_56",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_57",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_58",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_59",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_60",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_61",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_62",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_63",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_64",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_65",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_66",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_67",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_68",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_69",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_70",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_71",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_72",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_73",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_74",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_75",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_76",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_77",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_78",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_79",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_80",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_81",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_82",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_83",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_84",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_85",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_86",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_87",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_88",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_89",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_90",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_91",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_92",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_93",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_94",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_95",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_96",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_97",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_98",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_99",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_100",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_101",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_102",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_103",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_104",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_105",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_106",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_107",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_108",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_109",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_110",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_111",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_112",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_113",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_114",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_115",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_116",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_117",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_118",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_basic_119",
+    "title": "Refine basic module",
+    "objective": "Optimize basic logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_basic.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_0",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_1",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_2",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_3",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_4",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_5",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_6",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_7",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_8",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_9",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_10",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_11",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_12",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_13",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_14",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_15",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_16",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_17",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_18",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_19",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_20",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_21",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_22",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_23",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_24",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_25",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_26",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_27",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_28",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_29",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_30",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_31",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_32",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_33",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_34",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_35",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_36",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_37",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_38",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_39",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_40",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_41",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_42",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_43",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_44",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_45",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_46",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_47",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_48",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_49",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_50",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_51",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_52",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_53",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_54",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_55",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_56",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_57",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_58",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_59",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_60",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_61",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_62",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_63",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_64",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_65",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_66",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_67",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_68",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_69",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_70",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_71",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_72",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_73",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_74",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_75",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_76",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_77",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_78",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_79",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_80",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_81",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_82",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_83",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_84",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_85",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_86",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_87",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_88",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_89",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_90",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_91",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_92",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_93",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_94",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_95",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_96",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_97",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_98",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_99",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_100",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_101",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_102",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_103",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_104",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_105",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_106",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_107",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_108",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_109",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_110",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_111",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_112",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_113",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_114",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_115",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_116",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_117",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_118",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_light_119",
+    "title": "Refine light module",
+    "objective": "Optimize light logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_light.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_0",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_1",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_2",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_3",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_4",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_5",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_6",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_7",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_8",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_9",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_10",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_11",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_12",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_13",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_14",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_15",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_16",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_17",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_18",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_19",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_20",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_21",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_22",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_23",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_24",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_25",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_26",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_27",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_28",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_29",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_30",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_31",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_32",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_33",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_34",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_35",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_36",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_37",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_38",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_39",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_40",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_41",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_42",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_43",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_44",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_45",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_46",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_47",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_48",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_49",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_50",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_51",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_52",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_53",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_54",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_55",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_56",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_57",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_58",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_59",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_60",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_61",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_62",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_63",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_64",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_65",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_66",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_67",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_68",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_69",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_70",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_71",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_72",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_73",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_74",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_75",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_76",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_77",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_78",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_79",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_80",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_81",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_82",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_83",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_84",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_85",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_86",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_87",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_88",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_89",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_90",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_91",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_92",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_93",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_94",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_95",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_96",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_97",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_98",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_99",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_100",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_101",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_102",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_103",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_104",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_105",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_106",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_107",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_108",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_109",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_110",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_111",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_112",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_113",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_114",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_115",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_116",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_117",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_118",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_fun_119",
+    "title": "Refine fun module",
+    "objective": "Optimize fun logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_fun.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_0",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_1",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_2",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_3",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_4",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_5",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_6",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_7",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_8",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_9",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_10",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_11",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_12",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_13",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_14",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_15",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_16",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_17",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_18",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_19",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_20",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_21",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_22",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_23",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_24",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_25",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_26",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_27",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_28",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_29",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_30",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_31",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_32",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_33",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_34",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_35",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_36",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_37",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_38",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_39",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_40",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_41",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_42",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_43",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_44",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_45",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_46",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_47",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_48",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_49",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_50",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_51",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_52",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_53",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_54",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_55",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_56",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_57",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_58",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_59",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_60",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_61",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_62",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_63",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_64",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_65",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_66",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_67",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_68",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_69",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_70",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_71",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_72",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_73",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_74",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_75",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_76",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_77",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_78",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_79",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_80",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_81",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_82",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_83",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_84",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_85",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_86",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_87",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_88",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_89",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_90",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_91",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_92",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_93",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_94",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_95",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_96",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_97",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_98",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_99",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_100",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_101",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_102",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_103",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_104",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_105",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_106",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_107",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_108",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_109",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_110",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_111",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_112",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_113",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_114",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_115",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_116",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_117",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_118",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_navigator_119",
+    "title": "Refine navigator module",
+    "objective": "Optimize navigator logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_navigator.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_0",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_1",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_2",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_3",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_4",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_5",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_6",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_7",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_8",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_9",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_10",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_11",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_12",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_13",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_14",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_15",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_16",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_17",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_18",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_19",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_20",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_21",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_22",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_23",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_24",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_25",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_26",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_27",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_28",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_29",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_30",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_31",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_32",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_33",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_34",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_35",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_36",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_37",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_38",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_39",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_40",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_41",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_42",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_43",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_44",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_45",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_46",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_47",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_48",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_49",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_50",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_51",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_52",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_53",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_54",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_55",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_56",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_57",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_58",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_59",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_60",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_61",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_62",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_63",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_64",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_65",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_66",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_67",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_68",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_69",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_70",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_71",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_72",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_73",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_74",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_75",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_76",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_77",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_78",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_79",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_80",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_81",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_82",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_83",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_84",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_85",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_86",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_87",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_88",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_89",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_90",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_91",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_92",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_93",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_94",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_95",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_96",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_97",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_98",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_99",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_100",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_101",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_102",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_103",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_104",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_105",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_106",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_107",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_108",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_109",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_110",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_111",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_112",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_113",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_114",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_115",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_116",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_117",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_118",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  },
+  {
+    "mission_id": "FILL_vmcl_119",
+    "title": "Refine vmcl module",
+    "objective": "Optimize vmcl logic",
+    "handler_type": "LLM",
+    "expected_outputs": [
+      "receipts\\mission\\res_FILL_vmcl.json"
+    ],
+    "acceptance": "manager.py check"
+  }
+]

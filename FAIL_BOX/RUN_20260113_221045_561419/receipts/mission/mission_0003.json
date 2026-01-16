@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0003",
+  "timestamp": "2026-01-13T22:10:49.977865",
+  "status": "SUCCESS",
+  "content_hash": "a2ae9353daa99f1eec50380cd2785a9627ad0114",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "List 5 programming languages",
+    "content": "Okay, here are 5 popular programming languages:\n\n1.  **Python:** Known for its readability and versatility, widely used in web development, data science, machine learning, and scripting.\n\n2.  **JavaScript:** Primarily used for front-end web development (making websites interactive), but also used for back-end development (Node.js) and mobile app development (React Native).\n\n3.  **Java:** A robust, object-oriented language used for enterprise applications, Android app development, and more.\n\n4.  **C#:** Developed by Microsoft, it's used for building Windows desktop applications, web applications (ASP.NET), and game development (Unity).\n\n5.  **C++:** A powerful language often used for system programming, game development, and high-performance applications.\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Okay, here are 5 popular programming languages:\n\n1.  **Python:** Known for its readability and versatility, widely used in web development, data science, machine learning, and scripting.\n\n2.  **JavaScript:** Primarily used for front-end web development (making websites interactive), but also used for back-end development (Node.js) and mobile app development (React Native).\n\n3.  **Java:** A robust, object-oriented language used for enterprise applications, Android app development, and more.\n\n4.  **C#:** Developed by Microsoft, it's used for building Windows desktop applications, web applications (ASP.NET), and game development (Unity).\n\n5.  **C++:** A powerful language often used for system programming, game development, and high-performance applications.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.12247267223539807
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 5,
+        "candidatesTokenCount": 168,
+        "totalTokenCount": 173,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 168
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "WERmadGDMoLBvr0PvrCh6Qc"
+    },
+    "mission_id": "mission_0003",
+    "timestamp": "2026-01-13T22:10:49.976864"
+  }
+}

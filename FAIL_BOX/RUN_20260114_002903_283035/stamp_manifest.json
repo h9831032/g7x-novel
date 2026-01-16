@@ -1,0 +1,62 @@
+{
+  "run_id": "RUN_20260114_002903_283035",
+  "timestamp": "2026-01-14T00:29:06.438931",
+  "files": {
+    "api_receipt.jsonl": {
+      "size": 450,
+      "sha1": "dffee39de020887c7d1d017496315e171351815e"
+    },
+    "blackbox_log.jsonl": {
+      "size": 500,
+      "sha1": "b796fcbe437c7392da55964537df94aca278f6f2"
+    },
+    "exitcode.txt": {
+      "size": 1,
+      "sha1": "356a192b7913b04c54574d18c28d46e6395428ab"
+    },
+    "stderr_manager.txt": {
+      "size": 0,
+      "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    "stdout_manager.txt": {
+      "size": 1041,
+      "sha1": "97428e4af70ab076338395ba734133bee7ebd069"
+    },
+    "api_raw\\mission_0001.json": {
+      "size": 859,
+      "sha1": "caa0af8ebc788228f5fb35e3b8b1b52213ce2950"
+    },
+    "api_raw\\mission_0002.json": {
+      "size": 873,
+      "sha1": "f8b0f45f46132127df837569ceb4660028b986a3"
+    },
+    "api_raw\\mission_0003.json": {
+      "size": 861,
+      "sha1": "7ae7d39bcd8f7e96b68537e499a0747250410dd9"
+    },
+    "missions\\mission_0001.json": {
+      "size": 859,
+      "sha1": "caa0af8ebc788228f5fb35e3b8b1b52213ce2950"
+    },
+    "missions\\mission_0002.json": {
+      "size": 873,
+      "sha1": "f8b0f45f46132127df837569ceb4660028b986a3"
+    },
+    "missions\\mission_0003.json": {
+      "size": 861,
+      "sha1": "7ae7d39bcd8f7e96b68537e499a0747250410dd9"
+    },
+    "receipts\\mission\\mission_0001.json": {
+      "size": 1063,
+      "sha1": "aba227112716b62be93b72612f19c8887dfa14d1"
+    },
+    "receipts\\mission\\mission_0002.json": {
+      "size": 1077,
+      "sha1": "e463c064258fe838f5ea0c61460d0f28fe4aa9a3"
+    },
+    "receipts\\mission\\mission_0003.json": {
+      "size": 1065,
+      "sha1": "59b90ad883f4c5668abb2e0141ff8b814ee5daba"
+    }
+  }
+}

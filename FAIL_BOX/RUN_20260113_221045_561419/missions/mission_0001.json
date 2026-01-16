@@ -1,0 +1,42 @@
+{
+  "status": "SUCCESS",
+  "order": "Write a haiku about coding",
+  "content": "Fingers tap the keys,\nLogic blooms on glowing screen,\nBugs become the stars. \n",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Fingers tap the keys,\nLogic blooms on glowing screen,\nBugs become the stars. \n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.2597804898801057
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 6,
+      "candidatesTokenCount": 23,
+      "totalTokenCount": 29,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 6
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 23
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash-exp",
+    "responseId": "VkRmacnAGOnA1e8PrZ706Ac"
+  },
+  "mission_id": "mission_0001",
+  "timestamp": "2026-01-13T22:10:46.608362"
+}

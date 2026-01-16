@@ -1,0 +1,48 @@
+{
+  "mission_id": "mission_0011",
+  "timestamp": "2026-01-13T21:31:27.274170",
+  "status": "SUCCESS",
+  "content_hash": "f3a50ec02a99f0bc1ac67bcd7c5a704aacfad512",
+  "metadata": {
+    "status": "SUCCESS",
+    "order": "TASK_V3|mission=M011",
+    "content": "Okay, I understand. You've given me the following task:\n\n**TASK_V3 | mission=M011**\n\nThis appears to be a command or instruction related to a mission.  To help me understand what you want me to *do*, I need more context.  Specifically, I need to know:\n\n*   **What is TASK_V3?** Is it a specific software program, a protocol, a process, or something else?\n*   **What kind of action do you want me to take regarding mission M011?** Do you want me to:\n    *   Provide information about mission M011? (If so, what kind of information?)\n    *   Execute a command related to mission M011? (If so, what command?)\n    *   Analyze data related to mission M011?\n    *   Generate something related to mission M011?\n    *   Simulate something related to mission M011?\n\n**In short, please tell me what you want me to *do* with mission M011.**\n\nFor example, you might say:\n\n*   \"TASK_V3: Describe mission M011.\"\n*   \"TASK_V3: Summarize the objectives of mission M011.\"\n*   \"TASK_V3: Check the status of mission M011.\"\n*   \"TASK_V3: Simulate the launch of mission M011.\"\n\nThe more information you provide, the better I can understand your request and provide a helpful response.\n",
+    "raw_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Okay, I understand. You've given me the following task:\n\n**TASK_V3 | mission=M011**\n\nThis appears to be a command or instruction related to a mission.  To help me understand what you want me to *do*, I need more context.  Specifically, I need to know:\n\n*   **What is TASK_V3?** Is it a specific software program, a protocol, a process, or something else?\n*   **What kind of action do you want me to take regarding mission M011?** Do you want me to:\n    *   Provide information about mission M011? (If so, what kind of information?)\n    *   Execute a command related to mission M011? (If so, what command?)\n    *   Analyze data related to mission M011?\n    *   Generate something related to mission M011?\n    *   Simulate something related to mission M011?\n\n**In short, please tell me what you want me to *do* with mission M011.**\n\nFor example, you might say:\n\n*   \"TASK_V3: Describe mission M011.\"\n*   \"TASK_V3: Summarize the objectives of mission M011.\"\n*   \"TASK_V3: Check the status of mission M011.\"\n*   \"TASK_V3: Simulate the launch of mission M011.\"\n\nThe more information you provide, the better I can understand your request and provide a helpful response.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.23104984802607248
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 11,
+        "candidatesTokenCount": 338,
+        "totalTokenCount": 349,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 11
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 338
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash-exp",
+      "responseId": "HDtmaaKLINyg0-kP5e6F6AQ"
+    },
+    "mission_id": "mission_0011",
+    "timestamp": "2026-01-13T21:31:27.263863"
+  }
+}
