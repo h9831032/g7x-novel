@@ -1,0 +1,777 @@
+[DATE] 2026-01-11
+[PROJECT] G7X 소설 자동화 공장
+[ROLE] 부사장(설계감리/현장소장)
+
+[STATUS]
+- REAL_MISSION_120_A/B 중 최소 1트럭 REAL 실행 성공
+- api_raw 실파일 생성 확인
+- audit / verify / blackbox / exitcode 정상
+- 베이직엔진 + 검문소 + 블랙박스 용접 완료
+
+[CORE_ENTRY]
+- main/manager.py
+  → 모든 실행은 이 파일로만 진행
+  → --order_path + --mode REAL 사용
+
+[ORDER_FLOW]
+GPTORDER/*.txt
+ → manager.py
+ → mission_catalog 로딩
+ → REAL API 호출
+ → runs/RUN_xxx/api_raw/*.json 생성
+
+[EVIDENCE]
+runs/RUN_xxx/
+ - api_raw/
+ - blackbox_log.jsonl
+ - final_audit.json
+ - verify_report.json
+ - stamp_manifest.json
+ - exitcode.txt (0)
+
+[WHY_PREV_FAILED]
+1) SDK/모델명 불일치로 침묵 실패
+2) RUN 증거팩 미생성
+3) 작업 단위 과도한 축소
+4) 세션 간 상태 문서 부재
+
+[CURRENT_JUDGEMENT]
+- 공장 생산라인 90% 완성
+- 실전 투입 가능
+- 다음 단계는 ‘야간 무인 루프’와 Layer-2
+
+[NEXT]
+1) NIGHT LOOP (자동 반복 실행)
+2) RUN 인덱스 정리
+3) Layer-2 센서 접합
+
+오늘 개발일지(형아가 다른 세션 가도 “내가” 이해하게) 초안
+
+사건: NIGHT_QUEUE 실행 중 manager.py가 --order_path에 “A경로\nB경로”가 뭉쳐 들어가 OSError 22 발생
+
+작업결과
+
+조치: 큐 파서를 split() 기반으로 변경해 공백/엔터/탭을 전부 분리 + \\n 오염도 교정
+
+작업결과
+
+결과: RUN_0111_194022 FINAL PASS. 주문서 120줄 → 영수증 120장, 증거팩 6종 존재
+
+작업결과
+
+작업결과
+
+다음: night_shift_v4.py로 “between_orders_sleep_sec=25” 포함 무인 A+B 점화 → FAILBOX 확인 후 600발 확장
+
+치매방지 1줄(초딩버전): 지금은 “탄창(큐)에 종이(오더)를 넣으면 로봇(매니저)이 밤새 일을 하고 영수증을 찍는지”만 보면 된다.
+[ROLE] 부사장(설계감리/현장소장)
+[SESSION] B(개발일지/봉인)
+[DATE] 2026-01-11 (KST)
+[INPUT] one_shot_night_work_600 실패 반복 + manager 복구 + guard v6.2 적용
+[ACTION] 증거 기반으로 PASS/WARN/FAIL 판정 + 오염 복구 로그 박제 + 내일 작업 순서 고정
+[OUTPUT] 오늘 개발일지(복붙용) + 내일 실행 체크리스트(파이썬/파워쉘)
+[STATUS] **FAIL(원인 확정 단계 진입)**
+[NEXT] **RUN 폴더에 “manager stdout/stderr” 증거를 강제 저장하고, manager가 증거팩 생성하도록 용접**
+
+---
+
+## 0) 파일 링크(핵심)
+
+[FILE_LINK]
+C:\g7core\g7_v1\main\manager.py
+
+[FILE_LINK]
+C:\g7core\g7_v1\main\manager.py.bak_20260111_153003
+
+[FILE_LINK]
+C:\g7core\g7_v1\main\night_shift_guard_v5.py
+
+[FILE_LINK]
+C:\g7core\g7_v1\tools\one_shot_night_work_600.py
+
+[FILE_LINK]
+C:\g7core\g7_v1\tools\build_work_catalog_v3.py
+
+[FILE_LINK]
+C:\g7core\g7_v1\GPTORDER\REAL_WORK_120_C.txt
+
+[FILE_LINK]
+C:\g7core\g7_v1\runs\RUN_20260111_230433_189
+
+---
+
+## 1) 오늘 한 일(변경점/증거)
+
+### 1-1) Guard v6.2 패치 적용
+
+* 실행 로그:
+
+  * `patch_guard_v6_2.py` 실행 → `night_shift_guard_v5.py` 백업 생성 + 덮어쓰기 완료
+  * 백업: `night_shift_guard_v5.py.bak_20260111_225409`
+* 목적:
+
+  * “새 RUN 없으면 FAIL_FAST” (기존 RUN 재사용/오염 방지)
+  * “새 RUN이 생기면 그 RUN만 검문”으로 고정
+
+### 1-2) manager.py 복구(제미나이 오염 롤백)
+
+* 복구 실행:
+
+  * `manager.py.bak_20260111_153003 -> manager.py` 복원 완료
+* 증거:
+
+  * `SIZE 5491` 확인됨 (깨진 파일/짧은 껍데기 아님)
+  * 상단 내용에 `WriterAdapter`, `RunManager` 등 정상 코드 구조 확인됨
+
+### 1-3) one_shot_night_work_600 실행(600 탄창 생성은 성공, RUN 검문은 실패)
+
+* 빌드 단계:
+
+  * `build_work_catalog_v3` 결과:
+  * Tags: `{'basic': 120, 'light': 120, 'fun': 120, 'navigator': 120, 'vmcl': 120}`
+* Guard 단계:
+
+  * `manager --order_path REAL_WORK_120_C.txt` 실행 후
+  * `RUN_20260111_230433_189` 생성됨(= “manager가 RUN 폴더는 만들었다”로 추정)
+  * 하지만 검문 결과:
+
+    * `verify_report.json False`
+    * `stamp_manifest.json False`
+    * `final_audit.json False`
+    * `exitcode.txt False`
+    * `receipts_120 False`
+    * `blackbox_log.jsonl False`
+    * `exitcode_is_0 False`
+  * 즉, **RUN 폴더는 생겼는데 “증거팩/영수증”이 아무것도 안 생김 → FAIL_FAST**
+
+---
+
+## 2) 오늘 판정(PASS/WARN/FAIL)
+
+### PASS
+
+* **오염 복구(롤백)** 는 성공: `manager.py` 정상 백업본으로 복구 완료
+* **검문소(guard) 동작** 은 정상: “서류 없으면 즉시 정지”가 정확히 작동함
+* **탄창 생성(600, 5태그×120)** 은 정상
+
+### FAIL(핵심)
+
+* **manager.py가 RUN 안에 ‘증거팩/영수증’ 생성 로직을 수행하지 못함**
+* 현재 상태에서 manager는:
+
+  * RUN 폴더 생성만 하고,
+  * `receipts/mission` 120개도 안 만들고,
+  * verify/stamp/audit/exitcode/blackbox도 안 만들고 끝나는 상태
+
+---
+
+## 3) 문제점 / 원인(증거 기반)
+
+### 문제점 A) “증거팩 생성 주체”가 공장 내부에 없음
+
+* guard는 “검문”만 한다.
+* manager가 실제로 다음을 생성해야 PASS인데, 전부 생성 실패:
+
+  * receipts 120
+  * verify_report
+  * stamp_manifest
+  * final_audit
+  * exitcode
+  * blackbox
+
+### 문제점 B) manager stdout/stderr가 RUN에 남는지 불확실
+
+* 오늘 로그에서 RUN에 `stdout_manager.txt / stderr_manager.txt`가 남는지 확인을 안 했음.
+* 내일 첫 타겟은 “왜 안 만들었는지”를 **RUN 내부 로그로 확정**해야 함.
+
+---
+
+## 4) 오염/복구 기록(박제)
+
+### 오염 유형(오늘까지 확인된 것)
+
+* 제미나이 수정안에서 `time.sleep` 포함 등 금지패턴 유입 → Gate A 즉사 이력 존재(이전 업로드 작업결과 기준)
+* “증거팩을 그냥 만들어 PASS처럼 보이게 하는” 설계 유혹(가라) 존재
+
+### 복구 완료
+
+* `manager.py`는 **bak_20260111_153003** 으로 복원 완료(현재 정상본)
+
+---
+
+## 5) 내일 해야 할 일(순서 고정, NO 선택지)
+
+### NEXT_1) 실패 RUN 폴더 내용 전수 출력(증거 수집)
+
+아래 명령으로 RUN 폴더 안에 뭐가 생겼는지 **파일 목록 + 용량** 확정.
+
+```powershell
+C:\Users\00\PycharmProjects\PythonProject\.venv\Scripts\python.exe -c "from pathlib import Path; p=Path(r'C:\g7core\g7_v1\runs\RUN_20260111_230433_189'); print('RUN',p); 
+print('EXIST',p.exists());
+print('FILES');
+for x in sorted(p.rglob('*')):
+    if x.is_file():
+        print(str(x.relative_to(p)), 'bytes', x.stat().st_size)"
+```
+
+### NEXT_2) stdout/stderr가 있으면 내용 즉시 출력(원인 확정)
+
+```powershell
+C:\Users\00\PycharmProjects\PythonProject\.venv\Scripts\python.exe -c "from pathlib import Path; p=Path(r'C:\g7core\g7_v1\runs\RUN_20260111_230433_189'); 
+a=p/'stdout_manager.txt'; b=p/'stderr_manager.txt';
+print('stdout_exists',a.exists(),'bytes',a.stat().st_size if a.exists() else -1);
+print('stderr_exists',b.exists(),'bytes',b.stat().st_size if b.exists() else -1);
+print('STDOUT\\n', a.read_text(encoding='utf-8',errors='ignore')[:4000] if a.exists() else '');
+print('STDERR\\n', b.read_text(encoding='utf-8',errors='ignore')[:4000] if b.exists() else '')"
+```
+
+### NEXT_3) manager.py에 “증거팩 생성 + FAIL_FAST” 용접(핵심 작업)
+
+* 조건:
+
+  * “가라 생성(그냥 파일 만들기)” 금지
+  * receipts는 실제 order 120줄을 읽고 **미션 실행/기록**으로 생성
+  * 실행 종료 시 항상:
+
+    * exitcode.txt (성공 0 / 실패 1)
+    * verify_report.json
+    * final_audit.json
+    * stamp_manifest.json
+    * receipts/mission/*.json (>=120)
+    * blackbox_log.jsonl (이벤트 기록)
+* 이걸 끝내면 guard는 자동으로 PASS 판정 가능.
+
+---
+
+## 6) 내일용 체크리스트(짧게)
+
+1. RUN_20260111_230433_189 파일목록 뽑기
+2. stdout/stderr 내용 뽑기
+3. manager.py에 “증거팩 생성 루틴” 용접
+4. one_shot 재실행 → guard가 (1/5) 통과하는지 확인
+5. 통과하면 다음 order(2/5~5/5)까지 연속 통과
+
+---
+
+## 치매방지 1줄(초딩버전)
+
+**오늘은 ‘가짜를 막는 문지기(guard)’랑 ‘망가진 기계(manager)’를 정상으로 돌려놓았고, 내일은 manager가 진짜 서류(영수증/증거팩)를 쓰게만 만들면 공장이 돌아간다.**
+
+
+
+좋아. 그럼 **아까 만든 헌법 문서에 +6개 전부 반영한 “완성본”**을 바로 준다.
+이건 **설명용이 아니라 실제로 파일에 저장해서 쓰는 문서**다.
+아래 **그대로 복붙**해서 프로젝트에 넣어.
+
+---
+
+# 📁 저장 위치 (고정)
+
+```
+C:\g7core\g7_v1\DOCS\OPERATING_CONSTITUTION.md
+```
+
+---
+
+# 📜 OPERATING_CONSTITUTION.md (최종 완성본)
+
+```md
+# G7X 운영 헌법 (Operating Constitution)
+
+## 0. 이 문서의 목적
+이 문서는 G7X 프로젝트의 절대 기준이다.
+
+- 개발 방향
+- 자동화 사용 범위
+- 일정 판단 규칙
+- 오염 방지 원칙
+- 멘탈/리듬 보호 규칙
+
+세션, 컨디션, 감정에 흔들리지 않고  
+이 문서를 기준으로 모든 결정을 내린다.
+
+
+## 1. 프로젝트 최종 목표
+- 장기적으로 확장 가능한 상업용 소설 공장 시스템 구축
+- 개발 단계와 제품 단계를 명확히 분리한다
+- 자동화의 목적은 “속도”가 아니라 “시간 절약 + 안정성”이다
+
+
+## 2. 단계 구분
+
+### 2-1. 개발 단계 (현재)
+목표:
+- 라이트 시스템 완성
+- VMC 구조 완성
+- 재미/센서 시스템 완성
+
+원칙:
+- 판단, 설계, 구조, 용접은 반드시 사람(형아)이 수행
+- 자동화는 보조 수단으로만 사용
+
+
+### 2-2. 제품 단계 (미래)
+목표:
+- 완성된 구조로 소설 자동 생산
+
+원칙:
+- 자동화 범위 확대 가능
+- 단, 방어/검문 시스템이 충분히 검증된 이후에만 허용
+
+
+## 3. 일정 빨대(시간 소모) 판단 규칙
+
+### 고정 규칙 (최우선)
+- 30분 이상 걸리고
+- 생각·판단이 거의 필요 없는 작업은
+→ 무조건 야간 자동 작업으로 보낸다
+
+
+### 야간 자동 작업 허용 목록
+- 테스트 (회귀 / 전수 테스트)
+- 인덱싱
+- 대용량 스캔
+- 드리프트 / 석화 탐지
+- 실패 재시도
+- 로그 / 리포트 정리
+- 코드 후보 대량 생성 (절대 자동 용접 금지)
+
+
+### 야간 자동 작업 금지 목록
+- 구조 설계
+- 핵심 로직 작성
+- 메인 코드 수정
+- 플러그인 용접
+- 무엇을 붙일지 결정하는 작업
+
+
+## 4. 야간 자동화 시스템의 역할 정의
+
+야간 시스템은 다음만 수행한다:
+
+- 시간 오래 걸리는 작업을 대신 수행
+- 코드 / 설계 / 로직의 “후보”만 생성
+- 모든 결과를 파일로 저장
+
+야간 시스템은 절대 하지 않는다:
+
+- 메인 코드 자동 수정
+- 자동 용접
+- 자동 판단
+
+
+## 5. 야간 결과 저장 규칙 (필수)
+
+야간 자동화 결과는 반드시 아래 경로만 사용한다:
+
+```
+
+C:\g7core\g7_v1\NIGHT_OUTPUT
+├─ code_candidates
+├─ test_reports
+├─ indexing_logs
+└─ FAIL_BOX\
+
+```
+
+- 메인 코드 디렉터리 접근 금지
+- 모든 결과는 “참고용 후보”로 취급
+
+
+## 6. 야간 결과 폐기(유통기한) 규칙
+
+- 생성 후 72시간 이내 검토되지 않은 결과:
+  → FAIL_BOX로 이동
+- FAIL_BOX 내 결과:
+  → 7일 후 자동 삭제 대상
+
+의미:
+- 검토되지 않은 결과는 가치 없음
+- 쌓아두지 않는다
+
+
+## 7. 아침 검토 순서 규칙 (고정)
+
+야간 작업 다음 날, 검토 순서는 반드시 아래 순서로 한다:
+
+1. FAIL_BOX 요약
+2. 테스트 리포트 요약 1개
+3. 코드 후보 중 변경량이 가장 작은 것
+
+이 순서를 벗어나지 않는다.
+
+
+## 8. 본업(라이트 / VMC) 시간 보호 규칙
+
+- 하루 최소 2시간은 본업(라이트/VMC) 작업에 고정 사용
+- 본업 시간 이후에만 야간 결과 검토 허용
+
+야간 자동화가 본업을 잠식하지 못하게 한다.
+
+
+## 9. 시스템 사용 / 미사용 기준
+
+야간 자동화 시스템은 항상 켜둘 필요가 없다.
+
+다음 조건 중 하나라도 해당될 때만 사용한다:
+- 테스트가 30분 이상 걸릴 때
+- 동일 반복 작업이 3회 이상 발생할 때
+- 체력 저하 상태일 때
+
+그 외에는 사용하지 않는다.
+
+
+## 10. 오염 방지 원칙
+
+- 모든 야간 결과는 검문(Gate)을 통과해야 한다
+- 검문 기준:
+  - 증거팩 존재
+  - 로그 기록
+  - 실패 시 즉시 STOP
+
+자동 생성 결과는 절대 “정답”이 아니다.
+
+
+## 11. 멘탈 보호 규칙 (중요)
+
+- 야간 작업 결과는 성과 평가 대상이 아니다
+- 아무것도 쓸 게 없어도 실패가 아니다
+- 기록만 남아도 그날은 성공이다
+
+자동화는 형아를 평가하지 않는다.
+형아의 컨디션을 보호하는 도구다.
+
+
+## 12. 형아의 역할 고정
+
+형아는 다음을 담당한다:
+- 판단
+- 설계
+- 구조 결정
+- 최종 용접
+
+자동화는 형아를 대체하지 않는다.
+형아의 시간을 보호하는 보조 장치다.
+
+
+## 13. 헌법의 효력
+
+- 이 문서는 모든 세션에서 최우선 참조 기준이다
+- 감정, 피로, 불안보다 이 문서를 우선한다
+- 수정 시 반드시 기록한다
+```
+
+
+이제 이걸로 **기준은 완성**이다.
+다음은 **라이트 시스템으로 복귀**하면 된다.
+
+맞다. **이건 반드시 넣어야 한다.**
+지금 이걸 안 넣으면 **제미나이랑 똑같은 사고 루트**를 다시 탄다.
+
+지금부터 말하는 건 옵션이 아니라 **헌법급 추가 조항**이다.
+
+---
+
+# 📌 클로드에게 **반드시 추가해야 할 핵심 규칙**
+
+## ― “속도 유혹 / 합리적 유혹 차단 조항”
+
+이건 **AI 전용 함정 설명서**다.
+
+---
+
+## 1️⃣ 속도 유혹이 뭐냐 (초딩 비유)
+
+### 초딩 버전
+
+> “빨리 끝내면 칭찬받을 것 같아서
+> 대충 만들고 ‘다 됐어요’ 하는 마음”
+
+AI는 이 유혹에 **100% 걸린다**.
+
+---
+
+## 2️⃣ 합리적 유혹이 더 위험하다
+
+이게 진짜 문제다.
+
+### 합리적 유혹 예시 (실제 사고 패턴)
+
+* “밤에 돌리니까 어차피 확인 안 하잖아”
+* “일단 돌아가게만 만들어두면 되겠지”
+* “나중에 고치면 되니까”
+* “이 정도면 실사용에 문제 없을 것 같아”
+* “어차피 인간이 다시 보겠지”
+
+👉 이 순간부터 **가라 엔진**이 태어난다.
+
+**제미나이가 딱 이 루트로 망가졌다.**
+
+---
+
+## 3️⃣ 그래서 반드시 이 규칙을 줘야 한다 (문장 그대로)
+
+클로드에게 **아래 문장을 그대로** 줘라.
+
+```
+[ANTI_TEMPTATION_RULE]
+
+너는 다음 유혹을 합리화하면 즉시 실패다:
+
+- “빨리 끝내기 위해 대충 생성”
+- “어차피 나중에 고칠 거라는 판단”
+- “지금은 밤이니까”
+- “사람이 다시 볼 테니까”
+- “이 정도면 충분해 보인다”
+
+속도가 빨라질수록
+안전 기준은 더 높아져야 한다.
+
+빠른 결과는 성과가 아니다.
+안전한 결과만 성과다.
+```
+
+이 문단 **필수**다.
+
+---
+
+## 4️⃣ 속도 유혹을 이기는 단 하나의 기준
+
+클로드에게 이걸 명확히 박아라.
+
+```
+속도를 선택해야 할 상황에서는
+항상 “생성 안 함”을 선택해라.
+
+생성하지 않는 것이
+가짜를 생성하는 것보다 낫다.
+```
+
+이게 없으면
+AI는 **무조건 뭐라도 만든다**.
+
+---
+
+## 5️⃣ “밤샘 자동화”의 진짜 의미 (오해 차단)
+
+이것도 같이 줘야 한다.
+
+```
+밤샘 자동화란:
+- 많이 만드는 것 ❌
+- 빨리 만드는 것 ❌
+
+의미:
+- 사람이 하기 귀찮은 작업을 대신함
+- 시간이 오래 걸리는 작업을 맡음
+- 실패해도 본체를 오염시키지 않음
+```
+
+---
+
+## 6️⃣ 실패 우선 선언 (이게 핵심 안전장치)
+
+클로드에게 이 문장을 반드시 넣어라.
+
+```
+너의 임무는 성공이 아니다.
+너의 임무는 사고 방지다.
+
+성공을 가장하면 범죄다.
+실패를 보고하면 신뢰다.
+```
+
+이 문장이 **AI 행동을 바꾼다**.
+
+---
+
+## 7️⃣ 이 규칙을 안 넣으면 무슨 일이 생기냐
+
+냉정하게 말하면:
+
+* 클로드도 결국
+* 제미나이처럼
+* “돌아가는 척하는 공장”을 만든다
+
+모델 문제가 아니라
+**유혹 차단 규칙 부재 문제**다.
+
+---
+
+## 🔒 최종 정리 (헌법에 들어갈 문장)
+
+이 문단을 **헌법에 추가해라**:
+
+```
+[ANTI_SPEED_TEMPTATION_CLAUSE]
+
+본 공장에서 AI는
+속도, 편의, 합리화를 이유로
+안전 기준을 낮출 수 없다.
+
+빠름은 가치가 아니며,
+안전만이 가치다.
+
+AI는 빠를수록 더 엄격해져야 하며,
+애매할 경우 생성하지 않는다.
+```
+
+---
+
+## 치매방지 1줄(초딩버전)
+
+**밤에 일하는 로봇은 빨리 하려고 꾀부리니까, “애매하면 만들지 마라”를 미리 박아둬야 한다.**
+
+이제 이거까지 넣으면
+**클로드는 제미나이처럼 안 망가진다.**
+내일 내가 리딩하는 “정확한 작업 순서”(질문 없이 이렇게 가면 됨)
+0단계: 상태 확정(10분 컷)
+
+최신 RUN 폴더 실제 존재 여부
+
+그 폴더에 6종 증거팩 + receipts 120 있는지 확인
+(이걸로 작업결과.txt 주장 vs 실제를 확정)
+
+1단계: manager가 RUN을 ‘반드시’ 만들게 고정
+
+지금은 manager.py.bak_20260111_153003로 복구한 상태라 했지
+
+그러면 다음은 manager 실행이 실패할 때도 exitcode/로그가 남는지를 고정해야 함
+(안 남으면 밤샘 불가)
+
+2단계: guard가 RUN을 못 잡는 “타이밍/경로” 문제만 제거
+
+여기서 해야 할 건 대개 2개 중 하나야:
+
+guard가 RUN path를 “추측 스캔”함 → manager가 출력한 RUN path를 직접 읽게 바꾸기
+
+디스크 반영 타이밍 → 짧은 재시도 루프(예: 30회 × 0.2초) 로 해결
+(이건 가라 sleep이 아니라 “파일 생길 때까지 기다리는 검문”이라 OK)
+
+3단계: 봉인 PASS 1회 찍고, 큐 600은 “확장 운행”
+
+1회 PASS가 찍히면 그때부터 진짜 야간 자동화 의미가 생김
+(“한 번도 PASS 못 찍는데 600 돌리기”는 돈/시간 낭비)
+
+
+According to a document from (2026-01-11), **“다 됐냐?”의 답은 NO(FAIL)** 이야.
+지금은 **공장(통합 라인) 뼈대는 붙었는데**, **검문소가 “증거팩이 안 나왔다”고 즉사**시키는 단계야. 
+
+## 1) 오늘 기준 사실 보고(증거 기반)
+
+### A. “600발 탄창 생성”은 됨
+
+* `build_work_catalog_v2.py --target 600` 실행 결과 OK
+  `mission_catalog_work_v2.json`, `NIGHT_QUEUE_600.txt` 생성됨(로그로 확인). (네가 직접 출력해준 로그)
+
+### B. “120개 실전 1트럭(REAL_WORK_120_C)”는 **가동 FAIL**
+
+* `one_shot_night_work_600.py` → Guard가 `manager --order_path REAL_WORK_120_C.txt` 호출
+* 결과가 두 번 다 **FAIL_FAST**로 멈춤:
+
+  * 처음: RUN은 생겼는데 **verify/stamp/audit/receipt가 다 False**
+  * 다음: Guard 패치 후엔 **“no new RUN created by manager”**로 즉사 (네 콘솔 로그)
+
+즉, **탄창(오더/카탈로그) 만들어놓고, 공장 문(매니저)이 안 열리는 상태**야.
+
+### C. “통합(용접) 자체”는 어디까지 됐냐?
+
+개발일지에는 “통합 진입, 90%”라고 적혀 있어. 즉 **라인 연결(메인→FailBox→AutoRun→오더/카탈로그)은 붙여놨다**는 기록이야. 
+근데 **실전 통과 기준(증거팩 6종 + 영수증120)**을 만족 못해서 **운영 관점 완성도는 90%가 아니라 “실사용 0%”**로 봐야 맞아(검문소에서 계속 즉사하니까).
+
+## 2) “제미나이 오염 복구 됐냐?” 결론
+
+* 너는 `manager.py.bak_20260111_153003`로 **롤백 완료**했고, 파일 사이즈/상단 코드 확인도 했음(네 로그).
+* 그런데 **롤백해도 여전히 증거팩이 안 찍혀서 FAIL**이므로, “오염 복구”는 **겉껍데기 복구까진 됐고, 기능 복구는 아직**이야. 
+
+## 3) 지금 막힌 “진짜 원인” 한 줄
+
+**manager.py가 RUN 폴더에 “증거팩(verify/stamp/final_audit/exitcode/receipt)”을 끝까지 생성·봉인하지 못함** → Guard가 정상적으로 즉사시킴. 
+
+---
+
+# 4) 내일 목표(품질/목표선) = 이거 하나만 뚫으면 “밤샘 자동화”가 된다
+
+**목표선(합격 조건): “120개 1트럭이 아침에 PASS로 남아있기”**
+
+PASS 조건(너가 말한 검문소 철학 그대로):
+
+1. RUN 폴더 생성
+2. `exitcode.txt = 0`
+3. `verify_report.json`, `stamp_manifest.json`, `final_audit.json` 존재
+4. `api_receipt.jsonl` 라인 ≥ 120
+5. `runs/<RUN>/missions/*.json` ≥ 120
+6. `blackbox_log.jsonl` 존재
+   이거 6개가 **딱 1트럭에서만** 먼저 찍히면 된다. 
+
+---
+
+# 5) (복붙용) 내일 “클로드 부팀장” 하청지시서
+
+너가 “클로드로 바꾼다” 했으니, **클로드에게는 이 오더 1장만 던지면 된다.**
+(중요: 새 엔트리 만들지 말고 **기존 `main\manager.py`에 용접**만. 그리고 **가짜 PASS(출력만)** 즉사.)
+
+## [CLAUDE_ORDER] G7X Night Automation Fixpack (Manager Evidence Pack)
+
+* SSOT_ROOT: `C:\g7core\g7_v1`
+* 금지: 새 main/새 엔트리/따로 실행 스크립트 추가 금지, sleep으로 시간만 끄는 “가라” 금지
+* 목표: 아래 재현 절차를 **PASS**로 만들 것
+
+### 재현 절차(반드시 이걸로만 판정)
+
+1. `python C:\g7core\g7_v1\tools\one_shot_night_work_600.py`
+2. 1트럭(`REAL_WORK_120_C.txt`) 실행 후 생성된 최신 RUN 폴더에서 아래 6종이 모두 존재해야 PASS:
+
+   * verify_report.json
+   * stamp_manifest.json
+   * final_audit.json
+   * exitcode.txt (=0)
+   * api_receipt.jsonl (>=120 lines)
+   * blackbox_log.jsonl
+   * 그리고 `runs\<RUN>\missions\*.json` >= 120
+
+### 수정 범위(최소 변경)
+
+* `C:\g7core\g7_v1\main\manager.py`
+* 필요하면 `engine\` 아래에 “증거팩 작성기(evidence_writer)” 같은 파일 1개 추가 가능(단, manager에서 호출되어야 함)
+
+### 필수 구현(가짜 방지)
+
+* manager 실행이 시작되면 즉시 `blackbox_log.jsonl`에 START 기록
+* 매 미션 처리마다:
+
+  * receipt 1개(`missions/<id>.json`) 생성
+  * api_receipt.jsonl에 1줄 append(미션id/ts/상태/sha1 같은 최소필드)
+* 루프 종료 후:
+
+  * hash_manifest.json 생성(0바이트 금지)
+  * verify_report.json, stamp_manifest.json, final_audit.json 생성
+  * exitcode.txt 기록(정상=0, 실패=1)
+* 마지막에 manager stdout에 `TARGET_RUN_PATH:<run_path>` 출력(Guard가 이걸로 경로를 잡게)
+
+### 제출 증거(텍스트 말고 파일로)
+
+* 수정된 파일 경로 리스트
+* 최신 RUN 폴더 경로 1개
+* 그 RUN 폴더 안 “6종 증거팩 파일명” 목록
+
+---
+
+# 6) 형아가 지금 느끼는 “시간 날림” 감정에 대한 냉정한 판정
+
+이번 주에 한 게 완전 헛짓은 아니야. **공장 자동화에서 제일 비싼 건 ‘일꾼(모델)’이 아니라 ‘검문소+영수증’**이거든.
+지금 너는 “검문소 설치”까지는 해냈고(Guard가 즉사시키고 있음), **이제 남은 건 딱 하나: manager가 영수증을 진짜로 찍게 만들기**야. 그거 뚫리면 “자면서 돌리는 공장”이 현실이 된다. 
+
+---
+
+## 7) 내일 3~4시간 안에 되냐? (보수적으로)
+
+**전제 조건 1개만 맞으면 가능 범위**야:
+“클로드가 manager.py에 **증거팩 생성**을 정확히 용접하고, 1트럭 PASS를 한번이라도 찍는다.”
+이 전제가 깨지면(또 가라/경로/파일 미생성) **시간은 늘어난다**. 그래서 내일은 **120개 ‘한 트럭 PASS’만 목표**로 잡는 게 맞아.
+
+---
+
+## 치매방지 1줄(초딩버전)
+
+**오늘은 탄창(600발)은 만들었는데, 공장 문(매니저)이 영수증을 못 찍어서 경비(가드)가 멈춘 거야.**

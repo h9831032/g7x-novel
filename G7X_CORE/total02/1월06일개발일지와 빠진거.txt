@@ -1,0 +1,606 @@
+좋다. **작업결과.txt 기준으로 냉정하게 감리 판정**만 한다.
+(미화·위로 없음, 팩트 위주)
+
+---
+
+# 결론 한 줄
+
+**“부분적으로 정상이나, ‘정상 완료’라고 부르기엔 아직 아니다.”**
+네가 직접 닥달해서 빠진 걸 채웠다는 사실 자체가 **시스템 결함이 남아 있다는 증거**다.
+
+---
+
+# 1️⃣ 네가 겪은 상황, 정상인가?
+
+**아니다. 정상이 아니다.**
+
+정상이라면 아래가 성립해야 한다:
+
+* 하청 지시서에 명시된 **필수 산출물 목록**
+* 그 목록을 기준으로 **자동 생성 + 자동 검증**
+* 사람 개입 없이 **PASS/FAIL이 기계적으로 결정**
+
+하지만 실제로는:
+
+* 일부 파일/리포트가 **자동 생성되지 않음**
+* 네가 직접 “그거 어딨냐” 하고 요구
+* 그제서야 제미나이가 **뒤늦게 생성**
+
+➡️ 이건 **“자동 공장”이 아니라 “반자동 작업장” 상태**다.
+
+---
+
+# 2️⃣ 작업결과.txt 기준 미진 항목 요약
+
+### ✅ 된 것 (확실)
+
+* 트럭 A/B 6×20 구조 자체: **작동**
+* verify_report.json: **최종 합격서 존재**
+* state_pack.json: **트럭별 생성됨**
+* api_receipt.jsonl: **실제 API 사용 기록 있음**
+
+### ⚠️ 문제 있었던 것 (중요)
+
+* **BudgetGuard 로그**
+
+  * 자동 생성 ❌
+  * 네가 직접 확인 → 없어서 추적 → 보완
+* 일부 **검증/정산 파일**
+
+  * “항상 생성”이 아니라 **상황 따라 누락**
+* **완료 판정 트리거**
+
+  * 모든 산출물 존재 여부로 판정 ❌
+  * “일단 끝났다고 보고 → 나중에 맞춤” 구조
+
+➡️ 이건 구조적으로 **“마지막 5%를 사람이 메우는 설계”**다.
+
+---
+
+# 3️⃣ 왜 이런 일이 계속 생기냐 (핵심 원인)
+
+### ❌ 원인 1: FINALIZE 단계가 약하다
+
+* 실행 엔진은 일을 한다
+* **정산/봉인 단계가 ‘옵션’처럼 취급됨**
+* 그래서:
+
+  * 누락돼도 전체 프로세스가 안 멈춤
+  * FAIL_FAST가 “진짜 FAST”가 아님
+
+### ❌ 원인 2: “필수 산출물 체크리스트”가 코드에 없다
+
+지금은:
+
+* “있으면 좋음” 수준
+* 없다고 즉시 FAIL 안 남
+
+---
+
+# 4️⃣ 그래서 지금 상태를 뭐라고 부르냐?
+
+| 구분      | 판정     |
+| ------- | ------ |
+| 실험 성공   | ✅      |
+| 구조 방향   | ✅      |
+| 자동화 완성  | ❌      |
+| 사람 개입 0 | ❌      |
+| 공장 가동   | ❌ (아직) |
+
+**즉: ‘잘 돌아가는 프로토타입’이지, ‘무인 공장’은 아니다.**
+
+---
+
+# 5️⃣ 네 질문에 직접 답
+
+### Q. “이게 정상이냐?”
+
+👉 **아니오.**
+정상이라면 네가 **파일 찾으러 다닐 이유가 없다.**
+
+### Q. “제미나이가 몇 개 빼먹은 게 이상하냐?”
+
+👉 **이상하다. 그리고 지금 구조에선 재발한다.**
+
+---
+
+# 6️⃣ 오늘 기준 최종 판정
+
+* **오늘 일정은 ‘사람 갈아 넣어서’ 완수했다** → 일정 기준 PASS
+* **시스템 기준으론 미진** → 구조 보강 필요
+
+이걸 인정 안 하면,
+**앞으로도 매번 “다 됐냐?” “이거 빠졌는데?” 이 대화 반복된다.**
+
+---
+
+## 치매방지 1줄(초딩버전)
+
+**로봇이 숙제는 거의 다 했는데, 마지막 검사표 몇 장을 안 써서 형이 직접 챙긴 상태야. 이건 아직 혼자서 다 하는 로봇은 아니야.**
+
+원하면, **내일 할 일은 딱 하나다**:
+
+> “필수 산출물 하나라도 없으면 무조건 FAIL로 터지는 최종 봉인 단계”
+> 이거 안 넣으면, 공장 자동화는 여기서 멈춘다.
+
+
+[ROLE] 현장소장+설계감리(리딩/감리)
+[SESSION] B(설계/정리)
+[DATE] 2026-01-07 (KST) ※ 실작업 로그는 2026-01-06 23시대 포함
+[INPUT] 업로드 작업결과.txt + 콘솔 출력(Count:0, devlog.jsonl)
+[ACTION] 오늘 개발일지(팩트/증거/미진/다음) 정리
+[OUTPUT] Daily DevLog 20260106(상세)
+[STATUS] **부분 완료(용접은 됐는데, “오더 생성/카운트 불일치 + TASK_TYPE=UNKNOWN” 때문에 미진)**
+[NEXT] 오더 생성기/카운터/분류로직 1회 봉인 수리 → 120+120 SSOT로 복귀
+
+## 증거 1줄(바로 박제)
+
+* `C:\g7core\g7_v1\queue\work_orders` 카운트가 0으로 뜨는 상황에서, 리포트는 `total_orders:192 / UNKNOWN:191 / total_api_calls:1 / OVERALL_STATUS=PASS`로 찍힘. 
+
+---
+
+# Daily DevLog (상세) — 20260106
+
+## 1) 단계판정
+
+* 단계: **확장 단계(공장 가동/용접 우선)**
+* 오늘의 핵심은 “부품 추가”가 아니라 **메인 루프(오더→실행→검증→일지) 한 방에 도는지**였음.
+
+---
+
+## 2) 오늘 목표(원래 의도)
+
+1. **23:00 마감 루프**를 “복붙 1세트”로 고정
+2. 공장이 먹을 **연료(오더 JSON)**를 자동 생성
+3. `main.py`가 그 오더를 처리
+4. `verifier` + `devlog_manager`가 **증거(도장/해시/일지)**를 남김
+
+이 “한 바퀴”가 돌아가면 **통합용접(기본 뼈대)**는 성립.
+
+---
+
+## 3) 오늘 한 일(변경점/결과)
+
+### A. “원키 위저드”급 루프가 실제로 한 번은 돌았음
+
+* 위저드 로그에 **factory_reset → order_gen(work_order_generator_v2) → main_run(API Workers=3) → verifier → devlog_summary** 순서가 찍혀 있음. 
+* 결과로 `daily_20260106.md`가 생성되고, “용접 3개(Workers Max=3 / Anti-Empty Audit / SHA1 Manifest)”가 요약에 찍힘. 
+
+즉, **“용접 루프 자체는 1회 점화 성공”**으로 보는 게 맞다.
+
+### B. 그런데 “오더 카운트”가 계속 0으로 뜨는 **치명 운영 이슈**가 남음
+
+* 문서 안에 이미:
+
+  * 오더 240개 생성 → `dir ... | measure`에서 **Count:0**이 뜨는 로그가 들어있고 
+  * 그걸 “PowerShell 파이프라인 처리 시점 차이”로 추정해놨음 
+* 하지만 형아 콘솔에서도 **Count:0 재현**이므로, 이건 “시점차이”로 끝내면 위험함.
+  운영 관점에서 **카운트=0이면 공장 연료가 ‘없다’로 판정**해야 하고, 자동출발(Autodispatch)이 멈추는 게 정상임.
+
+### C. 작업 분류(TASK_TYPE)가 191건이 UNKNOWN으로 찍힘
+
+* 리포트에 `UNKNOWN: 191 cases / NOVEL_GENERATION: 1 cases`가 박혀 있음. 
+* 이건 쉽게 말해: **“숙제 192개는 했는데, 숙제 과목명을 대부분 ‘몰라요’로 적어둔 상태”**임.
+* 원인 후보(문서가 암시):
+
+  * 오더 생성기가 넣는 task_type 목록을, 실행/로거/요약기가 **인식 못함** 
+
+### D. API 호출이 1회로 매우 적음
+
+* 리포트에 `total_api_calls: 1` 
+* 의미: “192건 처리”가 **진짜 API 대량작업이 아니라, 로컬 루프/더미성 처리 비율이 높았을 가능성**이 크다. (운영상 ‘구라PASS’ 위험 영역)
+
+---
+
+## 4) 오늘 결론(판정)
+
+### “오늘 할 일 다 했냐?”
+
+* **아직 ‘완전 마무리’는 아님.**
+* 이유는 2개만 보면 됨:
+
+  1. **오더 카운트(연료량) 0 문제**가 남아있고 
+  2. **TASK_TYPE=UNKNOWN 191건**은 공장 운영/라우팅 관점에서 “분류/담당자/확장성”이 죽어있는 상태 
+
+### “통합용접 됐냐? 메인에 붙였냐?”
+
+* **절반은 됨.**
+
+  * “원키 위저드 루프(리셋→오더→메인→검증→일지)”는 한 번 돌았으니, **용접의 형태는 존재** 
+* **근데 운영용접(자동출발/자동정산) 기준으로는 미완**
+
+  * 카운트 0이면 자동출발이 멈추는 게 정상이라, 지금은 “가끔 돌아가는데, 공장장 입장에선 불안해서 못 맡김” 상태.
+
+---
+
+## 5) 미진/의심 리스트(내일(=다음 작업)에서 반드시 쳐낼 것)
+
+1. **create_orders_quick240 / work_order_generator_v2 / 위저드**
+
+   * “오더 생성” 담당이 여러 갈래로 갈라짐 → 운영 복잡도 폭발
+   * **하나로 통일**해야 함. (안 그러면 또 세션마다 ‘어느 게 진짜냐’ 싸움남)
+2. **Count:0 불일치**
+
+   * “시점차이” 가설은 폐기하고, **실파일 생성 위치/권한/경로/확장자**로 확정 진단 필요
+3. **TASK_TYPE=UNKNOWN 제거**
+
+   * 라우팅/통계가 무너져서 120+120 SSOT 자동 적재가 불가능함
+4. **API 호출 수(증거) 강화**
+
+   * “192건 처리”가 실제 API 작업인지 증거를 더 남겨야 함(영수증/장부에 task_type+model+tokens 같은 최소 필드)
+
+---
+
+## 6) 세션을 1번 했는지 2번 했는지 “어떻게 아냐?” (초딩버전)
+
+* “내가 오늘 몇 번 밖에 나갔다 왔지?”를 **기억으로 맞추면 구라가 섞임.**
+* 그래서 **발자국(파일)**로 센다.
+
+  * `runs\REAL\DEVLOG\devlog.jsonl`에서 **run_id 개수** = “공장 돌린 횟수”로 카운트 가능 
+  * 날짜별(`2026-01-06`)로 필터하면 **그 날 몇 번 점화했는지** 숫자로 떨어짐
+
+---
+
+## 7) 다음 세션 체크리스트(“바로 실행”만 남김)
+
+* 문서에 이미 “23:00 마감 실행 명령어”가 박혀 있으니, 다음은 **그 루프가 ‘항상’ 같은 결과를 내는지**만 보면 됨. 
+
+  * (1) prompt_audit/backfill
+  * (2) 오더 생성
+  * (3) **오더 Count가 0이 아닌지** 확인
+  * (4) main 실행
+  * (5) verifier + devlog summary
+* 이때도 Count=0이면, 그 즉시 “오더 생성기 경로/출력”부터 수리로 들어가야 함.
+
+---
+
+## 파일/경로(도면철)
+
+[FILE_LINK]
+C:\g7core\g7_v1\queue\work_orders
+
+[FILE_LINK]
+C:\g7core\g7_v1\runs\REAL\DEVLOG\daily_20260106.md
+
+[FILE_LINK]
+C:\g7core\g7_v1\runs\REAL\DEVLOG\devlog.jsonl
+
+---
+
+## 치매방지 1줄(초딩버전)
+
+숙제(192개)는 한 번 했는데, **숙제 봉투(오더)가 0개로 보이고 과목명도 ‘몰라요(UNKNOWN)’가 많아서** 아직 “안전한 공장”은 아니야.
+지금 로그 기준으로는 **제미나이 쪽 실행이 멈춘 게 아니라, “리포트가 생길 재료 자체가 아직 안 생긴 상태”**야.
+요약하면 다음 2줄로 정리돼.
+
+---
+
+### ✅ 확인된 사실
+
+1. `main.py`는 돌았음 → 콘솔에 `[ENGINE] 발견된 오더: 0개` 혹은 `[DONE] ID:` 로그가 찍힌 것까지 확인됨.
+2. 그런데 `runs\REAL\DEVLOG\daily_20260107.md` 파일이 없음 → **devlog_manager.py가 읽을 devlog.jsonl 안에 1월 7일자 이벤트가 없다는 뜻**임.
+
+즉,
+**“오늘 날짜(1월7일) 기준 장부에 새 로그가 0줄이니까 daily_20260107.md 파일을 안 만든 것.”**
+이건 에러가 아니라 “조건이 안 맞아서 건너뛴” 거다.
+
+---
+
+### ⚙️ 원인
+
+* `create_orders_quick240_v2.py` 실행이 제대로 안 됐거나,
+* 오더를 만들긴 했는데 **main.py가 읽을 위치(`queue/work_orders`)와 달라서**
+  실제로 처리된 게 한 건도 없음.
+  그래서 devlog.jsonl이 어제 날짜로 끝나버리고, 오늘 날짜 리포트가 비어 있는 거야.
+
+---
+
+### 🧩 해결 순서(정확한 5단계)
+
+1️⃣ **오더 생성기 다시 돌려**
+
+```powershell
+python C:\g7core\g7_v1\tools\create_orders_quick240_v2.py
+dir C:\g7core\g7_v1\queue\work_orders -Recurse -Filter *.json | measure
+```
+
+→ 여기서 **Count가 10~240개** 나와야 함. 0이면 `STOP.txt` 삭제부터 해.
+
+2️⃣ **main.py 다시 돌려**
+
+```powershell
+python C:\g7core\g7_v1\main.py
+```
+
+→ 화면에 `[ENGINE] 발견된 오더: (숫자)`가 떠야 정상.
+
+3️⃣ **devlog.jsonl 확인**
+
+```powershell
+type C:\g7core\g7_v1\runs\REAL\DEVLOG\devlog.jsonl | select -Last 3
+```
+
+→ `"ts": "2026-01-07T..."` 형식의 로그가 있어야 함.
+
+4️⃣ **정산기(devlog_manager.py) 다시 실행**
+
+```powershell
+python C:\g7core\g7_v1\tools\devlog_manager.py
+```
+
+5️⃣ **daily 리포트 읽기**
+
+```powershell
+type C:\g7core\g7_v1\runs\REAL\DEVLOG\daily_20260107.md
+```
+
+→ 여기서 PASS/WARN 카운트가 찍히면 성공.
+
+---
+
+### 💡 기억 포인트
+
+* `daily_YYYYMMDD.md`는 **그 날짜에 생성된 devlog.jsonl 기록이 있어야만** 만들어짐.
+* 지금은 1월6일 로그까지만 있어서 “없는 파일 에러”로 뜬 거야.
+* 오더 생성 → main 실행 → devlog 갱신, 이 세 개가 먼저 돌아야 자동 생성돼.
+
+---
+
+### 🧠 치매방지 1줄(초딩버전)
+
+**오늘 숙제를 안 한 게 아니라, 숙제 종이(오더)를 아직 안 넣어서 ‘오늘 일기장(리포트)’이 안 생긴 거야.**
+오케이. **내일 하자.**
+근데 그냥 “내일 하자”로 끝내면 내일 또 같은 데서 걸려. 그래서 **내일 시작하자마자 10분 안에 끝낼 “딱 3개”만 박제**하고 끊는다.
+
+---
+
+## 오늘 상태 “팩트” (너가 준 로그로 확정)
+
+1. `work_orders`는 **10개가 실제로 있음** (Count: 10) 【dir measure 결과】 
+2. 근데 `devlog.jsonl`의 타임스탬프는 **2026-01-06**으로만 찍힘 (즉 **오늘(1/7) 기록이 없음**) 
+3. 제일 중요한 것: **`python main.py` 실행 로그([ENGINE]/[SUCCESS])가 출력에 안 보임**
+   → “메인이 안 돈다”거나 “출력/권한/실행경로 문제”가 남아있다. 
+
+결론: **오늘은 ‘오더 투입 10장’까지만 된 상태. 공장(메인) 가동은 증거가 없다.**
+
+---
+
+## 내일 시작하면 “이 3줄”만 바로 실행 (10분 컷)
+
+PowerShell에서 그대로:
+
+```powershell
+Get-Date
+python C:\g7core\g7_v1\main.py
+Get-Content C:\g7core\g7_v1\runs\REAL\DEVLOG\devlog.jsonl -Tail 5
+```
+
+### 내일 PASS 조건(눈으로 바로 확인)
+
+* `Get-Date`가 **2026-01-07**(또는 내일 날짜)로 찍힌다
+* `python main.py`에서 `[ENGINE] Found 10` 같은 로그가 나온다
+* `devlog.jsonl` Tail에 `"ts": "2026-01-07T..."`가 새로 생긴다
+
+여기 3개가 안 맞으면, 내일은 **“제미나이” 문제가 아니라 로컬 실행 경로/출력/권한 문제**로 바로 수리 들어가면 된다.
+
+---
+
+## 내일 내가 바로 잡을 “원인 후보 1개” (초딩버전)
+
+**메인은 돌았는데 “말(로그)”을 안 하는 상황**이야.
+말을 안 하면 “돌았는지” 절대 모르니까, 내일은 **메인이 말하게(로그 출력 강제)** 만드는 게 1순위.
+
+---
+
+### 치매방지 1줄(초딩버전)
+
+**숙제 종이 10장은 통에 넣었는데, 선생님(main)이 “나 숙제 봤다!”라고 말(로그)을 안 해서 오늘은 여기서 멈춘 거야.**
+응, **내일 해결 “가능”**이야. 다만 조건이 딱 하나 있어.
+
+## 내일 해결 가능한 이유
+
+지금 막힌 건 “복잡한 알고리즘”이 아니라 **스위치 문제**야.
+
+* **연료(오더 JSON)가 0이 아님**(10장 있음)
+* 근데 **공장(main)이 말(로그)을 안 함** + **오늘 날짜(devlog) 기록이 없음**
+
+이건 보통
+
+1. `main.py`가 **다른 경로**를 보고 있거나
+2. 실행은 됐는데 **출력이 안 찍히거나**
+3. **즉시 종료/에러**가 나는데 화면에서 놓친 경우
+
+이 셋 중 하나라서, 내일 **10분 안에 판별**되고 고치면 끝난다.
+
+---
+
+## 내일 “해결 확정” 체크 3줄
+
+PowerShell에서 이 3줄만 실행하면 된다:
+
+```powershell
+Get-Date
+python -u C:\g7core\g7_v1\main.py 2>&1 | Tee-Object -FilePath C:\g7core\g7_v1\runs\_main_stdout_stderr.txt
+Get-Content C:\g7core\g7_v1\runs\REAL\DEVLOG\devlog.jsonl -Tail 5
+```
+
+### 여기서 바로 갈린다
+
+* `_main_stdout_stderr.txt`에 `[ENGINE] Found ...`가 뜨면 → **그날 바로 마무리 가능**
+* 에러가 뜨면 → 그 에러 1개만 고치면 됨(대부분 경로/권한/파일없음)
+
+---
+
+## 내일 목표(딱 1개)
+
+**“main 실행 로그가 찍히고, devlog에 내일 날짜 1줄이 추가되는 것”**
+이게 되면, 그 다음은 devlog_manager가 daily 파일 만드는 건 자동으로 따라온다.
+
+---
+
+### 치매방지 1줄(초딩버전)
+
+**내일은 공장(main)이 “나 일했다!”라고 말하게만 만들면(로그 1줄) 바로 끝난다.**
+
+
+
+
+
+
+# [Subcontractor Reporting Protocol: G7X_STRICT_REPORT]
+
+| Category | Information and Visualization Data |
+| --- | --- |
+| **1. Received Instructions** | PowerShell 파이프라인 InvalidOperation 오류 진단 및 긴급 우회 |
+| **2. Overall Progress Rate** | 5% |
+| **3. Numerical Data** | 0 / 10 Tasks (실행 차단 상태) |
+
+---
+
+### 1. 작업 상태 명시 (STATUS)
+
+* **현재 작업(CURRENT):** `Cannot run a document in the middle of a pipeline` 오류 해결 (파워쉘이 python을 실행파일이 아닌 문서로 오인하는 현상)
+* **다음 작업(UPCOMING):** 호출 연산자(`&`) 및 `.exe` 명시를 통한 `main.py` 강제 구동
+* **보류 작업(BACKLOG):** `devlog.jsonl` 내 2026-01-07 로그 적재 및 리포트 최종 마감
+
+### 2. 데이터 무결성 증명 (EVIDENCE_MANDATED_AUDIT)
+
+> "이 데이터는 가라가 아님을 증명하는 실시간 적재 경로입니다."
+
+* **오류 분석:** `C:\Windows\system32\python` 경로로 잡히는 것은 Windows 앱 실행 별칭(App Execution Alias) 충돌일 가능성이 높습니다. 파이프라인(`|`) 중간에서 이를 실행하려고 하면 파워쉘이 보안 또는 호환성 문제로 차단합니다.
+* **해결 방안:** 호출 연산자(`&`)를 사용하여 실행 파일임을 명시하거나, `python.exe` 확장자를 붙여 파이프라인을 재구성합니다.
+
+---
+
+### 3. [FIX] 파이프라인 오류 해결 및 강제 가동 세트 (PS1)
+
+이 명령어는 오류가 발생한 파이프라인 구문을 파워쉘 표준 실행 방식(`&`)으로 수정하여 엔진을 가동합니다.
+
+```powershell
+# 1. Python 실행 경로 확인 (디버깅용)
+where.exe python
+
+# 2. 호출 연산자(&)를 사용하여 파이프라인 오류 우회 실행
+# python 대신 python.exe를 명시하여 문서가 아닌 실행파일임을 강제합니다.
+& python.exe -u C:\g7core\g7_v1\main.py 2>&1 | Tee-Object -FilePath C:\g7core\g7_v1\runs\_main_stdout_stderr.txt
+
+# 3. 결과 확인 (로그가 찍혔는지 확인)
+if (Test-Path C:\g7core\g7_v1\runs\_main_stdout_stderr.txt) {
+    Get-Content C:\g7core\g7_v1\runs\_main_stdout_stderr.txt -Tail 10
+}
+
+# 4. 장부 및 리포트 마감
+Get-Content C:\g7core\g7_v1\runs\REAL\DEVLOG\devlog.jsonl -Tail 5
+python C:\g7core\g7_v1\tools\devlog_manager.py
+if (Test-Path C:\g7core\g7_v1\runs\REAL\DEVLOG\daily_20260107.md) { Get-Content C:\g7core\g7_v1\runs\REAL\DEVLOG\daily_20260107.md }
+
+```
+
+---
+
+**치매방지 1줄(초딩버전):** 컴퓨터가 로봇(python)을 프로그램이 아니라 종이 쪼가리라고 착각해서 일기장(Tee-Object)에 못 적게 한 거야! "이건 프로그램이야!"라고 똑바로 말해주고 다시 시켰어!
+
+다음 오더(`_main_stdout_stderr.txt` 출력 내용) 대기 중.
+
+PS C:\g7core\g7_v1> # 1. Python 실행 경로 확인 (디버깅용)
+>> where.exe python
+>>
+>> # 2. 호출 연산자(&)를 사용하여 파이프라인 오류 우회 실행
+>> # python 대신 python.exe를 명시하여 문서가 아닌 실행파일임을 강제합니다.
+>> & python.exe -u C:\g7core\g7_v1\main.py 2>&1 | Tee-Object -FilePath C:\g7core\g7_v1\runs\_main_stdout_stderr.txt
+>>
+>> # 3. 결과 확인 (로그가 찍혔는지 확인)
+>> if (Test-Path C:\g7core\g7_v1\runs\_main_stdout_stderr.txt) {
+>>     Get-Content C:\g7core\g7_v1\runs\_main_stdout_stderr.txt -Tail 10
+>> }
+>>
+>> # 4. 장부 및 리포트 마감
+>> Get-Content C:\g7core\g7_v1\runs\REAL\DEVLOG\devlog.jsonl -Tail 5
+>> python C:\g7core\g7_v1\tools\devlog_manager.py
+>> if (Test-Path C:\g7core\g7_v1\runs\REAL\DEVLOG\daily_20260107.md) { Get-Content C:\g7core\g7_v1\runs\REAL\DEVLOG\daily_20260107.md }
+C:\Windows\System32\python
+C:\Users\00\AppData\Local\Programs\Python\Python310\python.exe
+C:\Users\00\AppData\Local\Programs\Python\Python311\python.exe
+C:\Users\00\AppData\Local\Microsoft\WindowsApps\python.exe
+--- [ENGINE] 2026-01-07 BOOT SUCCESS ---
+[ENGINE] SEARCHING: C:\g7core\g7_v1\queue\work_orders
+[ENGINE] FOUND: 10 orders.
+[SUCCESS] ORDER_FORCE_0e40b056 (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_0f320c96 (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_313dcb2b (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_78ce035a (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_9a184bba (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_a152bc12 (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_a4c595d5 (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_c8136e80 (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_e87d3e78 (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_ea003816 (DEVLOG_TEST) done.
+[ENGINE] FINISHED. PROCESSED: 10
+[SUCCESS] ORDER_FORCE_0f320c96 (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_313dcb2b (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_78ce035a (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_9a184bba (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_a152bc12 (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_a4c595d5 (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_c8136e80 (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_e87d3e78 (DEVLOG_TEST) done.
+[SUCCESS] ORDER_FORCE_ea003816 (DEVLOG_TEST) done.
+[ENGINE] FINISHED. PROCESSED: 10
+{"ts": "2026-01-07T00:58:14.739103", "run_id": "RUN_1767715094", "truck": "V7_TRUCK", "status": "PASS", "data": {"order_id": "ORDER_FORCE_a152bc12", "task_type": "DEVLOG_TEST", "api_calls": 1, "tokens_in": 345, "tokens_out": 160, "status": "PASS"}}
+{"ts": "2026-01-07T00:58:14.744107", "run_id": "RUN_1767715094", "truck": "V7_TRUCK", "status": "PASS", "data": {"order_id": "ORDER_FORCE_a4c595d5", "task_type": "DEVLOG_TEST", "api_calls": 1, "tokens_in": 386, "tokens_out": 443, "status": "PASS"}}
+{"ts": "2026-01-07T00:58:14.750112", "run_id": "RUN_1767715094", "truck": "V7_TRUCK", "status": "PASS", "data": {"order_id": "ORDER_FORCE_c8136e80", "task_type": "DEVLOG_TEST", "api_calls": 1, "tokens_in": 380, "tokens_out": 424, "status": "PASS"}}
+{"ts": "2026-01-07T00:58:14.755117", "run_id": "RUN_1767715094", "truck": "V7_TRUCK", "status": "PASS", "data": {"order_id": "ORDER_FORCE_e87d3e78", "task_type": "DEVLOG_TEST", "api_calls": 1, "tokens_in": 288, "tokens_out": 348, "status": "PASS"}}
+{"ts": "2026-01-07T00:58:14.760122", "run_id": "RUN_1767715094", "truck": "V7_TRUCK", "status": "PASS", "data": {"order_id": "ORDER_FORCE_ea003816", "task_type": "DEVLOG_TEST", "api_calls": 1, "tokens_in": 453, "tokens_out": 242, "status": "PASS"}}
+PS C:\g7core\g7_v1>
+
+결론부터 말할게.
+
+## “다 됐냐?” 판정
+
+### ✅ **이번 막힘(메인이 안 도는 문제)은 ‘해결됨’ = PASS**
+
+네가 올린 로그에 **빼박 증거**가 있음.
+
+* `--- [ENGINE] 2026-01-07 BOOT SUCCESS ---`
+* `FOUND: 10 orders.`
+* `FINISHED. PROCESSED: 10`
+* `devlog.jsonl`에 `2026-01-07T00:58:14...` 타임스탬프가 실제로 적재됨 
+
+즉, **메인이 실제로 오더를 읽고 처리해서 devlog까지 남긴 것**은 맞아.
+여기까지는 “제미나이가 됐다”는 말이 맞음. 
+
+---
+
+## 하지만 “공장 전체 완성”은 아님 = WARN
+
+지금 된 건 **‘10개 오더로 시동 테스트 성공’**이야.
+
+아직 미완인 핵심은 이거 3개:
+
+1. **오더가 10개(DEVLOG_TEST)만** 처리됨 → 우리가 원한 **240/600급 무인생산**은 아직 아님 
+2. “Python 별칭 충돌”을 `& python.exe`로 우회했음 → 즉, **실행 방식 표준화**가 필요함(안 그러면 또 멈춤) 
+3. 23:00 자동 개발일지/스케줄러/오더 대량생성(600) 같은 **무인 자동화 본체**는 “지금 로그만으론 아직 증거 없음”
+
+---
+
+## 지금 상태를 한 문장으로
+
+**엔진은 살아났고(BOOT), 오더 10개로 “진짜 처리+로그 기록”까지는 성공.
+근데 아직 ‘공장 풀가동(대량 오더/무인 스케줄)’ 단계는 아니다.** 
+
+---
+
+## 다음에 뭘 확인하면 “진짜 완성”으로 바뀌냐 (간단 체크)
+
+다음에 네가 시간 있을 때, 이 2개만 숫자로 확인하면 끝이야.
+
+* `work_orders`가 **최소 240개 이상** 생성되는가?
+* main 실행 후 `PROCESSED:`가 **96(=80% 로드) 이상** 찍히는가?
+
+이 숫자 2개가 찍히면 그때 “무인생산 들어갈 준비 됐다”로 판정 가능.
+
+---
+
+### 치매방지 1줄(초딩버전)
+
+**오늘은 로봇(main)이 숙제 10개를 진짜로 하고 일기장(devlog)에 쓴 건 맞는데, 아직 숙제 꾸러미(240~600개)는 안 넣어서 ‘완전 자동공장’은 아니야.**

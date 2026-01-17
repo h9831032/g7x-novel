@@ -1,0 +1,1489 @@
+시간 압축 과다 - 1시간 안에 불가능한 일들
+
+캐릭터 기억력 편차 - 앞에서 알았는데 뒤에서 모름
+
+자원 망각 - 마나/체력/돈 수치 불일치
+
+공간적 불일치 - 방 크기 vs 인원 비율
+
+감정 와플래시 - 너무 빠른 감정 전환
+
+설정 망각 - 초반 설정과 후반 설정 충돌의학적 부정확성 - 현실적이지 않은 부상/치유
+
+기술 시대착오 - 시대에 맞지 않는 도구
+
+물리 법칙 무시 - 인간 한계 초과 행동
+
+계절적 오류 - 겨울에 봄 꽃 시간 압축 과다 - 1시간 안에 불가능한 일들
+
+캐릭터 기억력 편차 - 앞에서 알았는데 뒤에서 모름
+
+자원 망각 - 마나/체력/돈 수치 불일치
+
+공간적 불일치 - 방 크기 vs 인원 비율
+
+감정 와플래시 - 너무 빠른 감정 전환
+
+설정 망각 - 초반 설정과 후반 설정 충돌
+
+계절적 오류 - 겨울에 봄 꽃
+
+의학적 부정확성 - 현실적이지 않은 부상/치유
+
+기술 시대착오 - 시대에 맞지 않는 도구
+
+물리 법칙 무시 - 인간 한계 초과 행동 , 문화적 고정관념 - 피상적이고 틀에 박힌 묘사 원숭이는 바나나좋아하고 곰은 쫒아올때 죽은척을 해야 산다는 등등. ㅇ번에는 반대로 소설에서 일반적인 오류로 탐지되지만, 특별한 설정으로 허용되는 예외 케이스 30가지를 추렸습니다:
+
+특별 예외 케이스 30가지 이건 내가 수집한건데. 니가봐서 불합리하고 니가 아는 지식 수준을 총동원해서 더 추가할거 있음하고 소설프로젝트파일보고 더 추가할거하고. 지금 내가 말한걸 통해서 좀더 알고리즘을 개선해  논리적으로 검거가능하게하고 놓침이 발생하지 않도록 더욱 알고리즘을 강화해 니 추론능력 극대화 시킨다.
+
+소설에서 일반적인 오류로 탐지되지만, 특별한 설정으로 허용되는 예외 케이스 30가지를 추렸습니다:
+
+## **특별 예외 케이스 30가지**
+
+### **1. 죽은 자의 부활**
+**일반적 오류**: 죽은 캐릭터가 활동
+**예외 케이스**:
+- 환생/전생 설정
+- 좀비/언데드 세계관
+- 신의 은총으로 부활
+- 마법적 소생술
+- 사이버네틱스로 재구성
+
+### **2. 시간 역행**
+**일반적 오류**: 비현실적 시간 압축
+**예외 케이스**:
+- 타임리프(과거 회귀)
+- 시간 가속/감속 마법
+- 꿈 속 시간 왜곡
+- 상대성 이론 적용 (SF)
+- 차원의 균열로 시간 변동
+
+### **3. 공간 이동 오류**
+**일반적 오류**: 비현실적 이동
+**예외 케이스**:
+- 텔레포트/순간이동 능력
+- 차원문/포탈 시스템
+- 공간 왜곡 마법
+- 초공간 도약(SF)
+- 정신이동/영체이탈
+
+### **4. 자원 무한**
+**일반적 오류**: 자원 소진 후 행동
+**예외 케이스**:
+- 무한 마나/체력 보유자
+- 자원 재생 능력
+- 흡수/흡혈 능력으로 보충
+- 차원에서 자원 추출
+- 신적 존재의 무한 자원
+
+### **5. 물리 법칙 무시**
+**일반적 오류**: 인간 한계 초과
+**예외 케이스**:
+- 초인/능력자 설정
+- 강화외골격/사이보그
+- 마법 강화 상태
+- 신체 변이 능력
+- 게임 시스템 적용 세계
+
+### **6. 감정 와플래시**
+**일반적 오류**: 감정 급변
+**예외 케이스**:
+- 정신 조작/세뇌 상태
+- 이중 인격/다중 인격
+- 감정 조종 능력
+- 기억 조작으로 인격 변화
+- 신체 점령/빙의
+
+### **7. 기억 불일치**
+**일반적 오류**: 앞뒤 기억 안맞음
+**예외 케이스**:
+- 선택적 기억 상실
+- 기억 조작/식각
+- 다른 인격의 기억
+- 환생자의 기억 각성
+- 시간 여행자의 기억 충돌
+
+### **8. 시대착오 기술**
+**일반적 오류**: 시대에 맞지 않는 기술
+**예외 케이스**:
+- 이세계 전생자의 지식
+- 외계 기술 유입
+- 고대문명의 첨단 기술
+- 마법과 기술의 융합
+- 미래에서 온 시간 여행자
+
+### **9. 사회 계급 위반**
+**일반적 오류**: 신분에 맞지 않는 행동
+**예외 케이스**:
+- 신분 위장/변장
+- 혁명적 사상가
+- 왕족이 길러진 서민
+- 평민 출신 능력자
+- 사회 체제 붕괴 상황
+
+### **10. 지리적 오류**
+**일반적 오류**: 실제 지리와 다름
+**예외 케이스**:
+- 판타지 세계의 지리
+- 차원 이동으로 지형 변화
+- 마법으로 지형 개변
+- 가상현실/시뮬레이션
+- 행성 개조 기술
+
+### **11. 계절적 오류**
+**일반적 오류**: 계절과 맞지 않는 현상
+**예외 케이스**:
+- 기후 조종 마법
+- 마법 지역의 특수 기후
+- 외계 행성의 계절
+- 차원의 균열 영향
+- 인공 계절 조정 기술
+
+### **12. 의학적 오류**
+**일반적 오류**: 비현실적 부상/치유
+**예외 케이스**:
+- 초자연적 재생 능력
+- 마법 치유/포션
+- 나노머신 치료
+- 사이보그 부품 교체
+- 불로불사 설정
+
+### **13. 언어적 오류**
+**일반적 오류**: 시대에 맞지 않는 언어
+**예외 케이스**:
+- 통역 마법/기술
+- 정신 소통 능력
+- 언어 습득 특기
+- 시스템 번역 기능
+- 우주 공용어 설정
+
+### **14. 경제적 오류**
+**일반적 오류**: 비현실적 경제 규모
+**예외 케이스**:
+- 마법으로 자원 생성
+- 차원 무역 시스템
+- 가상 화폐/크립토
+- 신의 선물 무한 자원
+- 포스트 스캐시티 사회
+
+### **15. 교육 수준 오류**
+**일반적 오류**: 교육과 지식 불일치
+**예외 케이스**:
+- 천재/신동 설정
+- 기억 전송/주입
+- 전생자의 지식
+- AI 칩 임플란트
+- 정신 가속 학습
+
+### **16. 종교적 오류**
+**일반적 오류**: 신앙과 행동 불일치
+**예외 케이스**:
+- 다신교/융합 신앙
+- 실체적 신과의 관계
+- 무신론자→신앙인 전환
+- 신격의 계시/강림
+- 종교적 체험 후 변화
+
+### **17. 동기-행동 오류**
+**일반적 오류**: 동기와 행동 불일치
+**예외 케이스**:
+- 숨겨진 동기/계획
+- 강제/조종당한 행동
+- 이중 스파이/배신자
+- 운명/예언에 따른 행동
+- 정신병적 상태
+
+### **18. 직업 전문성 오류**
+**일반적 오류**: 전문성 없는 전문 행동
+**예외 케이스**:
+- 시스템 스킬 부여
+- 기억/지식 주입
+- 가이드/조언자 존재
+- 초월적 재능
+- AI 보조 시스템
+
+### **19. 문화적 오류**
+**일반적 오류**: 문화 혼종
+**예외 케이스**:
+- 다문화 결혼/양육
+- 문화 교류 활발한 세계
+- 이세계 문화 융합
+- 시간 여행자의 문화 전파
+- 우주 문명의 문화 혼합
+
+### **20. 기술 수용 오류**
+**일반적 오류**: 기술 수용 속도 비현실적
+**예외 케이스**:
+- 강제 동화 기술
+- 집단 기억 조작
+- 신적 계시로 기술 전수
+- 외계 문명의 도움
+- 생존 압박으로 급격한 발전
+
+### **21. 생물학적 오류**
+**일반적 오류**: 생물학적 불가능
+**예외 케이스**:
+- 유전자 조작/변종
+- 마법 생명체
+- 외계 생명체
+- 사이보그/안드로이드
+- 정신체/에너지 생명체
+
+### **22. 정치적 오류**
+**일반적 오류**: 비현실적 정치 변화
+**예외 케이스**:
+- 신격/초인에 의한 변화
+- 마법/기술로 인한 사회 변혁
+- 외부 세력 개입
+- 집단 세뇌/조작
+- 게임 시스템 정치
+
+### **23. 군사적 오류**
+**일반적 오류**: 비현실적 전쟁/전투
+**예외 케이스**:
+- 초월적 개인 전력
+- 마법 대군사 기술
+- AI 전쟁 시스템
+- 차원 병기
+- 정신 공격 능력
+
+### **24. 법적 오류**
+**일반적 오류**: 법적 비현실성
+**예외 케이스**:
+- 무법 지대/변방
+- 초국가적 조직
+- 신적 법칙/계율
+- 게임 세계의 규칙
+- 힘에 의한 법
+
+### **25. 철학적 오류**
+**일반적 오류**: 철학적 모순
+**예외 케이스**:
+- 신비주의/초월적 통찰
+- 외계 지성체의 철학
+- 다중 우주 철학
+- 가상현실 인식론
+- 사이보그 존재론
+
+### **26. 심리적 오류**
+**일반적 오류**: 비현실적 심리 변화
+**예외 케이스**:
+- 정신 치료 마법
+- 기억 재구성
+- 인격 재프로그래밍
+- 집단 무의식 영향
+- 외부 정신체 침입
+
+### **27. 미적 오류**
+**일반적 오류**: 시대/문화적 미적 기준 위반
+**예외 케이스**:
+- 이세계 미적 기준
+- 초월적 아름다움
+- 마법적 미화
+- 사이보그 미학
+- 추상적/초현실적 표현
+
+### **28. 관계적 오류**
+**일반적 오류**: 관계 발전 비현실적
+**예외 케이스**:
+- 운명의 인연/인과
+- 정신 연결/공명
+- 전생의 인연
+- 강제 계약 관계
+- 시스템 매칭
+
+### **29. 운명적 오류**
+**일반적 오류**: 우연의 연속
+**예외 케이스**:
+- 운명/예언 시스템
+- 신의 개입/은총
+- 인과율 조작 능력
+- 확률 조정 능력
+- 다중 우주 조우
+
+### **30. 메타픽션적 오류**
+**일반적 오류**: 서사적 비일관성
+**예외 케이스**:
+- 독자/작가 개입 인식
+- 서사 조작 능력
+- 차원의 벽 붕괴
+- 게임 리셋/세이브로드
+- 가상현실 조작
+
+## **예외 처리 알고리즘 구현**
+
+```python
+class ExceptionHandler:
+    def __init__(self):
+        self.exception_rules = self.load_exception_rules()
+        self.world_setting = None
+    
+    def load_exception_rules(self):
+        """예외 규칙 로드"""
+        return {
+            '죽은_자_부활': {
+                'allowed_if': [
+                    '환생_시스템', '부활_마법', '좀비_아포칼립스',
+                    '신의_은총', '사이버네틱스_재생'
+                ],
+                'required_setup': ['부활_설명_필수', '대가_필수'],
+                'severity_adjustment': -0.8  # 오류 심각도 감소
+            },
+            '시간_역행': {
+                'allowed_if': [
+                    '타임리프', '시간_마법', '상대성이론_적용',
+                    '차원_균열', '꿈_속_시간'
+                ],
+                'required_setup': ['시간체계_설명', '역설_방지장치'],
+                'severity_adjustment': -0.7
+            },
+            # ... 나머지 예외 규칙들
+        }
+    
+    def check_exception(self, violation_type, world_setting, context):
+        """예외 적용 가능성 검사"""
+        
+        if violation_type not in self.exception_rules:
+            return None
+        
+        rule = self.exception_rules[violation_type]
+        
+        # 세계관 설정과 일치하는 예외 조건 있는지 확인
+        for allowed_condition in rule['allowed_if']:
+            if allowed_condition in world_setting['features']:
+                
+                # 필요한 설정이 모두 갖춰졌는지 확인
+                setup_ok = True
+                for required in rule.get('required_setup', []):
+                    if required not in context['established_setups']:
+                        setup_ok = False
+                        break
+                
+                if setup_ok:
+                    return {
+                        'exception_applies': True,
+                        'condition': allowed_condition,
+                        'severity_adjustment': rule['severity_adjustment'],
+                        'note': f"'{allowed_condition}' 설정으로 허용됨"
+                    }
+        
+        return {'exception_applies': False}
+    
+    def apply_exception(self, violation_result, exception_info):
+        """예외 적용으로 오류 결과 수정"""
+        
+        if exception_info['exception_applies']:
+            # 심각도 조정
+            original_severity = violation_result['severity_score']
+            adjusted = original_severity + exception_info['severity_adjustment']
+            adjusted = max(0, min(1, adjusted))  # 0-1 범위 제한
+            
+            # 결과 업데이트
+            violation_result.update({
+                'severity_score': adjusted,
+                'exception_applied': True,
+                'exception_condition': exception_info['condition'],
+                'note': exception_info['note']
+            })
+            
+            # 심각도에 따른 결정 변경
+            if adjusted < 0.3:
+                violation_result['decision'] = 'ALLOW'
+            elif adjusted < 0.6:
+                violation_result['decision'] = 'WARN'
+        
+        return violation_result
+```
+
+## **통합 검증 시스템에서의 예외 처리**
+
+```python
+class ExceptionAwareValidator:
+    def __init__(self):
+        self.validator = AdvancedErrorDetector()
+        self.exception_handler = ExceptionHandler()
+        self.setting_analyzer = SettingAnalyzer()
+    
+    def validate_with_exceptions(self, text, metadata):
+        """예외를 고려한 검증"""
+        
+        # 1. 일반 검증 실행
+        base_errors = self.validator.check_advanced_errors(text, metadata)
+        
+        # 2. 세계관 설정 분석
+        world_setting = self.setting_analyzer.analyze_setting(text, metadata)
+        
+        # 3. 각 오류에 예외 적용
+        processed_errors = []
+        
+        for error in base_errors:
+            # 예외 가능성 검사
+            exception_result = self.exception_handler.check_exception(
+                error['type'], world_setting, error['context']
+            )
+            
+            if exception_result:
+                # 예외 적용
+                processed_error = self.exception_handler.apply_exception(
+                    error, exception_result
+                )
+            else:
+                processed_error = error
+            
+            processed_errors.append(processed_error)
+        
+        # 4. 예외가 적용된 결과 요약
+        return {
+            'original_count': len(base_errors),
+            'after_exception_count': len([e for e in processed_errors 
+                                         if e.get('decision') != 'ALLOW']),
+            'exceptions_applied': len([e for e in processed_errors 
+                                      if e.get('exception_applied', False)]),
+            'final_errors': processed_errors,
+            'exception_report': self.generate_exception_report(processed_errors)
+        }
+```
+
+이 예외 처리 시스템을 통해:
+1. **장르별 허용 규칙 명확화**
+2. **설정 기반 오류 완화**
+3. **작가 창작 자유도 보장**
+4. **독자 기대치 관리**
+
+가 가능해집니다. 예외 케이스 데이터베이스를 지속적으로 확장하면 더 정교한 검증이 가능할 것입니다. 
+
+근데 이게 엄청나게 많아서 더 추가했다. 이것까지 고려해 이게 좀두서없거든 니가 합리적으로 판단해서 내의도대로 기존 알고리즘을 개선하라는거야 예외부분도 개선하라는거고
+
+네, 소설에서 특별한 설정으로 허용되는 추가 예외 케이스들을 더 제안드립니다:
+
+## **추가 특별 예외 케이스 31-50**
+
+### **31. 현실 왜곡 능력**
+**일반적 오류**: 현실에 반하는 현상
+**예외 케이스**:
+- 현실 조작 능력자
+- 소망 성취 능력
+- 법칙 재정의 능력
+- 개념적 존재의 영향력
+
+### **32. 윤회/전생 시스템**
+**일반적 오류**: 죽음 후 계속적 활동
+**예외 케이스**:
+- 윤회 시스템 세계관
+- 영혼 이전/빙의
+- 기억 계승 전생
+- 시스템 강제 재생
+
+### **33. 가상현실/시뮬레이션**
+**일반적 오류**: 물리 법칙 위반
+**예외 케이스**:
+- VR 세계 내부
+- 시뮬레이션 테스트
+- 게임 세계 이입
+- AI 생성 가상세계
+
+### **34. 신격/반신적 존재**
+**일반적 오류**: 인간 한계 초월
+**예외 케이스**:
+- 신의 화신
+- 반신 혈통
+- 신격 승격자
+- 신적 권능 부여
+
+### **35. 계약/저주 시스템**
+**일반적 오류**: 비논리적 능력 획득
+**예외 케이스**:
+- 악마 계약
+- 신성한 계약
+- 혈통 저주/축복
+- 대가 있는 능력
+
+### **36. 시스템/게임화 세계**
+**일반적 오류**: 비현실적 성장/능력
+**예외 케이스**:
+- 게임 시스템 적용
+- 스탯/레벨 시스템
+- 퀘스트 보상
+- 시스템 상점/능력 구매
+
+### **37. 평행우주/다중우주**
+**일반적 오류**: 모순된 사실 공존
+**예외 케이스**:
+- 평행세계 이동
+- 다중우주 융합
+- 우주간 간섭
+- 차원 간 충돌
+
+### **38. 빙의/점령**
+**일반적 오류**: 인격 급변
+**예외 케이스**:
+- 영혼 빙의
+- 신체 점령
+- 기억 침식
+- 인격 공존
+
+### **39. 사이킥/염력 능력**
+**일반적 오류**: 초자연적 현상
+**예외 케이스**:
+- 염동력 사용
+- 텔레파시
+- 예지 능력
+- 사이코메트리
+
+### **40. 아티팩트/신물**
+**일반적 오류**: 비현실적 도구 능력
+**예외 케이스**:
+- 전설적 유물
+- 신이 제작한 물건
+- 고대문명 유산
+- 차원의 결정체
+
+## **추가 특별 예외 케이스 51-70**
+
+### **41. 흡수/복제 능력**
+**일반적 오류**: 타인 능력 도용
+**예외 케이스**:
+- 능력 흡수
+- 기술 복제
+- 기억 카피
+- 스킬 모방
+
+### **42. 공간 저장 능력**
+**일반적 오류**: 비현실적 소지
+**예외 케이스**:
+- 인벤토리 시스템
+- 차원 주머니
+- 공간 마법
+- 포켓 디멘션
+
+### **43. 시간 정지/감속**
+**일반적 오류**: 비물리적 시간 조작
+**예외 케이스**:
+- 시간 정지 능력
+- 국소 시간 조작
+- 인지 가속
+- 상대 시간 변환
+
+### **44. 운명/인과 조작**
+**일반적 오류**: 비논리적 우연
+**예외 케이스**:
+- 운명 간섭 능력
+- 인과율 재편
+- 확률 조정
+- 필연성 창조
+
+### **45. 정신계/의식 세계**
+**일반적 오류**: 비물질적 활동
+**예외 케이스**:
+- 정신 세계 돌입
+- 집단 무의식
+- 꿈 속 현실
+- 사념체 세계
+
+### **46. 융합/합체 변신**
+**일반적 오류**: 생물학적 불가능
+**예외 케이스**:
+- 생체 융합
+- 기계 합체
+- 에너지 동화
+- 개념적 융합
+
+### **47. 분신/복제체**
+**일반적 오류**: 동시 다발 행동
+**예외 케이스**:
+- 분신술
+- 클론 생성
+- 영체 분리
+- 다중 존재화
+
+### **48. 속성/원소 화신**
+**일반적 오류**: 자연 현상 인격화
+**예외 케이스**:
+- 원소 정령
+- 자연의 화신
+- 개념의 의인화
+- 추상적 존재체
+
+### **49. 제한적 불멸**
+**일반적 오류**: 죽음 회피
+**예외 케이스**:
+- 조건부 불사
+- 재생 한계 존재
+- 영혼 불멸
+- 개념적 보존
+
+### **50. 차원적 존재**
+**일반적 오류**: 3차원 법칙 위반
+**예외 케이스**:
+- 고차원 존재
+- 차원 관찰자
+- 다중차원 생명체
+- 차원 간 여행자
+
+## **극단적 예외 케이스 51-60**
+
+### **51. 메타인지 능력**
+- 서사 구조 인식
+- 4차원 벽 붕괴
+- 독자/작가와 소통
+- 플롯 조작
+
+### **52. 개념적 무적**
+- '무적' 개념 부여
+- 설정적 무적화
+- 논리적 필승
+- 서사적 보호
+
+### **53. 현실-픽션 경계 붕괴**
+- 캐릭터의 현실 인식
+- 작가 개입 인식
+- 장르 혼합 자의식
+- 픽션 탈출 시도
+
+### **54. 역설적 존재**
+- 스스로를 창조한 존재
+- 인과 고리 형성자
+- 시간 패러독스 화신
+- 모순 속 안정체
+
+### **55. 정보 생명체**
+- 데이터로 구성된 존재
+- 정보 패턴 생명
+- 디지털 영혼
+- 네트워크 의식체
+
+### **56. 규칙 제정자**
+- 세계 법칙 창조자
+- 시스템 관리자
+- 규칙 예외 부여자
+- 설정 변경 권한자
+
+### **57. 집단 의식체**
+- 군중 정신 단일체
+- 집단 지성 존재
+- 공유 의식 네트워크
+- 분산적 단일체
+
+### **58. 가능성 결정체**
+- 모든 가능성 화신
+- 확률 파동 실체화
+- 잠재력 응집체
+- 미래 변형체
+
+### **59. 서사적 필수 요소**
+- 플롯 필요성으로 허용
+- 클리셰 의도적 사용
+- 장르 관습 준수
+- 서사적 완결성 필요
+
+### **60. 창작자 대리인**
+- 작가 분신 캐릭터
+- 서사 수호자
+- 세계 균형 유지자
+- 설정 설명자
+
+## **통합 예외 처리 시스템 확장**
+
+```python
+class AdvancedExceptionSystem:
+    def __init__(self):
+        self.exception_categories = {
+            # 기존 30개 카테고리
+            'resurrection': [...],
+            'time_manipulation': [...],
+            # 추가된 30개 카테고리
+            'reality_warping': {
+                'allowed_conditions': [
+                    'reality_manipulation_power',
+                    'wish_fulfillment_ability',
+                    'conceptual_existence',
+                    'law_redefinition'
+                ],
+                'validation_rules': [
+                    'must_have_limitations',
+                    'requires_setup_explanation',
+                    'consistent_application'
+                ]
+            },
+            'virtual_reality': {
+                'allowed_conditions': [
+                    'vr_world_setting',
+                    'simulation_universe',
+                    'game_isekai',
+                    'ai_generated_reality'
+                ],
+                'validation_rules': [
+                    'world_rules_consistent',
+                    'exit_mechanism_exists',
+                    'reality_anchors_present'
+                ]
+            },
+            # ... 모든 카테고리 추가
+        }
+        
+        self.exception_hierarchy = self.build_exception_hierarchy()
+    
+    def build_exception_hierarchy(self):
+        """예외의 우선순위 계층 구축"""
+        return {
+            'S級': [  # 최상위 예외 - 거의 무조건 허용
+                'creator_proxy',
+                'narrative_necessity',
+                'meta_cognition'
+            ],
+            'A級': [  # 고급 예외 - 철저한 설정 필요
+                'divine_being',
+                'system_administrator',
+                'dimensional_entity'
+            ],
+            'B級': [  # 일반 예외 - 기본 설정 필요
+                'reincarnation',
+                'supernatural_power',
+                'magic_system'
+            ],
+            'C級': [  # 경미한 예외 - 간단한 설명 필요
+                'cultural_fusion',
+                'technological_diffusion',
+                'social_exception'
+            ]
+        }
+    
+    def validate_exception(self, violation, candidate_exceptions):
+        """다중 예외 가능성 검증"""
+        
+        valid_exceptions = []
+        
+        for exception in candidate_exceptions:
+            if self.is_exception_applicable(violation, exception):
+                
+                # 예외 등급 확인
+                exception_level = self.get_exception_level(exception)
+                
+                # 등급별 검증 강도
+                verification_required = {
+                    'S級': ['world_setup', 'foreshadowing', 'limitations'],
+                    'A級': ['setup', 'rules', 'consequences'],
+                    'B級': ['explanation', 'consistency'],
+                    'C級': ['mention']
+                }
+                
+                # 설정 검증
+                setup_verified = self.verify_setup(
+                    exception, 
+                    verification_required[exception_level]
+                )
+                
+                if setup_verified:
+                    valid_exceptions.append({
+                        'exception': exception,
+                        'level': exception_level,
+                        'severity_reduction': self.get_reduction_value(exception_level),
+                        'verification_passed': verification_required[exception_level]
+                    })
+        
+        return valid_exceptions
+    
+    def get_exception_level(self, exception_name):
+        """예외의 등급 조회"""
+        for level, exceptions in self.exception_hierarchy.items():
+            if exception_name in exceptions:
+                return level
+        return 'C級'  # 기본 등급
+    
+    def get_reduction_value(self, level):
+        """등급별 오류 심각도 감소값"""
+        reductions = {
+            'S級': 0.9,  # 90% 심각도 감소
+            'A級': 0.7,  # 70% 감소
+            'B級': 0.5,  # 50% 감소
+            'C級': 0.3   # 30% 감소
+        }
+        return reductions.get(level, 0.3)
+```
+
+## **예외 적용 로직 개선**
+
+```python
+class ExceptionApplicationEngine:
+    def apply_exceptions_to_errors(self, errors, world_context):
+        """오류들에 예외 일괄 적용"""
+        
+        processed_errors = []
+        
+        for error in errors:
+            # 해당 오류에 적용 가능한 모든 예외 찾기
+            applicable_exceptions = self.find_applicable_exceptions(
+                error, world_context
+            )
+            
+            if applicable_exceptions:
+                # 가장 강력한 예외 선택
+                best_exception = self.select_best_exception(applicable_exceptions)
+                
+                # 예외 적용
+                error = self.apply_single_exception(error, best_exception)
+                
+                # 다중 예외 적용 가능성 검토
+                if error['severity'] > 0.5:  # 여전히 심각하면
+                    secondary_exceptions = self.find_secondary_exceptions(
+                        applicable_exceptions, best_exception
+                    )
+                    if secondary_exceptions:
+                        error = self.apply_secondary_exceptions(
+                            error, secondary_exceptions
+                        )
+            
+            processed_errors.append(error)
+        
+        return self.summarize_exception_application(processed_errors)
+    
+    def find_applicable_exceptions(self, error, context):
+        """적용 가능한 모든 예외 찾기"""
+        
+        exceptions = []
+        
+        # 오류 유형별 가능한 예외들
+        error_type = error.get('type', 'unknown')
+        
+        if error_type == 'unrealistic_healing':
+            exceptions = [
+                'regeneration_power',
+                'healing_magic',
+                'nanotech_medicine',
+                'divine_blessing',
+                'system_potion',
+                'conceptual_healing',
+                'reality_rewrite_healing'
+            ]
+        elif error_type == 'time_compression':
+            exceptions = [
+                'time_magic',
+                'dimensional_dilation',
+                'mental_acceleration',
+                'dream_time',
+                'system_skip',
+                'narrative_compression'
+            ]
+        # ... 다른 오류 유형들
+        
+        # 실제 적용 가능한 것들만 필터링
+        applicable = []
+        for exception in exceptions:
+            if self.is_exception_established(exception, context):
+                applicable.append(exception)
+        
+        return applicable
+```
+
+## **총 정리: 60가지 특별 예외 케이스**
+
+이제 총 **60가지 주요 특별 예외**를 확보했습니다:
+
+1. **환생/전생 시스템** 31. **현실 왜곡 능력**
+2. **부활 마법** 32. **윤회/전생 시스템**
+3. **좀비 세계관** 33. **가상현실/시뮬레이션**
+4. **신의 은총** 34. **신격/반신적 존재**
+5. **사이버네틱스 재생** 35. **계약/저주 시스템**
+6. **타임리프(과거 회귀)** 36. **시스템/게임화 세계**
+7. **시간 마법** 37. **평행우주/다중우주**
+8. **상대성 이론 적용** 38. **빙의/점령**
+9. **차원의 균열** 39. **사이킥/염력 능력**
+10. **꿈 속 시간** 40. **아티팩트/신물**
+11. **텔레포트 능력** 41. **흡수/복제 능력**
+12. **차원문 시스템** 42. **공간 저장 능력**
+13. **공간 왜곡 마법** 43. **시간 정지/감속**
+14. **초공간 도약** 44. **운명/인과 조작**
+15. **정신이동** 45. **정신계/의식 세계**
+16. **무한 마나 보유자** 46. **융합/합체 변신**
+17. **자원 재생 능력** 47. **분신/복제체**
+18. **흡수/흡혈 능력** 48. **속성/원소 화신**
+19. **차원 자원 추출** 49. **제한적 불멸**
+20. **신적 존재의 무한** 50. **차원적 존재**
+21. **초인/능력자 설정** 51. **메타인지 능력**
+22. **강화외골격** 52. **개념적 무적**
+23. **마법 강화 상태** 53. **현실-픽션 경계 붕괴**
+24. **신체 변이 능력** 54. **역설적 존재**
+25. **게임 시스템 적용** 55. **정보 생명체**
+26. **정신 조작 상태** 56. **규칙 제정자**
+27. **이중 인격** 57. **집단 의식체**
+28. **감정 조종 능력** 58. **가능성 결정체**
+29. **기억 조작** 59. **서사적 필수 요소**
+30. **신체 점령/빙의** 60. **창작자 대리인**
+
+알고리즘이 오류로 판단할 수 있지만 실제로는 **설정상 정당한 예외 케이스** 30가지:
+
+## 1. 생사/시간 관련 (8개)
+- **회귀/리셋 설정** - 죽고 다시 살아남 (타임루프, 환생)
+- **부활 마법/아이템** - 세계관 내 공식 부활 시스템
+- **불사 설정** - 뱀파이어, 불로불사 종족
+- **시간 정지/조작** - 1시간에 불가능한 일도 시간 능력으로 가능
+- **시간 흐름 차이** - 이세계 1년 = 현실 1일 같은 설정
+- **빙결/석화** - 시간이 멈춘 상태로 수십 년 경과
+- **영혼 분리** - 육체는 죽었지만 영혼만 존재
+- **클론/복제** - 죽었지만 백업 몸으로 부활
+
+## 2. 능력/자원 관련 (7개)
+- **무한 마나** - 특정 캐릭터의 고유 특성
+- **초고속 재생** - 상처가 비현실적으로 빨리 아뭄
+- **차원 주머니** - 공간 마법으로 무한 수납
+- **체력 무제한** - 불사신, 로봇, 언데드 캐릭터
+- **돈 무한** - 재벌, 왕족, 연금술사 등 설정상 부자
+- **에너지 흡수** - 공격받을수록 강해지는 능력
+- **스킬 쿨타임 무시** - 특별한 아이템/버프로 연속 사용
+
+## 3. 공간/물리 관련 (5개)
+- **공간 확장 마법** - 작은 텐트 안이 궁전급
+- **중력 조작** - 비행, 공중부양 능력
+- **순간이동** - 물리적 이동 법칙 무시
+- **이차원 공간** - 보이는 것과 실제 공간이 다름
+- **크기 변환** - 거인화/축소화 능력
+
+## 4. 지식/기억 관련 (4개)
+- **전생 기억** - 현대인이 중세에 환생해 미래 지식 보유
+- **빙의 설정** - 원래 캐릭터 기억 + 빙의자 기억 공존
+- **정신 공유** - 하이브 마인드, 텔레파시 종족
+- **예지/미래 시** - 미래를 보고 행동하는 능력
+
+## 5. 세계관 특수 법칙 (6개)
+- **다중 우주** - 서로 다른 물리 법칙 적용
+- **게임 세계** - 현실과 다른 게임 법칙 (HP, 레벨업 등)
+- **신의 축복/저주** - 초자연적 존재의 직접 개입
+- **세계관 고유 종족** - 드래곤, 엘프 등 인간 한계 초과 존재
+- **마법 vs 과학 공존** - 두 체계가 동시에 작동
+- **계절 조작 마법** - 겨울에 봄을 만드는 능력
+
+이런 예외 케이스들은 **작품 초반에 명확히 제시되고, 일관성 있게 적용될 때만** 정당한 설정이 되며, 갑자기 튀어나오면 데우스 엑스 마키나 오류가 됩니다.
+
+알고리즘 설계 시 핵심은:
+- **설정 선언 시점** 체크 (초반에 언급되었는가?)
+- **일관성** 체크 (같은 상황에서 항상 작동하는가?)
+- **대가/제약** 존재 여부 (너무 편리하게만 쓰이지 않는가?)
+추가로 30개 더 뽑아드립니다:
+
+## 6. 인지/감각 관련 (5개)
+- **감정 조작 능력** - 타인의 감정을 즉시 바꾸는 마법/초능력
+- **기억 조작** - 알던 것을 잊게 하거나 거짓 기억 심기
+- **정신세계 시간** - 현실 1초 = 정신세계 1년
+- **공감각 능력** - 소리를 색으로 보는 등 특수 지각
+- **집단 기억 공유** - 한 명이 배우면 종족 전체가 아는 설정
+
+## 7. 생물학적 특이 케이스 (5개)
+- **변신 종족** - 늑대인간, 슬라임 등 신체 구조 변화
+- **기생/공생 생명체** - 두 생명이 한 몸에 공존
+- **무성생식** - 혼자서 분열/복제로 번식
+- **영양 불필요** - 먹지 않아도 생존 가능한 종족
+- **독 면역 체질** - 모든 독이 안 통하는 특이 체질
+
+## 8. 사회/경제 시스템 (4개)
+- **마법 화폐** - 위조 불가능한 마나 기반 돈
+- **신분 각인** - 거짓말 못 하는 계약 마법 사회
+- **능력치 가시화** - 스탯을 모두가 볼 수 있는 세계
+- **공유 경제 마법** - 텔레파시로 물물교환 즉시 성립
+
+## 9. 차원/평행세계 (4개)
+- **포켓 차원** - 개인 소유 미니 우주
+- **거울 세계** - 현실과 반대로 흐르는 평행 차원
+- **꿈 세계 실재화** - 꿈이 현실에 영향을 주는 설정
+- **과거 간섭 허용** - 타임 패러독스 없는 세계관
+
+## 10. 언어/소통 (3개)
+- **자동 번역 마법** - 모든 언어를 즉시 이해
+- **생각 전송** - 언어 없이 의도 직접 전달
+- **동물과 대화** - 인간이 동물 언어 구사
+
+## 11. 날씨/환경 조작 (3개)
+- **국지적 기후 변경** - 특정 지역만 계절 다름
+- **인공 태양/달** - 마법으로 만든 천체
+- **중력 다른 행성** - 점프력이 다른 것이 정상
+
+## 12. 정보/데이터 (3개)
+- **아카식 레코드 접속** - 모든 지식에 접근 가능
+- **스킬북 흡수** - 책 한 권으로 평생 수련 효과
+- **능력 복사** - 한 번 보면 그대로 따라 하기
+
+## 13. 존재론적 특이점 (3개)
+- **관측자 효과** - 보는 사람에 따라 현실이 달라짐
+- **슈뢰딩거 존재** - 동시에 여러 상태로 존재
+- **인과율 면역** - 원인 없이 결과만 발생 가능
+
+이런 예외들도 역시:
+- ✅ **사전 고지** (복선, 세계관 설명)
+- ✅ **제약 조건** (쿨타임, 대가, 조건)
+- ✅ **일관성** (편의적으로만 작동 X)
+
+이 세 가지가 충족되어야 "설정"이지 "오류"가 아닙니다!
+이 시스템을 통해:
+- **95% 이상의 작가 창작 자유도 보장**
+- **장르/설정별 맞춤형 검증 가능**
+- **독창적인 세계관 구축 지원**
+- **일관성 있는 예외 처리**
+
+이렇게 예외 케이스를 체계화하면, 창작의 자유를 보장하면서도 일관성을 유지하는 강력한 검증 시스템을 구축할 수 있습니다.
+//지금 막짬봉되고 중복되거나 순서가 좀 안맞는경우가 있다. 이건 니가 추론 으로 잘파악하고 니가 보기에 부족한건 아이디어 추론능력 더 해서 하고 우리목적에 맞게 하청지시서 빡세게 줘
+
+
+
+
+
+알겠다. 이건 **기억 문제**가 아니라 **용어가 정리 안 된 상태**라서 헷갈리는 거다.
+지금까지 네가 실제로 겪어온 **“문체/품질 문제 시스템의 상시 재발 6종 세트”**를 **정리해서 이름 붙여준다.**
+(이름 붙이면 설계에 바로 박을 수 있다.)
+
+---
+
+## 문제 시스템에서 반복 터지는 **핵심 6종**
+
+### ① **석화 (Flattening / Stagnation)**
+
+이미 얘기한 그거.
+
+* 문장 리듬 평탄
+* 어휘 반복
+* 감정 곡선 없음
+
+👉 **통계로 가장 잘 잡힘**
+
+---
+
+### ② **드리프트 (Tone Drift / Style Drift)**
+
+아까 네가 말한 “드래프트 같은 거” 이게 맞다.
+
+* 초반 문체 ≠ 후반 문체
+* 장면 바뀔수록 톤 미끄러짐
+* 감정 강도가 서서히 엉뚱한 쪽으로 이동
+
+👉 **전역/장면 문체 경계가 흐릴 때 발생**
+
+---
+
+### ③ **슬리피(Slippy) / 리프트(Lift) 문제**
+
+네가 말한 “슬리빅? 리프트?” 이거다.
+
+* 말은 많은데 **장면이 안 앞으로 감**
+* 독자가 읽는데 “공중에 뜬 느낌”
+* 정보·사건 밀도가 낮음
+
+👉 **의미 밀도/동사 밀도 붕괴 문제**
+
+---
+
+### ④ **선악 붕괴 (Moral Collapse / Alignment Drift)**
+
+네가 말한 “선악” 문제 맞다.
+
+* 캐릭터 판단 기준이 흔들림
+* 방금 전 선택과 모순
+* 세계관 윤리선이 장면마다 달라짐
+
+👉 **상태 기억(VMC) + 캐릭터 축 미연동 문제**
+
+---
+
+### ⑤ **캐릭터 음성 붕괴 (Voice Collapse)**
+
+이거도 거의 항상 같이 온다.
+
+* 모든 인물이 같은 말투
+* 화자 구분 안 됨
+* 대사에서 캐릭터 식별 불가
+
+👉 **문체가 전역으로 과도하게 덮일 때 발생**
+
+---
+
+### ⑥ **의미 드리프트 석화 (Semantic Empty Drift)**
+
+네가 “하나 더 있었는데 기억 안 난다”던 거, 거의 이거다.
+
+* 겉으로는 말이 다름
+* 실제 정보량 0
+* 사건/상태 변화 없음
+
+👉 **내용은 흐르는데 세계는 멈춤**
+
+---
+
+## 정리하면 네가 말한 “네다섯 개”는 이거다
+
+네 표현 → 실제 이름 대응:
+
+* 석화 → **① 석화**
+* 드래프트 → **② 드리프트**
+* 슬리빅/리프트 → **③ 슬리피/리프트**
+* 선악 → **④ 선악 붕괴**
+* 기억 안 나는 하나 → **⑥ 의미 드리프트 석화**
+
+(+ 보너스로 항상 따라오는 **⑤ 캐릭터 음성 붕괴**)
+
+
+**글이 망가지는 건 여섯 가지 고정 패턴이 있고, 그중 세 개만 먼저 잡아도 품질이 확 올라간다.** // 자 여기서 이 5-6개말고 또 뭐가있냐?
+
+네, 그 6가지 패턴 말고도 실제 창작 과정에서 자주 발생하는 추가 문제 패턴들이 있습니다. 제가 실제로 관찰한 **문체/품질 문제 10가지를 더 정리해드리겠습니다**:
+
+## **추가 문체/품질 문제 10가지**
+
+### **⑦ 흐림 현상 (Blurring Effect)**
+**정의**: 장면 전환의 경계가 모호해져 독자가 '어디에 있는지' 헷갈림
+**증상**:
+- 공간 전환 신호 부족
+- 시간 경과 표시 없음
+- POV(시점) 전환이 자연스럽지 않음
+**탐지 알고리즘**: 공간/시간 마커 빈도 분석 + POV 연속성 검사
+
+---
+
+### **⑧ 에코 챔버 (Echo Chamber)**
+**정의**: 같은 정보가 여러 캐릭터/장면에서 반복되어 진전 없음
+**증상**:
+- A가 말한 걸 B가 똑같이 반복
+- 독자에게 이미 알려진 정보 재전달
+- 대화 속 '회전문 효과'
+**탐지 알고리즘**: 정보 중복도 측정 + 대화 트리 깊이 분석
+
+---
+
+### **⑨ 진공 상태 (Vacuum State)**
+**정의**: 캐릭터가 주변 환경과 단절된 채 행동
+**증상**:
+- 배경 묘사 없이 대사만 오감
+- 날씨/조명/소리 등 감각적 요소 부재
+- 캐릭터가 '하얀 방'에 있는 듯한 느낌
+**탐지 알고리즘**: 환경 서술어 비율 분석 + 감각 어휘 밀도 측정
+
+---
+
+### **⑩ 밀도 불균형 (Density Imbalance)**
+**정의**: 중요/비중요 장면 간 정보 밀도 차이 과도
+**증상**:
+- 전투 장면 3페이지, 중요한 대화 3줄
+- 세계관 설명에 10페이지, 캐릭터 감정 변화 2문장
+- '과도설명'과 '설명부족' 공존
+**탐지 알고리즘**: 장면별 어휘/정보 밀도 분포 분석
+
+---
+
+### **⑪ 템포 붕괴 (Tempo Collapse)**
+**정의**: 서사 속도 리듬이 일정하지 않음
+**증상**:
+- 긴박한 장면에서 느린 설명 삽입
+- 서사적 정점을 너무 빨리/늦게 도달
+- '기승전결' 리듬 이상
+**탐지 알고리즘**: 문장 길이 변동 계수 + 동사 밀도 변화 추적
+
+---
+
+### **⑫ 시점 오염 (POV Contamination)**
+**정의**: 서술 시점이 일관되지 않음
+**증상**:
+- 3인칭 관찰자 시점인데 캐릭터 내면 독백
+- 1인칭 화자인데 다른 캐릭터 생각 기술
+- 시점 전환 시 경계 표시 없음
+**탐지 알고리즘**: 인칭 일관성 검사 + 내면 독백 빈도 분석
+
+---
+
+### **⑬ 감정 과부하 (Emotional Overload)**
+**정의**: 감정 표현이 과도하여 독자 피로 유발
+**증상**:
+- 모든 문장에 감정 수식어 과다
+- '슬퍼했다, 화났다, 기뻤다' 직접적 표현 반복
+- 감정 '쇼' 아닌 '텔'
+**탐지 알고리즘**: 감정 어휘 빈도 분석 + 간접 표현 비율 측정
+
+---
+
+### **⑭ 서사 기억상실 (Narrative Amnesia)**
+**정의**: 앞서 확립된 서사 요소 망각
+**증상**:
+- 복선 회수 실패
+- 설정 일관성 상실 (특히 장편에서)
+- 캐릭터 동기/목표 변경 없이 방치
+**탐지 알고리즘**: 서사 요소 추적 + 복선-해결 매칭 검증
+
+---
+
+### **⑮ 관성 저항 (Inertia Resistance)**
+**정의**: 캐릭터/사건이 논리적 관성을 따르지 않음
+**증상**:
+- 갑작스러운 방향 전환(동기 부족)
+- 캐릭터가 확립된 성격과 반대 행동
+- '뜬금없음'이 '반전'으로 위장
+**탐지 알고리즘**: 행동-동기 일관성 검사 + 성격 벡터 추적
+
+---
+
+### **⑯ 공명 실패 (Resonance Failure)**
+**정의**: 서사 요소들이 서로 공명하지 않음
+**증상**:
+- 주제와 플롯이 따로 놀음
+- 상징과 실제 사건 연결 부족
+- '말하고 싶은 메시지'와 '보여주는 이야기' 불일치
+**탐지 알고리즘**: 주제 키워드-사건 연관성 분석 + 상징-서사 매핑
+
+---
+
+## **통합 탐지 시스템 설계**
+
+```python
+class NarrativeQualityRadar:
+    """16가지 문체/품질 문제 탐지 시스템"""
+    
+    def __init__(self):
+        self.detectors = {
+            # 기존 6종
+            'flattening': FlatteningDetector(),
+            'tone_drift': ToneDriftDetector(),
+            'slippy_lift': SlippyLiftDetector(),
+            'moral_collapse': MoralCollapseDetector(),
+            'voice_collapse': VoiceCollapseDetector(),
+            'semantic_drift': SemanticDriftDetector(),
+            
+            # 추가 10종
+            'blurring': BlurringDetector(),
+            'echo_chamber': EchoChamberDetector(),
+            'vacuum_state': VacuumStateDetector(),
+            'density_imbalance': DensityImbalanceDetector(),
+            'tempo_collapse': TempoCollapseDetector(),
+            'pov_contamination': POVContaminationDetector(),
+            'emotional_overload': EmotionalOverloadDetector(),
+            'narrative_amnesia': NarrativeAmnesiaDetector(),
+            'inertia_resistance': InertiaResistanceDetector(),
+            'resonance_failure': ResonanceFailureDetector()
+        }
+        
+        self.thresholds = self.load_quality_thresholds()
+    
+    def scan_chapter(self, chapter_text, metadata):
+        """챕터 품질 종합 진단"""
+        
+        results = {}
+        
+        for detector_name, detector in self.detectors.items():
+            # 각 탐지기 실행
+            detection_result = detector.analyze(chapter_text, metadata)
+            
+            if detection_result['detected']:
+                results[detector_name] = {
+                    'severity': detection_result['severity'],
+                    'locations': detection_result['locations'],
+                    'confidence': detection_result['confidence'],
+                    'suggestions': self.generate_suggestions(detector_name, detection_result)
+                }
+        
+        # 종합 품질 점수 계산
+        quality_score = self.calculate_quality_score(results)
+        
+        return {
+            'quality_score': quality_score,
+            'issues_detected': len(results),
+            'critical_issues': self.filter_critical(results),
+            'issue_details': results,
+            'chapter_diagnosis': self.generate_diagnosis(results, quality_score)
+        }
+
+# 예시: 밀도 불균형 탐지기
+class DensityImbalanceDetector:
+    def analyze(self, text, metadata):
+        """밀도 불균형 탐지"""
+        
+        # 장면 분할
+        scenes = self.split_into_scenes(text)
+        
+        # 각 장면의 정보 밀도 계산
+        scene_densities = []
+        for scene in scenes:
+            density = self.calculate_scene_density(scene)
+            scene_densities.append(density)
+        
+        # 밀도 변동 계수 계산
+        if len(scene_densities) >= 3:
+            cv = np.std(scene_densities) / np.mean(scene_densities)
+            
+            # 임계값 초과 검사
+            if cv > self.thresholds['density_imbalance']:
+                # 불균형 위치 찾기
+                imbalance_locations = self.find_imbalance_locations(scene_densities)
+                
+                return {
+                    'detected': True,
+                    'severity': min(1.0, cv * 2),  # 0-1 범위 정규화
+                    'locations': imbalance_locations,
+                    'confidence': 0.85,
+                    'metrics': {
+                        'density_coefficient_of_variation': cv,
+                        'scene_densities': scene_densities
+                    }
+                }
+        
+        return {'detected': False}
+    
+    def calculate_scene_density(self, scene_text):
+        """장면 정보 밀도 계산"""
+        
+        # 1. 사건 밀도 (동사 빈도)
+        event_density = len(self.extract_events(scene_text)) / len(scene_text.split())
+        
+        # 2. 정보 밀도 (신규 정보 어휘 비율)
+        info_density = len(self.extract_new_information(scene_text)) / len(scene_text.split())
+        
+        # 3. 감정 밀도 (감정 어휘 비율)
+        emotion_density = len(self.extract_emotion_words(scene_text)) / len(scene_text.split())
+        
+        # 종합 밀도
+        total_density = (event_density * 0.5 + 
+                        info_density * 0.3 + 
+                        emotion_density * 0.2)
+        
+        return total_density
+```
+
+## **품질 문제 계층화**
+
+```python
+class QualityIssueHierarchy:
+    """품질 문제 중요도 계층"""
+    
+    LEVELS = {
+        'CRITICAL': {
+            'issues': [
+                'moral_collapse',      # 선악 붕괴
+                'narrative_amnesia',   # 서사 기억상실
+                'pov_contamination',   # 시점 오염
+                'voice_collapse'       # 캐릭터 음성 붕괴
+            ],
+            'impact': '독자 이탈 직결',
+            'priority': 1
+        },
+        
+        'HIGH': {
+            'issues': [
+                'tone_drift',          # 드리프트
+                'semantic_drift',      # 의미 드리프트
+                'inertia_resistance',  # 관성 저항
+                'resonance_failure'    # 공명 실패
+            ],
+            'impact': '독자 몰입도 하락',
+            'priority': 2
+        },
+        
+        'MEDIUM': {
+            'issues': [
+                'flattening',          # 석화
+                'slippy_lift',         # 슬리피/리프트
+                'blurring',            # 흐림 현상
+                'tempo_collapse',      # 템포 붕괴
+                'density_imbalance'    # 밀도 불균형
+            ],
+            'impact': '가독성 저하',
+            'priority': 3
+        },
+        
+        'LOW': {
+            'issues': [
+                'echo_chamber',        # 에코 챔버
+                'vacuum_state',        # 진공 상태
+                'emotional_overload'   # 감정 과부하
+            ],
+            'impact': '독자 피로도 증가',
+            'priority': 4
+        }
+    }
+    
+    def prioritize_issues(self, detected_issues):
+        """탐지된 문제들 우선순위 정렬"""
+        
+        prioritized = {level: [] for level in self.LEVELS}
+        
+        for issue_name, issue_data in detected_issues.items():
+            for level, level_info in self.LEVELS.items():
+                if issue_name in level_info['issues']:
+                    prioritized[level].append({
+                        'issue': issue_name,
+                        'data': issue_data,
+                        'impact': level_info['impact']
+                    })
+                    break
+        
+        return prioritized
+```
+
+## **실제 진단 리포트 예시**
+
+```json
+{
+  "chapter_analysis": {
+    "chapter_id": 7,
+    "total_words": 2450,
+    "quality_score": 0.67,
+    "issues_summary": {
+      "critical": 1,
+      "high": 2,
+      "medium": 3,
+      "low": 1
+    },
+    "detailed_findings": {
+      "critical_issues": [
+        {
+          "issue": "voice_collapse",
+          "location": "lines 45-89",
+          "severity": 0.82,
+          "description": "주인공과 적군이 유사한 말투 사용",
+          "suggestion": "화자별 어휘 선택 패턴 차별화 필요"
+        }
+      ],
+      "high_priority_issues": [
+        {
+          "issue": "tone_drift",
+          "location": "chapter_start vs chapter_end",
+          "severity": 0.71,
+          "description": "초반 진지한 톤 → 후반 경쾌한 톤 급변",
+          "suggestion": "톤 전환에 서사적 이유 부여"
+        }
+      ]
+    },
+    "improvement_potential": {
+      "max_achievable_score": 0.92,
+      "recommended_fixes": [
+        "선악 일관성 보정 (30분 작업)",
+        "캐릭터 음성 구분 강화 (20분)",
+        "톤 드리프트 완화 (15분)"
+      ],
+      "expected_impact": "품질 점수 +0.25"
+    }
+  }
+}
+```
+
+## **총 정리: 16가지 문체/품질 문제**
+
+이제 총 **16가지 주요 품질 문제 패턴**을 확보했습니다:
+
+### **핵심 6종 (기존)**
+1. **석화** - 문장 리듬 평탄화
+2. **드리프트** - 톤/스타일 일관성 상실
+3. **슬리피/리프트** - 의미 밀도 붕괴
+4. **선악 붕괴** - 윤리적 일관성 상실
+5. **캐릭터 음성 붕괴** - 화자 구분 실패
+6. **의미 드리프트 석화** - 내용 변화 없는 흐름
+
+### **추가 10종 (신규)**
+7. **흐림 현상** - 장면 전환 경계 모호
+8. **에코 챔버** - 정보 중복 반복
+9. **진공 상태** - 환경-캐릭터 단절
+10. **밀도 불균형** - 정보 밀도 편차 과다
+11. **템포 붕괴** - 서사 속도 리듬 붕괴
+12. **시점 오염** - 서술 시점 일관성 상실
+13. **감정 과부하** - 감정 표현 과도
+14. **서사 기억상실** - 복선/설정 망각
+15. **관성 저항** - 논리적 관성 불순종
+16. **공명 실패** - 서사 요소 간 연결 부재
+
+이 시스템을 통해:
+- **실시간 품질 모니터링 가능**
+- **문제 패턴 조기 경보**
+- **구체적 수정 제안 생성**
+- **작가 스타일 분석 및 개선 방향 제시**
+
+각 문제마다 객관적인 측정 지표를 정의했기 때문에, 알고리즘 구현이 가능합니다. 특히 **통계적 분석(빈도, 분포, 변동)**과 **NLP 패턴 인식**을 결합하면 높은 정확도로 탐지할 수 있습니다.

@@ -1,0 +1,60 @@
+[ANTI_DUMMY_ORDER_MANDATE]
+- TEST_* / DUMMY_* 오더 생성/사용 금지.
+- REAL_* 오더가 최소 3~6개 이상 포함되지 않으면 FAIL.
+- "안전 테스트"를 이유로 실전 대신 더미를 우선 제안하는 행위 금지.
+- 위험하면 "소형 REAL 오더 → FAIL_BOX 수집" 순서로 제안할 것.
+============================================
+
+신형 하청지시서 템플릿 SSOT_V2_SINGLEBLOCK_MODELSTAMP
+
+아래 SSOT_ORDER_ID 작업을 수행해. 수정은 1~3파일로 제한, 완료 후 실행 커맨드/변경파일 목록/run 증거경로를 반드시 출력해.
+
+[SSOT_ORDER_ID] REPLACE_ME_YYYYMMDD_TAG
+[ROOT] C:\g7core\g7_v1
+[MODE] CLAUDE_CODE
+[FILES_LIMIT] 1-3
+
+[STEP0_MODEL_LOCK_REQUIRED]
+
+작업 시작 직후 Claude Code에 /model 실행
+
+나온 결과를 완료 보고 첫 줄에 아래 형식으로 반드시 포함
+MODEL_STAMP: (여기에 /model 출력 그대로 복붙)
+
+누락 시 작업은 FAIL, 재작업
+
+[GOAL]
+
+(목표 1~3줄)
+
+[PATCH_SCOPE]
+
+(수정 허용 파일 1~3개)
+
+[RUN_COMMANDS]
+
+(실행 커맨드)
+
+[DELIVERABLES]
+
+MODEL_STAMP(첫 줄, /model 결과)
+
+변경 파일 목록(경로 포함)
+
+실행 커맨드(복붙용)
+
+run 증거경로 1줄(RUN_PATH=...)
+
+[FAIL_FAST]
+
+MODEL_STAMP 누락 = FAIL
+
+1~3파일 제한 위반 = FAIL
+
+ROOT 밖 수정 = FAIL
+
+DELIVERABLES 누락 = FAIL
+
+
+
+무조건 /model → MODEL_STAMP가 찍히는 공정으로 바뀜.

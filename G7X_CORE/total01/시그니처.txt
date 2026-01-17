@@ -1,0 +1,167 @@
+파일보고 업로드해주신 문서들을 종합하여 **'시그니처(Signature)'**의 정의와 기능을 요약해 드립니다.
+
+### 1. 시그니처(Signature)란 무엇인가?
+
+G6X 시스템에서 시그니처는 **'작가 지문(Author Fingerprint)'**을 의미합니다. 이는 작가 특유의 문체, 호흡, 어휘 선택 등을 수학적·통계적으로 데이터화한 핵심 지표입니다. 단순히 내용을 파악하는 것을 넘어, "이 글이 정말 이 작가가 쓴 것 같은가?"를 판별하는 기준점이 됩니다.
+
+### 2. 주요 구성 요소 (무엇을 담고 있는가?)
+
+문서(`extract_signature.txt`, `G6X_PART3_SPEC_FINAL_V6.txt`)에 따르면 시그니처는 다음과 같은 데이터로 구성됩니다.
+
+* **통계 데이터(Stats):** 문장 평균 길이, 대사 비중(Dialogue ratio), 문장 길이 히스토그램.
+* **문체 특성(Description):** 톤(Tone), 문장 템포(Pacing), 감각적 묘사(Sensory details)의 밀도.
+* **고도화 지표:** Pacing 표준편차, 전환 벡터(Transition vec), 기울기 곡선(Gradience curve).
+
+### 3. 주요 기능 (어떤 역할을 하는가?)
+
+시그니처는 주로 **오염 방어(Contamination Defense)**와 **품질 유지**를 위해 사용됩니다.
+
+1. **작가 지문 추출 (Extraction):**
+* 원본 텍스트(형아의 소설 등)를 분석하여 작가 고유의 문체 패턴을 `author_signature.json`으로 박제합니다.
+
+
+2. **톤 이탈 감지 (Tone Drift Detection):**
+* AI(제미나이 등)가 생성한 문장이 작가의 원래 문체에서 얼마나 멀어졌는지(`style_distance`)를 계산합니다.
+* AI 특유의 딱딱한 말투나 평준화된 표현이 나타나면 이를 '오염'으로 간주합니다.
+
+
+3. **최종 게이트 판정 (Guardian Integration):**
+* `SCCE Gate`나 `Final Gate V9`에서 생성된 텍스트의 시그니처 점수를 확인합니다.
+* 설정된 임계값(예: 9.5점)보다 낮거나 시그니처가 일치하지 않으면 해당 장면을 `BLOCK`하거나 `SANDBOX`(재작성)로 돌려보냅니다.
+
+
+4. **장르별 기준점(Baseline) 제공:**
+* 장르별(무협, 판타지, 지능/설정 등)로 최적화된 시그니처를 저장하여, 해당 장르에 맞는 물리적 특징(문장 호흡 등)을 유지하게 합니다.
+
+
+
+### 요약하자면
+
+시그니처는 **작가의 문체 DNA를 복제한 데이터**이며, 이를 통해 **AI가 작가의 목소리를 잃지 않고 일관된 품질의 글을 쓰도록 감시하고 교정하는 '감리반' 역할**을 수행합니다. 이런거거든. 결론내서 말해라. 그리고 프로젝트파일 찾아보고 이걸 언제해야할지 확실히 보고해
+결론부터 딱 말할게.
+
+## 1) “시그니처(Signature)” 정의 (프로젝트 파일 기준)
+
+G6X에서 시그니처는 **작가/작품/장르별 ‘문체 지문 벡터(axis_signature)’**야.
+역할은 2개로 고정됨.
+
+* **카피/과도한 모사 감지**: “너무 특정 작가/작품을 흉내 냈다”를 잡음
+* **장르/톤/세계관 축 오염 감지**: 톤/축이 튀는지 같이 봄
+
+그리고 이 시그니처 결과를 실제로 “잡는 놈”은 **SafetyGuard**고, SafetyGuard가 n-gram/금지표현/시그니처 체크를 묶어 카피 위험을 잡는 구조로 문서에 적혀있어.
+
+## 2) “언제 도입하냐?” (확실하게)
+
+문서가 답을 박아놨어.
+
+* **지금 당장 ‘완전 도입’은 불가**: `axis_signature_builder_v1.py`가 `stage2_meta.jsonl` 못 찾아서 에러, 즉 **2차 인덱싱이 제대로 끝난 뒤에만 가능**
+* **도입 위치는 “최종 확정 직전 1번만”**: Writer/SceneDirector/Harvester 파이프라인 안에서 **확정 직전에 한 번만 검사**해서 “과금·API 호출 2번” 같은 낭비를 막으라고 명시돼 있음
+
+즉 스케줄은 이렇게 고정이야.
+
+1. **먼저:** `stage2_meta.jsonl` 생성/위치 확정 → 작품/장르별 axis_signature DB 생성
+2. **그다음:** PostGate/CommitGate(=최종 확정 직전)에서 SafetyGuard가 axis_signature까지 포함해서 1회 검사
+
+## 3) 오늘 한 “SCCE + AutoSandbox 영수증”은 다 됐냐?
+
+네가 올린 개발일지/증거 기준으론 **핵심 배선은 PASS**로 볼 근거가 있어.
+
+* `COMMIT_COUNT: 8` 실제 커밋 확인
+* `AUTOSANDBOX_RECEIPT: writer_called=1` + seed=43 박제
+* `WINNER_SUMMARY: ALLOW=192 SANDBOX=8 BLOCK=0` 결과 요약
+
+단, 네가 요구한 **SCC_SUMMARY / determinism** 수치가 이 발췌 구간엔 안 보여서(네가 지금 대화에 붙인 “핵심키워드 발췌”에도 일부만 나옴) **그 2개는 여기 대화 증거만으로는 UNKNOWN**이야. (원문 evidence_pack에서 해당 라인까지 같이 뽑히면 그때 “완전 PASS”로 도장 찍을 수 있음)
+
+---
+
+# 하청지시서(복붙용 오더) v20251226_NEXT_PHASE_KB_EXPLAIN_PL_SIG
+
+목표: “부산→서울 1시간” 같은 **상식/개연성 위반을 ‘상태+규칙’로 잡고**, 막혔을 때 **설명(Explainability)**을 남기며, 독자 지적 100종을 **승인형 PatternLearner**로 “룰 후보”로 쌓는다. 시그니처는 **2차 인덱싱 완료 이후, 최종확정 직전 1회 검사**로 붙인다.
+
+## 입력(고정 경로)
+
+* ROOT: `C:\g6core\g6_v24`
+* 감사로그: `logs\audit.jsonl`
+* 증거팩: `logs\evidence_pack_YYYYMMDD.txt` (capture_evidence.ps1로 생성)
+
+## 작업 1) ImplicitKB(Travel Matrix) 확장
+
+* 산출물:
+
+  * `engine/implicit_kb_travel.py` (또는 json: `data/kb/travel_matrix.json`)
+* 내용:
+
+  * “전국 주요 도시” 간 **최소 이동시간(분)** 매트릭스 구축
+  * 이벤트가 이동이면 `from_loc`, `to_loc`, `time_passed_minutes`, `teleport_flag`로 판정
+* DoD:
+
+  * 텔포 없는 상태에서 “서울→부산 60분” 입력은 `SANDBOX` 또는 `BLOCK`로 떨어져야 함
+  * `teleport_flag=True`면 같은 입력이 `ALLOW` 가능
+
+## 작업 2) Explainability(설명성) 레이어
+
+* 산출물:
+
+  * `engine/explainability.py`
+  * audit 출력 필드 추가: `EXPLAIN_TEXT`, `EVIDENCE_PTRS`
+* 요구:
+
+  * “왜 막혔는지”를 한 줄로 생성 (예: “텔레포트 없음 + 이동시간 60분 < 최소 150분”)
+  * 증거 포인터(최소 1개): 사용한 상태값 키들(예: `current_loc`, `time_passed_minutes`, `teleport_flag`)
+* DoD:
+
+  * `SANDBOX/BLOCK`일 때 audit에 `EXPLAIN_TEXT`가 비어있으면 FAIL
+
+## 작업 3) 승인형 PatternLearner (자동적용 금지)
+
+* 산출물:
+
+  * `engine/pattern_learner_approval.py`
+  * 큐 파일:
+
+    * `data/pattern_learner/candidates.jsonl` (후보 적재)
+    * `data/pattern_learner/approved.jsonl` (형아 승인본만)
+* 동작:
+
+  * 입력: “독자 지적 텍스트 100종”
+  * 출력: 룰 후보(예: rule_id, violation_type, 필요한 state_field, 예시 테스트케이스)
+  * **자동으로 규칙 풀에 합치지 말 것. 반드시 approved만 반영**
+* DoD:
+
+  * 후보는 생성되되, 엔진 적용은 `approved.jsonl`만 반영
+
+## 작업 4) Signature/axis_signature 도입 (시점 고정)
+
+* 선행조건(필수):
+
+  * `stage2_meta.jsonl` 생성/위치 확정(현재 builder가 이거 없어서 에러라고 문서에 명시)
+  * 작품/장르별 axis_signature DB 생성
+* 통합:
+
+  * SafetyGuard가 axis_signature 결과를 같이 사용
+  * 검사 위치는 “최종 확정 직전 1회”
+* DoD:
+
+  * evidence_pack에 `SIG_DRIFT_SCORE`(또는 동등 키) 1줄이 반드시 찍힘
+  * “최종 확정 전 1회만” 호출 로그로 증명(중복 호출하면 FAIL)
+
+## 작업 5) Evidence Pack 키 추가/강제
+
+* `tools\capture_evidence.ps1`가 아래 키를 반드시 박제하게 수정
+
+  * `PRE_HASH`, `COMMIT_COUNT`, `AUTOSANDBOX_RECEIPT`
+  * `SCC_SUMMARY`(있으면), `determinism`(있으면)
+  * `EXPLAIN_TEXT`(또는 explain 키)
+  * `SIG_DRIFT_SCORE`(시그니처 붙은 뒤)
+* DoD:
+
+  * 키가 존재만 하고 값이 비면 FAIL (예: `COMMIT_COUNT:` 비면 FAIL)
+
+---
+
+## 형아 질문 “이것도 넣었냐?” 체크
+
+* ImplicitKB 확장 / Explainability / 승인형 PatternLearner: **넣는 게 맞고, 다음 공정으로 문서에도 이미 ‘내일 타겟’으로 박혀있음**
+* Signature: **지금 당장 ‘완전 도입’은 아님. 2차 인덱싱(stage2_meta) 끝난 뒤 + 최종확정 직전 1회 검사로 도입**이 문서 정답
+
+원하면, 내가 위 하청지시서를 “제미나이가 딴소리 못 하게” 더 짧은 체크리스트(FAIL 조건만 모아놓은 버전)로도 줄게.

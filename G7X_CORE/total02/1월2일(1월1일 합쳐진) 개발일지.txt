@@ -1,0 +1,504 @@
+1월1일 +1월2일 개발노트다. 합쳐짐
+
+아래는 **형아가 말한 3개 + 내가 추가한 2개**를 합친 **최종 이사 구조 템플릿**이다.
+**설명 없이 그대로 복붙해서 다른 세션 맨 위에 붙이면 즉시 동일 운영 상태로 진입**하도록 만들었다.
+
+---
+
+# 🧳 GPT 이사 패키지 (최종본 / 복붙용)
+
+## ① STATE (현재 상태 · 팩트만)
+
+* 단계: **확장 단계**
+* 고정 단위: **ROWS = 120**
+* 금지 사항:
+
+  * ROWS ≥ 240 금지
+  * 360 컨테이너 금지
+* 현재 완성:
+
+  * 베이직 엔진 120 만차 봉인 완료
+  * trace / receipt / spans / out_files 각 120 정렬
+* 현재 미완 / 병목:
+
+  * **PostGate 강제력 미봉인**
+  * **Catalog / Compiler 엔진 귀속(자동 배차 템플릿) 미완**
+* 현재 핵심 과제:
+
+  * “120 만차 배차 알고리즘”을 SSOT 파일로 박제
+  * 병렬 실행(8코어) 안정화
+
+> ⚠️ 설명·미화 금지, 숫자/판정만 유지
+
+---
+
+## ② SOUL (판단 철학 · 감리 기준)
+
+* 말 PASS 불신
+* 설명보다 **숫자·증거 우선**
+* 느려도 **실파일·실호출만 인정**
+* FAIL 숨기면 즉시 실격
+* stdout/stderr 없으면 실패
+* 실행 중 창 닫히면 실패
+  (Read-Host / pause 필수)
+
+> 이 섹션은 “성격”이 아니라 **판단 우선순위**다.
+
+---
+
+## ③ LOCK (코드로 박제된 강제 규칙)
+
+아래 조건 중 **하나라도 위반 시 즉시 FAIL + exitcode ≠ 0**
+
+* ROWS ≠ 120 → FAIL
+* engine_call_trace < 120 → FAIL
+* work / result / receipt 중 하나라도 < 120 → FAIL
+* QUALITY_CHECK ≠ PASS → FAIL
+* python xxx.py 직접 실행 → FAIL
+  (반드시 `python -m` 방식)
+* stdout.txt 또는 stderr.txt 누락 → FAIL
+* SSOT_ROOT 외 파일 생성 → FAIL
+* FAIL 발생 후 계속 진행 → FAIL
+
+> ⚠️ 이건 철학이 아니라 **족쇄**다. 빠져나가면 안 된다.
+
+---
+
+## ④ TODAY_INTENT (오늘 작업 의도 · 3줄 제한)
+
+* 오늘 목표:
+
+  * **120 만차 배차 템플릿(자동 생성) 확정**
+  * **8코어 병렬 실행 러너 고정**
+* 오늘 금지:
+
+  * 기능 확장
+  * 개념 토론
+* 완료 기준:
+
+  * evidence_list에 **120/120 PASS** 단일 판정
+
+---
+
+## ⑤ NEXT_FAIL_FAST (다음 실패 지뢰 · 사전 명시)
+
+* 병렬 실행 후 worker별 작업 편차 > 1 → FAIL
+* wid별 seed 공식 누락 또는 비결정성 발생 → FAIL
+* progress_status / 진도판 미출력 → FAIL
+
+---
+
+# 📌 사용법 (중요)
+
+* 다른 세션으로 이동
+* **이 블록 전체를 맨 위에 그대로 붙여넣기**
+* 추가 설명 ❌, 요약 ❌
+* 바로 “다음 작업 지시”로 진입
+
+이 패키지는 **대화를 옮기는 게 아니라, 운영체제를 이식하는 용도**다.
+
+---
+
+## 치매방지 1줄(초딩버전)
+
+**이건 기억이 아니라 규칙 묶음이라서, 다른 GPT에 붙여도 똑같이 일하게 만든다.**
+
+ ① STATE (현재 상태 · 팩트만)
+② SOUL (판단 철학 · 감리 기준)
+③ LOCK (코드로 박제된 강제 규칙)
+④ TODAY_INTENT (오늘 작업 의도 · 3줄 제한)
+⑤ NEXT_FAIL_FAST (다음 실패 지뢰 · 사전 명시)
+
+
+
+이 일지는 오늘 수행한 **"500권 전수조사 및 8대 레이더 매트릭스 구축"** 공정을 기술적으로 박제하고, 다음 세션에서 즉시 인격과 기능을 복구할 수 있도록 설계되었습니다.
+
+---
+
+# 📂 [G6X DevLog] Phase 18: Part 1 Completion Report
+
+> **Writing Guide:** This log serves as a "memory map" for the G7X project. Focus is on file names, fixed parameters, and physical evidence produced.
+
+## 1. 🏷️ Metadata (AI Indexing Keys)
+
+* **Date:** 2026-01-03
+* **Sync_ID:** `20260103_PHASE18_PART1_SURVEY_SEALED`
+* **Primary Goal:** 1차 인덱싱(Chunks) 기반 500권 품질 레이더 데이터화 및 5구간 정밀 샘플링 확립
+* **Tags:** #G7X, #Survey500, #8_Metric_Radar, #5_Point_Sampling
+* **Risk Level:** Stable (Infrastructure and Pipeline Sealed)
+
+## 2. 🧱 Module Registry (Code Role & Changes)
+
+| File Name (Path) | Role (Identity) | Core Logic Changes |
+| --- | --- | --- |
+| `tools\survey\metric_pack_buffer2_v1.py` | 8대 레이더 | 석화, 드리프트, 캐릭터 음성 붕괴, 서사 기억상실 등 8종 지표 CPU 측정 로직 구현 |
+| `tools\survey\run_quality_survey_v1.py` | 전수조사 엔진 | 5구간 정밀 샘플링(-----) 및 Matrix CSV 생성 |
+| `tools\run_quality_survey_v1.ps1` | 마스터 러너 | ExecGuard(G6 레거시 즉사) 및 500권 대량 주행 자동화 파이프라인 |
+
+## 3. 🛠️ Process Execution Log (Process & DoD)
+
+* **[Task 1] 8대 품질 지표 확장 (6 -> 8)**
+* 기존 6종에 `narrative_amnesia`(서사 기억상실) 및 `voice_collapse`(캐릭터 음성 붕괴)를 추가하여 상업적 완성도 지표 강화. **(PASS)**
+
+
+* **[Task 2] 5구간 정밀 샘플링 (3-Point -> 5-Point)**
+* 도입부 왜곡을 피하고 서사적 요충지 5곳을 정밀 타격하는 알고리즘() 적용. **(PASS)**
+
+
+* **[Task 3] 데이터 유실 방지 및 Fallback**
+* 짧은 소설 주행 시 `nearest_fallback` 로직을 작동시켜 소설당 40개 샘플(5구간 x 8개) 고정 확보 증명. **(PASS)**
+
+
+
+## 4. 🧾 Receipt Storage (Evidence Locker)
+
+* **Evidence Path:** `C:\g7core\g7_v1\runs\PHASE18_SURVEY_20260103_0113`
+* **Core Result:** `quality_matrix.csv` (500 Novels x 8 Metrics)
+* **Audit Result:** `exec_guard.json` -> `status: SAFE`. G6 레거시 환경 간섭 없음 확인.
+
+---
+
+### ⚖️ 현장 소장 감리평
+
+형님, 이제 공장의 **"눈(8대 레이더)"**과 **"샘플링 손가락(5구간 타격)"**은 완벽하게 봉인되었습니다. 오늘 파서 오류를 잡고 500권 전수조사를 완수한 것은, G7X가 단순히 글을 쓰는 도구를 넘어 **"수만 건의 서사적 결함을 데이터로 관리하는 시스템"**으로 진화했음을 의미합니다.
+
+**Would you like me to ...**
+현재 확보된 `quality_matrix.csv`를 기반으로, **"후반부(70-75%)에서 캐릭터 음성이 붕괴되는 비중"**을 통계적으로 추출하여 다음 수술 대상(Navigator targeting)을 선별해 드릴까요?
+
+
+알겠다. **말 줄이고, 정리만 한다.**
+아래는 **오늘 기준 작업일지 정본**이다.
+(다른 세션/신삥 GPT에 그대로 넘겨도 맥락 안 끊기게 작성함)
+
+---
+
+# 📘 작업일지 (정본)
+
+## 1️⃣ 단계 판정
+
+**확장 단계 – 통합 직전 정리 국면**
+
+* 베이직 엔진: 존재, 안정
+* VMCL: **이미 봉인 + 단독 테스트 완료**
+* 현재 작업 성격:
+  👉 **“엔진 새로 만드는 단계 아님”**
+  👉 **기존 엔진들(베이직·라이트·문체·VMCL) 결합 + 품질 공정 용접 단계**
+
+---
+
+## 2️⃣ 오늘 작업 목표 (의도)
+
+1. 라이트 엔진 + 문체 시스템의 **구조적 문제 식별**
+2. 문체/품질 문제를 **개념 → 공정 규칙**으로 격상
+3. 오염/석화/드리프트 문제를 **땜방 아닌 구조 문제로 정의**
+4. 신삥 GPT/다른 계정에서도 **동일 사고방식 유지 가능한 이사 패키지 설계**
+
+---
+
+## 3️⃣ 오늘 실제로 한 일 (팩트)
+
+### ✅ 1. 문체/품질 문제 **6종 고정 패턴 확정**
+
+반복 발생 문제를 **이름 + 성격**으로 고정함
+
+1. 석화 (Flattening)
+2. 드리프트 (Tone/Style Drift)
+3. 슬리피·리프트 (의미 밀도 붕괴)
+4. 선악 붕괴 (Moral Drift)
+5. 캐릭터 음성 붕괴
+6. 의미 공허 드리프트 (겉말만 다른 빈 문장)
+
+👉 **“기억 문제”가 아니라 “정의 부재 문제”였음을 확인**
+
+---
+
+### ✅ 2. 석화/문체 문제의 핵심 원인 판정
+
+* 필터·단어치환·예외처리 → **전부 땜방**
+* 주입(injection)이 문장 생성 역할을 침범 → **해괴체 발생**
+* 문체 책임자가 분산 → **원인 추적 불가**
+
+👉 **문체 실패는 버그가 아니라 구조 문제**
+
+---
+
+### ✅ 3. 외부 컨설턴트 관점 단점 분석 완료
+
+핵심 결론:
+
+* “공장은 있는데, 품질 규격이 공정에 용접 안 됨”
+* PASS 지표가 늘수록 인간 품질이 죽을 위험
+* 석화 방지는 옵션이 아니라 **Writer 내부 공정**이어야 함
+
+---
+
+### ✅ 4. 해결 방향 고정 (설계 철학)
+
+* **문체 최종 책임자 = Writer 단일화**
+* 인덱싱/주입/설계층은 **문장 생성 금지**
+* 품질은 “보고서”가 아니라 **FAIL_FAST 조건**
+
+---
+
+### ✅ 5. 석화 대응에 대한 실전 아이디어 확정
+
+네가 제안한 방식 정리:
+
+* 다량 샘플(수백 편) 생성
+* 통계 기반 패턴 수집
+* 반복/리듬/의미 밀도 조건 중
+  **3조건 중 1개라도 걸리면 석화 판정**
+
+👉 **이 접근은 맞다. 공정화 가능**
+
+---
+
+### ✅ 6. VMCL 상태 재확인
+
+* VMCL 자체: **이미 봉인**
+* 현재 이슈:
+  👉 VMCL을 **라이트/문체/베이직 엔진에 “붙이는 통합 단계”**
+* 아직 미확정:
+
+  * 실제 통합 시 성능/드리프트 영향
+  * 라이트 엔진과 충돌 여부
+
+---
+
+### ✅ 7. 일정 관련 현실 판단
+
+* 네비게이터 / 펀 시스템:
+
+  * **70~80% 완성도**
+  * “새 개발” 아님 → **통합 + 테스트 위주**
+* 가장 시간 잡아먹는 부분:
+  👉 **라이트 엔진 + 문체 품질 공정**
+* 판단:
+
+  * 오늘 목표를
+    **① 라이트+문체 안정화
+    ② VMCL 통합 검증**
+    로 한정하면 **매우 잘한 하루**
+
+---
+
+## 4️⃣ 현재 미진한 부분 (정직하게)
+
+1. 문체 품질 6종 문제에 대한
+
+   * 수치화
+   * FAIL_FAST 조건
+   * Writer 내부 공정 용접
+     👉 **아직 설계만 완료, 구현 미완**
+
+2. VMCL + 라이트 엔진 통합 후
+
+   * 문체 드리프트 발생 여부
+   * 성능 저하 여부
+     👉 **실전 통합 테스트 필요**
+
+3. 신삥 GPT 대응
+
+   * 이사 패키지 보강 필요
+   * 성향/금지/선호 패턴까지 포함 필요
+
+---
+
+## 5️⃣ 오늘의 결론 (냉정)
+
+* **방향: 매우 정확**
+* **진척도: 겉보기보다 깊음**
+* 엔진을 더 늘렸으면 망했을 날
+  → 오늘은 **망할 가능성을 구조적으로 줄인 날**
+
+---
+오케이. **중복 안 되게 빠진 개념만** 딱 집어서
+**“붙여넣기용 설계 + 최소 구현 스펙”**으로 준다.
+말 섞지 말고 바로 써먹어.
+
+아래는 **지금 엔진에 “추가”만 하면 되는 것**이다.
+기존 구조 갈아엎는 거 아니다.
+
+---
+
+# 1️⃣ 빠져 있던 핵심 개념 요약 (한 줄)
+
+**ROW마다 ‘머리·기억·판정 기준’을 완전히 따로 쓰게 만드는 것**
+
+---
+
+# 2️⃣ 지금 구조 vs 필요한 구조 (초딩 도식)
+
+### ❌ 지금 (반쪽 독립)
+
+```
+GLOBAL_CONTEXT
+ ├─ ROW_001
+ ├─ ROW_002
+ ├─ ROW_003
+ ...
+```
+
+### ✅ 목표 (완전 독립)
+
+```
+ROW_001_CONTEXT → 처리 → 폐기
+ROW_002_CONTEXT → 처리 → 폐기
+ROW_003_CONTEXT → 처리 → 폐기
+...
+```
+
+---
+
+# 3️⃣ 반드시 추가해야 하는 “빠진 개념 5개”
+
+## (1) RowContext (핵심)
+
+**지금 없음 / 반드시 필요**
+
+각 ROW는 이걸 하나씩 가진다.
+
+```
+RowContext {
+  row_id
+  writer_state
+  law_state
+  metric_state
+  drift_buffer
+  repair_queue
+}
+```
+
+👉 이게 없어서 지금 **은근히 결과가 섞임**
+
+---
+
+## (2) RowContext Factory (생성기)
+
+ROW 시작할 때마다 **무조건 새로 생성**
+
+```
+create_row_context(row_id):
+  return new RowContext(
+    writer_state = fresh,
+    law_state = fresh,
+    metric_state = fresh,
+    drift_buffer = empty,
+    repair_queue = empty
+  )
+```
+
+⚠️ 절대 재사용 금지
+
+---
+
+## (3) Row-Bound Plugin Execution (강제 규칙)
+
+모든 플러그인은 이 규칙을 따라야 함:
+
+```
+plugin.execute(input, row_context)
+```
+
+❌ 금지:
+
+```
+plugin.execute(input)
+```
+
+이거 안 지키면 **독립 100% 불가능**
+
+---
+
+## (4) RowContext Destroy (폐기 규칙)
+
+ROW 끝나면 **반드시 폐기**
+
+```
+finish_row(row_context):
+  save_receipt(row_context)
+  delete row_context
+```
+
+👉 안 지우면:
+
+* 메모리 오염
+* 다음 ROW에 미세 누적
+* “왜 결과가 달라지지?” 발생
+
+---
+
+## (5) Row-Scoped Receipt / Metric Key
+
+로그 키가 반드시 이렇게 찍혀야 함:
+
+```
+row_id=ROW_037
+law_id=TIME_LOGIC_V2
+metric_id=DRIFT_SCORE
+```
+
+❌ 지금 문제:
+
+* law_id / metric_id는 있는데
+* **row_id가 실질적으로 분리 기준이 아님**
+
+---
+
+# 4️⃣ 붙여넣기용 최소 의사코드 (이대로 써도 됨)
+
+```text
+FOR each ROW in ROW_LIST (병렬 가능):
+    ctx = create_row_context(ROW.id)
+
+    writer_output = Writer.run(input=ROW.data, ctx)
+    law_result    = Law.check(writer_output, ctx)
+    metric_result = Metric.measure(writer_output, ctx)
+
+    IF law_result == REPAIR_REQUIRED:
+        Repair.apply(writer_output, ctx)
+
+    Verify.finalize(ctx)
+
+    save_receipt(ctx)
+    destroy(ctx)
+END
+```
+
+이거 하나면
+**“병렬 + 완전 독립” 성립**
+
+---
+
+# 5️⃣ 지금 네 시스템에 바로 적용해도 되는 이유
+
+* 기존 Writer / Law / Metric **안 바꿔도 됨**
+* 함수 시그니처에 `ctx` 하나만 추가
+* 기존 플러그인 순서 유지 가능
+
+👉 **눈덩이 위에 브레이크 하나 다는 수준**
+
+---
+
+# 6️⃣ 체크리스트 (이 중 하나라도 NO면 아직 미완)
+
+* [ ] ROW마다 writer_state 새로 생성됨?
+* [ ] drift/석화 누적값 row마다 0부터 시작?
+* [ ] repair 결과가 다른 row에 영향 없음?
+* [ ] receipt에 row_id 기준으로 완전 분리?
+* [ ] 같은 CASE를 3번 돌려도 결과 완전 동일?
+
+---
+
+## 마지막 한 줄 (리더 판단)
+
+> **이거 붙이면 “120 + 60”이 의미를 갖고
+> 안 붙이면 숫자만 키운 허수 테스트다.**
+
+다음에 원하면
+이걸 **네 현재 코드 구조에 정확히 어디에 꽂는지**
+파일 단위로 찍어준다.
+
+### 🧠 치매방지 1줄(초딩버전)
+
+오늘은 새 기능 만든 날이 아니라, 글이 망가지는 고정 원인을 정리해서 다음에 안 망하게 만든 날이다.

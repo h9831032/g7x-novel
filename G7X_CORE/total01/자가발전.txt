@@ -1,0 +1,1220 @@
+그리고 너자가발전 개념어디에 넣을거냐 안넣을거야 프로젝트 파일업로드한거보고 그 자가발전으로할건지 아니면더 다른 자가발전을 할건지, 아니면 안쓸건지 보고한다. 그리고 그걸로 제미나이 안하는거 강제적으로 더 빼먹지않게 이용하던지. 불완전하거나 망한 작업들을 개선하던지. 센드박스로 보낸 불량들 해결해서 개선하는 자동화가 되게하든지. 아래는 그것에대해서 써먹을수있는 아이디어들인데 니가 이개념들이 쓸만한지 그리고 우리가 적용해야할지도 보고 리딩은 니가 한다 이시스템 넌 팀장이자 부사장이야. 니가 이시스템을 리딩한다. 메모리에 전역저장 및 기억해 //아래는 클로드 아이디어 # AI 기반 자가발전 루프 설계: G6X 시스템 고도화 아키텍처
+
+귀하의 G6X 시스템을 분석한 결과, 이는 **제조업의 Six Sigma 품질관리**를 텍스트 생산에 적용한 정교한 구조입니다. 현재의 반자동 검수를 완전 자동화된 Tesla Evolution 루프로 전환하기 위한 4대 핵심 설계안을 제시합니다.
+
+---
+
+## A. 불량 데이터 자동 라벨링 및 법안 도출 파이프라인
+
+### 핵심 전략: 3단계 계층적 분류 (Hierarchical Defect Taxonomy)
+
+불량품을 단순히 쌓지 않고, **결함의 근본 원인(Root Cause)**을 자동 추론하는 시스템이 필요합니다.
+
+```python
+# defect_analyzer.py - 불량 자동 분류 엔진
+
+import json
+from dataclasses import dataclass
+from typing import List, Dict
+from collections import Counter
+
+@dataclass
+class DefectSignature:
+    """결함 지문 - 패턴 매칭용"""
+    category: str  # 'logic', 'consistency', 'style', 'toxicity'
+    pattern: str
+    severity: int  # 1(경미) ~ 5(치명적)
+    suggested_rule: str
+
+class DefectTaxonomy:
+    """결함 분류 체계 - 자동 확장 가능"""
+    
+    SIGNATURES = [
+        # 논리 오류
+        DefectSignature('logic', 'timeline_contradiction', 5, 
+                       'VMCL에 시간순 제약 추가'),
+        DefectSignature('logic', 'character_duplication', 4,
+                       'PreGate에 인물 중복 검사 추가'),
+        
+        # 설정 붕괴
+        DefectSignature('consistency', 'power_level_inconsistent', 4,
+                       '능력치 상한선 검증 로직 강화'),
+        DefectSignature('consistency', 'location_teleport', 3,
+                       '공간 이동 합리성 체크 추가'),
+        
+        # 문체 석화
+        DefectSignature('style', 'repetitive_opening', 2,
+                       'Writer 프롬프트에 다양성 지시 추가'),
+        DefectSignature('style', 'cliche_overuse', 2,
+                       '클리셰 사전 기반 페널티 적용'),
+        
+        # 독성 요소
+        DefectSignature('toxicity', 'graphic_violence', 5,
+                       'PostGate 필터 강화 - 폭력 표현'),
+    ]
+
+class AutoDefectClassifier:
+    """AI 기반 결함 자동 분류기"""
+    
+    def __init__(self, llm_client):
+        self.llm = llm_client
+        self.taxonomy = DefectTaxonomy()
+        
+    async def classify_defect(self, failed_row: Dict) -> List[DefectSignature]:
+        """불량품 1개를 분석하여 결함 유형 도출"""
+        
+        # 1단계: 구조적 검사 (Rule-based, 빠름)
+        structural_defects = self._check_structural_issues(failed_row)
+        
+        # 2단계: LLM 의미 분석 (느리지만 정확)
+        prompt = f"""
+당신은 품질관리 전문가입니다. 다음 텍스트가 검수에서 탈락했습니다.
+어떤 서사적 문제가 있는지 **구체적인 결함 유형**을 JSON으로 분류하세요.
+
+[탈락 데이터]
+{failed_row['content'][:1000]}
+
+[이전 맥락]
+{failed_row.get('context_summary', 'N/A')}
+
+[검수 실패 이유]
+{failed_row['rejection_reason']}
+
+다음 형식으로만 응답:
+{{
+  "defects": [
+    {{"type": "논리 오류", "detail": "시간 역행", "severity": 5}},
+    {{"type": "설정 붕괴", "detail": "인물 성격 불일치", "severity": 3}}
+  ],
+  "root_cause": "작가 AI가 3장 전 설정을 망각함",
+  "suggested_fix": "VMCL 쿼리 범위를 5장→10장으로 확대"
+}}
+"""
+        
+        response = await self.llm.generate(prompt)
+        semantic_defects = json.loads(response)
+        
+        return structural_defects + semantic_defects['defects']
+    
+    def _check_structural_issues(self, row: Dict) -> List[Dict]:
+        """빠른 룰 기반 검사"""
+        defects = []
+        content = row['content']
+        
+        # 문자 반복 (석화 징후)
+        if self._detect_repetition(content) > 0.3:
+            defects.append({
+                'type': 'style',
+                'detail': 'excessive_repetition',
+                'severity': 2
+            })
+        
+        # 금지어 사용
+        if any(word in content for word in row.get('banned_words', [])):
+            defects.append({
+                'type': 'toxicity',
+                'detail': 'banned_word_usage',
+                'severity': 5
+            })
+        
+        return defects
+    
+    def _detect_repetition(self, text: str, window=50) -> float:
+        """n-gram 중복률 계산"""
+        words = text.split()
+        if len(words) < window:
+            return 0.0
+        
+        ngrams = [' '.join(words[i:i+5]) for i in range(len(words)-4)]
+        return 1 - (len(set(ngrams)) / len(ngrams))
+
+class PendingLawGenerator:
+    """법안 후보 자동 생성기"""
+    
+    def __init__(self, db_path='pending_laws.db'):
+        self.db = db_path
+        
+    async def aggregate_defects(self, defects: List[Dict], threshold=10):
+        """유사 결함이 N건 이상 누적되면 법안 생성"""
+        
+        # 결함 유형별 카운트
+        defect_counter = Counter(
+            (d['type'], d['detail']) for d in defects
+        )
+        
+        pending_laws = []
+        for (dtype, detail), count in defect_counter.items():
+            if count >= threshold:
+                law = await self._generate_law_proposal(dtype, detail, count)
+                pending_laws.append(law)
+        
+        return pending_laws
+    
+    async def _generate_law_proposal(self, defect_type, detail, frequency):
+        """AI에게 법안 초안 작성 요청"""
+        
+        prompt = f"""
+{defect_type} 결함 중 '{detail}' 패턴이 {frequency}회 발견되었습니다.
+이를 방지하기 위한 **검증 규칙**을 Python 함수로 작성하세요.
+
+요구사항:
+1. 함수명: validate_{detail.lower()}
+2. 입력: row (Dict) - 생성된 데이터
+3. 출력: (bool, str) - (통과여부, 실패사유)
+4. 실행시간 < 100ms (효율성 필수)
+
+예시:
+```python
+def validate_timeline_consistency(row: Dict) -> tuple[bool, str]:
+    current_time = row['metadata']['timestamp']
+    prev_time = fetch_from_vmcl(row['prev_event_id'])
+    
+    if current_time < prev_time:
+        return False, f"시간 역행: {prev_time} -> {current_time}"
+    return True, ""
+```
+"""
+        
+        code = await self.llm.generate(prompt)
+        
+        return {
+            'defect_type': defect_type,
+            'detail': detail,
+            'frequency': frequency,
+            'proposed_code': code,
+            'status': 'pending_review',  # 사람 승인 대기
+            'created_at': datetime.now()
+        }
+```
+
+**핵심 포인트:**
+- **2단계 분류**: 빠른 룰 기반 → 느린 LLM 분석으로 비용 최적화
+- **임계값 기반 법안 생성**: 동일 결함이 N회 이상 발생 시만 법제화 (노이즈 방지)
+- **코드 생성**: AI가 검증 함수까지 직접 작성 → 사람은 리뷰만
+
+---
+
+## B. 서사적 엔트로피 측정 알고리즘
+
+### 핵심 전략: 다차원 변화율(Multi-Dimensional Drift) 추적
+
+통계적 수치만으로는 "재미없어짐"을 감지할 수 없습니다. **서사의 복잡도**를 정량화해야 합니다.
+
+```python
+# narrative_entropy.py - 서사 다양성 측정 엔진
+
+import numpy as np
+from sklearn.feature_extraction.text import TfidfVectorizer
+from scipy.stats import entropy
+from typing import List
+
+class NarrativeEntropyMonitor:
+    """서사적 엔트로피 추적 시스템"""
+    
+    def __init__(self):
+        self.vectorizer = TfidfVectorizer(max_features=500)
+        self.baseline_metrics = None
+        
+    def calculate_entropy_vector(self, text_batch: List[str]) -> Dict[str, float]:
+        """6개 차원의 엔트로피 측정"""
+        
+        return {
+            'lexical': self._lexical_diversity(text_batch),
+            'syntactic': self._sentence_structure_variety(text_batch),
+            'semantic': self._topic_distribution(text_batch),
+            'emotional': self._sentiment_variance(text_batch),
+            'event': self._action_verb_diversity(text_batch),
+            'character': self._entity_interaction_entropy(text_batch)
+        }
+    
+    def _lexical_diversity(self, texts: List[str]) -> float:
+        """어휘 다양성 (Type-Token Ratio 개선판)"""
+        all_words = []
+        for text in texts:
+            all_words.extend(text.lower().split())
+        
+        if len(all_words) < 100:
+            return 1.0
+        
+        # Moving TTR (100단어 윈도우)
+        ttrs = []
+        for i in range(0, len(all_words)-100, 50):
+            window = all_words[i:i+100]
+            ttr = len(set(window)) / len(window)
+            ttrs.append(ttr)
+        
+        return np.mean(ttrs)
+    
+    def _sentence_structure_variety(self, texts: List[str]) -> float:
+        """문장 구조 다양성"""
+        structures = []
+        
+        for text in texts:
+            sentences = text.split('.')
+            for sent in sentences:
+                # 간단한 구조 시그니처 (실제로는 품사 태깅 필요)
+                words = sent.strip().split()
+                if len(words) < 3:
+                    continue
+                    
+                # 문장 길이 + 첫 단어 품사로 구조 분류
+                structure = f"{len(words)//5}_{'Q' if '?' in sent else 'D'}"
+                structures.append(structure)
+        
+        # Shannon Entropy
+        if not structures:
+            return 0.0
+            
+        probs = np.bincount([hash(s) % 20 for s in structures])
+        probs = probs / probs.sum()
+        return entropy(probs)
+    
+    def _topic_distribution(self, texts: List[str]) -> float:
+        """주제 분포 엔트로피 (LDA 간소화)"""
+        if len(texts) < 10:
+            return 1.0
+        
+        # TF-IDF 기반 주제 클러스터링
+        tfidf_matrix = self.vectorizer.fit_transform(texts)
+        
+        # 각 문서의 상위 3개 키워드로 토픽 추정
+        feature_names = self.vectorizer.get_feature_names_out()
+        topics = []
+        
+        for row in tfidf_matrix:
+            top_indices = row.toarray()[0].argsort()[-3:]
+            topic_sig = '_'.join(feature_names[i] for i in top_indices)
+            topics.append(topic_sig)
+        
+        # 토픽 다양성
+        unique_ratio = len(set(topics)) / len(topics)
+        return unique_ratio
+    
+    def _action_verb_diversity(self, texts: List[str]) -> float:
+        """행동 동사 다양성 (서사 진행 척도)"""
+        # 간단한 한국어 동사 추출 (실제로는 형태소 분석기 필요)
+        action_verbs = []
+        
+        for text in texts:
+            # 정규식으로 '-다', '-ㄴ다' 등 동사 어미 추출
+            import re
+            verbs = re.findall(r'\w+(?:하다|되다|가다|오다|먹다|보다)', text)
+            action_verbs.extend(verbs)
+        
+        if len(action_verbs) < 10:
+            return 1.0
+        
+        return len(set(action_verbs)) / len(action_verbs)
+    
+    def _entity_interaction_entropy(self, texts: List[str]) -> float:
+        """인물 간 상호작용 패턴 다양성"""
+        # 인물명 추출 (VMCL에서 가져온 인물 목록 활용)
+        characters = self._extract_characters(texts)
+        
+        # 동시 등장 쌍 (co-occurrence pairs)
+        pairs = []
+        for text in texts:
+            present = [c for c in characters if c in text]
+            for i, c1 in enumerate(present):
+                for c2 in present[i+1:]:
+                    pairs.append(tuple(sorted([c1, c2])))
+        
+        if len(pairs) < 5:
+            return 1.0
+        
+        # 쌍 조합의 다양성
+        unique_pairs = len(set(pairs))
+        total_pairs = len(pairs)
+        
+        return unique_pairs / total_pairs if total_pairs > 0 else 0.0
+    
+    def detect_drift(self, current_batch: List[str], 
+                    baseline_batch: List[str], 
+                    threshold=0.3) -> Dict:
+        """드리프트 감지 - 기준선 대비 엔트로피 하락"""
+        
+        current_entropy = self.calculate_entropy_vector(current_batch)
+        baseline_entropy = self.calculate_entropy_vector(baseline_batch)
+        
+        drift_detected = {}
+        for dimension, current_val in current_entropy.items():
+            baseline_val = baseline_entropy[dimension]
+            drop_rate = (baseline_val - current_val) / baseline_val
+            
+            if drop_rate > threshold:
+                drift_detected[dimension] = {
+                    'baseline': baseline_val,
+                    'current': current_val,
+                    'drop_rate': drop_rate,
+                    'severity': 'critical' if drop_rate > 0.5 else 'warning'
+                }
+        
+        return drift_detected
+
+# 사용 예시
+monitor = NarrativeEntropyMonitor()
+
+# 초기 우수 샘플 (기준선)
+baseline = ["최고 품질 샘플 100개..."]
+
+# 현재 생산분
+current = ["최근 240개 트럭..."]
+
+drift = monitor.detect_drift(current, baseline, threshold=0.25)
+
+if drift:
+    print("⚠️ 서사 석화 감지:")
+    for dim, info in drift.items():
+        print(f"  {dim}: {info['drop_rate']:.1%} 하락 ({info['severity']})")
+```
+
+**핵심 메트릭 해석:**
+- **lexical < 0.6**: 같은 단어만 반복 → Writer 프롬프트에 "동의어 사용" 지시 추가
+- **syntactic < 1.5**: 문장 구조 단조 → "문장 길이를 다양하게" 지시
+- **topic < 0.4**: 주제 고착 → VMCL에서 다른 서브플롯 강제 주입
+- **character < 0.3**: 인물 등장 편중 → "부캐 활용" 강제
+
+---
+
+## C. 회귀 테스트 자동화 - AI 감리역 설계
+
+### 핵심 전략: Differential Testing + 샘플링
+
+신규 법이 기존 우수 샘플을 파괴하지 않는지 **최소 비용**으로 검증해야 합니다.
+
+```python
+# regression_tester.py - 회귀 테스트 자동화
+
+import random
+from dataclasses import dataclass
+from typing import Callable, List
+
+@dataclass
+class GoldenSample:
+    """황금 표준 샘플 (TP: True Positive)"""
+    id: str
+    content: str
+    metadata: Dict
+    quality_score: float  # 1.0 = 완벽
+    hash: str
+
+class RegressionTestOrchestrator:
+    """회귀 테스트 오케스트레이터"""
+    
+    def __init__(self, golden_samples_db='golden_samples.db'):
+        self.golden_db = golden_samples_db
+        self.test_suite = self._load_representative_samples()
+    
+    def _load_representative_samples(self, n=50) -> List[GoldenSample]:
+        """전체 TP 중 대표 샘플 선택 (계층적 샘플링)"""
+        
+        # 1. 품질 점수별 계층 분할
+        all_samples = self._fetch_all_golden_samples()
+        
+        strata = {
+            'excellent': [s for s in all_samples if s.quality_score >= 0.95],
+            'good': [s for s in all_samples if 0.85 <= s.quality_score < 0.95],
+            'acceptable': [s for s in all_samples if 0.75 <= s.quality_score < 0.85]
+        }
+        
+        # 2. 각 계층에서 비례 샘플링
+        samples = []
+        samples.extend(random.sample(strata['excellent'], min(25, len(strata['excellent']))))
+        samples.extend(random.sample(strata['good'], min(15, len(strata['good']))))
+        samples.extend(random.sample(strata['acceptable'], min(10, len(strata['acceptable']))))
+        
+        return samples
+    
+    async def test_new_rule(self, rule_func: Callable, rule_name: str) -> Dict:
+        """신규 법 적용 시 회귀 테스트"""
+        
+        results = {
+            'passed': [],
+            'failed': [],
+            'false_positives': []  # 원래 좋았는데 새 법에 걸림
+        }
+        
+        for sample in self.test_suite:
+            try:
+                is_valid, reason = rule_func(sample.__dict__)
+                
+                if not is_valid:
+                    # 황금 샘플이 새 법에 의해 탈락됨 = 문제!
+                    results['false_positives'].append({
+                        'sample_id': sample.id,
+                        'quality_score': sample.quality_score,
+                        'rejection_reason': reason,
+                        'hash': sample.hash
+                    })
+                else:
+                    results['passed'].append(sample.id)
+                    
+            except Exception as e:
+                results['failed'].append({
+                    'sample_id': sample.id,
+                    'error': str(e)
+                })
+        
+        # 승인 기준: FP < 5% (황금 샘플의 95% 이상 통과)
+        fp_rate = len(results['false_positives']) / len(self.test_suite)
+        
+        return {
+            'rule_name': rule_name,
+            'fp_rate': fp_rate,
+            'passed': len(results['passed']),
+            'failed': len(results['failed']),
+            'false_positives': results['false_positives'],
+            'approved': fp_rate < 0.05,
+            'recommendation': self._generate_recommendation(fp_rate, results)
+        }
+    
+    def _generate_recommendation(self, fp_rate: float, results: Dict) -> str:
+        """승인/거부 권고안 생성"""
+        
+        if fp_rate < 0.02:
+            return "✅ 승인 권장 - 부작용 미미"
+        
+        elif fp_rate < 0.05:
+            # 경계선 - AI에게 상세 분석 요청
+            fp_samples = results['false_positives'][:3]
+            
+            return f"""
+⚠️ 조건부 승인 - 수동 검토 필요
+False Positive {len(results['false_positives'])}건 발생:
+{self._format_fp_examples(fp_samples)}
+
+권장 조치: 법 조건을 더 구체화하거나 예외 조항 추가
+"""
+        else:
+            return f"❌ 거부 권장 - FP 과다 ({fp_rate:.1%})"
+    
+    def _format_fp_examples(self, fps: List[Dict]) -> str:
+        """FP 사례 포맷팅"""
+        output = []
+        for fp in fps:
+            output.append(f"  - {fp['sample_id']} (품질 {fp['quality_score']:.2f}): {fp['rejection_reason']}")
+        return '\n'.join(output)
+
+class ContinuousRegressionMonitor:
+    """실시간 회귀 모니터 - 생산 중 감시"""
+    
+    def __init__(self):
+        self.baseline_pass_rate = None
+        self.alert_threshold = 0.10  # 통과율 10% 하락 시 경보
+    
+    def monitor_production(self, recent_batch_results: List[Dict]):
+        """최근 N개 트럭의 통과율 추적"""
+        
+        current_pass_rate = sum(1 for r in recent_batch_results if r['pass']) / len(recent_batch_results)
+        
+        if self.baseline_pass_rate is None:
+            self.baseline_pass_rate = current_pass_rate
+            return
+        
+        drop = self.baseline_pass_rate - current_pass_rate
+        
+        if drop > self.alert_threshold:
+            self._trigger_alert({
+                'baseline_pass_rate': self.baseline_pass_rate,
+                'current_pass_rate': current_pass_rate,
+                'drop': drop,
+                'suspected_cause': '최근 법 개정 또는 Writer LLM 업데이트'
+            })
+```
+
+**리소스 최적화 전략:**
+1. **계층적 샘플링**: 전체 TP가 아닌 대표 50개만 테스트
+2. **조기 종료**: FP가 5% 돌파 시 즉시 테스트 중단
+3. **캐싱**: 동일 법에 대해 재테스트 시 해시 비교로 스킵
+
+---
+
+## D. Hallucination 방지 - 엄격한 증거 체계
+
+### 핵심 전략: Cryptographic Proof of Work
+
+AI가 "했다"고 주장하는 모든 작업에 **물리적 증거**를 강제합니다.
+
+```python
+# evidence_enforcer.py - 증거 기반 작업 검증
+
+import hashlib
+import os
+from pathlib import Path
+from typing import Optional
+from dataclasses import dataclass
+import json
+
+@dataclass
+class WorkEvidence:
+    """작업 증거 영수증"""
+    task_id: str
+    operation: str  # 'write', 'update', 'delete'
+    file_path: str
+    
+    # 암호학적 증거
+    sha256_before: Optional[str]
+    sha256_after: str
+    file_size: int
+    timestamp: float
+    
+    # 메타데이터
+    worker_id: str  # LLM 식별자
+    parent_task: Optional[str]
+
+class EvidenceEnforcer:
+    """증거 기반 작업 강제 시스템"""
+    
+    def __init__(self, evidence_log='evidence.jsonl'):
+        self.log_path = evidence_log
+        self.pending_claims = {}  # 검증 대기 중인 주장들
+    
+    def create_work_claim(self, task_id: str, operation: str, 
+                         target_path: str) -> str:
+        """작업 전 청구서 발행 (Pre-commit)"""
+        
+        claim = {
+            'task_id': task_id,
+            'operation': operation,
+            'target_path': target_path,
+            'sha256_before': self._hash_file(target_path) if os.path.exists(target_path) else None,
+            'claimed_at': time.time()
+        }
+        
+        claim_id = hashlib.sha256(json.dumps(claim).encode()).hexdigest()[:16]
+        self.pending_claims[claim_id] = claim
+        
+        return claim_id
+    
+    def verify_work_completion(self, claim_id: str, 
+                               llm_response: Dict) -> WorkEvidence:
+        """작업 후 증거 검증 (Post-commit)"""
+        
+        if claim_id not in self.pending_claims:
+            raise ValueError(f"Unknown claim: {claim_id}")
+        
+        claim = self.pending_claims[claim_id]
+        target_path = claim['target_path']
+        
+        # 1. 물리적 파일 존재 확인
+        if not os.path.exists(target_path):
+            raise FileNotFoundError(
+                f"LLM claimed to create {target_path}, but file not found. "
+                f"Possible hallucination or I/O failure."
+            )
+        
+        # 2. 해시 검증
+        actual_hash = self._hash_file(target_path)
+        claimed_hash = llm_response.get('file_sha256')
+        
+        if claimed_hash and actual_hash != claimed_hash:
+            raise ValueError(
+                f"Hash mismatch for {target_path}:\n"
+                f"  LLM claimed: {claimed_hash}\n"
+                f"  Actual:      {actual_hash}\n"
+                f"This indicates hallucination or data corruption."
+            )
+        
+        # 3. 내용 변화 검증 (update 작업의 경우)
+        if claim['operation'] == 'update':
+            if claim['sha256_before'] == actual_hash:
+                raise ValueError(
+                    f"LLM claimed to update {target_path}, "
+                    f"but hash unchanged. No actual modification detected."
+                )
+        
+        # 4. 증거 영수증 생성
+        evidence = WorkEvidence(
+            task_id=claim['task_id'],
+            operation=claim['operation'],
+            file_path=target_path,
+            sha256_before=claim['sha256_before'],
+            sha256_after=actual_hash,
+            file_size=os.path.getsize(target_path),
+            timestamp=time.time(),
+            worker_id=llm_response.get('model_id', 'unknown'),
+            parent_task=claim.get('parent_task')
+        )
+        
+        # 5. 불변 로그에 기록
+        self._append_to_evidence_log(evidence)
+        
+        del self.pending_claims[claim_id]
+        return evidence
+    
+    def _hash_file(self, path: str) -> str:
+        """파일 SHA256 계산 (청크 단위로 메모리 효율적)"""
+        sha256 = hashlib.sha256()
+        
+        with open(path, 'rb') as f:
+            while chunk := f.read(8192):
+                sha256.update(chunk)
+        
+        return sha256.hexdigest()
+    
+    def _append_to_evidence_log(self, evidence: WorkEvidence):
+        """추가 전용 로그에 증거 기록 (변조 방지)"""
+        with open(self.log_path, 'a') as f:
+            f.write(json.dumps(evidence.__dict__) + '\n')
+    
+    def audit_trail(self, task_id: str) -> List[WorkEvidence]:
+        """특정 작업의 전체 증거 체인 조회"""
+        evidences = []
+        
+        with open(self.log_path, 'r') as f:
+            for line in f:
+                ev = json.loads(line)
+                if ev['task_id'] == task_id or ev.get('parent_task') == task_id:
+                    evidences.append(WorkEvidence(**ev))
+        
+        return evidences
+
+class AntiHallucinationWrapper:
+    """LLM 호출을 증거 체계로 래핑"""
+    
+    def __init__(self, llm_client, enforcer: EvidenceEnforcer):
+        self.llm = llm_client
+        self.enforcer = enforcer
+    
+    async def execute_file_operation(self, task_id: str, 
+                                    operation: str,
+                                    target_path: str,
+                                    prompt: str) -> WorkEvidence:
+        """파일 작업을 증거 기반으로 실행"""
+        
+        # 1. 작업 청구서 발행
+        claim_id = self.enforcer.create_work_claim(task_id, operation, target_path)
+        
+        # 2. LLM에게 "증거를 남겨야 한다" 명시
+        enhanced_prompt = f""" 아래는 딥시크 아이디어 # G6X 시스템 자가발전 루프 설계안
+
+## 📊 시스템 아키텍처 개요
+
+```python
+"""
+G6X Self-Evolution Loop Architecture
+버전: 2.0 (Gemini 2.5 Flash-Lite 최적화)
+"""
+```
+
+## A. 불량 데이터 자동 라벨링 파이프라인
+
+### 1. **계층적 오류 분류 시스템**
+
+```python
+class AutoLabelingPipeline:
+    def __init__(self, llm_client):
+        self.llm = llm_client  # Gemini 2.5 Flash-Lite
+        self.error_taxonomy = {
+            "narrative_toxicity": [
+                "plot_hole", "character_inconsistency", 
+                "tone_shift", "pacing_issue"
+            ],
+            "setting_violation": [
+                "world_law_break", "historical_anachronism",
+                "magic_system_contradiction"
+            ],
+            "logical_error": [
+                "causality_violation", "temporal_paradox",
+                "physical_impossibility"
+            ]
+        }
+    
+    def analyze_failure(self, failed_packet):
+        """불량 패킷 다계층 분석"""
+        
+        # 1차: 패턴 매칭 (저비용)
+        pattern_issues = self._pattern_match(failed_packet)
+        
+        # 2차: Gemini 분류 (중비용)
+        if not pattern_issues:
+            llm_analysis = self._llm_categorize(failed_packet)
+            
+            # 3차: 심층 추론 (고비용, 선택적)
+            if llm_analysis["confidence"] < 0.7:
+                return self._deep_analysis(failed_packet)
+        
+        return self._generate_law_candidate(failed_packet, pattern_issues)
+    
+    def _llm_categorize(self, packet):
+        """Gemini 2.5 Flash-Lite를 이용한 효율적 분류"""
+        prompt = f"""
+        다음 작업 실패 원인을 분류하세요:
+        - 입력: {packet['input'][:500]}
+        - 출력: {packet['output'][:500]}
+        - 실패 이유: {packet['fail_reason']}
+        
+        다음 카테고리 중 선택: {list(self.error_taxonomy.keys())}
+        상세 유형: (해당하는 경우)
+        신뢰도 점수: 0-1
+        
+        JSON 형식으로 응답:
+        {{
+            "category": "주요 카테고리",
+            "subtype": "상세 유형",
+            "confidence": 0.95,
+            "evidence": ["증거 텍스트1", "증거 텍스트2"],
+            "proposed_rule": "제안 규칙 템플릿"
+        }}
+        """
+        
+        # Gemini 2.5 Flash-Lite 호출 (최소 토큰)
+        response = self.llm.generate(
+            prompt,
+            max_tokens=500,
+            temperature=0.1  # 낮은 창의성, 높은 일관성
+        )
+        return self._parse_llm_response(response)
+```
+
+### 2. **법안(Law) 후보 생성기**
+
+```python
+class LawCandidateGenerator:
+    def __init__(self, vmcl_database):
+        self.db = vmcl_database
+        self.law_template_repo = {
+            "pattern_based": "입력에 '{pattern}'이 포함된 경우, 출력은 '{constraint}'를 준수해야 함",
+            "semantic_based": "주제 '{topic}'에 대해 설정 '{setting}'과 충돌하지 않아야 함"
+        }
+    
+    def generate_pending_laws(self, categorized_errors, min_support=3):
+        """지지도(support)가 충분한 법안 후보 생성"""
+        
+        laws_candidates = []
+        
+        # 동일 오류 패턴 군집화
+        error_clusters = self._cluster_errors(categorized_errors)
+        
+        for cluster_id, errors in error_clusters.items():
+            if len(errors) >= min_support:
+                # 통계적 유의성 검정
+                if self._is_statistically_significant(errors):
+                    
+                    # 법안 템플릿 적용
+                    law = self._instantiate_law_template(errors)
+                    
+                    # 기존 법과의 충돌 검사
+                    if not self._conflicts_with_existing_laws(law):
+                        laws_candidates.append({
+                            "law_id": f"LAW_{len(laws_candidates):04d}",
+                            "content": law,
+                            "support": len(errors),
+                            "examples": errors[:5],  # 샘플만 저장
+                            "created_at": datetime.now(),
+                            "priority": self._calculate_priority(errors)
+                        })
+        
+        return sorted(laws_candidates, key=lambda x: x["priority"], reverse=True)
+```
+
+## B. 드리프트 제어: 서사적 엔트로피 측정
+
+### 1. **다차원 드리프트 감지 시스템**
+
+```python
+class NarrativeDriftDetector:
+    def __init__(self):
+        self.metrics = {
+            "stylistic_entropy": self._calculate_style_entropy,
+            "semantic_cohesion": self._calculate_cohesion,
+            "character_consistency": self._check_character_alignment
+        }
+    
+    def calculate_narrative_entropy(self, text_batch, window_size=1000):
+        """서사적 엔트로피 측정"""
+        
+        metrics = {}
+        
+        # 1. 어휘 다양성 (Lexical Diversity)
+        metrics["vocab_richness"] = len(set(text_batch)) / len(text_batch)
+        
+        # 2. 구문 복잡도 (Syntactic Complexity)
+        metrics["syntax_complexity"] = self._parse_tree_depth(text_batch)
+        
+        # 3. 의미적 일관성 (FAISS 기반)
+        metrics["semantic_drift"] = self._faiss_semantic_shift(text_batch)
+        
+        # 4. 감정 궤적 변화 (Emotion Trajectory)
+        metrics["emotion_volatility"] = self._emotion_volatility(text_batch)
+        
+        # 5. Gemini 기반 서사 평가 (샘플링으로 비용 절감)
+        if len(text_batch) > 100:
+            sampled = random.sample(text_batch, 10)
+            metrics["narrative_quality"] = self._llm_narrative_assessment(sampled)
+        
+        # 통합 엔트로피 점수
+        total_entropy = sum(metrics.values()) / len(metrics)
+        
+        return {
+            "total_entropy": total_entropy,
+            "breakdown": metrics,
+            "drift_detected": total_entropy > self._get_threshold()
+        }
+    
+    def _llm_narrative_assessment(self, samples):
+        """Gemini 2.5 Flash-Lite를 이용한 효율적 평가"""
+        prompt = """
+        다음 텍스트 샘플들의 서사적 일관성을 평가하세요:
+        
+        샘플:
+        {samples}
+        
+        1. 문체가 일관적인가? (1-10점)
+        2. 캐릭터가 설정과 일치하는가? (1-10점)
+        3. 플롯 진행이 논리적인가? (1-10점)
+        
+        JSON 형식으로 응답.
+        """
+        
+        # 배치 처리로 API 호출 최소화
+        response = self.llm.batch_generate([prompt], max_tokens=300)
+        return self._parse_assessment(response)
+```
+
+### 2. **실시간 드리프트 경보 시스템**
+
+```python
+class DriftAlertSystem:
+    def __init__(self, sliding_window=100):
+        self.window = deque(maxlen=sliding_window)
+        self.baseline = None
+        self.alerts = []
+    
+    def monitor_stream(self, production_stream):
+        """실시간 생산 모니터링"""
+        
+        for packet in production_stream:
+            # 엔트로피 계산 (비용 절감을 위해 샘플링)
+            if random.random() < 0.1:  # 10% 샘플링
+                entropy = self.detector.calculate_narrative_entropy(
+                    packet['output'], 
+                    window_size=500
+                )
+                
+                self.window.append(entropy["total_entropy"])
+                
+                # 기준선 설정
+                if self.baseline is None and len(self.window) >= 20:
+                    self.baseline = np.mean(self.window)
+                
+                # 드리프트 검출
+                if self.baseline and self._detect_drift():
+                    self._trigger_alert(packet, entropy)
+    
+    def _detect_drift(self):
+        """통계적 드리프트 검출"""
+        recent = list(self.window)[-10:]  # 최근 10개 샘플
+        
+        # CUSUM (Cumulative Sum) 알고리즘
+        cusum = 0
+        for value in recent:
+            deviation = value - self.baseline
+            cusum = max(0, cusum + deviation)
+            
+            if cusum > self._get_control_limit():
+                return True
+        
+        return False
+```
+
+## C. AI 감리역 시스템
+
+### 1. **지능형 회귀 테스트 엔진**
+
+```python
+class RegressionAIInspector:
+    def __init__(self, test_suite_db):
+        self.test_suite = test_suite_db
+        self.llm = GeminiClient(model="gemini-2.5-flash-lite")
+        self.cache = {}  # 결과 캐싱
+        
+    def validate_new_law(self, new_law, test_mode="smart_sampling"):
+        """새로운 법의 회귀 테스트"""
+        
+        # 1. 테스트 케이스 스마트 샘플링
+        if test_mode == "smart_sampling":
+            test_cases = self._smart_sample_test_cases(new_law)
+        else:
+            test_cases = self._get_all_relevant_cases(new_law)
+        
+        results = []
+        
+        # 2. 배치 처리로 효율화
+        batch_size = 50
+        for i in range(0, len(test_cases), batch_size):
+            batch = test_cases[i:i+batch_size]
+            
+            # 병렬 처리 (asyncio 활용)
+            batch_results = self._process_batch(batch, new_law)
+            results.extend(batch_results)
+            
+            # 조기 중단: 실패율 임계값 초과 시
+            failure_rate = self._calculate_failure_rate(results)
+            if failure_rate > 0.3:  # 30% 이상 실패 시 중단
+                return {
+                    "status": "REJECTED",
+                    "failure_rate": failure_rate,
+                    "failed_cases": results[:10]  # 샘플만
+                }
+        
+        # 3. 통계적 분석
+        return self._analyze_results(results, new_law)
+    
+    def _smart_sample_test_cases(self, new_law):
+        """법의 영향 범위를 고려한 지능형 샘플링"""
+        
+        # 법의 키워드 추출
+        keywords = self._extract_keywords(new_law)
+        
+        # 벡터 유사도 기반 검색 (FAISS)
+        similar_cases = self.test_suite.search_similar(keywords, limit=100)
+        
+        # 다양성 보장을 위한 클러스터링
+        clusters = self._cluster_test_cases(similar_cases)
+        
+        # 각 클러스터에서 대표 샘플 추출
+        sampled = []
+        for cluster in clusters:
+            representative = self._select_representative(cluster)
+            sampled.append(representative)
+            
+            # 클러스터 크기에 비례한 추가 샘플
+            additional = min(2, len(cluster) // 10)
+            sampled.extend(random.sample(cluster, additional))
+        
+        return sampled[:200]  # 최대 200개로 제한
+```
+
+### 2. **계층적 검증 파이프라인**
+
+```python
+class HierarchicalValidation:
+    def __init__(self):
+        self.validation_levels = [
+            self._level1_syntax_check,      # 빠른 문법 검사
+            self._level2_pattern_match,     # 패턴 매칭
+            self._level3_llm_light,         # Gemini Flash-Lite 경량 검증
+            self._level4_llm_deep,          # Gemini Flash 심층 검증 (선택적)
+            self._level5_human_in_loop      # 최종 검증 (임계값 초과 시)
+        ]
+    
+    def validate_output(self, output, confidence_threshold=0.8):
+        """계층적 검증으로 리소스 최적화"""
+        
+        validation_result = {
+            "passed": False,
+            "confidence": 0.0,
+            "failed_at_level": None,
+            "details": {}
+        }
+        
+        for level, validator in enumerate(self.validation_levels, 1):
+            try:
+                result = validator(output)
+                
+                if not result["passed"]:
+                    validation_result["failed_at_level"] = level
+                    validation_result["details"] = result
+                    break
+                
+                validation_result["confidence"] = result.get("confidence", 0)
+                
+                # 신뢰도 충분 시 조기 통과
+                if validation_result["confidence"] >= confidence_threshold:
+                    validation_result["passed"] = True
+                    break
+                    
+            except Exception as e:
+                validation_result["error"] = str(e)
+                break
+        
+        return validation_result
+    
+    def _level3_llm_light(self, output):
+        """Gemini 2.5 Flash-Lite를 이용한 효율적 검증"""
+        prompt = f"""
+        다음 텍스트의 무결성을 검증하세요:
+        
+        텍스트: {output[:1000]}  # 토큰 절약
+        
+        검증 항목:
+        1. 문법적 오류
+        2. 명백한 논리 오류
+        3. 설정 위반 (설정: {self.current_setting})
+        
+        신뢰도 점수(0-1)와 함께 JSON 응답.
+        """
+        
+        response = self.llm.generate(prompt, max_tokens=200)
+        return self._parse_validation(response)
+```
+
+## D. 증거 기반 무결성 시스템
+
+### 1. **블록체인 스타일 영수증 체계**
+
+```python
+class EvidenceChain:
+    def __init__(self, storage_path):
+        self.storage = storage_path
+        self.chain = []
+        self.current_hash = None
+    
+    def create_receipt(self, action_type, data, metadata):
+        """변경 이력 영수증 생성"""
+        
+        receipt = {
+            "timestamp": datetime.now().isoformat(),
+            "action": action_type,
+            "data_hash": self._calculate_hash(data),
+            "file_path": self._get_physical_path(data),
+            "previous_hash": self.current_hash,
+            "metadata": metadata,
+            "llm_signature": None,
+            "system_signature": self._system_sign()
+        }
+        
+        # Gemini를 통한 내용 검증 (선택적)
+        if action_type in ["RULE_UPDATE", "CONTENT_MODIFY"]:
+            receipt["llm_signature"] = self._get_llm_verification(data)
+        
+        # 해시 체인 업데이트
+        receipt["receipt_hash"] = self._calculate_hash(receipt)
+        self.current_hash = receipt["receipt_hash"]
+        self.chain.append(receipt)
+        
+        # 물리적 저장 (변경 불가)
+        self._write_to_immutable_storage(receipt)
+        
+        return receipt
+    
+    def verify_integrity(self, data_id):
+        """데이터 무결성 검증"""
+        
+        # 해시 체인 검증
+        chain_valid = self._verify_hash_chain()
+        
+        # 물리적 파일 존재 확인
+        file_exists = os.path.exists(self._get_file_path(data_id))
+        
+        # Gemini 재검증 (확률적)
+        if random.random() < 0.05:  # 5% 샘플링 검증
+            content = self._load_content(data_id)
+            llm_verification = self._llm_spot_check(content)
+        else:
+            llm_verification = True
+        
+        return all([chain_valid, file_exists, llm_verification])
+    
+    def _get_llm_verification(self, data):
+        """Gemini를 통한 변경 검증 서명"""
+        prompt = f"""
+        다음 변경 사항을 검증하고 요약해주세요:
+        
+        변경 전: {data.get('before', 'N/A')[:300]}
+        변경 후: {data.get('after', 'N/A')[:300]}
+        변경 이유: {data.get('reason', 'N/A')}
+        
+        변경이 적절한지 판단하고, 32자리 검증 코드를 생성해주세요.
+        """
+        
+        response = self.llm.generate(prompt)
+        return response[:32]  # 32자리 검증 코드
+```
+
+### 2. **다중 서명 무결성 시스템**
+
+```python
+class MultiSigIntegrity:
+    def __init__(self, required_signatures=3):
+        self.required = required_signatures
+        self.signers = [
+            self._hash_based_signer,
+            self._semantic_signer,
+            self._llm_signer,
+            self._statistical_signer
+        ]
+    
+    def validate_modification(self, original, modified, context):
+        """다중 검증을 통한 무결성 보장"""
+        
+        signatures = []
+        
+        # 병렬 검증 (비동기)
+        with ThreadPoolExecutor() as executor:
+            futures = []
+            for signer in self.signers[:self.required]:
+                future = executor.submit(signer, original, modified, context)
+                futures.append(future)
+            
+            for future in asyncio.as_completed(futures):
+                signature = future.result()
+                if signature["valid"]:
+                    signatures.append(signature)
+                else:
+                    # 하나라도 실패하면 즉시 실패
+                    return {
+                        "valid": False,
+                        "failed_signer": signature["signer"],
+                        "reason": signature["reason"]
+                    }
+        
+        # 충분한 서명 획득 시 성공
+        if len(signatures) >= self.required:
+            return {
+                "valid": True,
+                "signatures": signatures,
+                "integrity_score": self._calculate_score(signatures)
+            }
+        
+        return {"valid": False, "reason": "Insufficient valid signatures"}
+```
+
+## 🎯 구현 로드맵
+
+### Phase 1: 기초 시스템 (2주)
+1. AutoLabelingPipeline 구현
+2. 기본 LawCandidateGenerator 구축
+3. 간단한 EvidenceChain 설정
+
+### Phase 2: 고급 기능 (3주)
+1. NarrativeDriftDetector 완성
+2. RegressionAIInspector 통합
+3. MultiSigIntegrity 시스템 추가
+
+### Phase 3: 최적화 (1주)
+1. 배치 처리 및 캐싱 최적화
+2. Gemini 2.5 Flash-Lite 토큰 최소화
+3. 모니터링 대시보드 구축
+
+### Phase 4: 폐쇄 루프 (2주)
+1. 자가 학습 피드백 루프 연결
+2. 자동 법안 배포 시스템
+3. 실시간 경보 및 대응 자동화
+
+## 📈 예상 효율성
+
+1. **비용 절감**: Gemini 2.5 Flash-Lite 사용으로 2.0 Flash 대비 90% 이상 비용 절감
+2. **처리 속도**: 배치 처리 및 캐싱으로 처리량 3배 향상
+3. **정확도**: 다중 검증 시스템으로 오탐률 95% 감소
+4. **자동화율**: 현재 30% → 목표 85% 자동화
+
+## ⚙️ 추천 기술 스택
+
+```yaml
+core:
+  llm: "gemini-2.5-flash-lite"  # 비용 효율성
+  database: "SQLite + FAISS"     # 임베딩 검색
+  cache: "Redis"                 # 실시간 캐싱
+  queue: "Celery + RabbitMQ"     # 작업 큐
+monitoring:
+  metrics: "Prometheus"
+  logging: "ELK Stack"
+  alert: "Grafana + Slack"
+deployment:
+  orchestration: "Docker + Kubernetes"
+  ci/cd: "GitHub Actions"
+```
+
+이 설계안은 Gemini 2.5 Flash-Lite의 비용 효율성을 극대화하면서, G6X 시스템의 자가발전 루프를 구현하는 실용적인 솔루션을 제공합니다. 각 컴포넌트는 점진적으로 도입 가능하며, 현재 시스템과의 통합을 고려하여 설계되었습니다.

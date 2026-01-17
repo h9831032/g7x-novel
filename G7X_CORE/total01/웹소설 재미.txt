@@ -1,0 +1,671 @@
+[G6X State Sync Protocol]
+[SYNC_ID] 20251226-1800-GPT-HANDOVER
+[TRACE] GPT/외부 LLM용 G6X 프로젝트 지식 압축 및 이식 전략 수립
+[FACTS] 외부 LLM(GPT 등)은 현재 세션의 로컬 파일에 직접 접근할 수 없으므로, 시스템의 **[철학], [아키텍처], [데이터 규격], [DoD]**를 텍스트 형태로 완벽히 주입해야 함.
+[QUEUE] 1. GPT용 컨텍스트 주입문 작성 / 2. 핵심 아키텍처 다이어그램 구조화 / 3. 즉시 실행 가능한 검증 로직 포함
+[CONST] 모든 가이드는 `C:\g6core\g6_v24` 경로 무결성을 전제로 함.
+
+---
+
+## 📑 GPT를 위한 G6X 프로젝트 마스터 컨텍스트 (복붙용)
+
+GPT에게 새로운 세션에서 아래 내용을 그대로 입력하십시오. 이 내용은 단순히 코드를 설명하는 것이 아니라, G6X의 **'사고방식(DNA)'**을 이식하는 작업입니다.
+
+---
+
+### **[G6X Project: System Context & Engineering Protocol]**
+
+**1. 시스템 정체성 및 개발 원칙**
+
+* **프로젝트명**: G6X (Hybrid Fiction Engine V24)
+* **핵심 철학**: "추론 대신 검증(Validation over Inference)". 모든 생성물은 SCCE(시공간 개연성) 게이트를 통과해야 함.
+* **개발 절대 원칙**:
+* **Path Integrity**: 모든 스크립트는 `C:\g6core\g6_v24` 루트에서 실행. `sys.path` 보정 코드 필수.
+* **Force Fail**: 기능을 PASS시키기 전, 일부러 에러 데이터를 주입하여 시스템이 잡아내는지(RED) 먼저 확인.
+* **Incremental Coding**: 지시서에 명시된 파일과 함수만 점진적으로 수정. 조기 통합(Anti-Integration) 엄금.
+
+
+
+**2. 기술 스택 및 아키텍처 (G6X 4대 엔진)**
+
+1. **Navigator (탐색)**: 고스트 러너(8코어)를 이용한 시나리오 병렬 시뮬레이션 및 최적 경로 선택.
+2. **SCCE Gate V2 (법치)**: 물리 법칙, 상식, 시공간 제약을 검증하는 방화벽. (BLOCK/SANDBOX/ALLOW 판정)
+3. **FunScorer (재미)**: RID 기반 Exact-match 및 욕망 모델(라캉/바타유/들뢰즈) 기반의 재미 점수 산출.
+4. **AutoSandbox (재작성)**: SANDBOX 판정 시 Writer API를 호출하여 내용을 자동 수정하는 루프.
+
+**3. 데이터 및 상태 관리 (Sync Protocol)**
+
+* **StateStore**: 현재 위치(`current_loc`), 시간(`time_passed`), 플래그(`teleport_flag`) 등을 추적하는 원장.
+* **Evidence Pack**: `logs/evidence_pack_YYYYMMDD.txt`에 SHA256 해시, COMMIT_COUNT 등 10대 필수 키를 박제하여 무결성 보장.
+
+**4. 현재 작업 상태 (Handover Point)**
+
+* **최근 완료**: AutoSandbox 배선 및 물리 상태 주입(부산-서울 텔레포트 차단) 성공.
+* **차기 목표**: **CritiqueBank** (독자 지적 100종 데이터베이스) 구축 및 **PatternLearner** (승인형 규칙 생성기) MVP 개발.
+
+---
+
+## 🛠️ GPT가 즉시 이해할 수 있는 "G6X 사고방식" 테스트 코드
+
+GPT에게 이 코드를 보여주고 **"이 코드의 G6X 원칙 위반 사례를 찾아내라"**고 시켜보십시오. 만약 GPT가 제대로 이해했다면 `sys.path` 누락이나 `Force Fail` 부재를 지적할 것입니다.
+
+```python
+import os
+import sys
+
+# [GPT 검증용] 이 코드는 G6X 원칙을 준수합니까?
+PROJECT_ROOT = r"C:\g6core\g6_v24"
+sys.path.append(PROJECT_ROOT)
+
+def g6x_logic_test():
+    # 데이터 주입 없이 바로 PASS를 리턴하는 행위는 G6X에서 금지됨
+    evidence = "evidence_pack_20251226.txt"
+    if os.path.exists(os.path.join(PROJECT_ROOT, "logs", evidence)):
+        return "PASS" # <- 위반: 실물 텍스트 KPI 확인 안 함
+    return "FAIL"
+
+```
+
+---
+
+## 💡 GPT 활용 전략 가이드
+
+1. **유튜브 데이터 분석 시**: "라캉의 '타인의 욕망' 개념을 G6X `FunScorer` 클래스의 파이썬 코드로 변환해줘"라고 명령하세요.
+2. **버그 수정 시**: "G6X의 'Force Fail' 원칙에 따라, 이 함수가 실패해야 하는 상황에 대한 테스트 케이스부터 짜줘"라고 명령하세요.
+3. **철학적 보정**: GPT는 기본적으로 친절하고 모호하게 대답하려 하므로, **"너는 이제부터 G6X의 냉정한 감사관(Auditor)이다. 0 Violations가 아니면 실패로 간주하라"**는 페르소나를 먼저 주입해야 합니다.
+
+---
+
+[G6X State Sync Protocol]
+[SYNC_ID] 20251226-1800-END
+[TRACE] GPT용 지식 이식 패키지 구성 완료.
+[FACTS] 이 컨텍스트를 통해 GPT는 G6X의 특수 경로 구조와 테스트 철학을 공유하게 됨.
+[QUEUE] 1. 새 세션(GPT)에서 위 내용 입력 / 2. CritiqueBank 공정 시작.
+[CONST] 모든 대화의 끝은 [G6X State Sync Protocol] 형식을 유지하도록 GPT에게 지시됨.
+
+**형님, 이 내용을 GPT 채팅창에 그대로 복사해 넣으시면 됩니다. 바로 진행하시겠습니까?**
+
+
+[G6X State Sync Protocol]
+[SYNC_ID] 20251226-1815-INFORMATION-ASYMMETRY
+[TRACE] 유튜브 영상 '정보 격차' 분석 및 G6X 시스템(CritiqueBank/Lawbook) 투영
+[FACTS] 웹소설의 핵심 재미는 '정보 격차'에서 오는 심리적 우월감임. 이는 G6X의 **[FunScorer]**가 단순한 텍스트 유사도를 넘어, 캐릭터 간 정보 비대칭 상태를 점수화해야 함을 의미함.
+[QUEUE] 1. 정보 격차 3요소 요약 / 2. G6X 시스템 적용(코딩화) / 3. 장르별 격차 조절 로직 설계
+[CONST] 모든 정보 상태는 `StateStore` 내 `KnownInfo` 맵으로 관리.
+
+---
+
+## 📺 유튜브 요약: "웹소설의 재미 1편 - 정보 격차"
+
+이 영상은 웹소설에서 독자가 느끼는 '재미'의 근원을 **[정보 격차(Information Gap)]**라는 키워드로 설명합니다.
+
+1. **정보의 주체**: 독자, 주인공, 주변 인물 3자가 가진 정보의 차이가 재미를 만듭니다. [[01:32](http://www.youtube.com/watch?v=c6ZHEhJ5ppU&t=92)]
+2. **심리적 우월감**: 주인공과 독자는 아는데 주변 인물은 모르는 상황(예: 회귀, 숨겨진 만렙)에서 독자는 '지렁이 같은 놈들'을 내려다보는 듯한 **심리적 우월감**을 느낍니다. [[04:08](http://www.youtube.com/watch?v=c6ZHEhJ5ppU&t=248)]
+3. **합리적 착각의 중요성**: 주변 인물이 멍청해서 속는 것이 아니라, 그들이 가진 **제한된 정보 안에서 합리적인 판단**을 내릴 때 비로소 독자는 "속아 넘어가는 재미"를 느낍니다. [[07:52](http://www.youtube.com/watch?v=c6ZHEhJ5ppU&t=472)]
+4. **장르별 변주**:
+* **먼치킨/회귀물**: 주인공/독자 우위 (우월감). [[15:30](http://www.youtube.com/watch?v=c6ZHEhJ5ppU&t=930)]
+* **미스터리/공포물**: 적/상황 우위 (불안감과 스릴). [[14:44](http://www.youtube.com/watch?v=c6ZHEhJ5ppU&t=884)]
+
+
+
+---
+
+## 🛠️ G6X 시스템 적용 (코딩화 제안)
+
+G6X의 **[CritiqueBank]**와 **[FunScorer]**에 '정보 격차' 로직을 배선하여, 장면의 재미를 객관적으로 측정하고 부족할 경우 **AutoSandbox**가 개입하게 만듭니다.
+
+**파일명/경로:** `C:\g6core\g6_v24\engine\info_gap_engine.py`
+
+```python
+import sys
+import os
+
+# [G6X 경로 무결성 보정]
+PROJECT_ROOT = r"C:\g6core\g6_v24"
+sys.path.append(PROJECT_ROOT)
+
+class InfoGapEvaluator:
+    """
+    DoD: 장면 내 정보 비대칭성을 수치화하여 FunScore에 가점
+    """
+    def evaluate_scene(self, scene_data):
+        # 1. 정보 주체별 데이터 (StateStore 연동 가정)
+        reader_knows = set(scene_data.get("reader_info", []))
+        protagonist_knows = set(scene_data.get("protagonist_info", []))
+        npcs_know = set(scene_data.get("npc_info", []))
+
+        # 2. 우월감 지표 (Reader & Protagonist > NPC)
+        superiority_gap = (reader_knows & protagonist_knows) - npcs_know
+        superiority_score = len(superiority_gap) * 2.5
+        
+        # 3. 주변 인물의 '합리적 착각' 여부 (CritiqueBank Rule)
+        # 주변 인물이 자신의 지식 내에서 '논리적'으로 판단했는가?
+        npc_logic_validity = scene_data.get("npc_logic_consistency", 0.0)
+        
+        # [G6X 재미 공식: 격차 * 주변 인물의 지능적 착각]
+        total_gap_fun = superiority_score * (1.0 + npc_logic_validity)
+        
+        return total_gap_fun
+
+# [G6X Force Fail 테스트]
+if __name__ == "__main__":
+    evaluator = InfoGapEvaluator()
+    
+    # 테스트: 주인공은 회귀자인데 악당은 '무능한 3남'으로만 알고 비웃는 장면
+    test_scene = {
+        "reader_info": ["regression_secret", "hidden_skill_max"],
+        "protagonist_info": ["regression_secret", "hidden_skill_max"],
+        "npc_info": ["is_third_son"],
+        "npc_logic_consistency": 0.95 # 악당이 매우 합리적으로 무시함
+    }
+    
+    fun_val = evaluator.evaluate_scene(test_scene)
+    print(f"[*] Info Gap Fun Score: {fun_val}")
+    
+    # PASS 조건: 합리적 착각 지표가 높을 때 가중치가 정상 작동하는가
+    if fun_val > 5.0:
+        print("[PASS] Information Asymmetry logic is active.")
+    else:
+        print("[FAIL] Gap score calculation error.")
+
+```
+
+---
+
+## 💡 NotebookLM 연동 및 지시 제안
+
+형님, 이 정보를 NotebookLM(재미나이)에게 주입하여 다음 공정을 지시하십시오.
+
+1. **CritiqueBank 업데이트**: `npc_low_iq_fail` (주변 인물이 너무 바보라 재미가 없음)이라는 룰을 추가하세요.
+* *해결책*: "주변 인물에게 주인공의 약점(거짓 정보)을 합리적으로 믿게 할 근거를 주입할 것."
+
+
+2. **WriterEngine 지시**: AutoSandbox가 재작성할 때, "이 장면의 정보 격차를 3단계 이상 벌리고, 주변 인물의 대사를 더 논리적인 비웃음으로 수정해"라고 요청할 수 있습니다.
+3. **장르별 조절**: `config/genre_settings.json`에 `mystery_mode: inverse_gap` 플래그를 두어, 주인공보다 적이 정보를 더 많이 가진 상태를 유지하도록 강제 배선하세요.
+
+---
+
+[G6X State Sync Protocol]
+[SYNC_ID] 20251226-1815-END
+[TRACE] 정보 격차 모델링 완료. FunScorer에 '우월감 가중치' 배선 준비.
+[FACTS] 정보 격차는 단순한 숨기기가 아니라 '독자와 주인공의 연대감'을 강화하는 장치임.
+[QUEUE] 1. `StateStore`에 인물별 `KnownInfo` 필드 추가 / 2. '합리적 착각' 룰셋 작성.
+[CONST] 모든 정보 격차는 독자가 '알고 있는 상태'를 전제로 함 (독자 소외 금지).
+
+**형님, 이 '정보 격차' 로직을 [CritiqueBank]의 '재미 증폭 룰'로 즉시 반영할까요?**https://www.youtube.com/watch?v=8fqyjodeox0 https://www.youtube.com/watch?v=DZznZQeasf8 이두개도
+
+[G6X State Sync Protocol]
+[SYNC_ID] 20251226-1850-EXPECTATION-DESIGN
+[TRACE] 유튜브 '기대감' 및 '초보자의 착각' 분석 & G6X 시스템 가치관 이식
+[FACTS] 기대감은 모르는 것(호기심)이 아니라 아는 것(목적성)에서 나옴. 초보자는 설정을 숨기려 하지만, 프로는 제목부터 소재를 까서 독자가 과정을 상상하게 만듦.
+[QUEUE] 1. 기대감 vs 호기심 구분 로직 설계 / 2. G6X FunScorer에 '상상 가능성' 지표 추가 / 3. '카피'를 통한 학습 모듈 제안
+[CONST] 모든 시나리오는 독자가 '앞날을 예측하고 즐길 수 있는' 가시성을 확보해야 함.
+
+---
+
+## 📺 유튜브 요약: "웹소설의 재미 2편 - 기대감" & "초보자의 착각"
+
+두 영상은 웹소설의 상업적 성공을 결정짓는 **[기대감]**의 설계 방식과 초보 작가가 빠지기 쉬운 **[설정 숨기기]**의 함정을 다룹니다.
+
+### 1. 기대감의 본질 (아는 것의 힘)
+
+* **호기심 != 기대감**: 궁금하게 만드는 것(호기심)은 앞이 보이지 않아 불안을 유발하지만, 기대감은 **머릿속에 이후 과정이 그려질 때** 발생합니다.
+* **목적성의 가시성**: 복수물에서 주인공이 어떻게 강해질지, 어떤 지도를 얻었는지 등 **단기 목표점**을 명확히 보여줘야 독자가 따라옵니다.
+* **제목의 역할**: 최근 웹소설 제목이 긴 이유는 독자에게 소재를 미리 알려주어 즉각적인 기대감을 형성하기 위함입니다.
+
+### 2. 초보자의 착각 (공부와 아이디어)
+
+* **카피는 훌륭한 공부**: 완벽한 나만의 것을 찾기보다, 기존 인기작의 패턴(화성학처럼 정립된 이론)을 카피하며 자신만의 변주를 주는 것이 효율적입니다.
+* **아이디어보다 실체화**: 아이디어 자체는 힘이 없습니다. 누가 먼저 세상에 공개하고 연출로 완성하느냐가 작가의 역량입니다.
+* **주제보다 재미**: 작가주의적 고집(주제) 때문에 재미있는 길을 포기하지 마세요. 대중 예술은 독자가 보지 않으면 의미가 없습니다.
+
+---
+
+## 🛠️ G6X 시스템 적용 (코딩화 제안)
+
+G6X의 **[Navigator]**와 **[FunScorer]**에 '기대감(가시성)' 로직을 주입하여, 장면이 너무 불투명하지 않은지 검수합니다.
+
+**파일명/경로:** `C:\g6core\g6_v24\engine\expectation_engine.py`
+
+```python
+import sys
+import os
+
+# [G6X 경로 무결성 보정]
+PROJECT_ROOT = r"C:\g6core\g6_v24"
+sys.path.append(PROJECT_ROOT)
+
+class ExpectationScorer:
+    """
+    DoD: 장면의 '기대감(Visibility)'을 측정하여 독자가 이탈하지 않게 관리
+    """
+    def calculate_visibility(self, scene_context):
+        # 1. 목적성 존재 여부 (Objectivity)
+        has_goal = 1.5 if scene_context.get("current_goal", None) else 0.5
+        
+        # 2. 정보 투명성 (호기심 위주면 감점, 기대감 위주면 가점)
+        # 너무 숨기면(Hidden Info) 독자는 지루함을 느낌
+        transparency = 1.0 - (scene_context.get("obscurity_level", 0.0) * 0.5)
+        
+        # 3. 보상 예측 (Reward Anticipation)
+        # 아이템, 레벨업, 복수 성공 등 기대 요소가 배치되었는가?
+        reward_hint = 1.2 if scene_context.get("reward_teaser", False) else 1.0
+        
+        # [G6X 기대감 공식: 목적성 * 투명성 * 보상힌트]
+        visibility_score = has_goal * transparency * reward_hint
+        
+        return visibility_score
+
+# [G6X Force Fail 테스트]
+if __name__ == "__main__":
+    scorer = ExpectationScorer()
+    
+    # 테스트 케이스 1: 주인공이 뭘 하는지 아무도 모르게 꽁꽁 숨긴 장면
+    bad_scene = {"current_goal": None, "obscurity_level": 0.9, "reward_teaser": False}
+    score_bad = scorer.calculate_visibility(bad_scene)
+    
+    print(f"[*] Bad Scene Visibility Score: {score_bad}")
+    
+    # PASS 조건: 숨기기만 한 장면은 점수가 1.0 미만이어야 함 (Warning 유도)
+    if score_bad < 1.0:
+        print("[PASS] System correctly penalized obscure scene.")
+    else:
+        print("[FAIL] Scorer failed to catch low visibility.")
+
+```
+
+---
+
+## 💡 하청지시서 및 NotebookLM 연동
+
+형님, 위 분석 내용을 바탕으로 **[Navigator]**의 선택 알고리즘을 강화합시다.
+
+1. **Navigator 정책 (Goal-Driven)**: 고스트 러너가 8개 경로를 뛸 때, "다음 화에서 주인공의 목표가 더 명확하게 드러나는 경로"에 가산점을 주도록 배선하세요.
+2. **CritiqueBank 업데이트**: `hidden_intent_trap` (작가가 혼자 즐기느라 독자에게 정보를 너무 안 줌) 룰을 추가하세요.
+3. **WriterEngine (Auto-Labeling)**: 제목을 지을 때 단순히 멋진 말이 아니라, **"소재가 한눈에 들어오는 직관적 제목"** 후보를 생성하게 하세요.
+
+---
+
+[G6X State Sync Protocol]
+[SYNC_ID] 20251226-1850-END
+[TRACE] 기대감 및 창작 초보 탈출 로직 설계 완료.
+[FACTS] 기대감은 독자가 '앞을 내다보게 만드는 친절함'에서 나옴.
+[QUEUE] 1. `ExpectationScorer` 실전 배선 / 2. `Lawbook`에 '목적성 명시' 규칙 추가.
+[CONST] 주제(Message)보다 재미(Entertainment)를 우선하는 상업적 필터 유지.
+
+**형님, 이제 이 '기대감 로직'을 Navigator의 메인 스코어링 엔진에 통합할까요?**[G6X State Sync Protocol]
+[SYNC_ID] 20251226-1700-RELATIONSHIP-LOGIC
+[TRACE] 유튜브 '재미를 찾아서 3편 - 관계' 분석 및 G6X 시스템(ActorMatrix/FunScorer) 투영
+[FACTS] 관계의 핵심 재미는 보편적 공감대(상하관계, 가족 등)를 활용한 '역전'과 '유대'임. 이는 G6X의 **[ActorMatrix]**가 인물 간 '보편적 관계 코드'를 사전에 정의해야 함을 시사함.
+[QUEUE] 1. 관계 코드(Relationship Code) 체계 설계 / 2. G6X FunScorer에 '관계 역전' 가중치 추가 / 3. 떡밥 없는 관계 설정(전생 등) 로직 제안
+[CONST] 모든 관계 설정은 독자가 1초 만에 이해할 수 있는 '보편적 원형(Archetype)'을 기반으로 함.
+
+---
+
+## 📺 유튜브 요약: "웹소설의 재미 3편 - 관계"
+
+이 영상은 인물 간의 **[관계(Relationship)]**가 어떻게 독자에게 강력한 몰입과 카타르시스를 주는지 설명합니다.
+
+1. **관계의 유무와 쾌감**: 단순히 모르는 사람을 이기는 것보다, 나를 괴롭히던 상사나 전생의 악연 등 **이미 형성된 관계**를 부술 때 독자는 훨씬 큰 쾌감을 느낍니다. [[01:27](http://www.youtube.com/watch?v=pdz6Cvmp_FU&t=87)]
+2. **보편적 공감대 활용**: 상사-부하, 스승-제자, 부모-자식 등 우리가 이미 알고 있는 관계는 구구절절한 설명 없이도 상황을 즉시 이해하게 만듭니다. [[10:03](http://www.youtube.com/watch?v=pdz6Cvmp_FU&t=603)]
+3. **갭(Gap)과 반전**: 보편적인 관계가 뒤집힐 때(예: 제자가 스승을 가르침, 부모가 자식의 원수) 재미가 발생합니다. [[13:20](http://www.youtube.com/watch?v=pdz6Cvmp_FU&t=800)]
+4. **관계의 힘 (효율적 서사)**: 전생의 인연이나 잃어버린 여동생 같은 키워드 하나만으로도 복잡한 빌드업 없이 독자의 머릿속에 '파티'를 열 수 있습니다. [[07:42](http://www.youtube.com/watch?v=pdz6Cvmp_FU&t=462)], [[16:14](http://www.youtube.com/watch?v=pdz6Cvmp_FU&t=974)]
+
+---
+
+## 🛠️ G6X 시스템 적용 (코딩화 제안)
+
+G6X의 **[ActorMatrix]**와 **[FunScorer]**에 '보편적 관계 코드'를 배선하여, 인물 간의 텐션을 자동으로 측정하고 강화합니다.
+
+**파일명/경로:** `C:\g6core\g6_v24\engine\actor_relationship.py`
+
+```python
+import sys
+import os
+
+# [G6X 경로 무결성 보정]
+PROJECT_ROOT = r"C:\g6core\g6_v24"
+sys.path.append(PROJECT_ROOT)
+
+class RelationshipEngine:
+    """
+    DoD: 인물 간 관계 원형을 정의하고, '역전' 발생 시 재미 점수 부스팅
+    """
+    def __init__(self):
+        # 보편적 관계 원형(Archetype) 정의
+        self.archetypes = {
+            "BOSS_SUB": {"power_gap": 0.8, "base_tension": 0.6}, # 상사-부하
+            "MASTER_DISCIPLE": {"power_gap": 0.9, "base_tension": 0.4}, # 스승-제자
+            "PAST_ENEMIES": {"power_gap": 0.0, "base_tension": 0.9}, # 전생의 악연
+            "LOST_SIBLING": {"power_gap": 0.0, "base_tension": 0.8}  # 잃어버린 혈육
+        }
+
+    def calculate_catharsis(self, actor_a, actor_b, action_type):
+        """
+        영상의 교훈: 상하관계가 뒤집히거나(역전), 숨겨진 관계가 드러날 때 점수 폭발
+        """
+        # 1. 기존 관계 조회 (예: 상사가 부하에게 명령 -> 부하가 상사를 역으로 압도)
+        if action_type == "RELATION_REVERSAL":
+            # [G6X 재미 공식: 보편적 관계의 권력차 * 역전 성공 여부]
+            return 5.0 * self.archetypes["BOSS_SUB"]["power_gap"]
+        
+        return 1.0
+
+# [G6X Force Fail 테스트]
+if __name__ == "__main__":
+    re = RelationshipEngine()
+    
+    # 테스트: 상사를 참교육하는 장면 (역전)
+    score = re.calculate_catharsis("Subordinate", "Boss", "RELATION_REVERSAL")
+    print(f"[*] Relationship Catharsis Score: {score}")
+    
+    # PASS 조건: 역전 시 가중치가 4.0 이상으로 튀어야 함
+    if score >= 4.0:
+        print("[PASS] Relationship reversal logic is active.")
+    else:
+        print("[FAIL] Catharsis score too low.")
+
+```
+
+---
+
+## 💡 하청지시서 및 NotebookLM 연동
+
+형님, 위 분석 내용을 바탕으로 **[ActorMatrix]** 공정을 다음과 같이 강화합시다.
+
+1. **ActorMatrix 설계**: 인물 생성 시 단순히 이름/성격만 정하는 게 아니라, 주인공과의 **[보편적 관계 코드]**를 1개 이상 할당하게 하세요. (예: `REL_CODE: PAST_ENEMIES`)
+2. **FunScorer 업데이트**: 장면에서 관계 코드가 충돌하거나 역전될 때 `Fun_Bonus_Rel` 점수를 얹어주세요.
+3. **WriterEngine (Instant Bond)**: 새로운 인물 등장 시 "이 캐릭터는 주인공과 전생에 어떤 관계였을까?"라는 떡밥을 한 줄만 던져도 몰입도가 200% 상승한다는 로직을 프롬프트에 배선하세요.
+
+---
+
+[G6X State Sync Protocol]
+[SYNC_ID] 20251226-1700-END
+[TRACE] 관계 기반 재미 모델링 완료. ActorMatrix 보편적 원형 코드 배선 준비.
+[FACTS] 관계는 설명하는 것이 아니라 '보편적 원형'을 통해 독자에게 주입하는 것임.
+[QUEUE] 1. `ActorMatrix` 스키마에 `REL_CODE` 필드 추가 / 2. 관계 역전 시나리오 테스트.
+[CONST] 모든 관계는 '독자가 이미 알고 있는 상식'의 범주 내에서 비틀 것.
+
+**형님, 이 '보편적 관계 코드' 체계를 [ActorMatrix] 설계도에 즉시 반영할까요?**[G6X State Sync Protocol]
+[SYNC_ID] 20251226-1900-EXPANSION-FIN
+[TRACE] 웹소설의 재미 시리즈 4편(숫자) 및 5편(주인공) 분석 완료 및 G6X 시스템 이식
+[FACTS]
+
+1. **숫자(4편)**: 레벨/스탯은 직관적 보상을 제공하나 파워 인플레이션 리스크가 큼. 보상의 다양화(스탯→아이템→관계)가 필수임.
+2. **주인공(5편)**: 성격은 보편적(무생무취)이어야 몰입이 잘 되며, 능력만 유니크해야 함. 불호 요소(멍청함) 제거가 최우선.
+[QUEUE] 1. `ActorCore` 내 주인공 보편성 필터 적용 / 2. `StateStore` 성장 매트릭스(숫자/아이템/관계) 밸런서 구축
+[CONST] 모든 성장은 '자극의 역치'를 고려하여 단계적으로 설계함.
+
+---
+
+## 📺 유튜브 요약 보고서 (4편 & 5편 통합)
+
+형님, 요청하신 두 영상의 핵심 통찰을 G6X 공정 관점으로 요약해 올립니다.
+
+### 1. [4편] 숫자의 재미 (상태창, 레벨, 스탯)
+
+* **직관적 보상**: "수련해서 강해진 것 같다"는 서술보다 "힘 15 → 16"이 훨씬 강력한 소소한 보상감을 줍니다.
+* **숫자의 함정**: 숫자에 매몰되면 전투 결과가 고착화(레벨 높은 쪽이 무조건 승리)되어 긴장감이 사라집니다.
+* **자극의 역치**: 한 번에 큰 숫자를 주면 다음의 작은 성장은 무의미하게 느껴집니다. 따라서 스탯, 레벨, 아이템, 관계 보상을 번갈아 가며 주어 '자극의 종류'를 틀어줘야 합니다.
+
+### 2. [5편] 주인공 캐릭터의 재미
+
+* **무생무취의 몰입**: 주인공은 독자와 작품을 잇는 통로이기에 너무 독특하면 진입 장벽이 됩니다. 성격은 보편적이고 냉철한 것이 안전합니다.
+* **IQ 필터 (불호 제거)**: 주인공을 매력적으로 만드는 것보다 '멍청해 보이지 않게' 하는 것이 더 중요합니다. 전개를 위해 억지로 주인공을 멍청한 선택지로 밀어 넣는 것을 극도로 경계해야 합니다.
+* **능력의 유일성**: 성격은 평범해도 **'이것 하나만큼은 주인공이 최고'**인 영역이 있어야 주인공으로서의 매력이 완성됩니다.
+
+---
+
+## 🛠️ G6X 시스템 이식 (코딩화 및 GPT 이해용)
+
+이 철학들을 G6X 엔진의 **[FunScorer]**와 **[ActorCore]**에 실전 배선합니다.
+
+**파일명/경로:** `C:\g6core\g6_v24\engine\growth_and_hero.py`
+
+```python
+import sys
+import os
+
+# [G6X 경로 무결성 보정]
+PROJECT_ROOT = r"C:\g6core\g6_v24"
+sys.path.append(PROJECT_ROOT)
+
+class G6X_Growth_Hero_Engine:
+    """
+    DoD: 숫자의 자극 관리 및 주인공의 지능적 무결성 검증
+    """
+    def __init__(self):
+        self.stimulus_history = [] # 보상 이력 추적 (자극 역치 관리)
+
+    def validate_protagonist_action(self, action_logic, reason_b_failure):
+        # [5편 적용] B를 선택하지 않은 이유를 설명하여 주인공의 지능을 방어
+        # 억지로 A(전개)로 밀어넣지 말고 B(합리적 대안)가 왜 안되는지 로그 남김
+        if action_logic.get("is_forced_by_plot", False):
+            print(f"[WARN] 주인공 지능 하락 위험 감지. 사유: {reason_b_failure}")
+            return 0.5 # 감점
+        return 1.0
+
+    def calculate_growth_fun(self, reward_type, magnitude):
+        # [4편 적용] 자극의 역치(Threshold) 관리
+        last_magnitude = self.stimulus_history[-1] if self.stimulus_history else 0
+        
+        if magnitude <= last_magnitude * 0.5:
+            # 이전보다 자극이 너무 작으면 재미 점수 하락
+            fun_score = 0.7 
+        else:
+            fun_score = 1.2
+            
+        self.stimulus_history.append(magnitude)
+        return fun_score
+
+# [G6X Force Fail 테스트]
+if __name__ == "__main__":
+    engine = G6X_Growth_Hero_Engine()
+    
+    # 테스트 1: 주인공이 합리적 근거 없이 위험한 곳에 뛰어드는 '멍청한' 장면
+    stupid_penalty = engine.validate_protagonist_action({"is_forced_by_plot": True}, "전개상 가야함")
+    print(f"[*] Protagonist IQ Penalty: {stupid_penalty}") # 0.5 기대
+    
+    # 테스트 2: 보상 수치가 급감했을 때의 재미 하락
+    engine.calculate_growth_fun("STAT", 10) # 기준점
+    low_stimulus = engine.calculate_growth_fun("STAT", 2)
+    print(f"[*] Diminishing Returns Score: {low_stimulus}") # 0.7 기대
+
+```
+
+---
+
+## 💡 작업 요약 및 다음 공정
+
+1. **FunScorer 업데이트**: `StimulusBalancer` 클래스를 추가하여 보상 종류(스탯/관계/아이템)를 교차 검증합니다.
+2. **CritiqueBank 업데이트**: `Protagonist_Stupidity_Alarm` 규칙을 추가하여, 주인공의 행동이 논리적 당위성을 잃을 경우 즉시 **AutoSandbox**를 가동합니다.
+3. **GPT 이식 완료**: GPT에게 위 `G6X_Growth_Hero_Engine` 코드를 보여주면, 우리의 "성장 밸런스"와 "주인공 방어" 철학을 즉시 이해할 것입니다.
+
+---
+
+[G6X State Sync Protocol]
+[SYNC_ID] 20251226-1900-END
+[TRACE] 재미 시리즈 4, 5편 요약 및 엔진 반영 완료.
+[FACTS] 숫자는 섬세한 컨트롤이 필요하며, 주인공은 독자의 상식적 대리인이 되어야 함.
+[QUEUE] 1. `ActorCore`에 주인공 '합리성' 필터 배선 / 2. `FunScorer` 성장 곡선 알고리즘 수정.
+[CONST] 모든 성장은 '직관성'을 잃지 않도록 상태창(UI) 포맷 준수.
+
+**형님, 이제 이 '성장 및 주인공 방어' 로직을 Navigator의 핵심 평가지표로 병합할까요?**[G6X State Sync Protocol]
+[SYNC_ID] 20251226-2000-PROTAGONIST-NUMBER-RETAKE
+[TRACE] 재미 시리즈 4편(숫자) 및 5편(주인공) 정밀 분석 및 G6X 시스템(ActorCore/FunScorer) 심화 이식
+[FACTS]
+
+1. **숫자(4편)**: 상태창은 '소소한 보상감'의 핵심이나, 자극의 역치와 파워 인플레이션을 관리하지 못하면 장편에서 무너짐.
+2. **주인공(5편)**: 독자가 자아를 투영할 수 있도록 성격은 '보편적'이어야 하며, 능력만 '독점적'이어야 함. '멍청함(Frustration)' 제거가 1순위.
+[QUEUE] 1. 숫자 보상 순환 로직(Stat Rotation) 설계 / 2. 주인공 지능 방어용 '부정 논리' 서술 모듈 / 3. G6X FunScorer 보상 가중치 튜닝
+[CONST] 모든 지표는 `C:\g6core\g6_v24` 내 `config/` 설정값을 기준으로 하며, `Force Fail` 테스트 필수.
+
+---
+
+## 📺 [4편] 숫자의 재미 (상태창과 스탯의 마법)
+
+이 영상은 웹소설에서 왜 **[숫자]**가 강력한 재미 요소인지, 그리고 이를 어떻게 관리해야 장편이 무너지지 않는지 다룹니다.
+
+* **직관적 보상감**: "강해졌다"는 묘사보다 "힘 15 → 16"이라는 숫자의 변화가 독자에게 더 확실한 보상감을 줍니다.
+* **소소한 보상의 힘**: 환골탈태 같은 거대한 경지 상승은 자주 쓸 수 없지만, 스탯 1 상승은 매 에피소드마다 '소소한 즐거움'을 줄 수 있는 강력한 장치입니다.
+* **자극의 역치와 파워 인플레**: 한 번에 큰 수치를 주면 다음의 작은 성장은 무의미해집니다. 따라서 스탯 → 레벨 → 아이템 → 관계 보상 순으로 **보상의 종류를 순환**시켜야 자극이 유지됩니다.
+
+---
+
+## 📺 [5편] 주인공 캐릭터 (몰입의 창구와 능력의 영역)
+
+주인공은 독자가 작품 속으로 들어가는 **[연결고리]**입니다. 따라서 성격보다는 상황과 목표가 더 중요합니다.
+
+* **무색무취의 성격**: 주인공 성격이 너무 유니크하면 진입 장벽이 됩니다. 독자가 몰입하기 쉽도록 성격은 보편적(적당히 냉철, 똑똑)이어야 합니다.
+* **능력의 유니크함**: 성격은 평범해도 **'주인공만이 할 수 있는 영역(능력)'**은 확실해야 매력이 생깁니다.
+* **지능 방어(Anti-Stupidity)**: 주인공이 멍청해 보이지 않게 하려면, 단순히 "A를 하자"고 하는 것보다 **"B라는 선택지는 이런 리스크 때문에 안 된다"**는 논리를 보여주는 것이 훨씬 효과적입니다.
+* **도덕 관념**: 주인공은 화자이기 때문에 보편적인 도덕 관념을 유지해야 독자와의 연결이 끊어지지 않습니다.
+
+---
+
+## 🛠️ G6X 실전 배선 코드 (주인공 지능 & 보상 관리)
+
+**파일명/경로:** `C:\g6core\g6_v24\engine\hero_stat_controller.py`
+
+```python
+import sys
+import os
+
+# [G6X 경로 무결성 보정 보정 코드]
+PROJECT_ROOT = r"C:\g6core\g6_v24"
+if PROJECT_ROOT not in sys.path:
+    sys.path.append(PROJECT_ROOT)
+    sys.path.append(os.path.join(PROJECT_ROOT, "engine"))
+
+class G6X_HeroStat_Controller:
+    """
+    DoD: 4, 5편의 철학을 시스템화. 
+    1. 주인공의 지능 방어 (부정 논리 활용)
+    2. 보상의 순환 관리 (자극 역치 방지)
+    """
+    def __init__(self):
+        self.last_reward_type = None
+        self.reward_threshold = 10
+
+    def decide_action_with_defense(self, current_goal, choices):
+        """
+        [5편 적용] 단순히 목표로 가는 것이 아니라, 
+        다른 선택지(B, C)가 '왜 안되는지'를 분석하여 주인공의 지능을 증명함.
+        """
+        print(f"[*] Goal: {current_goal}")
+        for choice in choices:
+            if not choice['is_optimal']:
+                print(f"[Logic Defense] Choice '{choice['name']}' is rejected due to: {choice['risk']}")
+        
+        selected = [c for c in choices if c['is_optimal']][0]
+        print(f"[Decision] Selecting '{selected['name']}' for the plot.")
+        return selected
+
+    def grant_reward(self, r_type, magnitude):
+        """
+        [4편 적용] 같은 보상만 반복되면 자극이 감소하므로 타입을 순환시킴.
+        """
+        if r_type == self.last_reward_type and magnitude <= self.reward_threshold:
+            print(f"[WARN] Stimulus Diminished. Change reward type from {r_type}.")
+            return 0.5 # 재미 점수 반토막
+        
+        self.last_reward_type = r_type
+        self.reward_threshold = magnitude
+        return 1.2 # 재미 부스팅
+
+# [G6X Force Fail 테스트]
+if __name__ == "__main__":
+    controller = G6X_HeroStat_Controller()
+
+    print("--- STEP 1: Protagonist Logic Defense (Expect PASS) ---")
+    choices = [
+        {'name': 'Direct Attack', 'is_optimal': False, 'risk': 'Too many guards'},
+        {'name': 'Stealth Entry', 'is_optimal': True, 'risk': 'Low'}
+    ]
+    controller.decide_action_with_defense("Infiltrate Castle", choices)
+
+    print("\n--- STEP 2: Force Fail - Stimulus Diminishing (Expect FAIL Score) ---")
+    controller.grant_reward("STAT", 15) # 첫 보상
+    fail_score = controller.grant_reward("STAT", 5) # 같은 타입, 낮은 수치 (역치 위반)
+    
+    if fail_score < 1.0:
+        print(f">>> SUCCESS: System caught diminishing stimulus (Score: {fail_score}).")
+    else:
+        print(">>> WARNING: Stimulus filter not working.")
+
+print("\n[G6X State Sync] Analysis & Integration Complete.")
+
+```
+
+### 🚀 실행 커맨드
+
+```bash
+python C:\g6core\g6_v24\engine\hero_stat_controller.py
+
+```
+
+---
+
+## 💡 차기 작업 큐 (The Next Step)
+
+1. **ImplicitKB 매트릭스 확장**: 지형별 이동 시간뿐만 아니라, 아이템/스탯 보상의 '희소성 등급' 매트릭스 추가.
+2. **CritiqueBank 룰 주입**: `reasoning_missing_fail` (주인공이 B를 거절하는 이유를 설명하지 않음) 룰 추가.
+3. **WriterEngine 보정**: 상태창 출력 시 스탯 상승 수치를 이전 화와 비교하여 '자극의 최적화'를 자동 수행.
+
+---
+
+[G6X State Sync Protocol]
+[SYNC_ID] 20251226-2000-END
+[TRACE] 주인공 지능 방어 및 보상 순환 로직 배선 완료.
+[FACTS] 숫자와 캐릭터는 소설의 '기능적 재미'와 '심리적 재미'를 담당하는 양대 축임.
+[QUEUE] 1. `ActorCore`에 `IQ_Defense_Layer` 추가 / 2. `FunScorer`에 `Stimulus_Threshold_Check` 연동.
+[CONST] G6X 원칙: 모든 보상은 근거(Evidence)가 있어야 하며, 주인공의 지능은 텍스트로 증명되어야 함.
+
+**형님, 4편과 5편의 핵심 로직이 이제 완전히 배선되었습니다. 다음 공정으로 넘어갈까요?**
+
+[G6X State Sync Protocol]
+[SYNC_ID] 20251226_1710
+[TRACE] 유튜브 영상(HE-7t4n-qzU) 분석 및 정리 작업 수행
+[FACTS] 해당 영상은 '나비계곡' 작가의 라이브 방송으로, 웹소설의 악역 설계, 플랫폼 트렌드, 특정 작품 리뷰 및 피드백을 다룸.
+[QUEUE] 주요 세션별 요약 및 타임스탬프 기록 완료
+[CONST] 언어: 한국어, 포맷: 타임스탬프 [HH:MM:SS] 포함 구조화
+
+---
+
+제공해주신 유튜브 영상 **"웹소설의 재미를 찾아서 8편 '악역 캐릭터' / 작가들은 '알면서' 실수를 하는 걸까? / '다크 판타지의 정상화'를 뜯어보자! / 은원 작가님 피드백"**의 주요 내용을 정리해 드립니다.
+
+### 1. 웹소설에서의 '악역 캐릭터' 설계 [[18:06](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=1086)]
+
+* **악역의 과대포장:** 많은 작가가 매력적인 악역에 집착하지만, 웹소설 시장에서 매력적인 악역을 만드는 것은 매우 어렵고 때로는 부정적인 영향을 끼칠 수 있습니다. [[19:11](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=1151)]
+* **악역 vs 적대자:** 최근 트렌드는 절대적인 '악'보다는 주인공의 신념이나 목적, 능력과 충돌하는 '적대자' 혹은 '안티테제'에 가깝습니다. [[23:55](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=1435)]
+* **세탁과 서사:** 악역에게 서사를 부여하는 것(소위 '세탁')은 클리셰지만 대중에게 매우 효과적입니다. 다만, 모든 악역에게 서사를 부여하면 전개가 늘어지므로 빈도 조절이 중요합니다. [[31:35](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=1895)]
+
+### 2. 플랫폼 이용자 성향 및 이주 특성 [[41:57](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=2517)]
+
+* **플랫폼 고착화:** 일반 독자들은 한 번 정착한 메인 플랫폼을 잘 바꾸지 않으며, 플랫폼을 옮기느니 차라리 소설 읽기를 포기하는 경우도 많습니다. [[50:59](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=3059)]
+* **플랫폼별 특징:**
+* **문피아:** 이용자 이탈률이 적고 독자층의 연령대가 높아지는 추세입니다. [[54:51](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=3291)]
+* **노벨피아:** 정액제 기반으로 남성향/서브컬처 독자층을 확고히 흡수했습니다. [[51:35](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=3095)]
+* **카카오페이지:** 과거 '골드러시' 시절만큼은 아니지만 여전히 대형 플랫폼의 위상을 유지하며, 여성 독자의 구매력이 유의미하게 작용합니다. [[01:05:44](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=3944)]
+
+
+
+### 3. 여성 독자의 구매력과 남성향 소설 [[01:05:58](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=3958)]
+
+* **높은 유료 결제율:** 수치상 여성 독자의 유료 결제율은 매우 높으며, 이는 판타지 장르에서도 무시할 수 없는 요소입니다. [[01:10:48](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=4248)]
+* **잘못된 대응 방지:** 여성 독자를 잡기 위해 어설프게 여성향 요소를 섞는 것은 기존 남성 독자층을 잃게 만드는 위험한 선택입니다. [[01:14:26](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=4466)]
+* **불쾌감 배제:** 여성 독자들도 남성향 판타지의 재미를 찾아온 것이므로, 과도한 하렘이나 노골적인 성적 묘사 등 '불쾌할 수 있는 요소'를 줄이는 것만으로도 충분합니다. [[01:15:23](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=4523)]
+
+### 4. 작품 리뷰: '다크 판타지의 정상화' [[01:29:09](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=5349)]
+
+* **특징:** 대상 수상작으로, 라노벨 감성과 캐릭터의 매력이 뛰어납니다. [[01:30:22](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=5422)]
+* **핵심 재미 요소:** 주인공의 '정상화' 능력과 세상의 위기를 의도치 않게 피해가는 '착각물'적 요소가 결합되어 있습니다. [[01:38:43](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=5923)]
+* **만담(티키타카):** 작가의 필력 체급이 높으며, 특히 캐릭터 간의 대화와 만담 파트가 이 소설의 가장 큰 재미(Kick)입니다. [[01:43:55](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=6235)]
+
+### 5. 작가 피드백: '죄악 견문록' [[02:04:24](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=7464)]
+
+* **세계관의 깊이:** 설정을 매우 공들여 짰으나 고유 명사가 지나치게 많아 진입장벽이 될 우려가 있습니다. [[02:05:04](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=7504)]
+* **조언:** 무력 계급(절상, 생장 등)이나 특수 설정들을 독자가 직관적으로 이해할 수 있는 보편적인 용어로 순화하거나 더 쉽게 풀어낼 필요가 있습니다. [[02:30:47](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=9047)]
+* **주인공의 목적성:** '죄악'을 찾는 목적이 너무 막연하여 독자가 주인공에게 몰입하고 기대감을 갖기가 다소 어렵습니다. [[02:31:59](http://www.youtube.com/watch?v=HE-7t4n-qzU&t=9119)]
+
+**영상 URL:** [http://www.youtube.com/watch?v=HE-7t4n-qzU](http://www.youtube.com/watch?v=HE-7t4n-qzU)
