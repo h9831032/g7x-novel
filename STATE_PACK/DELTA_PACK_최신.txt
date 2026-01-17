@@ -1,0 +1,41 @@
+[STARTUP_AUTO_APPROVE_BLOCK]
+[SESSION_STARTUP]
+cd C:\g7core\g7_v1
+claude -y
+
+또는 대화 첫 메시지에 반드시 명시:
+"모든 파일 수정/생성을 자동 승인으로 진행해줘. 묻지 마!"
+
+[AUTO_APPROVE_PERMANENT_CONFIG]
+config.json에 "autoApprove": true 추가 완료
+위치: C:\Users\00\AppData\Roaming\claude\config.json
+
+===========================================
+
+G7X STATE_PACK - 최신 상태
+
+[2026-01-17 08:40 기준]
+
+## 완료된 작업
+- ✅ GPTORDER 01-30 완료
+- ✅ venv 복구 완료 (Python 3.10.9)
+- ✅ REAL30 (3+3)x5 실행 중
+  - DAY S1~S5: 완료
+  - NIGHT S1: 완료
+  - NIGHT S2~S5: 진행 중
+
+## 현재 실행 중
+- REAL30 야간 러너
+- 예상 완료: 09:30~10:00
+
+## 변경된 파일 (오늘)
+1. .venv/ - Python 3.10으로 재생성
+2. tools/run_real30_3p3x5_day_night.ps1 - Python 경로 리졸버 수정
+3. config.json - autoApprove: true 추가
+4. DOCS/헌법.txt - 신규 생성
+5. STATE_PACK/DELTA_PACK_최신.txt - 신규 생성
+
+## 다음 작업
+- REAL30 완료 대기
+- 증거팩 검증
+- FAIL_BOX 확인

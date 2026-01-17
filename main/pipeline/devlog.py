@@ -68,5 +68,27 @@ def write_daily_devlog(run_path: Path, stats: dict, reason_code: str) -> None:
     
     daily_log_path = run_path / "daily_devlog.txt"
     daily_log_path.write_text(content, encoding="utf-8")
-    
+
     print(f"[DEVLOG] daily_devlog.txt created")
+
+
+def append_run_summary(run_id: str, exitcode: int, pass_status: bool, ssot_root: Path) -> None:
+    """
+    run_id 단위 요약을 DEVLOG\devlog_runs.jsonl에 추가
+    """
+    devlog_dir = ssot_root / "DEVLOG"
+    devlog_dir.mkdir(exist_ok=True)
+
+    devlog_file = devlog_dir / "devlog_runs.jsonl"
+
+    entry = {
+        "run_id": run_id,
+        "exitcode": exitcode,
+        "pass": pass_status,
+        "timestamp": datetime.now().isoformat()
+    }
+
+    with open(devlog_file, "a", encoding="utf-8") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+    print(f"[DEVLOG] Entry appended: {run_id} (pass={pass_status})")

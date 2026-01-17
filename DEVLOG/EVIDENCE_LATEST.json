@@ -1,9 +1,9 @@
 {
-  "run_id": "RUN_20260116_011322_809578",
-  "timestamp": "2026-01-16T01:14:14.097255",
+  "run_id": "RUN_20260117_183339_708382",
+  "timestamp": "2026-01-17T18:36:30.026489",
   "exitcode": 0,
-  "expected_missions": 5,
-  "done_missions": 5,
+  "expected_missions": 10,
+  "done_missions": 10,
   "api_error_count": 0,
   "pass": true,
   "verdict": "PASS",

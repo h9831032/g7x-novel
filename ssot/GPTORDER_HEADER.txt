@@ -1,0 +1,4 @@
+[SSOT MANDATE]
+- DUMMY/SIM/가라 금지
+- RUN 증거 없으면 FAIL
+- 이 헤더 없으면 실행 금지

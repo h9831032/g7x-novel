@@ -1,0 +1,764 @@
+[INFO] Using Python: C:\g7core\g7_v1\.venv\Scripts\python.exe
+[REAL30] Starting NIGHT RUNNER (3+3)x5 execution...
+
+[REAL30 DAY] Starting DAY profile execution...
+
+[DAY S1] Executing: .\GPTORDER\REAL30_DAY_S1.txt
+[MANAGER] RUN CREATED: C:\g7core\g7_v1\runs\RUN_20260117_082701_842250
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_082701_842250
+Traceback (most recent call last):
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 107, in <module>
+    main()
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 88, in main
+    print(f"  \u2713 {artifact}")
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2713' in position 2: illegal multibyte sequence
+
+[MANAGER] Stdout/stderr redirected to RUN folder
+[PROFILE] Active profile: DAY
+[PROFILE] MAX_RETRIES=5, BATCH_SIZE=3
+[MANAGER] Engine initialized: models/gemini-2.0-flash-exp
+[COMPILER_GUARD] Validating order file: REAL30_DAY_S1.txt
+[COMPILER_GUARD PASS] Valid: 6 missions
+[MANAGER] Loaded 6 orders from C:\g7core\g7_v1\GPTORDER\REAL30_DAY_S1.txt
+[MANAGER] Starting 6 missions...
+[MANAGER] expected_missions = 6
+[MANAGER] batch_size=3, batch_delay=20.0s, task_delay=8.0s
+[MISSION] Executing: mission_0001 | Order: Write a professional email requesting a meeting wi...
+[MISSION] mission_0001 status: SUCCESS
+[MISSION] Executing: mission_0002 | Order: Summarize the key points from a 5-page technical d...
+[MISSION] mission_0002 status: SUCCESS
+[MISSION] Executing: mission_0003 | Order: Create a to-do list for a software project sprint....
+[MISSION] mission_0003 status: SUCCESS
+[BATCH] Completed 3 missions, waiting 20.0s before next batch...
+[MISSION] Executing: mission_0004 | Order: Draft a brief project status update for stakeholde...
+[MISSION] mission_0004 status: SUCCESS
+[MISSION] Executing: mission_0005 | Order: Write a polite response to a customer complaint....
+[MISSION] mission_0005 status: SUCCESS
+[MISSION] Executing: mission_0006 | Order: Generate 3 creative taglines for a new product lau...
+[MISSION] mission_0006 status: SUCCESS
+[MANAGER] Loop finished:
+  expected_missions = 6
+  done_missions     = 6
+  api_error_count   = 0
+  reason_code       = ORDER_EOF
+[MANAGER] Finalizing budget guard...
+[BUDGET] Written: C:\g7core\g7_v1\runs\RUN_20260117_082701_842250\budget_guard.log
+  missions: 6/6
+  api_calls: 6 (retries: 0)
+  estimated_cost: $0.000026
+[MANAGER] Closing output streams...
+[MANAGER] Finalizing evidence pack...
+[MANAGER] Calling devlog generator...
+[DEVLOG] Entry appended: RUN_20260117_082701_842250 (pass=True)
+[DEVLOG] Auto-generated 5 files
+[MANAGER] RUN COMPLETE:
+  exitcode    = 0
+  reason_code = ORDER_EOF
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_082701_842250
+
+[POSTRUN] Running postrun hooks...
+[POSTRUN] Running artifact checker...
+[RUN_ARTIFACTS] Checking latest RUN folder...
+[INFO] Latest RUN: RUN_20260117_082701_842250
+
+[PASS] All required artifacts present!
+
+Found artifacts:
+
+[POSTRUN] Artifact check failed. Running FAIL_BOX packer...
+[FAIL_BOX_PACKER] Checking latest RUN for failures...
+[INFO] Latest RUN: RUN_20260117_082701_842250
+[INFO] Exitcode: 0
+[SKIP] RUN successful (exitcode=0). No packing needed.
+
+[POSTRUN] Hooks complete.
+
+[DAY S1] exitcode=0
+[DELAY] Waiting 30 seconds...
+
+[DAY S2] Executing: .\GPTORDER\REAL30_DAY_S2.txt
+[MANAGER] RUN CREATED: C:\g7core\g7_v1\runs\RUN_20260117_082906_607014
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_082906_607014
+Traceback (most recent call last):
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 107, in <module>
+    main()
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 88, in main
+    print(f"  \u2713 {artifact}")
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2713' in position 2: illegal multibyte sequence
+
+[MANAGER] Stdout/stderr redirected to RUN folder
+[PROFILE] Active profile: DAY
+[PROFILE] MAX_RETRIES=5, BATCH_SIZE=3
+[MANAGER] Engine initialized: models/gemini-2.0-flash-exp
+[COMPILER_GUARD] Validating order file: REAL30_DAY_S2.txt
+[COMPILER_GUARD PASS] Valid: 6 missions
+[MANAGER] Loaded 6 orders from C:\g7core\g7_v1\GPTORDER\REAL30_DAY_S2.txt
+[MANAGER] Starting 6 missions...
+[MANAGER] expected_missions = 6
+[MANAGER] batch_size=3, batch_delay=20.0s, task_delay=8.0s
+[MISSION] Executing: mission_0001 | Order: Explain the concept of cloud computing in simple t...
+[MISSION] mission_0001 status: SUCCESS
+[MISSION] Executing: mission_0002 | Order: List 5 best practices for remote team collaboratio...
+[MISSION] mission_0002 status: SUCCESS
+[MISSION] Executing: mission_0003 | Order: Write a short bio for a professional LinkedIn prof...
+[MISSION] mission_0003 status: SUCCESS
+[BATCH] Completed 3 missions, waiting 20.0s before next batch...
+[MISSION] Executing: mission_0004 | Order: Create an agenda for a 1-hour team meeting....
+[MISSION] mission_0004 status: SUCCESS
+[MISSION] Executing: mission_0005 | Order: Draft a thank-you note after a job interview....
+[MISSION] mission_0005 status: SUCCESS
+[MISSION] Executing: mission_0006 | Order: Summarize the main features of a software release....
+[MISSION] mission_0006 status: SUCCESS
+[MANAGER] Loop finished:
+  expected_missions = 6
+  done_missions     = 6
+  api_error_count   = 0
+  reason_code       = ORDER_EOF
+[MANAGER] Finalizing budget guard...
+[BUDGET] Written: C:\g7core\g7_v1\runs\RUN_20260117_082906_607014\budget_guard.log
+  missions: 6/6
+  api_calls: 6 (retries: 0)
+  estimated_cost: $0.000026
+[MANAGER] Closing output streams...
+[MANAGER] Finalizing evidence pack...
+[MANAGER] Calling devlog generator...
+[DEVLOG] Entry appended: RUN_20260117_082906_607014 (pass=True)
+[DEVLOG] Auto-generated 5 files
+[MANAGER] RUN COMPLETE:
+  exitcode    = 0
+  reason_code = ORDER_EOF
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_082906_607014
+
+[POSTRUN] Running postrun hooks...
+[POSTRUN] Running artifact checker...
+[RUN_ARTIFACTS] Checking latest RUN folder...
+[INFO] Latest RUN: RUN_20260117_082906_607014
+
+[PASS] All required artifacts present!
+
+Found artifacts:
+
+[POSTRUN] Artifact check failed. Running FAIL_BOX packer...
+[FAIL_BOX_PACKER] Checking latest RUN for failures...
+[INFO] Latest RUN: RUN_20260117_082906_607014
+[INFO] Exitcode: 0
+[SKIP] RUN successful (exitcode=0). No packing needed.
+
+[POSTRUN] Hooks complete.
+
+[DAY S2] exitcode=0
+[DELAY] Waiting 30 seconds...
+
+[DAY S3] Executing: .\GPTORDER\REAL30_DAY_S3.txt
+[MANAGER] RUN CREATED: C:\g7core\g7_v1\runs\RUN_20260117_083100_859855
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_083100_859855
+Traceback (most recent call last):
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 107, in <module>
+    main()
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 88, in main
+    print(f"  \u2713 {artifact}")
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2713' in position 2: illegal multibyte sequence
+
+[MANAGER] Stdout/stderr redirected to RUN folder
+[PROFILE] Active profile: DAY
+[PROFILE] MAX_RETRIES=5, BATCH_SIZE=3
+[MANAGER] Engine initialized: models/gemini-2.0-flash-exp
+[COMPILER_GUARD] Validating order file: REAL30_DAY_S3.txt
+[COMPILER_GUARD PASS] Valid: 6 missions
+[MANAGER] Loaded 6 orders from C:\g7core\g7_v1\GPTORDER\REAL30_DAY_S3.txt
+[MANAGER] Starting 6 missions...
+[MANAGER] expected_missions = 6
+[MANAGER] batch_size=3, batch_delay=20.0s, task_delay=8.0s
+[MISSION] Executing: mission_0001 | Order: Write instructions for setting up a new tool....
+[MISSION] mission_0001 status: SUCCESS
+[MISSION] Executing: mission_0002 | Order: Generate 3 quiz questions about project management...
+[MISSION] mission_0002 status: SUCCESS
+[MISSION] Executing: mission_0003 | Order: Create a checklist for onboarding a new employee....
+[MISSION] mission_0003 status: SUCCESS
+[BATCH] Completed 3 missions, waiting 20.0s before next batch...
+[MISSION] Executing: mission_0004 | Order: Write a brief case study about a successful projec...
+[MISSION] mission_0004 status: SUCCESS
+[MISSION] Executing: mission_0005 | Order: Draft a newsletter introduction for a company upda...
+[MISSION] mission_0005 status: SUCCESS
+[MISSION] Executing: mission_0006 | Order: List 5 tips for improving productivity....
+[MISSION] mission_0006 status: SUCCESS
+[MANAGER] Loop finished:
+  expected_missions = 6
+  done_missions     = 6
+  api_error_count   = 0
+  reason_code       = ORDER_EOF
+[MANAGER] Finalizing budget guard...
+[BUDGET] Written: C:\g7core\g7_v1\runs\RUN_20260117_083100_859855\budget_guard.log
+  missions: 6/6
+  api_calls: 6 (retries: 0)
+  estimated_cost: $0.000026
+[MANAGER] Closing output streams...
+[MANAGER] Finalizing evidence pack...
+[MANAGER] Calling devlog generator...
+[DEVLOG] Entry appended: RUN_20260117_083100_859855 (pass=True)
+[DEVLOG] Auto-generated 5 files
+[MANAGER] RUN COMPLETE:
+  exitcode    = 0
+  reason_code = ORDER_EOF
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_083100_859855
+
+[POSTRUN] Running postrun hooks...
+[POSTRUN] Running artifact checker...
+[RUN_ARTIFACTS] Checking latest RUN folder...
+[INFO] Latest RUN: RUN_20260117_083100_859855
+
+[PASS] All required artifacts present!
+
+Found artifacts:
+
+[POSTRUN] Artifact check failed. Running FAIL_BOX packer...
+[FAIL_BOX_PACKER] Checking latest RUN for failures...
+[INFO] Latest RUN: RUN_20260117_083100_859855
+[INFO] Exitcode: 0
+[SKIP] RUN successful (exitcode=0). No packing needed.
+
+[POSTRUN] Hooks complete.
+
+[DAY S3] exitcode=0
+[DELAY] Waiting 30 seconds...
+
+[DAY S4] Executing: .\GPTORDER\REAL30_DAY_S4.txt
+[MANAGER] RUN CREATED: C:\g7core\g7_v1\runs\RUN_20260117_083313_419235
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_083313_419235
+Traceback (most recent call last):
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 107, in <module>
+    main()
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 88, in main
+    print(f"  \u2713 {artifact}")
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2713' in position 2: illegal multibyte sequence
+
+[MANAGER] Stdout/stderr redirected to RUN folder
+[PROFILE] Active profile: DAY
+[PROFILE] MAX_RETRIES=5, BATCH_SIZE=3
+[MANAGER] Engine initialized: models/gemini-2.0-flash-exp
+[COMPILER_GUARD] Validating order file: REAL30_DAY_S4.txt
+[COMPILER_GUARD PASS] Valid: 6 missions
+[MANAGER] Loaded 6 orders from C:\g7core\g7_v1\GPTORDER\REAL30_DAY_S4.txt
+[MANAGER] Starting 6 missions...
+[MANAGER] expected_missions = 6
+[MANAGER] batch_size=3, batch_delay=20.0s, task_delay=8.0s
+[MISSION] Executing: mission_0001 | Order: Write a short description of a team member's role....
+[MISSION] mission_0001 status: SUCCESS
+[MISSION] Executing: mission_0002 | Order: Create a simple FAQ section for a product....
+[MISSION] mission_0002 status: SUCCESS
+[MISSION] Executing: mission_0003 | Order: Draft a polite decline message for a meeting reque...
+[MISSION] mission_0003 status: SUCCESS
+[BATCH] Completed 3 missions, waiting 20.0s before next batch...
+[MISSION] Executing: mission_0004 | Order: Summarize quarterly goals in 3 bullet points....
+[MISSION] mission_0004 status: SUCCESS
+[MISSION] Executing: mission_0005 | Order: Write a motivational message for team members....
+[MISSION] mission_0005 status: SUCCESS
+[MISSION] Executing: mission_0006 | Order: Generate 3 ideas for a team-building activity....
+[MISSION] mission_0006 status: SUCCESS
+[MANAGER] Loop finished:
+  expected_missions = 6
+  done_missions     = 6
+  api_error_count   = 0
+  reason_code       = ORDER_EOF
+[MANAGER] Finalizing budget guard...
+[BUDGET] Written: C:\g7core\g7_v1\runs\RUN_20260117_083313_419235\budget_guard.log
+  missions: 6/6
+  api_calls: 6 (retries: 0)
+  estimated_cost: $0.000026
+[MANAGER] Closing output streams...
+[MANAGER] Finalizing evidence pack...
+[MANAGER] Calling devlog generator...
+[DEVLOG] Entry appended: RUN_20260117_083313_419235 (pass=True)
+[DEVLOG] Auto-generated 5 files
+[MANAGER] RUN COMPLETE:
+  exitcode    = 0
+  reason_code = ORDER_EOF
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_083313_419235
+
+[POSTRUN] Running postrun hooks...
+[POSTRUN] Running artifact checker...
+[RUN_ARTIFACTS] Checking latest RUN folder...
+[INFO] Latest RUN: RUN_20260117_083313_419235
+
+[PASS] All required artifacts present!
+
+Found artifacts:
+
+[POSTRUN] Artifact check failed. Running FAIL_BOX packer...
+[FAIL_BOX_PACKER] Checking latest RUN for failures...
+[INFO] Latest RUN: RUN_20260117_083313_419235
+[INFO] Exitcode: 0
+[SKIP] RUN successful (exitcode=0). No packing needed.
+
+[POSTRUN] Hooks complete.
+
+[DAY S4] exitcode=0
+[DELAY] Waiting 30 seconds...
+
+[DAY S5] Executing: .\GPTORDER\REAL30_DAY_S5.txt
+[MANAGER] RUN CREATED: C:\g7core\g7_v1\runs\RUN_20260117_083504_923540
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_083504_923540
+Traceback (most recent call last):
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 107, in <module>
+    main()
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 88, in main
+    print(f"  \u2713 {artifact}")
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2713' in position 2: illegal multibyte sequence
+
+[MANAGER] Stdout/stderr redirected to RUN folder
+[PROFILE] Active profile: DAY
+[PROFILE] MAX_RETRIES=5, BATCH_SIZE=3
+[MANAGER] Engine initialized: models/gemini-2.0-flash-exp
+[COMPILER_GUARD] Validating order file: REAL30_DAY_S5.txt
+[COMPILER_GUARD PASS] Valid: 6 missions
+[MANAGER] Loaded 6 orders from C:\g7core\g7_v1\GPTORDER\REAL30_DAY_S5.txt
+[MANAGER] Starting 6 missions...
+[MANAGER] expected_missions = 6
+[MANAGER] batch_size=3, batch_delay=20.0s, task_delay=8.0s
+[MISSION] Executing: mission_0001 | Order: Create a simple project timeline with 5 milestones...
+[MISSION] mission_0001 status: SUCCESS
+[MISSION] Executing: mission_0002 | Order: Write a brief summary of a team retrospective meet...
+[MISSION] mission_0002 status: SUCCESS
+[MISSION] Executing: mission_0003 | Order: Draft guidelines for code review best practices....
+[MISSION] mission_0003 status: SUCCESS
+[BATCH] Completed 3 missions, waiting 20.0s before next batch...
+[MISSION] Executing: mission_0004 | Order: List 3 ways to improve customer satisfaction....
+[MISSION] mission_0004 status: SUCCESS
+[MISSION] Executing: mission_0005 | Order: Write a concise product description for marketing....
+[MISSION] mission_0005 status: SUCCESS
+[MISSION] Executing: mission_0006 | Order: Create a quick reference guide for a common workfl...
+[MISSION] mission_0006 status: SUCCESS
+[MANAGER] Loop finished:
+  expected_missions = 6
+  done_missions     = 6
+  api_error_count   = 0
+  reason_code       = ORDER_EOF
+[MANAGER] Finalizing budget guard...
+[BUDGET] Written: C:\g7core\g7_v1\runs\RUN_20260117_083504_923540\budget_guard.log
+  missions: 6/6
+  api_calls: 6 (retries: 0)
+  estimated_cost: $0.000026
+[MANAGER] Closing output streams...
+[MANAGER] Finalizing evidence pack...
+[MANAGER] Calling devlog generator...
+[DEVLOG] Entry appended: RUN_20260117_083504_923540 (pass=True)
+[DEVLOG] Auto-generated 5 files
+[MANAGER] RUN COMPLETE:
+  exitcode    = 0
+  reason_code = ORDER_EOF
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_083504_923540
+
+[POSTRUN] Running postrun hooks...
+[POSTRUN] Running artifact checker...
+[RUN_ARTIFACTS] Checking latest RUN folder...
+[INFO] Latest RUN: RUN_20260117_083504_923540
+
+[PASS] All required artifacts present!
+
+Found artifacts:
+
+[POSTRUN] Artifact check failed. Running FAIL_BOX packer...
+[FAIL_BOX_PACKER] Checking latest RUN for failures...
+[INFO] Latest RUN: RUN_20260117_083504_923540
+[INFO] Exitcode: 0
+[SKIP] RUN successful (exitcode=0). No packing needed.
+
+[POSTRUN] Hooks complete.
+
+[DAY S5] exitcode=0
+
+[DAY] All 5 slices completed!
+
+[DELAY] Profile switch delay: 30 seconds...
+
+[REAL30 NIGHT] Starting NIGHT profile execution...
+
+[NIGHT S1] Executing: .\GPTORDER\REAL30_NIGHT_S1.txt
+[MANAGER] RUN CREATED: C:\g7core\g7_v1\runs\RUN_20260117_083703_943238
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_083703_943238
+Traceback (most recent call last):
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 107, in <module>
+    main()
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 88, in main
+    print(f"  \u2713 {artifact}")
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2713' in position 2: illegal multibyte sequence
+
+[MANAGER] Stdout/stderr redirected to RUN folder
+[PROFILE] Active profile: NIGHT
+[PROFILE] MAX_RETRIES=6, BATCH_SIZE=3
+[MANAGER] Engine initialized: models/gemini-2.0-flash-exp
+[COMPILER_GUARD] Validating order file: REAL30_NIGHT_S1.txt
+[COMPILER_GUARD PASS] Valid: 6 missions
+[MANAGER] Loaded 6 orders from C:\g7core\g7_v1\GPTORDER\REAL30_NIGHT_S1.txt
+[MANAGER] Starting 6 missions...
+[MANAGER] expected_missions = 6
+[MANAGER] batch_size=3, batch_delay=75.0s, task_delay=25.0s
+[MISSION] Executing: mission_0001 | Order: Write a professional email requesting a meeting wi...
+[MISSION] mission_0001 status: SUCCESS
+[MISSION] Executing: mission_0002 | Order: Summarize the key points from a 5-page technical d...
+[MISSION] mission_0002 status: SUCCESS
+[MISSION] Executing: mission_0003 | Order: Create a to-do list for a software project sprint....
+[MISSION] mission_0003 status: SUCCESS
+[BATCH] Completed 3 missions, waiting 75.0s before next batch...
+[MISSION] Executing: mission_0004 | Order: Draft a brief project status update for stakeholde...
+[MISSION] mission_0004 status: SUCCESS
+[MISSION] Executing: mission_0005 | Order: Write a polite response to a customer complaint....
+[MISSION] mission_0005 status: SUCCESS
+[MISSION] Executing: mission_0006 | Order: Generate 3 creative taglines for a new product lau...
+[MISSION] mission_0006 status: SUCCESS
+[MANAGER] Loop finished:
+  expected_missions = 6
+  done_missions     = 6
+  api_error_count   = 0
+  reason_code       = ORDER_EOF
+[MANAGER] Finalizing budget guard...
+[BUDGET] Written: C:\g7core\g7_v1\runs\RUN_20260117_083703_943238\budget_guard.log
+  missions: 6/6
+  api_calls: 6 (retries: 0)
+  estimated_cost: $0.000026
+[MANAGER] Closing output streams...
+[MANAGER] Finalizing evidence pack...
+[MANAGER] Calling devlog generator...
+[DEVLOG] Entry appended: RUN_20260117_083703_943238 (pass=True)
+[DEVLOG] Auto-generated 5 files
+[MANAGER] RUN COMPLETE:
+  exitcode    = 0
+  reason_code = ORDER_EOF
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_083703_943238
+
+[POSTRUN] Running postrun hooks...
+[POSTRUN] Running artifact checker...
+[RUN_ARTIFACTS] Checking latest RUN folder...
+[INFO] Latest RUN: RUN_20260117_083703_943238
+
+[PASS] All required artifacts present!
+
+Found artifacts:
+
+[POSTRUN] Artifact check failed. Running FAIL_BOX packer...
+[FAIL_BOX_PACKER] Checking latest RUN for failures...
+[INFO] Latest RUN: RUN_20260117_083703_943238
+[INFO] Exitcode: 0
+[SKIP] RUN successful (exitcode=0). No packing needed.
+
+[POSTRUN] Hooks complete.
+
+[NIGHT S1] exitcode=0
+[DELAY] Waiting 30 seconds...
+
+[NIGHT S2] Executing: .\GPTORDER\REAL30_NIGHT_S2.txt
+[MANAGER] RUN CREATED: C:\g7core\g7_v1\runs\RUN_20260117_084128_461475
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_084128_461475
+Traceback (most recent call last):
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 107, in <module>
+    main()
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 88, in main
+    print(f"  \u2713 {artifact}")
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2713' in position 2: illegal multibyte sequence
+
+[MANAGER] Stdout/stderr redirected to RUN folder
+[PROFILE] Active profile: NIGHT
+[PROFILE] MAX_RETRIES=6, BATCH_SIZE=3
+[MANAGER] Engine initialized: models/gemini-2.0-flash-exp
+[COMPILER_GUARD] Validating order file: REAL30_NIGHT_S2.txt
+[COMPILER_GUARD PASS] Valid: 6 missions
+[MANAGER] Loaded 6 orders from C:\g7core\g7_v1\GPTORDER\REAL30_NIGHT_S2.txt
+[MANAGER] Starting 6 missions...
+[MANAGER] expected_missions = 6
+[MANAGER] batch_size=3, batch_delay=75.0s, task_delay=25.0s
+[MISSION] Executing: mission_0001 | Order: Explain the concept of cloud computing in simple t...
+[MISSION] mission_0001 status: SUCCESS
+[MISSION] Executing: mission_0002 | Order: List 5 best practices for remote team collaboratio...
+[MISSION] mission_0002 status: SUCCESS
+[MISSION] Executing: mission_0003 | Order: Write a short bio for a professional LinkedIn prof...
+[MISSION] mission_0003 status: SUCCESS
+[BATCH] Completed 3 missions, waiting 75.0s before next batch...
+[MISSION] Executing: mission_0004 | Order: Create an agenda for a 1-hour team meeting....
+[MISSION] mission_0004 status: SUCCESS
+[MISSION] Executing: mission_0005 | Order: Draft a thank-you note after a job interview....
+[MISSION] mission_0005 status: SUCCESS
+[MISSION] Executing: mission_0006 | Order: Summarize the main features of a software release....
+[MISSION] mission_0006 status: SUCCESS
+[MANAGER] Loop finished:
+  expected_missions = 6
+  done_missions     = 6
+  api_error_count   = 0
+  reason_code       = ORDER_EOF
+[MANAGER] Finalizing budget guard...
+[BUDGET] Written: C:\g7core\g7_v1\runs\RUN_20260117_084128_461475\budget_guard.log
+  missions: 6/6
+  api_calls: 6 (retries: 0)
+  estimated_cost: $0.000026
+[MANAGER] Closing output streams...
+[MANAGER] Finalizing evidence pack...
+[MANAGER] Calling devlog generator...
+[DEVLOG] Entry appended: RUN_20260117_084128_461475 (pass=True)
+[DEVLOG] Auto-generated 5 files
+[MANAGER] RUN COMPLETE:
+  exitcode    = 0
+  reason_code = ORDER_EOF
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_084128_461475
+
+[POSTRUN] Running postrun hooks...
+[POSTRUN] Running artifact checker...
+[RUN_ARTIFACTS] Checking latest RUN folder...
+[INFO] Latest RUN: RUN_20260117_084128_461475
+
+[PASS] All required artifacts present!
+
+Found artifacts:
+
+[POSTRUN] Artifact check failed. Running FAIL_BOX packer...
+[FAIL_BOX_PACKER] Checking latest RUN for failures...
+[INFO] Latest RUN: RUN_20260117_084128_461475
+[INFO] Exitcode: 0
+[SKIP] RUN successful (exitcode=0). No packing needed.
+
+[POSTRUN] Hooks complete.
+
+[NIGHT S2] exitcode=0
+[DELAY] Waiting 30 seconds...
+
+[NIGHT S3] Executing: .\GPTORDER\REAL30_NIGHT_S3.txt
+[MANAGER] RUN CREATED: C:\g7core\g7_v1\runs\RUN_20260117_084553_050628
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_084553_050628
+Traceback (most recent call last):
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 107, in <module>
+    main()
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 88, in main
+    print(f"  \u2713 {artifact}")
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2713' in position 2: illegal multibyte sequence
+
+[MANAGER] Stdout/stderr redirected to RUN folder
+[PROFILE] Active profile: NIGHT
+[PROFILE] MAX_RETRIES=6, BATCH_SIZE=3
+[MANAGER] Engine initialized: models/gemini-2.0-flash-exp
+[COMPILER_GUARD] Validating order file: REAL30_NIGHT_S3.txt
+[COMPILER_GUARD PASS] Valid: 6 missions
+[MANAGER] Loaded 6 orders from C:\g7core\g7_v1\GPTORDER\REAL30_NIGHT_S3.txt
+[MANAGER] Starting 6 missions...
+[MANAGER] expected_missions = 6
+[MANAGER] batch_size=3, batch_delay=75.0s, task_delay=25.0s
+[MISSION] Executing: mission_0001 | Order: Write instructions for setting up a new tool....
+[MISSION] mission_0001 status: SUCCESS
+[MISSION] Executing: mission_0002 | Order: Generate 3 quiz questions about project management...
+[MISSION] mission_0002 status: SUCCESS
+[MISSION] Executing: mission_0003 | Order: Create a checklist for onboarding a new employee....
+[MISSION] mission_0003 status: SUCCESS
+[BATCH] Completed 3 missions, waiting 75.0s before next batch...
+[MISSION] Executing: mission_0004 | Order: Write a brief case study about a successful projec...
+[MISSION] mission_0004 status: SUCCESS
+[MISSION] Executing: mission_0005 | Order: Draft a newsletter introduction for a company upda...
+[MISSION] mission_0005 status: SUCCESS
+[MISSION] Executing: mission_0006 | Order: List 5 tips for improving productivity....
+[MISSION] mission_0006 status: SUCCESS
+[MANAGER] Loop finished:
+  expected_missions = 6
+  done_missions     = 6
+  api_error_count   = 0
+  reason_code       = ORDER_EOF
+[MANAGER] Finalizing budget guard...
+[BUDGET] Written: C:\g7core\g7_v1\runs\RUN_20260117_084553_050628\budget_guard.log
+  missions: 6/6
+  api_calls: 6 (retries: 0)
+  estimated_cost: $0.000026
+[MANAGER] Closing output streams...
+[MANAGER] Finalizing evidence pack...
+[MANAGER] Calling devlog generator...
+[DEVLOG] Entry appended: RUN_20260117_084553_050628 (pass=True)
+[DEVLOG] Auto-generated 5 files
+[MANAGER] RUN COMPLETE:
+  exitcode    = 0
+  reason_code = ORDER_EOF
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_084553_050628
+
+[POSTRUN] Running postrun hooks...
+[POSTRUN] Running artifact checker...
+[RUN_ARTIFACTS] Checking latest RUN folder...
+[INFO] Latest RUN: RUN_20260117_084553_050628
+
+[PASS] All required artifacts present!
+
+Found artifacts:
+
+[POSTRUN] Artifact check failed. Running FAIL_BOX packer...
+[FAIL_BOX_PACKER] Checking latest RUN for failures...
+[INFO] Latest RUN: RUN_20260117_084553_050628
+[INFO] Exitcode: 0
+[SKIP] RUN successful (exitcode=0). No packing needed.
+
+[POSTRUN] Hooks complete.
+
+[NIGHT S3] exitcode=0
+[DELAY] Waiting 30 seconds...
+
+[NIGHT S4] Executing: .\GPTORDER\REAL30_NIGHT_S4.txt
+[MANAGER] RUN CREATED: C:\g7core\g7_v1\runs\RUN_20260117_085023_761443
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_085023_761443
+Traceback (most recent call last):
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 107, in <module>
+    main()
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 88, in main
+    print(f"  \u2713 {artifact}")
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2713' in position 2: illegal multibyte sequence
+
+[MANAGER] Stdout/stderr redirected to RUN folder
+[PROFILE] Active profile: NIGHT
+[PROFILE] MAX_RETRIES=6, BATCH_SIZE=3
+[MANAGER] Engine initialized: models/gemini-2.0-flash-exp
+[COMPILER_GUARD] Validating order file: REAL30_NIGHT_S4.txt
+[COMPILER_GUARD PASS] Valid: 6 missions
+[MANAGER] Loaded 6 orders from C:\g7core\g7_v1\GPTORDER\REAL30_NIGHT_S4.txt
+[MANAGER] Starting 6 missions...
+[MANAGER] expected_missions = 6
+[MANAGER] batch_size=3, batch_delay=75.0s, task_delay=25.0s
+[MISSION] Executing: mission_0001 | Order: Write a short description of a team member's role....
+[MISSION] mission_0001 status: SUCCESS
+[MISSION] Executing: mission_0002 | Order: Create a simple FAQ section for a product....
+[MISSION] mission_0002 status: SUCCESS
+[MISSION] Executing: mission_0003 | Order: Draft a polite decline message for a meeting reque...
+[MISSION] mission_0003 status: SUCCESS
+[BATCH] Completed 3 missions, waiting 75.0s before next batch...
+[MISSION] Executing: mission_0004 | Order: Summarize quarterly goals in 3 bullet points....
+[MISSION] mission_0004 status: SUCCESS
+[MISSION] Executing: mission_0005 | Order: Write a motivational message for team members....
+[MISSION] mission_0005 status: SUCCESS
+[MISSION] Executing: mission_0006 | Order: Generate 3 ideas for a team-building activity....
+[MISSION] mission_0006 status: SUCCESS
+[MANAGER] Loop finished:
+  expected_missions = 6
+  done_missions     = 6
+  api_error_count   = 0
+  reason_code       = ORDER_EOF
+[MANAGER] Finalizing budget guard...
+[BUDGET] Written: C:\g7core\g7_v1\runs\RUN_20260117_085023_761443\budget_guard.log
+  missions: 6/6
+  api_calls: 6 (retries: 0)
+  estimated_cost: $0.000026
+[MANAGER] Closing output streams...
+[MANAGER] Finalizing evidence pack...
+[MANAGER] Calling devlog generator...
+[DEVLOG] Entry appended: RUN_20260117_085023_761443 (pass=True)
+[DEVLOG] Auto-generated 5 files
+[MANAGER] RUN COMPLETE:
+  exitcode    = 0
+  reason_code = ORDER_EOF
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_085023_761443
+
+[POSTRUN] Running postrun hooks...
+[POSTRUN] Running artifact checker...
+[RUN_ARTIFACTS] Checking latest RUN folder...
+[INFO] Latest RUN: RUN_20260117_085023_761443
+
+[PASS] All required artifacts present!
+
+Found artifacts:
+
+[POSTRUN] Artifact check failed. Running FAIL_BOX packer...
+[FAIL_BOX_PACKER] Checking latest RUN for failures...
+[INFO] Latest RUN: RUN_20260117_085023_761443
+[INFO] Exitcode: 0
+[SKIP] RUN successful (exitcode=0). No packing needed.
+
+[POSTRUN] Hooks complete.
+
+[NIGHT S4] exitcode=0
+[DELAY] Waiting 30 seconds...
+
+[NIGHT S5] Executing: .\GPTORDER\REAL30_NIGHT_S5.txt
+[MANAGER] RUN CREATED: C:\g7core\g7_v1\runs\RUN_20260117_085443_178744
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_085443_178744
+Traceback (most recent call last):
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 107, in <module>
+    main()
+  File "C:\g7core\g7_v1\tools\check_run_artifacts_v1.py", line 88, in main
+    print(f"  \u2713 {artifact}")
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2713' in position 2: illegal multibyte sequence
+
+[MANAGER] Stdout/stderr redirected to RUN folder
+[PROFILE] Active profile: NIGHT
+[PROFILE] MAX_RETRIES=6, BATCH_SIZE=3
+[MANAGER] Engine initialized: models/gemini-2.0-flash-exp
+[COMPILER_GUARD] Validating order file: REAL30_NIGHT_S5.txt
+[COMPILER_GUARD PASS] Valid: 6 missions
+[MANAGER] Loaded 6 orders from C:\g7core\g7_v1\GPTORDER\REAL30_NIGHT_S5.txt
+[MANAGER] Starting 6 missions...
+[MANAGER] expected_missions = 6
+[MANAGER] batch_size=3, batch_delay=75.0s, task_delay=25.0s
+[MISSION] Executing: mission_0001 | Order: Create a simple project timeline with 5 milestones...
+[MISSION] mission_0001 status: SUCCESS
+[MISSION] Executing: mission_0002 | Order: Write a brief summary of a team retrospective meet...
+[MISSION] mission_0002 status: SUCCESS
+[MISSION] Executing: mission_0003 | Order: Draft guidelines for code review best practices....
+[MISSION] mission_0003 status: SUCCESS
+[BATCH] Completed 3 missions, waiting 75.0s before next batch...
+[MISSION] Executing: mission_0004 | Order: List 3 ways to improve customer satisfaction....
+[MISSION] mission_0004 status: SUCCESS
+[MISSION] Executing: mission_0005 | Order: Write a concise product description for marketing....
+[MISSION] mission_0005 status: SUCCESS
+[MISSION] Executing: mission_0006 | Order: Create a quick reference guide for a common workfl...
+[MISSION] mission_0006 status: SUCCESS
+[MANAGER] Loop finished:
+  expected_missions = 6
+  done_missions     = 6
+  api_error_count   = 0
+  reason_code       = ORDER_EOF
+[MANAGER] Finalizing budget guard...
+[BUDGET] Written: C:\g7core\g7_v1\runs\RUN_20260117_085443_178744\budget_guard.log
+  missions: 6/6
+  api_calls: 6 (retries: 0)
+  estimated_cost: $0.000026
+[MANAGER] Closing output streams...
+[MANAGER] Finalizing evidence pack...
+[MANAGER] Calling devlog generator...
+[DEVLOG] Entry appended: RUN_20260117_085443_178744 (pass=True)
+[DEVLOG] Auto-generated 5 files
+[MANAGER] RUN COMPLETE:
+  exitcode    = 0
+  reason_code = ORDER_EOF
+TARGET_RUN_PATH:C:\g7core\g7_v1\runs\RUN_20260117_085443_178744
+
+[POSTRUN] Running postrun hooks...
+[POSTRUN] Running artifact checker...
+[RUN_ARTIFACTS] Checking latest RUN folder...
+[INFO] Latest RUN: RUN_20260117_085443_178744
+
+[PASS] All required artifacts present!
+
+Found artifacts:
+
+[POSTRUN] Artifact check failed. Running FAIL_BOX packer...
+[FAIL_BOX_PACKER] Checking latest RUN for failures...
+[INFO] Latest RUN: RUN_20260117_085443_178744
+[INFO] Exitcode: 0
+[SKIP] RUN successful (exitcode=0). No packing needed.
+
+[POSTRUN] Hooks complete.
+
+[NIGHT S5] exitcode=0
+
+[NIGHT] All 5 slices completed!
+
+========================================
+REAL30 (3+3)_x5 Execution Summary
+========================================
+DAY slices completed: 5/5
+NIGHT slices completed: 5/5
+Total exitcode: 0
+========================================
+
+Latest 10 RUN_PATHs:
+  C:\g7core\g7_v1\runs\RUN_20260117_085443_178744
+  C:\g7core\g7_v1\runs\RUN_20260117_085023_761443
+  C:\g7core\g7_v1\runs\RUN_20260117_084553_050628
+  C:\g7core\g7_v1\runs\RUN_20260117_084128_461475
+  C:\g7core\g7_v1\runs\RUN_20260117_083703_943238
+  C:\g7core\g7_v1\runs\RUN_20260117_083504_923540
+  C:\g7core\g7_v1\runs\RUN_20260117_083313_419235
+  C:\g7core\g7_v1\runs\RUN_20260117_083100_859855
+  C:\g7core\g7_v1\runs\RUN_20260117_082906_607014
+  C:\g7core\g7_v1\runs\RUN_20260117_082701_842250
+
+[SUCCESS] REAL30 (3+3)_x5 completed!
+
+Press any key to exit...

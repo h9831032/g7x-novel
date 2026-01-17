@@ -1,0 +1,10 @@
+[SSOT MANDATE]
+- REAL execution only
+- No dummy/simulation missions
+- Evidence pack required
+Generate a 3-sentence professional summary of cloud computing benefits.
+Write 5 bullet points about remote work best practices.
+Create a simple to-do list with 4 items for a software project.
+Draft a polite email template for meeting requests.
+List 3 key principles of agile project management.
+Summarize the importance of code reviews in 2-3 sentences.

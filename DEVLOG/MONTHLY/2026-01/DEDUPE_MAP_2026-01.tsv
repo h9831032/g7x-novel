@@ -1,0 +1,21 @@
+key	first_date	last_date	count	representative_excerpt	source_refs
+FALSE_PASS_EXITCODE	2026-01-10	2026-01-13	7	exitcode=0인데 receipts=3 (expected 120) - 거짓합격	0110개발일지, 01_11, 0112, 0113
+KEYERROR_NAME_NODE	2026-01-14	2026-01-16	4	KeyError: 'name' at line 311 - INTEGRATION_MAP 노드 필드 누락	0114_txt, 0115
+DEVLOG_MISSING	2026-01-11	2026-01-13	5	devlog.jsonl Test-Path → False - 자동 append 용접 없음	01_11, 0112, 0113
+ORDER_COUNT_ZERO	2026-01-06	2026-01-07	4	dir work_orders | measure → Count:0 - 오더 카운트 불일치	1월06일개발일지, 0107개발일지
+TASK_TYPE_UNKNOWN	2026-01-06	2026-01-07	3	UNKNOWN: 191 cases - task_type 분류 실패	1월06일개발일지, 0107개발일지
+PYTHON_ALIAS_CONFLICT	2026-01-06	2026-01-07	2	Cannot run a document in pipeline - Windows 앱 별칭 충돌	1월06일개발일지
+HASH_MISMATCH_STDOUT	2026-01-04	2026-01-05	2	CertUtil stdout 해시 ≠ manifest - 봉인 후 append 문제	0104일_개발일지
+API_ERROR_REAL120	2026-01-13	2026-01-13	3	REAL120_A: API_ERROR 다수 발생 - 쿼터/속도 이슈	0113
+BUDGET_GUARD_MISSING	2026-01-05	2026-01-06	2	budget_guard.log 없음 - 가계부 누락	0104일_개발일지, 1월06일개발일지
+EVIDENCE_WRITER_OLD	2026-01-11	2026-01-12	3	finalize(exitcode, total_missions) 구버전 - 강화본 미적용	01_11, 0112
+FN_UNKNOWN_STUB	2025-12-27	2025-12-28	2	FN_TOP3_BUCKET [('UNKNOWN', 90)] - 케이스북 기록 누락	12_27개발일지part1
+VMCL_FROZEN_ERROR	2025-12-27	2025-12-27	1	FrozenInstanceError - 프로필 dataclass frozen	12_27개발일지part1
+SDK_MIGRATION	2025-12-29	2025-12-29	1	google.generativeai → google.genai 전면 교체	12_29개발일지
+B240_STRESS_PASS	2025-12-29	2025-12-29	1	B240 (12x20) 스트레스 테스트 PERFECT PASS	12_29개발일지
+PHASE2_SEAL_COMPLETE	2025-12-28	2025-12-28	1	PHASE2_FINAL 스냅샷 봉인 완료	12_27개발일지part2
+SQL_BAN_LOCKED	2025-12-28	2026-01-16	8	SQL/DB 영구 금지 - 헌법 규칙	12_28개발일지, 헌법
+WORKITEM_2STEP_LIMIT	2025-12-28	2025-12-28	2	한 WorkItem에 2스텝까지만 허용 - 폭탄 방지	12_28개발일지
+DEVLOG_V33_COMPLETE	2026-01-16	2026-01-16	1	devlog_writer.py v3.3 완전 방어화 완료	0115
+MANAGER_SINGLE_ENTRY	2026-01-13	2026-01-16	3	manager.py 단일 실행 엔트리 고정	0113, 0115
+RECEIPTS_EQUALS_CHECK	2026-01-11	2026-01-12	2	receipts_count == total_missions 엄격 비교로 변경	01_11, 0112

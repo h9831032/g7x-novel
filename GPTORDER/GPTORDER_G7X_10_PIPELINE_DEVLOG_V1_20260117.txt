@@ -1,0 +1,50 @@
+﻿[SSOT MANDATE]
+- DUMMY/SIM/媛??湲덉?
+- RUN 利앷굅 ?놁쑝硫?FAIL
+- ???ㅻ뜑 ?놁쑝硫??ㅽ뻾 湲덉?
+
+
+
+
+?꾨옒 SSOT_ORDER_ID ?묒뾽???섑뻾?? ?섏젙? 1~3?뚯씪濡??쒗븳, ?꾨즺 ???ㅽ뻾 而ㅻ㎤??蹂寃쏀뙆??紐⑸줉/run 利앷굅寃쎈줈瑜?諛섎뱶??異쒕젰??
+
+[ROOT] C:\g7core\g7_v1
+[MODE] CLAUDE_CODE
+[FILES_LIMIT] 1-3
+
+[NO_ASK_RULE]
+'怨좎튌源뚯슂/?대룄?좉퉴???뺤씤?대룄?좉퉴?? 媛숈? 吏덈Ц 湲덉?.
+紐⑦샇?섎㈃ FAIL_FAST濡?以묐떒?섍퀬, 臾댁뾿??紐⑦샇?쒖? 1以꾨줈留?蹂닿퀬.
+
+[STEP0_MODEL_LOCK_REQUIRED]
+?묒뾽 ?쒖옉 吏곹썑 Claude Code??/model ?ㅽ뻾
+?꾨즺 蹂닿퀬 泥?以꾩뿉 諛섎뱶???ы븿:
+MODEL_STAMP: (?ш린??/model 異쒕젰 洹몃?濡?蹂듬텤)
+?꾨씫 ??FAIL
+
+[SSOT_ORDER_ID] G7X_10_PIPELINE_DEVLOG_V1_20260117
+
+[GOAL]
+DEVLOG 湲곕줉/INTEGRATION_MAP 媛깆떊??main\pipeline\devlog.py濡?紐⑥쑝???뺣━ ?묒뾽(以묐났 ?쒓굅, ?몄텧 寃쎈줈 ?⑥닚??.
+
+[PATCH_SCOPE]
+C:\g7core\g7_v1\main\pipeline\devlog.py
+C:\g7core\g7_v1\DEVLOG\INTEGRATION_MAP.md
+
+[RUN_COMMANDS]
+cd C:\g7core\g7_v1
+Get-Item .\DEVLOG\INTEGRATION_MAP.md
+
+[DELIVERABLES]
+MODEL_STAMP(泥?以?
+蹂寃??뚯씪 紐⑸줉(寃쎈줈 ?ы븿)
+?ㅽ뻾 而ㅻ㎤??蹂듬텤??
+run 利앷굅寃쎈줈 1以?RUN_PATH=...)
+
+[FAIL_FAST]
+MODEL_STAMP ?꾨씫 = FAIL
+1~3?뚯씪 ?쒗븳 ?꾨컲 = FAIL
+ROOT 諛??섏젙 = FAIL
+DELIVERABLES ?꾨씫 = FAIL
+
+

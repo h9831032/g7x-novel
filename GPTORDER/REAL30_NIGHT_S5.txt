@@ -1,0 +1,16 @@
+﻿[SSOT MANDATE]
+- DUMMY/SIM/媛??湲덉?
+- RUN 利앷굅 ?놁쑝硫?FAIL
+- ???ㅻ뜑 ?놁쑝硫??ㅽ뻾 湲덉?
+
+
+
+
+Create a simple project timeline with 5 milestones.
+Write a brief summary of a team retrospective meeting.
+Draft guidelines for code review best practices.
+List 3 ways to improve customer satisfaction.
+Write a concise product description for marketing.
+Create a quick reference guide for a common workflow.
+
+

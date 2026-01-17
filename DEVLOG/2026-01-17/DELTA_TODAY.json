@@ -1,0 +1,257 @@
+{
+  "date": "2026-01-17",
+  "timestamp": "2026-01-17T18:36:30.026489",
+  "count": 50,
+  "items": [
+    {
+      "path": ".claude/CLAUDE.md",
+      "change_type": "MODIFIED",
+      "size": 217
+    },
+    {
+      "path": ".claude/settings.json",
+      "change_type": "MODIFIED",
+      "size": 123
+    },
+    {
+      "path": "CLAUDE.md",
+      "change_type": "MODIFIED",
+      "size": 1294
+    },
+    {
+      "path": "GPTORDER/B10.txt",
+      "change_type": "MODIFIED",
+      "size": 60
+    },
+    {
+      "path": "GPTORDER/B10_M001_M010.txt",
+      "change_type": "MODIFIED",
+      "size": 60
+    },
+    {
+      "path": "GPTORDER/B120_10.txt",
+      "change_type": "MODIFIED",
+      "size": 60
+    },
+    {
+      "path": "GPTORDER/DEVLOG_NIGHT_REAL.txt",
+      "change_type": "MODIFIED",
+      "size": 64
+    },
+    {
+      "path": "GPTORDER/FAILBOX_QUEUE.txt",
+      "change_type": "MODIFIED",
+      "size": 771
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_01_G7X_ORDER_01_REAL12_SMOKE_RUN_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1289
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_01_REAL12_SMOKE_RUN_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1517
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_02_G7X_ORDER_02_REAL12_SUMMARY_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1316
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_02_SUMMARIZE_LATEST_RUN_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1589
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_03_G7X_ORDER_03_REAL36_SPEC_DOC_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1283
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_03_REAL36_MISSION_SPEC_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1472
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_04_BUILD_REAL36_CATALOG_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1670
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_04_G7X_ORDER_04_REAL36_CATALOG_BUILDER_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1336
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_05_BUILD_REAL24_CATALOG_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1599
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_05_G7X_ORDER_05_REAL24_CATALOG_BUILDER_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1316
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_06_G7X_ORDER_06_REAL_CATALOG_SANITY_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1300
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_06_REAL_CATALOG_SANITY_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1548
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_07_G7X_ORDER_07_PIPELINE_CATALOG_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1278
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_07_PIPELINE_CATALOG_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1521
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_08_G7X_ORDER_08_PIPELINE_RUNNER_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1315
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_08_PIPELINE_RUNNER_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1534
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_09_G7X_ORDER_09_PIPELINE_EVIDENCE_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1347
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_09_PIPELINE_EVIDENCE_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1644
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_10_G7X_ORDER_10_PIPELINE_DEVLOG_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1238
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_10_PIPELINE_DEVLOG_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1439
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_11_G7X_ORDER_11_REAL36_DAYNIGHT_SWITCH_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1253
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_11_RUNNER_MODE_SWITCH_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1498
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_12_G7X_ORDER_12_ORDER_BUNDLE_README_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1262
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_12_ORDER_RUN_GUIDE_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1473
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_13_PY_RESOLVER_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1580
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_14_RUN_REAL24_3P3X4_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1581
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_15_BUILD_REAL24_SLICES_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1538
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_16_BUILD_REAL30_SLICES_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1653
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_17_CHECK_RUN_ARTIFACTS_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1526
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_18_FAIL_BOX_PACKER_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1448
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_19_MANAGER_POSTRUN_HOOK_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1568
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_20_DAILY_REPORT_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1478
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_21_UPDATE_INTEGRATION_MAP_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1565
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_22_NEXT_FROM_TRACKERS_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1504
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_23_DEDUPE_ORDER_GUARD_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1450
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_24_COMPILER_GUARD_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1576
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_25_RUN_REAL30_NIGHT_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1445
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_26_REAL_SMOKE_PACK_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1429
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_27_STATE_ARCHIVE_PACK_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1408
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_28_RUNBOOK_NIGHT_SHIFT_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1359
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_29_VERIFY_E2E_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1392
+    },
+    {
+      "path": "GPTORDER/GPTORDER_G7X_30_CLAUDE_BATCH_EXECUTOR_V1_20260117.txt",
+      "change_type": "MODIFIED",
+      "size": 1593
+    }
+  ]
+}

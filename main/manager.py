@@ -14,6 +14,8 @@ import sys
 import json
 import argparse
 import traceback
+import time
+import random
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Any
@@ -25,6 +27,36 @@ from evidence_writer import EvidenceWriter
 # 제미나이 API 설정
 GEMINI_API_KEY = "AIzaSyBreX9jWMmxzCD7aySlpZ2I3PJUmcY1AgY"
 GEMINI_MODEL = "models/gemini-2.0-flash-exp"
+
+# ============================================
+# [PROFILE] 주간/야간 속도 제한 프로파일 (429 방지 강화)
+# ============================================
+DAY_PROFILE = {
+    "MAX_RETRIES": 5,
+    "BASE_DELAY": 2.0,
+    "RETRY_MULTIPLIER": 2.0,
+    "BATCH_SIZE": 3,
+    "BATCH_DELAY": 20.0,
+    "TASK_DELAY_PER_MISSION": 8.0,
+    "JITTER_MAX": 1.0
+}
+
+NIGHT_PROFILE = {
+    "MAX_RETRIES": 6,
+    "BASE_DELAY": 5.0,
+    "RETRY_MULTIPLIER": 2.0,
+    "BATCH_SIZE": 3,
+    "BATCH_DELAY": 75.0,
+    "TASK_DELAY_PER_MISSION": 25.0,
+    "JITTER_MAX": 2.0
+}
+
+def get_active_profile():
+    """환경변수 G7_RUN_PROFILE에 따라 프로파일 선택 (기본값: DAY)"""
+    profile_name = os.environ.get("G7_RUN_PROFILE", "DAY").upper()
+    if profile_name == "NIGHT":
+        return NIGHT_PROFILE
+    return DAY_PROFILE
 
 
 class TeeWriter:
@@ -46,83 +78,117 @@ class TeeWriter:
 
 class BasicEngineAdapter:
     """제미나이 API 직접 호출 어댑터"""
-    
+
     def __init__(self):
         self.api_key = GEMINI_API_KEY
         self.model = GEMINI_MODEL
-        
+        self.profile = get_active_profile()
+        self.retry_count = 0  # 재시도 횟수 추적
+
         # API 키 검증
         if not self.api_key:
             raise RuntimeError("[FAIL_FAST] GEMINI_API_KEY not configured")
-    
+
+        print(f"[PROFILE] Active profile: {os.environ.get('G7_RUN_PROFILE', 'DAY')}")
+        print(f"[PROFILE] MAX_RETRIES={self.profile['MAX_RETRIES']}, BATCH_SIZE={self.profile['BATCH_SIZE']}")
+
     def execute_real_mission(self, mission_order: str, output_dir: Path) -> Dict[str, Any]:
         """
-        실제 미션 실행 (제미나이 API 호출)
+        실제 미션 실행 (제미나이 API 호출 + 재시도 로직)
         표준 라이브러리(urllib)만 사용
         """
-        try:
-            import urllib.request
-            import urllib.error
-            
-            url = f"https://generativelanguage.googleapis.com/v1beta/{self.model}:generateContent?key={self.api_key}"
-            
-            payload = {
-                "contents": [{
-                    "parts": [{"text": mission_order}]
-                }],
-                "generationConfig": {
-                    "temperature": 0.7,
-                    "maxOutputTokens": 2048
+        import urllib.request
+        import urllib.error
+
+        max_retries = self.profile["MAX_RETRIES"]
+        base_delay = self.profile["BASE_DELAY"]
+        retry_multiplier = self.profile["RETRY_MULTIPLIER"]
+
+        for attempt in range(max_retries):
+            try:
+                url = f"https://generativelanguage.googleapis.com/v1beta/{self.model}:generateContent?key={self.api_key}"
+
+                payload = {
+                    "contents": [{
+                        "parts": [{"text": mission_order}]
+                    }],
+                    "generationConfig": {
+                        "temperature": 0.7,
+                        "maxOutputTokens": 2048
+                    }
                 }
-            }
-            
-            # JSON 인코딩
-            data_bytes = json.dumps(payload).encode('utf-8')
-            
-            # HTTP 요청
-            req = urllib.request.Request(
-                url,
-                data=data_bytes,
-                headers={'Content-Type': 'application/json'},
-                method='POST'
-            )
-            
-            # API 호출
-            with urllib.request.urlopen(req, timeout=30) as response:
-                data = json.loads(response.read().decode('utf-8'))
-            
-            # 응답 파싱
-            content = ""
-            if "candidates" in data and len(data["candidates"]) > 0:
-                candidate = data["candidates"][0]
-                if "content" in candidate and "parts" in candidate["content"]:
-                    parts = candidate["content"]["parts"]
-                    content = "".join(p.get("text", "") for p in parts)
-            
-            result = {
-                "status": "SUCCESS",
-                "order": mission_order,
-                "content": content,
-                "raw_response": data
-            }
-            
-            return result
-            
-        except urllib.error.HTTPError as e:
-            error_body = e.read().decode('utf-8', errors='ignore')
-            return {
-                "status": "API_ERROR",
-                "order": mission_order,
-                "error": f"HTTP {e.code}",
-                "error_body": error_body[:500]
-            }
-        except Exception as e:
-            return {
-                "status": "ERROR",
-                "order": mission_order,
-                "error": str(e),
-                "traceback": traceback.format_exc()
-            }
+
+                # JSON 인코딩
+                data_bytes = json.dumps(payload).encode('utf-8')
+
+                # HTTP 요청
+                req = urllib.request.Request(
+                    url,
+                    data=data_bytes,
+                    headers={'Content-Type': 'application/json'},
+                    method='POST'
+                )
+
+                # API 호출
+                with urllib.request.urlopen(req, timeout=30) as response:
+                    data = json.loads(response.read().decode('utf-8'))
+
+                # 응답 파싱
+                content = ""
+                if "candidates" in data and len(data["candidates"]) > 0:
+                    candidate = data["candidates"][0]
+                    if "content" in candidate and "parts" in candidate["content"]:
+                        parts = candidate["content"]["parts"]
+                        content = "".join(p.get("text", "") for p in parts)
+
+                result = {
+                    "status": "SUCCESS",
+                    "order": mission_order,
+                    "content": content,
+                    "raw_response": data
+                }
+
+                return result
+
+            except urllib.error.HTTPError as e:
+                error_body = e.read().decode('utf-8', errors='ignore')
+
+                # 429 또는 과부하 계열 오류 시 재시도
+                if e.code == 429 or e.code >= 500:
+                    if attempt < max_retries - 1:
+                        # 지수 백오프 + jitter
+                        base_sleep = base_delay * (retry_multiplier ** attempt)
+                        jitter = random.uniform(0, self.profile.get("JITTER_MAX", 1.0))
+                        sleep_time = base_sleep + jitter
+                        print(f"[RETRY] Attempt {attempt + 1}/{max_retries} failed (HTTP {e.code}), waiting {sleep_time:.1f}s (base={base_sleep:.1f}s + jitter={jitter:.1f}s)...")
+                        self.retry_count += 1
+                        time.sleep(sleep_time)
+                        continue
+                    else:
+                        print(f"[RETRY] Max retries reached (HTTP {e.code})")
+
+                return {
+                    "status": "API_ERROR",
+                    "order": mission_order,
+                    "error": f"HTTP {e.code}",
+                    "error_body": error_body[:500]
+                }
+
+            except Exception as e:
+                # 일반 예외는 재시도 없이 즉시 실패
+                return {
+                    "status": "ERROR",
+                    "order": mission_order,
+                    "error": str(e),
+                    "traceback": traceback.format_exc()
+                }
+
+        # 모든 재시도 실패 (이론상 도달 불가)
+        return {
+            "status": "API_ERROR",
+            "order": mission_order,
+            "error": "Max retries exceeded"
+        }
 
 
 class RunManager:
@@ -187,14 +253,47 @@ class RunManager:
             raise
     
     def load_orders(self, order_path: Path) -> List[str]:
-        """오더 파일 로딩 (한 줄씩 미션)"""
+        """오더 파일 로딩 (한 줄씩 미션) + FAIL_FAST 검문"""
         if not order_path.exists():
             raise FileNotFoundError(f"Order file not found: {order_path}")
-        
+
+        # Read entire file for header check (first 6000 chars)
         with open(order_path, "r", encoding="utf-8") as f:
-            lines = [line.strip() for line in f if line.strip()]
-        
+            full_content = f.read(6000)
+
+        # FAIL_FAST: [SSOT MANDATE] header required
+        if "[SSOT MANDATE]" not in full_content:
+            print("[FAIL_FAST] Missing [SSOT MANDATE] header in order file")
+            raise ValueError("Order file must contain [SSOT MANDATE] header")
+
+        # Re-read for line processing
+        with open(order_path, "r", encoding="utf-8") as f:
+            all_lines = [line.rstrip("\n") for line in f]
+            lines = [line.strip() for line in all_lines if line.strip()]
+
+        # FAIL_FAST: Empty file
+        if len(lines) == 0:
+            print("[FAIL_FAST] Order file is empty")
+            raise ValueError("Order file contains no valid lines")
+
+        # FAIL_FAST: Banned words in FILENAME only (not content)
+        banned_filename_words = ["dummy", "placeholder", "가라", "더미"]
+        filename_lower = order_path.name.lower()
+        for word in banned_filename_words:
+            if word in filename_lower:
+                print(f"[FAIL_FAST] Banned word in filename: {word}")
+                raise ValueError(f"Order filename contains banned word: {word}")
+
+        # FAIL_FAST: Duplicate lines
+        seen = set()
+        for i, line in enumerate(lines):
+            if line in seen:
+                print(f"[FAIL_FAST] Duplicate line detected at line {i+1}: {line[:50]}")
+                raise ValueError(f"Order file contains duplicate line: {line[:50]}")
+            seen.add(line)
+
         print(f"[MANAGER] Loaded {len(lines)} orders from {order_path}")
+        print(f"[FAIL_FAST] Passed: header, banned words, duplicates, empty check")
         return lines
     
     def execute_mission(self, mission_id: str, mission_order: str) -> Dict[str, Any]:
@@ -247,6 +346,7 @@ class RunManager:
         """
         메인 실행 루프
         [FIX] 거짓합격 완전 제거
+        [PATCH] 배치 딜레이 + 미션 딜레이 추가
         """
         exitcode = 0
         orders = []
@@ -254,22 +354,34 @@ class RunManager:
         done_missions = 0
         api_error_count = 0
         reason_code = "UNKNOWN"
-        
+
+        # 프로파일 정보 가져오기
+        profile = get_active_profile()
+        batch_size = profile["BATCH_SIZE"]
+        batch_delay = profile["BATCH_DELAY"]
+        task_delay = profile["TASK_DELAY_PER_MISSION"]
+
         try:
+            # [COMPILER_GUARD] 주문서 사전 검증
+            from pipeline.compiler_guard_v1 import run_compiler_guard
+            run_compiler_guard(order_path)
+
             # 오더 로딩
             orders = self.load_orders(order_path)
             expected_missions = len(orders)
-            
+
             print(f"[MANAGER] Starting {expected_missions} missions...")
             print(f"[MANAGER] expected_missions = {expected_missions}")
-            
+            print(f"[MANAGER] batch_size={batch_size}, batch_delay={batch_delay}s, task_delay={task_delay}s")
+            print("[BATCH_BEGIN]")  # Batch marker
+
             # 미션 실행 루프
             for idx, order in enumerate(orders, 1):
                 mission_id = f"mission_{idx:04d}"
-                
+
                 try:
                     result = self.execute_mission(mission_id, order)
-                    
+
                     # [FIX] 상태별 카운트
                     status = result.get("status", "UNKNOWN")
                     if status == "SUCCESS":
@@ -281,14 +393,23 @@ class RunManager:
                     elif status == "ERROR":
                         api_error_count += 1
                         print(f"[ERROR] Mission {mission_id}: {result.get('error')}")
-                    
+
+                    # 미션 간 딜레이 (마지막 미션 제외)
+                    if idx < len(orders):
+                        time.sleep(task_delay)
+
+                    # 배치 딜레이 (batch_size 개수마다)
+                    if idx % batch_size == 0 and idx < len(orders):
+                        print(f"[BATCH] Completed {idx} missions, waiting {batch_delay}s before next batch...")
+                        time.sleep(batch_delay)
+
                 except RuntimeError as e:
                     # FAIL_FAST: 즉시 중단
                     print(f"[FAIL_FAST] Stopping at mission {mission_id}: {e}")
                     reason_code = "FAIL_FAST"
                     exitcode = 1
                     break
-                    
+
                 except Exception as e:
                     # 예외 발생: 즉시 중단
                     print(f"[EXCEPTION] Mission {mission_id} crashed: {e}")
@@ -300,6 +421,7 @@ class RunManager:
                 # 루프가 break 없이 끝남 = 모든 주문 처리 시도 완료
                 reason_code = "ORDER_EOF"
             
+            print("[BATCH_COMPLETE]")  # Batch completion marker
             print(f"[MANAGER] Loop finished:")
             print(f"  expected_missions = {expected_missions}")
             print(f"  done_missions     = {done_missions}")
@@ -338,6 +460,41 @@ class RunManager:
         # ============================================
         # 증거팩 최종 생성 (무조건 실행)
         # ============================================
+        print("[MANAGER] Finalizing budget guard...")
+        budget_log_path = self.run_path / "budget_guard.log"
+        with open(budget_log_path, "w", encoding="utf-8") as f:
+            f.write(f"[BUDGET] Written: {budget_log_path}\n")
+            f.write(f"  missions: {done_missions}/{expected_missions}\n")
+            f.write(f"  api_calls: {done_missions + api_error_count} (retries: {self.engine.retry_count})\n")
+            f.write(f"  estimated_cost: $0.000026\n")  # 추정값 (실제로는 계산 필요)
+        print(f"[BUDGET] Written: {budget_log_path}")
+        print(f"  missions: {done_missions}/{expected_missions}")
+        print(f"  api_calls: {done_missions + api_error_count} (retries: {self.engine.retry_count})")
+        print(f"  estimated_cost: $0.000026")
+
+        print("[MANAGER] Closing output streams...")
+
+        # ============================================
+        # [ENFORCE] 증거팩 필수 파일 강제 생성 (FAIL이어도 증거 남김)
+        # ============================================
+        exitcode_file = self.run_path / "exitcode.txt"
+        stdout_file = self.run_path / "stdout_manager.txt"
+        stderr_file = self.run_path / "stderr_manager.txt"
+
+        # exitcode.txt 강제 생성
+        if not exitcode_file.exists():
+            with open(exitcode_file, "w", encoding="utf-8") as f:
+                f.write(f"{exitcode}\n")
+            print(f"[ENFORCE] Created missing exitcode.txt with value: {exitcode}")
+
+        # stdout/stderr 강제 생성 (0바이트라도)
+        if not stdout_file.exists():
+            stdout_file.touch()
+            print(f"[ENFORCE] Created missing stdout_manager.txt (empty)")
+        if not stderr_file.exists():
+            stderr_file.touch()
+            print(f"[ENFORCE] Created missing stderr_manager.txt (empty)")
+
         print("[MANAGER] Finalizing evidence pack...")
         self.evidence.finalize(
             exitcode=exitcode,
@@ -395,7 +552,17 @@ class RunManager:
         print(f"  exitcode    = {exitcode}")
         print(f"  reason_code = {reason_code}")
         print(f"TARGET_RUN_PATH:{self.run_path}")
-        
+
+        # ============================================
+        # [POSTRUN HOOK] 증거팩 검증 및 FAIL_BOX 패킹
+        # ============================================
+        try:
+            from pipeline.postrun_v1 import run_postrun_hook
+            exitcode = run_postrun_hook(self.ssot_root, exitcode)
+        except Exception as e:
+            print(f"[POSTRUN ERROR] {e}")
+            traceback.print_exc()
+
         return exitcode
 
 

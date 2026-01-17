@@ -1,0 +1,9 @@
+{
+  "shell": "pwsh",
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(pwsh:*)"
+    ]
+  }
+}

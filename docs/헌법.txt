@@ -1,0 +1,97 @@
+# G7X 운영 헌법 (집행 요약본)
+
+**문서ID**: CONSTITUTION_EXEC_SUMMARY_V1_20260117
+**상세본**: docs/OPERATING_CONSTITUTION.md
+**용도**: 이 파일은 집행 요약본. 상세 규칙은 OPERATING_CONSTITUTION.md 참조.
+
+---
+
+## 모델 배정 규칙 (헌법급 박제)
+
+### 1. 기본 모델 = SONNET
+모든 일반 작업은 SONNET을 기본으로 사용한다.
+
+### 2. OPUS 사용 조건 (딱 3종만)
+다음 3가지 경우에만 OPUS 사용:
+
+#### (1) 구조/용접 작업
+- 엔트리 포인트 생성/수정 (manager.py, runner.py 등)
+- 러너/게이트/검문 시스템 구축
+- 파이프라인 핵심 구조 변경
+
+#### (2) FAIL_FAST/가드류 작업
+- 중복 검사 로직
+- 헤더 검증 로직
+- 인코딩 검사 시스템
+- 증거팩 생성 시스템
+- 체크포인트 시스템
+
+#### (3) 2회 이상 실패한 항목의 최종 수리
+- SONNET으로 2번 실패한 작업
+- 최종 수리 시도에만 OPUS 투입
+
+### 3. SONNET 사용 조건
+다음 작업은 반드시 SONNET 사용:
+- 문서 업데이트 (.md, .txt 파일 생성/수정)
+- 단순 파일 생성 (스크립트, 유틸리티)
+- 오더 파일 생성 (GPTORDER/*.txt)
+- 단순 스크립트 작성 (검증, 체크, 요약 도구)
+
+### 4. MODEL_STAMP 의무
+**어떤 모델을 쓰든 "MODEL_STAMP(/model 출력)"은 보고서에 의무로 남긴다.**
+
+보고서 첫 줄 형식:
+```
+MODEL_STAMP: Claude Sonnet 4.5 (claude-sonnet-4-5-20250929)
+```
+
+### 5. MODEL_STAMP 누락 = 작업 무효 (FAIL)
+MODEL_STAMP가 없는 작업은 증거 불충분으로 FAIL 처리한다.
+
+---
+
+## 핵심 운영 규칙 (2026-01-17 확정)
+
+### 배치 실행 규칙
+- 배치 크기: 6개 (3+3 패턴)
+- 배치마다 STOP → 4검문 → 체크포인트 갱신
+- 주/야 구분 없음 (배치+STOP+4검문+체크포인트가 전부)
+
+### 4검문 필수 항목
+1. 파일 존재 확인 (exitcode, stdout, stderr, verify_report, stamp_manifest)
+2. BATCH_COMPLETE 마커 확인
+3. 에러 0 확인 (api_error_count = 0)
+4. 체크포인트 스키마 확인
+
+### 증거팩 필수
+모든 실행은 증거팩 7종 필수:
+- exitcode.txt
+- stdout_manager.txt
+- stderr_manager.txt
+- verify_report.json
+- stamp_manifest.json
+- final_audit.json
+- apply_diff.txt
+
+### FAIL_FAST 검문
+실행 전 필수 검문:
+- [SSOT MANDATE] 헤더 필수
+- 금지 단어 검사 (파일명: dummy, placeholder, 가라, 더미)
+- 중복 라인 금지
+- 빈 파일 금지
+
+### NO_ASK 규칙
+- 자동 승인 고정
+- 승인 질문은 규칙 위반으로 즉시 중단
+- 파일 편집/생성 질문 금지
+
+---
+
+## 치매방지 1줄 (초딩버전)
+**쉬운 건 소넷, 어려운 건 오퍼스, 그리고 스탬프 없으면 "일한 거 인정 안 함"**
+
+---
+
+**작성일**: 2026-01-17
+**버전**: V1
+**상태**: ACTIVE

@@ -1,0 +1,13 @@
+id	area	date_first	date_last	title	severity	freq	impact_nums	root_cause	evidence_paths	status
+ISS-001	code	2026-01-10	2026-01-13	거짓합격(False PASS) - exitcode=0 while receipts<expected	P1	7	FAIL=7, exitcode_false=7	manager.py 라인 229-233: 예외 발생해도 exitcode=1만 설정하고 break 없이 계속 진행	C:\g7core\g7_v1\runs\RUN_20260112_224552_073042\exitcode.txt, C:\g7core\g7_v1\main\manager.py	closed
+ISS-002	code	2026-01-14	2026-01-16	KeyError 'name' - INTEGRATION_MAP 노드 필드 누락	P1	4	FAIL=4, KeyError=4	구버전 INTEGRATION_MAP.json 노드에 name/type/status 필드 없음, .get() 방어 코드 부재	C:\g7core\g7_v1\tools\devlog_writer.py, C:\g7core\g7_v1\DEVLOG\INTEGRATION_MAP.json	closed
+ISS-003	process	2026-01-11	2026-01-13	devlog.jsonl 자동생성 미작동	P2	5	devlog_missing=5	manager.py finalize() 직후 devlog append 용접 없음	C:\g7core\g7_v1\runs\REAL\DEVLOG\devlog.jsonl	closed
+ISS-004	ops	2026-01-06	2026-01-07	work_orders Count=0 불일치	P2	4	count_mismatch=4	PowerShell 파이프라인 처리 시점 차이 또는 경로 불일치	C:\g7core\g7_v1\queue\work_orders	mitigated
+ISS-005	llm	2026-01-06	2026-01-07	TASK_TYPE=UNKNOWN 191건	P2	3	UNKNOWN=191, valid=1	오더 생성기 task_type 목록을 실행/로거가 인식 못함	C:\g7core\g7_v1\runs\REAL\DEVLOG\daily_20260106.md	open
+ISS-006	ops	2026-01-06	2026-01-07	Python 별칭 충돌 (Cannot run document in pipeline)	P2	2	exec_fail=2	Windows 앱 실행 별칭(App Execution Alias) 충돌	C:\Windows\System32\python	closed
+ISS-007	process	2026-01-04	2026-01-05	stdout 해시 불일치 (봉인 무결성 위반)	P2	2	hash_mismatch=2	manifest 생성 후 stdout.txt에 추가 로그 append됨	C:\g7core\g7_v1\logs\hash_manifest.json, C:\g7core\g7_v1\logs\stdout.txt	mitigated
+ISS-008	llm	2026-01-13	2026-01-13	REAL120 API_ERROR 다수 발생	P2	3	api_error=multiple	API 쿼터/속도/재시도 정책 이슈	C:\g7core\g7_v1\runs\REAL\api_receipt.jsonl	open
+ISS-009	ops	2026-01-05	2026-01-06	budget_guard.log 누락	P3	2	log_missing=2	영수증은 있는데 가계부(집계 로그) 생성 로직 없음	C:\g7core\g7_v1\runs\REAL\budget_guard.log	mitigated
+ISS-010	code	2026-01-11	2026-01-12	evidence_writer.py 구버전 적용	P1	3	version_mismatch=3	강화본 덮어쓰기 누락, finalize 시그니처 구형	C:\g7core\g7_v1\engine\evidence_writer.py	closed
+ISS-011	code	2025-12-27	2025-12-28	FN 전부 UNKNOWN - 케이스북 기록 누락	P2	2	FN=90, UNKNOWN=90	케이스북에 poison_bucket/poison_id 기록 누락	C:\g6core\g6_v24\logs\tesla_v12\casebook_*.jsonl	closed
+ISS-012	llm	2025-12-27	2025-12-27	REAL Writer 30턴 HTTPError	P3	1	http_error=1	네트워크/키/쿼터/엔드포인트 이슈	C:\g6core\g6_v24\logs\tesla_v12\writer_receipt_*.jsonl	closed

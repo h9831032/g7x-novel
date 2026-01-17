@@ -6,6 +6,25 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 
+def load_orders(order_path: Path) -> List[str]:
+    """
+    주문서 파일을 읽어 list[str]로 반환 (베이직엔진 용접용)
+
+    Args:
+        order_path: 주문서 파일 경로
+
+    Returns:
+        List[str]: 미션 목록 (빈 줄 제외)
+    """
+    if not order_path.exists():
+        raise FileNotFoundError(f"Order file not found: {order_path}")
+
+    with open(order_path, "r", encoding="utf-8") as f:
+        lines = [line.strip() for line in f if line.strip()]
+
+    return lines
+
+
 def _find_latest_file(glob_pat: str, root: Path) -> Optional[Path]:
     hits = list(root.glob(glob_pat))
     if not hits:

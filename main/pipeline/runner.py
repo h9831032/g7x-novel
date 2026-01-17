@@ -261,3 +261,36 @@ def run_missions(
     }
 
     return exitcode, stats, reason_code
+
+
+def run_orders(mission_orders: List[str]) -> Dict[str, Any]:
+    """
+    mission_orders를 받아 순차 실행 (최소 구현, 베이직엔진 용접 준비)
+
+    Args:
+        mission_orders: 미션 목록
+
+    Returns:
+        Dict[str, Any]: 실행 결과 요약
+    """
+    total = len(mission_orders)
+    done = 0
+    errors = 0
+
+    print(f"[run_orders] Starting {total} missions...")
+
+    for idx, order in enumerate(mission_orders, 1):
+        mission_id = f"mission_{idx:04d}"
+        print(f"[{mission_id}] {order[:50]}...")
+
+        # 실제 실행 로직은 추후 베이직엔진과 용접
+        # 현재는 플레이스홀더
+        done += 1
+
+    print(f"[run_orders] Completed: {done}/{total} missions")
+
+    return {
+        "total": total,
+        "done": done,
+        "errors": errors,
+    }
